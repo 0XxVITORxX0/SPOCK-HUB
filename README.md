@@ -2,7 +2,7 @@
 
 local repo = 'https://raw.githubusercontent.com/KINGHUB01/Gui/main/'
 
-local Library = loadstring(game:HttpGet(repo ..'https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua'
+local Library = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BLibrary%5D'))()
 local ThemeManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BThemeManager%5D'))()
 local SaveManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BSaveManager%5D'))()
 
@@ -27,7 +27,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('Spock Hub V1.2.3 | %s fps | %s ms'):format(
+    Library:SetWatermark(('Rinns Hub V1.2.3 | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));
