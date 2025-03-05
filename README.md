@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "gardan hub",
+    Text = "SPOCK HUB",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -326,46 +326,46 @@ local v16 = {
         Title = "Thông Tin|information"
     }),
     Main = v15:AddTab({
-        Title = "Cày|farm"
+        Title = "farm"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện|sea event"
+        Title = "sea event"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm|item"
+        Title = "item"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt|setting"
+        Title = "setting"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ|sever"
+        Title = "sever"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số|stats"
+        Title = "stats"
     }),
     Player = v15:AddTab({
-        Title = "Người Chơi|player"
+        Title = "player"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển|teleport"
+        Title = "teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Giả|troll fun"
+        Title = "troll fun"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái|fruit"
+        Title = "fruit"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích|raid"
+        Title = "raid"
     }),
     Race = v15:AddTab({
-        Title = "Tộc|race"
+        Title = "race"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng|shop"
+        Title = "shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác|configs"
+        Title = "configs"
     })
 };
 local v17 = v14.Options;
@@ -3874,7 +3874,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "gardan hub",
+                    Title = "SPOCK HUB",
                     Content = "Đảo Dung Nham Tìm Thấy|found volcano!!",
                     Duration = 10
                 });
@@ -3968,7 +3968,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "gardan hub",
+                    Title = "SPOCK HUB",
                     Content = "Đảo Bí Ẩn Tìm Thấy|found mirage!",
                     Duration = 10
                 });
@@ -6512,7 +6512,7 @@ v98:OnChanged(function(v284)
 end);
 v17.ToggleF:SetValue(true);
 local v99 = v16.Status:AddParagraph({
-    Title = "Thông Tin|information",
+    Title = "information",
     Content = "━━━━━━━━━━━━━━━━━━━━━\n" .. "Tên : name " .. game.Players.LocalPlayer.DisplayName .. " (@" .. game.Players.LocalPlayer.Name .. ")\n" .. "Cấp : " .. game:GetService("Players").LocalPlayer.Data.Level.Value .. "\n" .. "Tiền : money " .. game:GetService("Players").LocalPlayer.Data.Beli.Value .. "\n" .. "Điểm F : frag " .. game:GetService("Players").LocalPlayer.Data.Fragments.Value .. "\n" .. "Tiền Truy Nã : bounty " .. game:GetService("Players").LocalPlayer.leaderstats["Bounty/Honor"].Value .. "\n" .. "Máu: defender" .. game.Players.LocalPlayer.Character.Humanoid.Health .. "/" .. game.Players.LocalPlayer.Character.Humanoid.MaxHealth .. "\n" .. "Năng Lượng| energy : " .. game.Players.LocalPlayer.Character.Energy.Value .. "/" .. game.Players.LocalPlayer.Character.Energy.MaxValue .. "\n" .. "Tộc : race " .. game:GetService("Players").LocalPlayer.Data.Race.Value .. "\n" .. "Trái : fruit " .. game:GetService("Players").LocalPlayer.Data.DevilFruit.Value .. "\n" .. "━━━━━━━━━━━━━━━━━━━━━"
 });
 local v100 = v16.Status:AddParagraph({
@@ -8988,7 +8988,7 @@ v156:AddButton({
     end
 });
 local v164 = v16.Sea:AddToggle("ToggleCollectFireFlowers", {
-    Title = "Lụm Hoa Đỏ|farm red follower",
+    Title = "red follower",
     Description = "auto gets red follower for upgrade draco race",
     Default = false
 });
