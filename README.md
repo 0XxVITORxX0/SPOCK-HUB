@@ -1,1 +1,8177 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _SdBwzv_HfuKp = a; end)); return(function(h,...)local f;local u;local s;local t;local d;local l;local e=24915;local n=0;local p={};while n<409 do n=n+1;while n<0x337 and e%0x4adc<0x256e do n=n+1 e=(e*213)%15648 local r=n+e if(e%0x3f80)>0x1fc0 then e=(e*0x33a)%0x95e0 while n<0x189 and e%0x11f2<0x8f9 do n=n+1 e=(e*892)%23598 local t=n+e if(e%0x4706)<0x2383 then e=(e*0x202)%0x1ca8 local e=3169 if not p[e]then p[e]=0x1 d=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x385)%0x64e3 local e=56051 if not p[e]then p[e]=0x1 end else e=(e*0x59)%0x44c3 n=n+1 local e=30429 if not p[e]then p[e]=0x1 l=string;end end end elseif e%2~=0 then e=(e-0x2ba)%0x7b80 while n<0xed and e%0x124a<0x925 do n=n+1 e=(e*900)%43319 local f=n+e if(e%0x24ae)<0x1257 then e=(e+0x65)%0x9dec local e=25471 if not p[e]then p[e]=0x1 s={};end elseif e%2~=0 then e=(e*0x358)%0x9c79 local e=3526 if not p[e]then p[e]=0x1 t=function(p)local e=0x01 local function n(n)e=e+n return p:sub(e-n,e-0x01)end while true do local p=n(0x01)if(p=="\5")then break end local e=l.byte(n(0x01))local e=n(e)if p=="\2"then e=s.DFRCLIGA(e)elseif p=="\3"then e=e~="\0"elseif p=="\6"then d[e]=function(n,e)return h(8,nil,h,e,n)end elseif p=="\4"then e=d[e]elseif p=="\0"then e=d[e][n(l.byte(n(0x01)))];end local n=n(0x08)s[n]=e end end end else e=(e+0x1c0)%0x15ca n=n+1 local e=54158 if not p[e]then p[e]=0x1 end end end else e=(e-0x37d)%0x82ab n=n+1 while n<0x296 and e%0x12c2<0x961 do n=n+1 e=(e-56)%11745 local t=n+e if(e%0xd02)<=0x681 then e=(e-0x122)%0x12d4 local e=2452 if not p[e]then p[e]=0x1 f="\4\8\116\111\110\117\109\98\101\114\68\70\82\67\76\73\71\65\0\6\115\116\114\105\110\103\4\99\104\97\114\110\108\110\71\86\75\110\117\0\6\115\116\114\105\110\103\3\115\117\98\86\102\104\88\82\86\88\69\0\6\115\116\114\105\110\103\4\98\121\116\101\89\66\70\73\105\80\76\120\0\5\116\97\98\108\101\6\99\111\110\99\97\116\76\88\88\108\111\114\73\89\0\5\116\97\98\108\101\6\105\110\115\101\114\116\67\79\65\122\68\86\122\108\5";end elseif e%2~=0 then e=(e*0x368)%0x280a local e=744 if not p[e]then p[e]=0x1 d=(not d)and _ENV or d;end else e=(e+0x163)%0x805d n=n+1 local e=10465 if not p[e]then p[e]=0x1 u=tonumber;end end end end end e=(e+1015)%46464 end t(f);local n={};for e=0x0,0xff do local p=s.nlnGVKnu(e);n[e]=p;n[p]=e;end local function r(e)return n[e];end local l=(function(h,t)local f,p=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local l=h while true do n[0x03][s.VfhXRVXE(t,e,(function()e=f+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""p=0x000 break end end local d=#t while e<d+0x01 do n[0x02][p]=s.VfhXRVXE(t,e,(function()e=f+e return e-0x01 end)())p=p+0x01 if p%0x02==0x00 then p=0x00 s.COAzDVzl(n[0x01],(r((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+l)%0x100)));l=h+l;end end return s.LXXlorIY(n[0x01])end);t(l(230,"1v4_<?d3%&n6p=5^v^"));t(l(130,"R-M02uLP?rK71;dtPdwMd;L1d?u;dXuPPMuG;tuu;L071r0rKd-t;-0M1d;?uP2q7-M;7L02r;MPKd-L?0477-0-0P7rKMMMrP-Krd-tLdt;rLdLLtT-P,r?-1bP?LgMPPtKP-?;P0duPLd0LLdMur712Pd7uL;r2;L1dd;u2P;?2KLu2K1w0t;x2L1?MKK22MKuj7KrMt2?1d70M07HMPr;MKruMLr--/r?htr(-0PKdLPutPPM;d-1rd??:-?0xMPdt0PLd;urt7L0;;PMd7ut1;t2PPL21t2d;L2;L1ur;%uE7t0t1u201?M?1K0d7xMurC11210r7x0Zrt-tKuM7rP-tKLXPPM-uL7K1M7-2r24r?1-I??;t?Kh(uL;uu0tM+d?dPrdrLdduL-tZPMt-L-7d0Kd-Ls1ddKL1u01uuL1?d01M2L1P2u1LM1rtML720K7rMq?r1P"));local e=(-6143+(function()local d,n=0,1;(function(e,n)n(e(e,e),e(e,n))end)(function(e,p)if d>176 then return p end d=d+1 n=(n-962)%18786 if(n%876)>438 then n=(n*495)%22047 return p else return p(e(e,e),e(p,e))end return e(e(e and p,e),p(p,e))end,function(e,p)if d>413 then return p end d=d+1 n=(n-906)%9705 if(n%1930)>965 then return p else return e(e(e,e and e),e(p,e))end return p(p(e,p)and e(p,e),e(e,p))end)return n;end)())local le=(getfenv)or(function()return _ENV end);local r=s.saktWDiA or s.krTxnbYF;local j=1;local f=4;local t=3;local d=2;local function ee(k,...)local a=l(e,"JeHP>XFK/( pR%vBF e>(vH/pP> RFXy%  XFPvRKe RFN.B(PHHXverRe>(RpBeK%&>/ve/BX/%ep>e%FX>%vF/>(%%FBf>F)eP &Bp  PXRH>>FpB%Kv?/(HFBzv(BPe(/PKRR>v%eBK/X7 (>evB  eH  B>/XpvKFvB//HXvBp/B p>Rpv>/%H(B>v%BF(BKKPp/(pep pPHF P R XKv(eRvKKHDP(ueK RPp>%v>Fav K>>_B KpA /%%j/.PPp%>RR>>%vHFR/pep(vH/pHKBPXpv>vR(XRvRsP(KeF oH B/ PPXRe> /F>KvPKHBX/p P>KpF>5R pRXH%RFHvB>2pB>(,/(KHp XPpR/>>(/XpvXPKB KHBy PYBp>kBRFvPK/BF/9I v/(Xb%(KH ((PXRRX %KXpvKx%peH_  P>HFpR>FRRX(  H(pPKvB((XH3(pvv BP(/%X  eXP%(XPvXK/eF Be(>v%FFAv K>BvF//YXRHKpvP R>>vepR >%v/Fev%//jP( BP fH pXPvFXB%K/.H/RFPeX(FH/ KP/pv>epXFovvF%B%/FeXHvpF>NR X>%vp/FFpRYK(Fe  >HvIFpeHBRH>(% BX(1I/(HeRv/ XHPpzPH(pXe% XRv(KevK/P0p FHXpXPvXpBeFvB//H>B1//XZp /HP(pPKpBX %(F(BH=B FHH RPFe> BPXRpA/RXFeBHKXB%(/eK KPY>%%vFcv K>>ZvePHvBKFBP/(gB>BveFHvRKF>RBPKp#F(RHa XP>pK%pFFvvK/rHRBFP eHvp>PvR/  >e%>XBKp?//ve/ H/_ep ePKXXvRF/BHKR>KSX/veP>vYHpePXR>to pFp%B/e(PH/ FPsp (KPPR>>KRBF  dX%Y/(Ke>(Kpv>F%4X v>FvP/,e>R(/HC  P>pv>/%H XHFKe5z/>Vv(/F%2% /Hep%>(XBBRKHBR/FFHBB(KeP RvHRX>X%XXR(>FeBoKP=v/KeP vH(RC%(FBvRKF4mRB/HBB/ ev evFpF>F%%XKvFF(/%eB OH p>KBP%RF>p/FPKv(FXB e( /HRpF>tevRF>KRBFev TK ee  >HvG  KPRRH>(R%XXBHF%BFFBe (BHR XPXp%v>FRBF/h# (>ev{eKHp%>%%;X v>peF BpKRt /(M%PXR(>/%HXRHpRP>  >X%_/(FeX XHvp%%XF v/KHBRR(XFwR/Xep(%vH(B>FRX>B%/BB(FeH(RHFBF FPPRXB/pXXevHFXv%//8K(KHLP%R Xy% F>PR%(F(BXeK pH p>PveppX>vRBFDvvPevXK(e>(epK>>R X>%vpXXPvXK>(eeB >Hvp/(>H%R>>KRBBX/Rw/(HeRvK XHvpPe RK>P%fP(vBK/B /KgBPPRF>F%ZX PF%%FKBFXHuX/R_v((P.>(%vXRvFK3>FBPFBBR/pe (%e>pP>/R >%KP:e/Fe?( KKe  eHFpe%KF%v K>BvRpKvop((eXX P/pFP%/HPPRp>(/peK(vH/pH/HPHR(%pK=vvK/aHRB//xX/pH/ PW RKXi% XBv/gX(Ke/ HHRN% BPRpBXe%/XP%BFp(eHB >Hvp//PPrRYXX%%F/(vKX8e(H#p(%eBpH>HK/XX%RXpvXFv(XHP /PHpR/(PBpv>(vFB(/p}R(FHfv% PPepXPK%m>B%PF%/Xe/(/HH R/FHR p>%RPX (H>e%(Fs(pHv vP/RH(v>pRvP%%(KdBvKpBB/ppe>HR>>v%/ RPFv(KfBF/PuK(RpP>%RFXT%  FFPveFvB,F &//BHe PeppKPB% X(v(KH/BHP HHRpF/HHpRW> ppXKvvKRB(K%c(HBpB>HRRXFH/%vF/vv>BBK(5 KPKp >>Rv /X>%pX v(KeW%eBpPPHpR>FHPpBXs%PXpBFHRv /Xxp epBXX%HXRvFpPFRv(FBoR/KB> XH% BH/pB> KP_%/Feo( FXHP RPepHPK%HXK(>>>v%KPem(pHH(BPK>Bv/FHvRKF>eBB//S%>/B( pHKpRB  BXP%%KHBe// eHBp>PvR/(p>BRKXKvPUX( e/ HHRZH BH%pX> //>Hv/FK5(KBeFHBRP>HRRXFH(%KXXvXF%vX/pep He% (RBX%vHFRBFR/KPGP(^eePPR/>F%iX HKvEX%vP/_BpKKeP HHHpK>(X%xHKxB />>BZ%(Fep PHepvP%Re>(%vF/BBPWo>(PeK FvHp>>XR%>B(>KHv%KPn(H/p;P R>>v%/vHP>PFte(Be>(vH/HX eP R>>P%HXXvpFev%/Fe_(Fe% eH(RF>X%XXvv%WX((e/ HHRB(pHHBpXXHR%Pv%%F/BX/F XPFp/>HRR((>e%FFGv=F(BX/K KPPp >>Rv((P(pRBK/Fm (>evBp KHH RP(%HvXKHB//H+R%K(Kbp %pBXB%HXRvFRPFHBP/Xp/(He/(KP( B>FKvH%RX>R FKBef/(H. >HPRX%KKHv K>BvRp/efB(PeX vH%peB/pXXevHFXv%//0K(KH*P%%KX{% F>PPvFFPvv/HmX> eXpPPRReBR%(F>%BFXB e( %HRpF>neB(%BvppXKBjK B(//Ap ep(XpRRXFvjpKFPv%KFvX/ef(/BZ%p/>zReX?%PF(R/KPB//HI% 6B%p >>RRvXK>B//HMRv(//eP(/H%p%%PF vFKCB %IK%B(/FeX >HK/B>HpB> %vFev eepFH> vP/zKp PKRHXF%(evv(Kv)/>Fee BP/p%PvRPXvvPH#B=K(BB(RHK vHpRP%pFFvvK/2H%/F% eHvp>PvR/(P>X%eFXKpea/ve/ HK HXp>PPp >KRpXPByFBBB// XXzp/>HRR(KXX%vFPvpF(iF/XS((eHFpS>KK/XF%eFHvXK wP(!eRXHPipXB_Rv>R%Pe/v>F%AH/R pPRpv>/%H nX/%(XRvFK B%(> %P%Ri> %> S>(%XF>vB/HBpHXpFP/RH>RH(RXXF%%KXv(/><eHKRHP R>>vHBRPX/veH.BvKRe,(KHK PHvKaXeRXX v>KX/%e  _H p>/(PeR.>PFKB/K 8>/vF/fP/BHe ePep(XeF(&eKR7F(#Xpep/BHP KP pp>>/ PpvPKFBp(ee(Pepv>>RvX/H/%/FXBKEp(%ev /PHBB vPeRR>X%eFRvKKv(KPB  P>pv/B>ep%XH(7>Xv(KP^//KevXFeipRP(RHXe%XK2vBKBT/>>BH ePXR2PKRv>%%(BB/ReH(RHFBp /H%RH%(F%vRKFE,%RK(W/(Kep  vF(KPp%eXPK(NR/ReF 4FpH(pHPKKHHB% XX%pKy/BHH HHRpF/KHpRA>P//P>BeK/0P/v XP>p/>HRR H>B%eFPRK>R(PHP FP8p (>P p(Xp%eF/BPOp eev /PHBBpXPvRb>%%Xe/RvKpBK/>ZB(/pBX7%HXRvFR>XBvXKpp/FKBB/FRe>v%>Xvv/R(X%BRKX(pXp vP/RH X>X%XXR(>Kev(//8e/ %-(%PPpRPvRpXPvpKHvp//6K(KH_XRHvpe>%/>XG%%FKB PFce(BH/ %PXpPXnRBXP%pK5B (eRH(/HX eHvp(>H(FBP/(*F(#e v/(KHp XPpR/>>pPFHB>Ke3F/e KPpp >>Rv(R>K%BX(BHKPz>(Hee eH >K%BX v>Fv>PvpK B%>Ke%X>jKpF>X%h>B%vX%B/8B YHH RPFaK pPppBXX%PFvBpee XH> vP/YvppP(ReXFR>F v(/pte(/pHP R>>v%/FHvRpBRy/pHR(vH/pHKBHvpB>(%KXP(/KpBp/peH> H>  H(Rp>e%/eDv%K/.K/>lKH%RP>9R X>PuR%F}v!FpMHF%e/(PH/pHPep veKXB>Kv=/vX/eeH(Xe%p/vv(v>v%pF%/eee(>ev //eHRp P(R(XHveB(( )R(FHYB/((P> %>>KRX/vXF/ >K%}%(FRR XHFF >K%H>(%BFXB>Ke(pPe vP/RH/B>p%HXR%(FRBRXXB%(PeX RHX>B%vFHvRKFX %(FF%BK BPP%%qX;% F>PX%%KF%BKpeH &e% eH%XPvRFFBAK >R1P/X2P( HX (Hv F>%%KFFRRFKDH/v XPXp/>HRR((>B%/X vKFBDXe%p>P4p >>eeRKX.%HXBvKX%B((HeR(pH  %>PXpv(FvB//HXBD (X3v KpBXP%HXRvFp>XBBK/Hn (eHXXFhK(Be%XBB>KHBR/FXe!B(/e%(vHPpv>P/{HpvTF /(H((RHFpQ/RH(p/>KRpX (FK>BHK(pv/pHK vP/pX>/%/_v%BFPB(Kp e>Fp>PvR/ XHRpXPPRXH>%FF%v>>R%v/HPFR(>P//PvvpF(BpP BF(KHv PP/R(3(FpiFKvn/(HFBep QH pP>rRR>K%GPpB/FBBK(PeR eHvp(%eFHv>FvB/%X/eB/(>eP /H  %%PF,vFKTB vpFBMX/K %>BRZ> %> MX %pF v%Pi3v/RePX/H/pp>X%>>R%XF B>PHea(X%qpPPPRP%((HvRKFojRp/(eH(KeB(%P p(P%RXX v>Kp R/(EP((HF Pv/p(>pRKXRv%H>QX/TfK( %Fp(P(R(Bv%{XPBHFppO/vqR(P%/ >H%RH>RFpB(KvZ/(HF gB(/H(pHRBX%vHFRBFBKFpy /PepPPRC>F%#X HBR8>FRv-%(pHt  P>e> %P(p%XvKeB%/>sv(/FKBB/FReX(%>Xvv/R>FeB(KX6v>>Be WHPpvPKRPXv%(KZ/(eR(RHFpN FPP BPR%XFTv/F(B/Kp(BPDpHPRRF PH pPPeRP> veX/ ePHp>PvR/ (>X%HX>%%FX23KR PPXpF>TR (%>RRpF>veKPBX//e/HBp >HRRXFHKpXBX/>{/(HeRBF XP>pvP p%vPKeBF/.f %//Pe> Fe%>K%XX v>Fv>Rvp/NIH/X pP(pv>/%H BX>%eFXv(CB eHH RPFePRP>HpBX/vXFe FF/(pH( vP/RH v>/%XX%%Rh4R/PFKRBpepXX(X(Q%(F vRKFz3%H/(,p/(Hz pHBp>%p/pvvK/qHvZKvj((%%> >Pepv>e/FFK%pKK v//e>(pH  XH%R/>PRReHBPFB&>/HR>KpHKpeP  (>XR%e>%>Pp(>eR FP_p >>Rv/RHHF%Bp/xk (>KeeL eHpp %eXRv>FvB/RXXH(KH/  P>pv(XPP%L>pvHFPvXK ((PH RPFR&/%PRR%XKvXFe F/(T(((H*X/PFpePKR%vpKKBv//eH, /pHKPpR/>v%/FH>P%KF(BveX (H/pHPRHvpB>KR(>%%vFpB//H}X/vpX>XR/XH%RpRXX%%K/B%/ %XH%%H>WR X>eB%%FFvpKPBe/vY%(ee( vP/RB^*%>FPvKKFpHK%e%(ePPF>>Hp%>P%(B(/enp( ev /PHmP pPvRPX(veB((()R(FH;v%(ReBp PPpBX %XFR >XpDK/FeX(RH( %PX%HXeveF B(ee FH> vP/&PRe> RB, R/>v /X>B%(HeRPpR%>v%/FHHBv/FXvp//!PKReP(vRKFH% F>vvR/K>Be/RYX(/H/XvP pP>PR XBvFKaBK/F_(H%pR>AR X>H>%>FKB>KpmPeppqHvp/>HHBpv>XR%XB%%FpBp/vz((ReB>X%RX/vHFRP(BHFBBX(HV%KFHvpX>fpvXPvXFF/Pe/(FH;  KKH%pFP/RX>%pFF(BxKHB%(> %>HRN> %> eX%v>FvvpKv!vK DB >PKpe%KF>v K>Bv%^/e#(/ppePvR>>v%/ph>%vPFX/pHq(vH/pHKBP/pXPp%/XPRpFvBXK &X(RpX>pR/XH%RRX>P%v>F)X(He//pBv FPB(B>vF(B/KRLF(^F%eP( e(p>H%XKv%F B>Kv>p)K/ve/(XH/p/e%R/XF%XFXvvTp((ev /PHVpp PB%P>XFBE//HLR(FFPeH PH%ppPKKRXB%BFBBFHvE (ee/(pReX/%>Xvv/%PXBv(KBOB(HHH(KHXpX>/RPXF%(BB/ReH(RHFBR BPH B% FHvRKFq3/ e>(vH/pP>PRFXW% peX%vFKX_6KpeHHppBPvR/XHHBRpXR%BFK*HP/B>(pHH XRpF{%vF/BHpBK/BXKpe/(P?RpePPp%>RRBBX/.f/(HeRB/KXppX%RvX/vHpBXvvB/ep>/>eK ePa /PeRFXW/vP%%XXRpF/BHk((PUp>PP%XvKK/B />WvvP(Ke (BHK p>eRKv KHBR/Fe8( H>(vKKRPXF%FF5v %pK8BK/K)R/XHK (PFp(%(FvvRKFC}%C/PQ%(Re>(%PHpRB  (>eR/;P/BeF 9H wF KPFXP?FFFBIK >XgP/Ree((eKp>PPpKPB%>XvBXHFB%/(e (P%/pFPpKF>H%FFPveKPpH/Xe>(PH(pePKRF>(/RX/veKF,.(e (P(pR>F%U(%XP%RFFvKFB} HP  PX%/>/%HXRH(%BF%BeKP7R/ptB (v<(%>PR%XF(H> vp//#v>>_P /HF %> RXvp/PBv//eHv/(Xee(vH%pRPBpXFe%/K>BP//C /%pP> RFX?% (peBp*PpR>>v%>X v/KPBp/KeX(vBe/Hr>/ve/Bp eHe (PKp%XKR(BP/FsF(&e e (KHp pHvpB>R%PF/BKb((peR FPfB% RHBRX>K%/XpvBK/(XHF /PHpR((PXRRX %KXpvKKB(KH   P>pv  >pKRgK(u>%%>X%%pF% %P Rg> %> K>pveF /KeB( H> v/pPFRX>HRXz RKFPB>KKBB( e( (PH>Bv/FHvRKF>(B/K GK(FeppzHpK!H%%/>BvXFpB KK eHRp>PvR/ >PPFKB>K )>/vFRe>/%HF>e%VX>%vF/>XBmKBBRKBeKHBvH>HRRXFHeRvXvBPKpIFPRe (/eBF>PXRK>P%/eFvpFBB(/vW% >%RpF>HpB>/%KXpBFKXNX/vR (/HKpp>Fp%X>%PXB/XHP(/HH R/(H/p(>pKvXR%KX%BPP#%BKKBvX/PeRHPp%HXF%XKK/(e((RHFp8K%HRpKPBRpXv%Bfe/Be>(vH/HXpcHKRH>%FXB K/;H/RXKav(ve%Xve pP>PR XBvFK)(Le/ HHRpF>wR /Fev%PB>KRsF(U>X >Hvp/>PRRXFvyKRBXKvu/(HKe FPbp XFvpX/vHFR v/5& (>>>RPPHpR>F%FX vXFv(K/HeN(pHg  P>R>>/%PXRvFpCB />Iv((HH RPF%HpX%>Xvv/BpBR/Fe+p %F vP/RH>R%F%vv /F_T//e>(R(HpiP R>>v%BFHvRKF#H/ eF(vP pvPRRKXdFPF>vvK/HH PeF eH pXPv>FXHvvKPBIK%+>pHe/ HHRpF>KR XX%vFpBHKv5Fpc F >PMp/>HRRRpvaKR/FKvcp(H X FPqp F>vpX/vXFRB(/?//(>PDpvPHRe>F%RX v>FvB/(BYR((H? BP>Ra>/BHFcvFK>B /XDv(pHHpv>HR?Xq%>R-v/KHBR/FeK( H/ vPvRH>v%F/!t(K>zH//eF(RH(p.>R%R>v%vFHXPKFV1/ e>p H/pFPRRRX:%RF>qv/p}H(<eF >H pKPv% FK%RFRB#>%5>/ve/ HPRpF>>R X %vF BH(RHH(Gev >PHp/>XRRF/pHF B Kv>X(HeR FP6%e>>%HX/v/FRB//WH (/ev RPHRA>F%PX BFKXB///)RX(H2  P>pv>v%HFEvFKFB /F?vp/H% RP RA>v%>Fev//>e>/FeF( RX vP/RH>RKKFrvvK>^>//e>(R>FppP R(>v%(FHvBKFeH( e> XH/e>PRRFX5% KPvvK%VH(PeF HH %>XXR/XK%RFpBmK%l> ,HX HPPpF KR X>%vF/<XKRop(<He >P3p/FHvpXFvXF B(KvNp(HHv vPARe>> eX/vHFRBF/BQ ((ev BPHpv>FB_Fev>KPB//K.R((HGpR>Ppv>B%H((vFK6B />ee(/HK RP%R4>R%>Kvv KHbe/FeX( HK v> /P>R%%FI %K>Bv//eHpWHFpXP Rp>v% FHWRKRuC/Be> PH/pXPR%/FP% Fpvv (1H/ReF b>ep>>PR/X(%RF/Bo( XR/vev HHvpF XR X v/F/B/KR>e(_ep >Hvp/>F%eXFvGF HBKvO((HHi pPxp >>uRX/vPFReFORx ( ev  PHRp>FBg /v>K>B///lRPRHi  >/pv>v%HXvvFKHB  >BX(/H( RPRR?>%%>K1HPKHuX/F/B( H> vP/vv>R%%FSBPK>;-//PH>vHFp/P R >v%pFHBv(Pa.(>e>PRH/pHPRRFF%% FRvv/HDH/veFpHPvp>>KR/%p%RFFB!( VX/vHe HPXpFpvR FFB(F/B%KR>u(<e  >HvRe>H%XXFvpF BFKve >veRpnPh>P>>RvX/5HK BF/ V (vevHFPHRvXP%jFFv> PB//H_R(FP%  PvpvX>%HXvvF(0Bv/>e((/HR RpHRn> v/XvB>KHBR/Fe)( H>pvP/RB>R%FFNv K>BvppeH  HFpyP R>>vv KBvR/XAdPHe>(vH/%H>PRFXB% KPvve%&H(veB hP p>>BR/XH%RK/BPK eX/vp/ HHRpFXH%bX>B}F/PRKRgF(Se pFHvRK>H%vXFvHF fFv(-/ HeR>vPhp >>vvv%vHKRBF(cd P(evp PvpRXK%_F/v>FvB/(>H((FPH  e>pv>/%HFvB/KWs%/>/>(/HH RPFRF> v>XvBpKHBv/Feh /H>pBP/RH>R%FF4v KBBv( eH(RHFp)P R>F(%/KXvRKFW2/ e>(vXepHXzRFXA% F>vvK/e>/RHp ^H p>PvR/XHvXFF6FK q>/ve/ HHRRF>}veX>%vF/BHKR7F(ve pRHvp%>HRRXFBHKFB>(Km/P>eR FPlRR> RvKHvH+HBF/<g  FX( />%pR(B%0X v>/:F>/HH/(FB/  P>pvX v%XRSPK3eH/>5v(/HHRFPF%/> BeXvv(KHBR %eEpPH>pMP/RH>Rv/RRv /vBvP%eH(RHFRH>BR>F(%/pHvRKFb4/ H>(v>epHXKRFXe% KFH(K/eR/RRp *H p>X5qPXHBKFF(HK }>/vevFvHR%H>Mv>X>%BF/B>KR=FRHe  >HvRX>HRRXFv&(RB>KvW/ NeR FPaR0eyRvKXvH/>BF/ew (Fev /F>pR>F%lFXv>FvB//HPv(FHN  >epv>/%HFHpHK2e//>HX(/HP RP/Ry> jFXvv/KH0K/Fey( H>vwP/RH>Rv>F5v K>4seveHppHFReP R>>v%vHvvR(F7f(/e>(BH/pXPRRF/H% F>vv(K-H/ReF _XRp>PvR/FB%RFFBhK PF/ve/ H> pF>uR X   F/ePKRUK(7ep >PHp/>HBvXFv3F e:KvE/(HeR%/POp >>%/X/vHFRBFpHS (>evp>PHpR>F%y/Rv>FvB/ HcR(FH3ph:UpvF %HF/vFKeB /Xxv(/X> RPFR<X7%>Xvv/K/R//FPP( H/ vP(RH>%%FF_eRK>Bv//e>(RHFpM><(1>vBRFHvRKF-e/ eR(vH/v>PRRFXuvRF>vvK/NHpveF uH %KPvR/XH%R(/B}K &>p0e/ HHRpFKHR X>%vF BHKR^F(^>R >Hvp/XHRRXFvzF HFKv:/(HHp FP.p >>rQX/vHFRB%/){ (>ev% PHpR>F%>X v>FvBv>vqRppHrRBP>pB>/%KXRvF HB />!v pHH RPFR9KR%>Xvv/KHBR/Fez( XF vP/RH>v%FF0v K>P*//eH(RH%p,P R>>v{ FHvRKFrX/ e>(vHvKvPRvRXTvvF>vBK/Z>/ReF%HH p>Pv%RXH%RFFBb R0>/ve/ (HRpF>W%qH#%v/BBH ksF(ee  XHvp/K>RRXFvfKeB>Kvz/(>pH FX/p X RvX/vHKHRH/=PP(>>e /PPpR>p%5X eFFvB//HNv(FHI  P>B_>/%HXRvRKcB />2vR HH RPFR/> %>Xvv/ >BR/Fe5 eH> vP/RHKv%FFsv K%Bv//eH(vpRp&F>R>X4%/FHvRK/(F/ PB(v>KpHPRRFXHKLF>e K/H1/ReF .HR> PvBXXHv(FFBCK ,FH>e/%+HRp%>DR X>v-BvBH pdF(Be  >Hvpv?vRR/Fvg/KB>KBM/(PeR FFHp >>RvX vHFRBF kFF(>>B /PppRpv%dK B%FvH(/HP%(Fvp  P>R>>/fXXR^KK}B />)v eHH%%PFBP> %XXvv// BRpKe1( H> vP/RHXK%F(Hv K>Bv//eH(RPXp{F%R>>v%/FHvRKF8 / >/(vXvpHPRRFFHppF>HXK/(>/ReF WPRpBPvEgXHFXFFB6K H> Ke/% HRvv>3I/X>BUF%BHpFOF(%e  >Hvp/>%RR(ev=FpB>Kv}/(HHB FF/p KBRvX/vHFRB%/Y>e(>ev /P>pR>FB>X epFvB(/Hav(F>mp P>BF>/5(XRHvKxB (H3v%HHH RPFRK> &>F v/ RBRPRetH9H>%v>>RH/F%Fv/v >/Bvp/eK(RFApW XR>e%%/(HBXKFP / Fp(v%HpHFR%(X:e>F>evK////R>FeRH vvPv(FXHBHFFBS eE>R(e/ HHRp(>sB cR%v PBH puFHPe %>>Hp/K%RRE(vAv B> vRR(HXK FXvp vvRvF/B>FRP9/o/p(>X( /PH%>>Fd/X evFvB /HHR(%H}vPP>BF>/ePXRvFKKB pB.v(/HH BPFR6/>%>( v//>BR/FeT RHF vKXRHv>%FFDv /FOP//X{(R%FpuP R>F5B>FHHpKFPK/ e>(vP pRPRjFXE-+F>vvK/e> (eFveH >PPvR/XHvvKHBfpR&>pee/ HHRR//PR (K%vkPBHKR#F Hev >KHp/F%RRXFvMKR6XKv>%(H   FPSp XF%vX/H/FRXX/*o (>PD pPHEP>F/(X v>Fv- /P&R%vHMRPP>pv>/v>XvvFp(B Sedv(/HHpvKeR2(>%>eRv/KHBR(/>p( FB vR>RH>R%FKH/>K>> //>%(RHFp#>R%%>vHXFHP KFNS/ HF  H/rQPRPXXT% F>:}/pbH%peF XH p>PvR/X%%R HBiR(j>/Be/pHXHpFKpR %p%v >BH Rpv({XX >(Bp/>%RR/FBeF HBKv%%(Hp( FPIFB>>yKX/e%FRBK/mH (RevvePHB>>FKvX v>KBB/p%^R(FHM vP>vvX1%H(KvFHFB pG.vR/H> RKeROeB%>#Xv/ Hp>/F>p( F  v%pRHKR%RF3HXK>DH//pR(RHF%RP B%>vePFHvvKFHmHKe>%/H/v PRK>XS% FBvvp>gH/ReF >H v>>PR//v%ReRBOpBA>pvHB HF/pFeXR ee%v(/&/KR>H(_Fk >%ep/KHvPXFeRF B/KvpH(HeRpBP*B>>>3 X/v>FReFe%s RBevv&PHF >F%uFPv> pB//HGR( H-% > pv/X%HeHvFjjB p>eX(/XB R2pRjep%>/vB_KHP(/FXF( RK vF/%B>RePFdvvK> ///eH :HFvpP Ve>v% FHcReP36RFe>%FH/F6PRRFF/%  HvvK/NH(1eF%zH%p>KRR/n/%R/0BZ  1//vXF HNepF=KR />vKF/PtKR>R(xp% >XvR>>Ho XFv>F (vKvD/(>eRvHPaB/>>%1X/2HT(BFp%= RRevXFPHpRX%%Z((v>FvB//FURRFP>  KPpvBv%HPFvF 7wH/>>%(/BK R%HRgK v XvHKKH>H/FpP( X>pHP/Ze>R% FU(>K>Bv/veH%(HFvBP RF>vB/BBvRp>DtRHe>>RH/pH>%RF(l% F>vvKRWHpRHp .F p>B>R/pF%R(FB/K >>/vv% Hp(pFK{%(X>evF/P/KR ((Y>   HvB/>H%UXF/ F B>(FM/%qeRvFPopR>>vvBXvH pBFp/W >Hev /PvpR/K%LX v>KHB/pHHH(FFe  v pv/d%H/RBeKqPp/>vP(/y} RFFR/> eXXvHvKH(B/F>1 eH>vBP/RF>R/7F}v /PBvRKeH%%HFpHP v>vp%/ HvR v^CP/e>(vPppHKvRFXm% F/vv /fB/RX/ .vwp>(HR//H%BFFPHK %(/vFP HXRRR>OaRX>H>F/(XKRPF(%e vFHvpR>HKFXFvY/PB>pv:/%>eR /PU% HpRv((vH XBF(>N  FX( /KXpR//%_X v>Fv %/H>%(FFP  PXpvF/v{XRHKKzPP/>%m(/HHp?PFuP> %>XvvRKHHR(%e*%%H>F>P/>F>RjFFPv pKBvB eHB>HFv-pFR>(e%/eFvR>HV}(iv!(vFRpHF/RFXe% FRvvK/P>/ReF YPRp>PvR/XH<vFFBQK eK/ve/ HHRv/>TR X>BHF/BHKRdFRHe  >Hv%R>HRRXFvy(RB>Kv9/pKeR FPyp KFRvX/vH(HBF/!^ (>X< /PHpRFv%MX v>FvH /H<R(F>K  P>pvX/vpXRH(KU>K/>XH(/HHpKPF+e> eKXvv(KHeR(/ef%pH>vKP//>>R%FFBv pKBv//eH qHFv1>(R>(e%/e/vR%B_Lp Pe(vFppH vRF P% (>UHK/>X/RR  ?BFp>>>(>XHHVFFB/K ,X/ve  HHRv/>CR X>BeF/BHKRnFRHe  >Hv%%>HRRXFBC/PB>Req/%BeRv P)p >FRv((vH BBF/e1 p>PP /KPpRKB%5eRv>FvB(/H>B(FH+  P/pvK/vvXRH(KipI/>Px(/XHRPPFiP> >FXvKPKHHR(%e6%%H>FHP//v>R%RHRv p/Bv veH(%HFpHP R>/-%/FHvR//t^/ e>(vX pHPRRFK>% F>vv//ep/RX( cKKp>/HR/XHv>FFPeK >K/ve( H>RRH>W,pX>eKF/p>KR8F(pe vKHvp/>H%nXFe_/eB>Re&/>/eRXPPZv >FRv(pvH%vBF%R6 R>H> /KXpRB %.HFv>K>R>/HXN(FHF  PXpv> %HXRe/KCB />HH(/HH RPFBH> %>XvqvKHBR/FHSpPH>BeP/yB>Re F+v (eBvR(eH%BHFpeP v>XH%/ PvR BiT>Re>(vHBpHKBRFX=% F/vv /}//RX( Yv:p>/eR//H%%FFPPK KF/vvH HXRR >z?%X>(HF/pvKRVRXRe v/HvRH>HR%XFveF B>pqW/(HeRR%Psp >>%vvevH BBFR%q %/ev /P%pR/K%I(%v>FBB/ HiB(FFe  F%pvBB%HXRB/KjP%/>)v(/H( RFFRB> eKXv(vKHFH/F>, KH>BeP/P>>RpeFrv KFBvRReH(vHFp3P %Fp %/ KvRPX+I/ e>pTH%pH/HRFKX% F>vvK/e%/RX  .KSp>PBR/FH0HFFPPK Pe/vXR HXRFv>4-%X>KPF/p/KRPF(pe vKHvhK>H>vXFezvFB>ReS/>FeRR>PLpR% Rv(RvH(>BF/dG  >BH /KXpR(P%;(vv>FvO(/H>%(FFP  PXpvF/%BXRHKK1PP/>>H(/HHRXPFjP> %>XvvpKHHR((ei%%H>F>P/R >RbFFvv pKBvB eHHFHFpH%7R>(H%//pvRKFub( P((vFppH/(RF(>% F>h K/>P/RX( oHpp>XvRpXHe%FFHpK e//vH pPHRB(>nBeX>%vF/BHKvTF%ee vKHvp(>HvRX vT pB>p(M/X>eR FP p /KRvX/vHKcBFp-RH(>Fe /v/pRtv%n/ BvFvPp/HKv(Fv>  F>P >/eXXR( KqRF/>e>F>HHB;PF%p> %XXvv KHBRp/eC( H>p P/RH>R%F(Hv K>Bv >eH(RHFR0XPR>(e%/ BvRp }o/ HT(vF(pHKBRFXe% />BRK/>P/RXe #vRp>Pv%YXHeBFFBbK h//v>/ RHRB(>E/}X>eKF/HH(/0F%Pe eFHvY(>HBRKPvO %B>PHZ/XveR RBRp //RvK/vHF%BF/el (>XY /PHpRKX%MX v>Kvee/H>B(FF%  K/pv>/vFXRHKK?P%/>.B(/>HpvPFOe> 9BXv  KHBR(Peu%%H> vP/RF>RVFF%v pKBvPveHt HFvW>>R>(e%/%>vRXHYqp H (vFppHB*RFeR% F p K/>F/RHB YHpp>PBR/XHnvFFBqK Pe/ve/ HPR%p>yG%X>HpF/PFKRgF(>e vXHvBp>HR%XFO9K/B>pB3/RveRp PMRR>KRv(pvH/eBF/EO (>Hp /KPpR/(%^Xpv>/v8F/H>%(FXR  vFpv>/vXXRH(K+B />e>(/XHF>PFdP> / XvH/KHHR/ eb%%H>H;P/FF>R%F/Kv p/Bv/ eH(RHFRH FR>(P%/eKvRKF.3(RH (vFvpH/RRFXw% F>gKK/>F/RXR mHpp>>vvvXHeBFFF K >//ve/>(HRB >VRpX>%vF/y>/vcF%Xe X(Hvp/>HRRFvvY vB>RP+/(PeRpFXFp /KRveHvHptBFp3/F(>Fe />HpReH%2FapaFvPR/HeB(FHe  PXpv>/U>XRvFK!e>/>4v(/PHPXPF?P> HeXvHRKHBR Pe&%pH>BeP/RP>RBFF/v pXBvR>eH>vHFp#XeR>(e%/FHvRKRo6p H>(vFppHBHRFee% (>BRK/>X/R// 8vFp>PvR XHHQFFBXK 0>/vH %%HRBp>oFRX>%vF/a>eF+F%Fe P Hvp/>H%vF v0peB>%Kc/(HeRp/>Rp /RRvPdvHFRBF(HeF(>FK /> pR>F%!X BFFvPR/HXX(FHe  >>v>>/eXXRFWKLPv/>6vPBHHBMPFRe> %>XvB //BRRpeyPRH> vP/RHXP%F >v p(Bv/(eH R>Rp;K%R>n/%/ FvR FKR/ XK(vP/pH;/RFXF FF>PHK/H%/ReK rHpp>PvB XH%RFF^pK +>/vH/ppHRB(><eKX>HHF/BHKv;F%ee vKHvp(>HvRKPvV pB>p 8/X>eR FPKp /KRvX/vHKtBFpuee(>Fe /v/pR>K%s/ BeFvPp/HKv(FF(  F>RB>/eXXR( KMRF/>e>F>HHBLPFRP> %XXvvpKHBRp/eD( H>R>P/RH>R%F(Hv K>Bv/ eH(RHFp4FRR>>v%/K%vRKFV,( H%(vFppH/(RF(>% F>2(K/>P/RX( _Hpp>Xv%eXHe%FFHRK RF/ve/ (HRB(>mR X>vHF/HH/(nF%Pe X Hv%P>HBRXvv) %B>BST/PpeR%F>Rp /KRvsRvHP/BF/F%F(>FH />vpR>K%_X%v>FvH /HjR(FPK  P>pv>/Y>XRvFK+BR/>jv(/HH%vPFR=> vBXvv/KHUR pe5%%H>BpP/hF>R%FFvv pXBvRpeH(%HF%&X>R>/B%/(RvR/ _Q(RHh(vFppHv/RFXt% F>BRK/>P/RX( QHpp>Xv%PXHe%FFH K RF/ve/pXHRB(>hR X>vHF/HHP>8F%Pe X Hv/B>HBRF vt %B>BOA/N%eR%F Rp /KRv?RvHP/BF/F%F(>FH /X>pR>K%9Xpv>FvH /HcR(FHH  P>pvX/vpXRH(K}>K/>XH(/HHp>PF9e> eKXvv(KHeR(veV%pH>v/P//>>R%FF%v pKBv//eH sHFvYXeR>(e%/e/vR//;rp e((vFppH vRFpU% (>vBK/>X/RR  oBFp>>cXvXHH6FFNqK f>/vH/ppHRB(>}eKX>HHF/BH/KzF%ee vKHvp(>HvRFev& pB>p/A/X>eR F> p /KRvX/vHKjBFp&eP(>Fe /v/pRK(%f/ B(FvPp/HKv(F>e  F>%K>/eXXR( KuRF/>e>F>HHBAPFv > %XXvv(KHBRp/e_( H>%KP/RH>RvFv(v pKBv%XeHvsHFpq>XR>/B%/ XvRKKfD  H4(vF(pHKFRF*K% F>A>K/>X/ReF 6Pqp>Fvv>XHeBFF FK HR/v>/ %HRB(>7PRX>e>F/BH/p{F%>e  FHvp/>H%vRHvq BB>>>9/(HeRp/Pep / RvKXvHFRBF/tHH(>FH /K/pR>K%UF h FvPp/HP((FF>  F>KF>/eXXRKpKSRr/>Pv(%HHvBPFK>> ( Xvv u/BRR e*ReH> vP/%HH6%F Pv ReBvRReH(RPFp^KpR>(e%/FPvR(FqK/ XX(vFHpHK^RFXjBHF>PeK/rH/Re( _X R4PvmpXH(HFF/eK P> fe/vXHRH/>6v X>v>P>BHRCQF He  XHvp(>HRR//v_F B>/0a/(HeRpF>(p /KRv XvHpABF/UeX(>XB /KXpR>K%WK vpFvP(/H>F(FvH  P>%p>/eXXRvFKaBv/>Pv >HHvBPFKF> pPXve/KPBRR(e^0RH>X%P/BHFP%F Pv H/BvX>eH HBHpIKvR>X(%/FPvRKK3b/ >F(vH/pHPvRFX_% K>ePK/>X/RFP oFvp>PvvPXHe%FFPPK GX/vP/ BHRBK>6:KX>BHF/r>(FqF%Pe K Hvp/>HRRX(v; pB>Re^/(PeRRFPRp /XRv(XvHevBF/!e%(>Fe /PHpR>R%O/ (RFvPp/HRH(FPR  F>%;>/eXXRX/KUKe/>gv%HHHB*PF%1> %>XvB KPBRRpeLXBH> vP/%>>B%F Fv RvBv//eH vP(pD/eR>F%%/FHvR//eX/ XR(vvPpHPRRFFHBeF>PKK/F&/ReF 1PRp PveHXHp(FFBiK eF%ee/v%HRB >ZR X>BjFBBHR/tFw>e  >HvR >PRR PvZRpB>Kv5/ >PV FKvp FvRvX/vHKv_(/7X((>vK /PHpRX/v>X P>FvB /H5R(FPHp(P>yB>/H/XRvFK7dRpBIvv HHpHPFR#> vFR v/RXBRXFei( H>R,>/RH W%F Kv K>Bv//HB(RF pw/vR>>B%/KHeHKF>P/ /v(vFRpHPRF%X<evF>vBK/CH/RH/ /H B(Pv/%XH%RFFBN/>6>%He/vKHRpK>c% K %v pBHPFzF%>e %>  p//XRRFFv7PFB>/>%>(HFi FP(p >XRvX(vHFRH//Gd (>Hr /PHpRXFBXX HKFv>X/HXz(FH?R>P>BB>/eXXRvKK2e  eyv%(HHv PF%>> vFF(v/pXBR Be4( H> vX>RH/%%F Pv KXBv /e>(RFKp,K/R>c<%/FHB KF>P/ e>(vHvpHFRKvXge%F> >K/Kp/R>F %H BKPvP XHvPFFB6p>m>%He/pqHRpF>Z%RFe%v %BH%(CF(ae pFPep///RR(Xv*F B>(teP(HFP F(Pp >>RvF BpFRPv/! >(>ev />>R >Fe(X K/FvB//Hev(%H,B>P>R/>/%HXRB/pPB RB+vKeHH RPF%HFe%>  v/e%BR/FeS RPB v/XRHev%FF8v /FAK//F5(R((pUP R>F,%vFHPpKFF / e>(vP R/PReFXy( F>vvK/e> HeFBeH >pPvR/XHvv^BB^RRU> Xe/ HHRpF>pR (/%vp BHK%_F 5>W >Kep/pRRR( v#F (pKv>R(He% FPVp XF%XX/HKFRXP/m5 (>evp>PHqW>FeXX vXFv,/ /)R%(H1F>P>rH>/4H%/vFpPB (>QvF>HHpHYHR3/v%>KBv/KPBR/Kex( XF vP/RH>v%FF2v />HP//XX(RKPpEKvR>>vvHFHH%KF>P/ eX(v>/pXPR{KXme(F>AHK/e>(IeFvPH YFPvR/XH%RKHBlpp6>%ee/ PHR%F>vR (X%v KBHR/.F(APK >Kep/>HRRXKv7( K!Kv>p(H%H FB%p >>/PX/HPFRP(/Swp(>Pv (PHB%>Fe!X e/FvB/(KoR%(Ha  P>Re>/AHK_vFpPB P ;vepHH%R> R#/%%>%&v/ >BR// F( F/ v>%RH>R%FK3pvK>>e//XB(RF pkP R(>ve(FHHBKF;e/ P>(BH/BPPR,FXD.vF>vv/LLHRBeF 1H pKPvB/F>%R (B{P+_>BFe/%HP%pF/PR RF%vv%BHKv(R(lXv >PPp/>HRRFFF F PKKvXX(HFA FPaR>>>bBX/HXFRBK/<H (Fevv(PHBR>FzRX v>K B/RPcR(/Hs pP>%vXv%H(%vFp9B (KEv(/H> RKKRa>R%>XBv/(HtP/FXe( Xp v(PRH>RvvFrH%K>Bv//eF(RXFF/P -K>vKeFHX(KFPx He>veH/ppPRPFX)7 eRvvpp*HFeeFXeH v>> R/(X%R RBhe%c>/v p HF%pF/PR XX%vF/PHKR8F(Nep >Hvp/>HB(XFv-F tPKvA/(He%  PLp >>eRp(>B%eBK/># (>evBR(Ke%pP%eFev>FvB/%/KeB((>e( FBe> >e>RFpP(>v>XB XKHPphPFRE> >ppBXevFBves(vKveFR%S (X/p%KFKv K>Bv%/KpeH(XH>/vPP>B%vFHvRKF>P%t/FBB(XeKPvpB/eR:eHePXR%X>pe/P RP>%%KFevp(X XBeK%{>/ve/e}(eH%>HR X>%vF/BHKRBFRBep /Hvp/>H>8pKXP%XBX//-/(HeRvR((HR (Hep%X>vHXpBH<p(/ev /PHM>pXP%pBe(FvB//HdRFIHU  P>pv>/%HXRvRR B />Cv(RHH %PFRe> %/FPv/KHBR/ eY(pH>pHP%RH>R%F(>v KXBv//%R(RHFp}PpR>>v%/FHe&KF+?/ eX(vH pH>HHYX^% F>BKK/QP/ReK qHvp(PvR/XHvXFFBeK G/(Pe/ HHRRP>sRpX>%vPHBHKRGF(He  >Hvp/FFRRXFvIFpB>/+t/(/KF FP^p XXRvX(vHF%BF/>fB(>ev />PpR>K%mFR>BFvB//He((FH8  X>> >/%HXRvFK_BB/>!veeHH RPFRe> %XXvvRKKBR/Fe*( H> BP/RHeF%FFrv KKBv//eHpRpHpuP R>>v%/F>vR(F/R/ eX(vH/pHP%RFKF>%F>vBK/ep/ReK kP(p>>HR%XH%RFF:(K jX/ve/FRHRpK>.RvX>%vF/B/%FrF(ee pvHvp(>HR%XFv>FBB>Kvq/ ReR KP.p _vRvX(vHKeBF/I2 (>v/ /P>pR>R%gX v>/vvj/H_v(FHH  PppvX vFXRv K&rH/>^v(/>HpFPFR>> %/XvBPKHBR(HeM(BH> BP/RH>R%FKpv K/Bv/%eH(RHFp*>vR>XQ%/FHvRKKLG(RH((vH pH>(RFXh% />K K/g>/Re/ fHBp>XZBvXH%BFFB K q>/ve/ vHRp/>aRRX>%BF/BH/(}F(He  pHvp/>HvRFevnFRB>/N{/ ZeRp/>(p >/RvF>vHFRBF/Mev(>HP /P/pR>F%OFRvKFvBB/HTB(FH!  X>> >/%(XRv%Ki)X/>Hhe(HHp>PFR>> %>XvB /KBR/Be; PH> vP/%>XZ%FF v K Bv//eH(RP pE>eR>X/%/FHvRKF2%/ eF(vH/pHP%RFFHBeF>BYK/mB/ReF {> p(PvR XH%vFFBXK <>YKe/ >HRpK>kRpX>vHF%BHKRfF(8e  XHvp//HRRXFv}FpB>Kvz/(HeR FPLp >/RvX/vHF%D>/,A (>F>ee ,Hk/RP(RRXKvHPpv KX1H/> pPRpv>/%H HXX%BFvvFFB^>/v %PvR3> %> x>(vXFe%FKe-R(/ BPpRH>R%F (X%pXeX//eH(RHFPFP R>>v%/FHvRKF9A/pe>(vH/pPPRRKXI% /evvK/lH/%eF jH %>XXR/XH%RFFBxKpY> }HF HHvpF>HR X>%vF/BXKRIF(WeR >P#p/>/%/XFv6F B%Kvl((He% FP>pB>>RvX/vpFRBK/+-v((ev /PH%H>F%eX !>XXB//PuR(FH= vP>%G/P%HXBvFKPB />7v(/>v RPKRO>%%>F0v/K/XF/Fee( PP vP(RH>%%FF>vBK>Bv//He(RHKpkPvR(>v%/FH9HKF,e/ e>F/H/pPPRR/XU% F>B>%H7H/%eFpPH pXPvR(XHvkFpBUK j> ee/ PHRp >XR X>%vKvBHK%uF(Gv> >HBp/>XRRXFv7F (/Kvw (HeR FPzp >>HBX/vPFRB//)fp(>evv/PHpR>F%eX v>FvB//HZR(FHo RP>pv>/%PFHvFK*B B//&B(/Xee /ReXu%>Xvv/R>FeBPKBef/(pKP/RH>Rv/Rpv K>Bv/(eH(RHFpF{XR>>v%/F vRKKZT/ e> HH%pHPRRFX/% FXvv/ F%/ReF NHpp>PvR/KHRPFFB-K 7>/ve  HHReK>ER X>v&F/BPKR<F Ke  >Hvp/>HRRXFBHpvB>Kvn/(PeR FPjp />RvX/vHF%BF/j9 (>ev /PHpR>/%sX v>FBB%/HbR(F(Pe (XPXpF%PFhvFK?B B/FBjp/%pKPFRl> %>>Pv/KHBR/Fed( H>p>lPRH>R%FF v KXBv//eH lHpphP R>X/%/FPvR//Fp/ eX(vH pHPRRFK;FFF>vBK/6P/ReK zP3/bPvR XH%RFFBeK UK/ve/XBHRpF>LR X>%vF/BHP(MF(he  XHvp/>HRRePvdF B>/Za/(HeR F(ep >XRvX vHF%BF/m> (>ev /PPpR>F%nXpvXFvB//HeB(FH=  PXRH>/%HXR>%%eFKv(oB(vHH RPFeP B>wRP>pvFB%/ve2( H>We(%P>RHPBRP>BvKBB(jeH(RHFw&(pHKp(P(R(Xev(*H/ e>(vH/pHPRB (l%pF/vvK/nHv}Kpse(KpX>>R/XH%R%pXvv FXBe/P PPPpF>ER   >K%pXpBLKXYHep /Hvp/>He>RX>%RBBX/B*/(HeRB/(XH p5PKpp>PvSXpv>X%s//%e (PHP p%eF>v>FvB/R(KeY KPGB FP>pePXRevKK B />Qv%v/pev(peP B>F%>>%v>B%/ e4( H>B( FHpR5%KFHv K>BvRpX/(%H poP R>(RP(RBXeKKfH/ e>(vK BKP%R XM% F>FH%(KXBKeK pH p>PveRpKP%%P>P%BKF;>/e.X(epK>>R X>%v%BXPvXK p e  >Hvp/mRRRXFv;F B>Kv:/(/vK FP-p F%RvX(vHFRBF/>{B(>ev /XppR>K%3X  vFvB//H6%(FHg  X>> >/%HXRvFK^:9/>e>BHHH RPFR/> %XXvv(KHru/pe8( H>pFP/RP>R% FXv K>Bv ReH(%HFpLU>R>>v%/FPvRKFt6   9(vH/pHPRRFXF% />K K/!H/ReF QP(p>F>LXXH%RFFBvK _X/vH6 HP{pp>iR X>vRF/BPKR! (Xe  >Hv%R>HR%XFv7(eB>Kv,/(>eR FPiRRKBRvX(vHKXBF/.n (>v/ /P>pR>/%)X v>K>XH/H#v(FP>  PXpv>(%HF+vpKnB />HH(/HP R>/Bp> %FXvBFKHBR/Fe{vpH> vP/R>>R%KFEBR%BBv/(eH(%HFpLP v>BP%/FPvRKKUn(Xe>pUPppHPBRFX % F>vvK/ej/ReK AH%p>>uR/KHB>FFBeK dX/veR H>R%H>aRpX>%BF/BBKRHF Pe  XHvp(>HRBXFdmK%B>KBT/(PeRp/P4% %oRvX(vHF%BF(Oi p>/K /PPpR>K%QXRv>/ve*/Hl%(FHe  >*pvX veXRv(K.Ze/>kv(/HHR>PFR>> %>Xvv/KHBR/ e;(%H>pHP/RH>R%FKRv KXBv//eH(%HFRH XR>>v%/KPvRKFdY   2(vH/pHPRRFFP% KFH(K/VP/Rep sH p>PvH(XH%RFFBHK jX/veR KHRpF>gR X>%BF/BHpRqF(Se  XHvp/>HRRXFvCF B>/eW/(HeR KPKp >>Rv v>p%BXBB>K(LFeB RPHpR>FevppXe%PB(/FgR(FH#Bv((eBpX%vXRvFKjB >v5v(/HH RPFR*> B>v v/KHBR/FeU(%H>p> KRH>%%FF v KXBv//eH _HppcP R>X/%/FPvR(F/R/ eX(vH/pHPvRFKFeKF>vBK/S /ReK bHpp>>HR%XH%RFFB/K rX/veR KHRpF>N%PX>%BF/BH/X*F(ee  >Hvp/>HRRKevLFpB>KBn/(HeR F#Kp >XRvX vHFRBF/t> (>ev /PPpR>F%1X v>FvB//HeH(FHU  PXR%>/%HXRP %XFFv(Kv<K(>Hk/(HXpR> RK>p%KB%/pen( H>B/ KH>(XP FevvK>Bv//K(B%(PeXPpRp>v%/FHPRvHFev%K(vK/RpP>FRFXy%  pXPvRXXBe//eF(PeK PR(F(%RFFB!RvF(B K%eH(pH/p>evRPHv%>XP%BFp%(//eK He(pDHBppvpF B>Kve Y/eR FP;p%>>RvX/5HKRBF/1g (>ev %PHRv>/%*XRv>FBB//HaR(FPe  P>pv> %HXvvF(?:v/>{v(/HH RPRRUXR%RXvv KHBB/FeL( >>RPP/R>>R%/FrvvK>e0BPeH(BHFpPP R>>vB/vvvRK(z&/%e> _H/pHRBRFXd% FKvvK(#H/RXF sH p>PBR/XH%RFFBgK &>/ve  HHRpF>eRBX>%vF/FXvRFK^K// XPHp/>HRRR >e%%XB/K_/(HeR FeXp >>RvX/vHFRBF/FF>(>ev /PFpR>K%xXpv>KHB%/H.R(FH>  PXpv>R%KXRvFKG9H/>IB(/P>eKPFRe> %FXvv/KHeReHeg(pH> BP/RP>R%FH v KFBv/(eH(RHFp-(pR>>B%/F>vRKKNT/ X>(vH/pHP%RFXm% FXvvK/dH/Re% IH p>PB%eXH%RFFX/vPFpBF/>^p(Pevp>RpFP%vF/BHveK>BX/Ke%KPHppHepp/> RBXKBHKp(PHP FPzp pHHBRX>KRgXKvKUp( ev /PH+v pP%R(X %PB(/X.R(FH}CB KHv>(%KXRvFK}F vXKKf (X %P%R1> %> H>%vXK1B/KBeP>> vP/RHXv>eFqv K>8>//eH(RP/epP RX>v% FHvRKFcFv>e>(BH/pKPRRKX6%pF>BHK%kH/ReF XH pXPvR/K(%RFKBxK j>/ve/ H/vpF>MR XF%vF BH/uip(De  >>(p/>PRRKFFRF B(KvsR(HHe FPFe>>>%PX/v%FRBK/lop(>HH %PHpR>F%pX vXFvBR/KtR(FHZp/P>pB>/BHv/vFKXB //2v(%HHRRe%R=>B%>FPv/KFBR/FKe( H( vP RH>%%F/4KFK>MP//eF(RHKpA>=ev>v%%FHBvKF2e/ eX(vHRpKPRRFXmvRF>vBK/2F(eeF sH R(PvR(XHBRBHBIKBa>(He/ PHR%FHKR X(%vF%BH/P{F(6Kp >PPp/>>RRXKv./ /5Kv<%(HHL FPPp > ((X/vKFRee/:np(>ev /PFRe>F%{X BBFvB(/HHRHHH! BP>RH>/%XXRbFXKB /(8v(%HHpwPFRD p%>FPv/K>BR/Kef YHp vP/RHXP%FFev KFBv/ReK(RHFp!>eR>>B%/FHePKF.k/ e>(vH/pH>ve XU% F>B?K/iH/ReFvSH p>PvR(XH%RFFB3K l>/ve/ XHRpF>hRpX %vF/BH%BFKBvK%s(( p(>KRRXFvg%%F>%BKB5.e%  P4p >>>Hp(XX%K#P/=# (>ev/%PHpR>F%&X v>FvBv>%8R(FHjpHP>pB>/%HXRv KXB />Uv cHH %PF%HpX%>XBv/KXBR/FeCp pk vP(RH>%%FFHv K>R///e>(RHKp?P R>>vP(FHv%KF?H/ eX(vHRpKPRRFXkvFF>vBK/e>BKeF eH pKPvR/XHBRBHBxKp.>/Be/ PHRpFU R XF%vF(BHKR2F(WKp >HBp/>>RRXKvEF P>KvV/(He% FP5p >XRvX/vHFRB(/51 (>eBpPPHpR>FHDRF>XvKX%B>XBC /eev KpB>%%HXRvFRPFvB%K B%HPpePFRn> H pBX>vKFe/pe}( H> vKFRH>%%FF&v K>Bv /e>(RHKpSPpR>>B%//HuHKFAe/ eX(vH pH>RvHXs%pF>BeK/.H/ReFpFH p>PvR(XH%RFFBeK N>/ve/ XHRpF>ERpX(%vF/BHvBKFBe(eeHHBR%>HRRXF>e%BF/v%>BkeK%eHKpeB (Pvp%X>peF>veFRo)/PuRPPRi>F%uX X/RBFpv%e>(FHY  >FeH>/%HXRv/KGB />e>FPHH RPFRK> %XXvv/KHl0/peQ( H>pXP/RP>Rv/Rpv KXBv/peH(RHF%sRFR>>B%/FPvRKKSg/ %v(vH pHPRRFX?% F>>BK/fP/Re/ =Hpp>PvI/XH%RFFBeK o>/ve( HHRpF>;R%X>%vF/BP/e=F()e eK(ve(p(P XKvpF B>KvF(j9(ZxB/Hep pPHRK>v%/BK/>? (>eveR(PHBpe%(X v>Fv+ %FmR(FHD RP>pv>/%/HKvFKaB /R+v((HH RPFR>>B%>Xvv/K BR/KeI R/B vP(RH>B%FF{v (>/ //eP(RHKpZPpR>X> >FHvvKFhu/ eX(vH(pHPR/PXk% F>vvK/lH/ReFQeH pXPvR XH%%FFBUp Q>/ve/ PHRpF>?RpXX%vF/BH/PGF(te  XP(p/>HRRpK>v%vX%%6F(B(/oeX(RHF>X%XX/vHFRP vXK%W/(}eK pp%>B%*X v>R)X(v(K+VX/ReF((HH>(vNXRvFKZ>mv%KRBRF/eX /PPpveKRFXe%vF./Ke(( H> vKpH  %>/Re>%v/FPB eP CHFpUP P/ B>pR%v%K =Q/ e>eX/(epp_%BXq% F>ADvPCH/ReF eH p>PvRv R%RFFB+Kv_>/Be/ PHRp >XR X>%vFRBHK%AF(>eB >Hvp/X RRXKvbF pvKv8/(HeR FPIp F>HFX/vHFRBF/h^B(>H>  PHpR>Fv>X vXFvB//Hen(pHd  P>%H>/%PXRvFP B />4v(/HH RPFvVF%%>Xvv/KHBR/pe<p PH vP/RH>R%FF>v /Fe //e>(RH(pOP R>>vvBFHvRKFqH/ eF(vHvR>PRRFXovvF>vBK/{H/Re  XH p>Pv%RXH%%FFBO>>&>/ve/ HHRpF>Ov v7%vF/BHKR-F(Xe R>p p/>HRRXFviF%B>(vvB(HeR FPyp >FRvX/>PFRBF/sYR(>eB />>HK>F%MX v FvB//HHRHHHc  P>pv>/%(XRvFv(B />0v((HH %PFR>>B%>Xvv/KHBR/Ke&( F> vP/RH>%%FFfv K>Bv//eH(RH(p7P R>>v%(K;vRKFEj%EK%=R/RB/ XP/RP>v KXFveFvBneK /H p>Pv!vRe>p% XH%pKlB HP HHRpF>WvKX>%vF/BHKR#F(oP p/Hvp/>HRRXFvHF gF(Pz/(>eR (Pop >>RvF>vHFRBF/H? (FevRv>:pR>F%CFev>FBB//PuR( HX  P>pv>B%HX%vFK>BB/>=v(/H  RPKRI> %%Xvv/KHBR/Fe_( H>R(P/RH>R%KF2v K>BvXBeH(RHFpHP R>>v%/ HvRKFO</pe>(vH/pHPRRFXE% FpvvK/nH/%eB 5H p> FPep(>>%HX(veFRLHe(p=HRpF>*Pvp(PB%XPKvBKF%BKR!v(PeppFPBXKvKF B>KvKFBP/(Ap/>ep pRBXBvHFRBFR>FB1K(He  ePX>K%XX v>FvF/vPKX,/(P pP pv>/%H v>p%%F(B KP((HX RPFRN B>KRvbKKHBR/FHHkXH> vP/RK>R%FFABR%BBv/(eH(vHFpcP R  /%/FPvRKpn&/pe>(BH/pF>eRFXY% F(vvK(6H/RP% rHpp>PvR/XH%RFFXHK G>/ve  HHvpF>>RBX>%vF/#RKR&K(7P P^Hvp%>H%?XFvKF B %/?/(KeRpeP+pp>>RBX/vFKeBF/,! (Bev (PHRl>p%.X v>KRB//P#RpF R  P(pv>R%HFPvF(sve/>eP(/HK RPRR0> PXXvv%KHBv/Fee( >>P P/RK>R% FzvpK>a>XPeH eHFR>P RX>v%/FHBwKpcG/ e>pHH/pPPRvF%R% F(vvKRwH/%eFRGeep>>PR/XK%RF BhK FX/ve% HHvpF>eR K>F F/BKKRb (Ue% >P>/P>H%eXFB F BXKvg/(HHV pP2p >>v/X/vPFReF&Rz ((ev RPHpB>FB!>ev>KPB//KhR(RH.  (Xpv>%%HXvvFKeB / eX(/HH RP%Rx>p%>Fgv/KFOe/FeS( Hp vP(RH>RB%F,v K>Bv//eH(RP/&>P R>>v% FHvRKF69R e>(vH/pPPRRFX,% F>vvK/VH(>eF oH pFPvR/XH%RFFBNF >P(?e/ HHRpF>ER XRevF BHKR#F(Se  >>HB/>>RRXFv1F B>KvH5%Hev FPAp >>RvX/vH RB//8W (>ev /PH%//F%HX v>FvB//H0RpFF; RP>pv>/%HXRvF/DP %aUv(/HH R>>Rm>p%>Xvv/KHBR/FH>( HF vP/RH>R%FF3vvK>BB//e>(RH/pNP %e>v% FHv%KF;I/ P> pH/pXPRRKX0%pF>.v/X0H(TeF eH p(PvR/F%%RF/B2Kvc>/Be/ HBFpF>HR XX%vF/BH(RXF(?e% >HBp/>KRRKFv(F B/Kvx((HH> FPspp>>%gX/vFFRBK/mt  #ev  PHp%>F%3X M>KvB//X&R(KH&pHP>%vX^%HFxvFKeB /F^v(/HR RP/Rh>v%>XBv/KHRF/FeH( HX vP/RHFRHFF7v%K>BB//e>(R>FR P R/>v%(FHv%KFrn Fe> xH/pFPRRKXg% K>vvK ,H/%eF lH %>XXR/XX%RFKBxK%f> vHe HP3pF>eR X/%vF/bvKR:/(8ev >HBp/>H(FXFvHF BXKvi/(HPRBFP?p%>>RBX/vFFReF/v? (/ev (PHRP>F%;KXv>K*B//FyR(KHk  >%pv> %HX%vFKZB  >ee(/HX RPKRjXe%>Kv+eKH1&/Fee( H  vP/R(>R%/F5vvK>BB//eHFFHFpHP RX>v%/FHIRRFA?/%e>(BH/p/PRvFX>% F/vvK(ZH/BeF k>Kp>>hR/XF%RFKByK ee/ve  HH%pF>oR K>B>F/BXKR}K(^ep >>v%U>H%7XFveF BKKvN/( eR /Pmpv>>RBX/vHPFBF/HQ (Xev /PH%R(F%;X%v>FBB//K1RpFHp  P/pv>(%HFkvFK2yH/>e+(/HF RPKR)> vRXvv KHB%/Fe:( >>p(P/RX>R%KF3vRK>ev )eH }HFpeP R >v%/K%vRK/tW/ve>(BH/pHSFRFXH% FXvvK/)H Re( aH%p>PBR/X %R/FBXK b//ve( HPPpF>L%(X>voF/BFKRxK(De pBHvp >HRvXFvZF e>/ C/(XeR KP^pp>>vvX%vHK9BF/e^ ((evR/>KpR>p%-Xpv>KHB/ H(/(FHF  PXpv>p%HXR//KfBR/>e>(/HP RPF%>> %FXvv KHBR/FP: %H>peP/RP>R%/Fy* /FBv/ReH(%HFp/P v>Xw%/FKvRKK?+(ee>pvPvpH>HRFXe% F vvK/ep/Re/ CPlp>PBR/XH FFFBHK TF/ve/ H>R>H>;R%X>%BF/BPKRHFeRe  /Hvp(>HRvXFGjF%B>/P?/(PeR RPZ% >pRvXvvHF%BF/PN (>P= /P>pR>R%aXpv>Fv7P/HNv(FHH  P>pvF/v>XRv(KDBp/>eP(/>HR5PFR>> %XXvBzKHeR(%e7(BH> BP/R(>RBFvRv K Bv/(eH THFpmR%R>X4%/F/vRKK-f/ X>(vH/pHP%RFXd% FXvvK/EH/Re% }H p>PBRpXH%RFFXXv%K>/BHe HHRpF /PPpp>F%>XpvPFvb>ep pHvp/>He<ppXP%vFFv%/e(PHP FPQp pHHBRX>KR0XKvK_p >ev /PHHRpHPe%P>(v<P%BXKRvX/He>((HepR>XX%vRKMB />FnB%/Bep RHX>p%(Xvv/KHFRvKK(VR(K%,P/RH>Rv/Rpv K>Bv/BeH(RHFRH XR>>B%/FKvRKFI-(n%B(vH(pH>eRFXe% F>vvKR;K/ReF .HBp>PBR/XFveFFBAK . /ve( HHR%%>,RpX>%vF/BHKR=FBHe  >Hvp >HRvXFv>FBB>Kvx/ BeR KP2% %4RvX%vHKoBF/el ( K/ /PKpRXH%OXpv>FBB//Fee(FH6  >spv>(%HFVvpKVB />e%(/HP RXF>R> %(XvvRKHB%/FP</eH>pPP/RK>R%RFdv %XBv/%eH(vHFpeP v>% %/FKvRK #1/Re> >/HpH>eRFFP% FXvvK(6H(wep dH p>XeR/XP%RF BXK l>/vHv HH%pFFZXFX>vPF/BFKR_/({P /pHvp%>H%eXFvPF B>%BA/(KeR /PApp>>vvv>vHKeBF/>0 (/ev v/RpR>p%AK>v>FBB//PER( HX  P>pvFH%HX%vFK>BB/>Tv(/PB RPKRZF FYXvv%KHEx/Fe>( >>(XP/RK>R%pF{BsK>Bvv(eH eHFpHP RX>v%vF(vRKFE7(He>(BH/p>PRR XX% F>vv/-aH/%eF CXep>PvR/XH%RFFBu/RX//ve/ HPepF>cR X>evF/BHKR?K(Oe  >Hvp/>HRRXFvHF B>Kv1((/eR FP!H/pPPeR>>p%RBK/K! (>evDB(KPS %PXR/X KHB//H_R //p  PXpv> %HXRvFKsev/>)B(/HP RP/RGX B Xvv(KHB%/Fea( H>vvP/RH>R%KFkv K>BB//eH(RHFp P R>>v% FHvRKF7</ e>(vF/pP>?RFXa% pKXKBHFK/%e% 3H p>(>H%pXXL%XFH %?X(>e/ HHReB vP%p(X3%RBP/HbF()e vKK>H  PP(ppveFBB>Kvt/kFK%2/(ReB>X%eX/vHFRF>vX/e(Fev /PHpR>F%:>  PFBc#/HuR(FK+e( KHKpRPpRpX>KHB />Zv(/HH RHFBBFB%>Xvv/(H%F/Fee( H> vP%RHFRv/F3vRK>Bv//e>(R>FpBP RF>v% FHv%KFo7(Be> eH/pHPRRFXgvRFRvvKRDH(>eF }H RFXXR/XK%RKoB2K *> CHv HPHpF>eR X>%vFRp>KRh (NP% >HBp/X>{KXFv/F BRKv1/(HHvvePDRP>>%/X/vHFRl/ppI (vev (PHpR>F%>eRv>KFB/ >dR(KHWpRFBpvX>%HF>vFKgB (F>((/HB R>6Rm> %>KsHPKHg /Fee( H> vPR/>>RvHF?=pK>BB//H>QKHFRMP R >v%/FHSRB u#( e> vH/pFPRRFX%% KXvvKpqH/ReFpHHBp>X1R/XK%RFFB<( ev/vH  HPvpF>KR FFvpF/fXKR2((0e  >>vRR>H%BXFBPF BpKvD/ 9eRp PQRe>>RvX/vHe+BF(XI (Bev /PHpR(*%sK9v>K%B//H8R(FHv  >KpvXv%HXvvFKklR/>He(/H> R>(Rx> %(XvB KHBv/FeH( H>p(P/%>>R%KFMBRK>ev(PeH vHFRHP R%>v%/KKvR/F_O(Re>(BH/pF%BRFXR% K>vvK(MH(mp( OPHp>> R/XP%RF (PK O//vH* HH%pF>^ eX>veF/B>KRIF(^e v>Hvp/>HR%XFvcF BXKvY/(HeR /Pxp >>RBFevHFRBFRPKHBX(A!((XPq p>HXpvBFvB//H>vC//X:p(BV/pKPpR X vPLP/>ov(/HHKFPFR.> %>Xvv/KHeR%veu( H> vP/RP>R%RKHv K>Bv(0eH(%HFpYP R/XP%/FHvRKvYL/pe>(vBHpHPRRFX;% F>vv(//v/ReF tH p>PBR/KHRPFFBSK I>/ve  HHReK>uR X>vgF/BPKR{F%ae  >Hvp(>HRRXFvdF B>Kvc/(HeR FPIpR>>RvX/vHXeBF/d? (>ev /PHpR/F%qX v>FBB//HuR(KH3  P>pv>B%HXRvFKeBv/>dv(/((4%(BP>>p%/Xvv/KHKlvK/PqXHXpFP/RH>Re%RXXvR>FKBv/eeuHKp/P R>>vev%eXpv FHvp/G: H(RbPRRFXjHOR%XR%R>/BX//eP(vBK FPepv>&FKB(K m>/v/Bee(vHepPP pX>eR%BP/P}F(se B>(KHvpe>N  >B/<B>Kv3/(HvF FPep >>RvX/vHKHX;/}Lp(>HH /PPpR>K%#Xvv(FvB//Hey(FHe  P/RP>/%HXRBpKtBp/>HyWPHH %PFRF> %>Xvk/XpBR/Kex(pH>pPP/%>Xe%FFPv K/Bv//eH(R>_p8PpR>Xe%/F>vRKFe(/ e>(vH(pHPRRFXFvvF>vvK/Dv/ReK <Hpp>>HR%XH%RFFBRK nX/veR KHRpF>2%pX>%BF/BH>F{F(ee  XHvp/>HvRP%v-FpB>KB./((eRRFeKp >KRvX/vHFBBF/k%B(>He /PFpR>F%aX KHFvB(/HsR(FHe  >FH(>/%PXRv/KaB />HvH>HH %PFRe> %XXvv/vpBR/Key(pH> BP/RFXe%FFyv K>Bv/(eH(RFFplP R>>B%/FHvRKFAE/ e>(vPepHPRRFXeveF>vvK/>XBp//nXKeH( KR(X(%RFFBQpvF(;e/Re>(pHB>e%>X>%vF/P(veK vPKBeF >He XPeXKvXF B>KvK/BP/Xe/ PppXHRvX/vH%PXpB>F%NP/ReF(KeBp P(R(XHveB(/RDR(FHhv%(RHKp>PF(%> %>XBv/?B(RHH RPFHK p>eRPv(KFBR/FeovF((eR((RPXP%FFDv p/FKBpKPBv(HeXX8R>>v%/K>p>KF9-/ e/(vH/pH>vRBX3%pF>BPK/ZH/RH/p H pFPvRBXH%RFFe.//y>(ie/ >HRp(>h%RX%%vFRBHK%CF(Se  >P(p/>>RRX vsFRB>(vbv(Hev FPHp > RvX/BeFRBK/;WR(>ev /PHpB>F%!X v>FvB /HeZ(RHC  P>R >/%PXRDFXKB /(Ev(RHHpXPFRa p%>FPv/K>BR/KeM .Hp vP/RHXF%FFev KFBv/ReK(RHFpU>>R>>B%/K>XKKFV2/ ep(vH/pHXRKHX+% F>vvK/xX/RH/ PH pFPvR(XH%RFFB1/vE>/ve/ >HRp/>gv Ft%vF/BHKRtF(/e R>>ep/>HRRXFvxFRB>KveP(HeR FPHp >XRvX/v/FRBF/^Mp(>ev /PHpR>F%5X B/FvB//Hu% eHN  P>cr (PvR/P(%XFRB KKBp/K %P R:> %>%H>(vXFK/KHe( H> v/ HKpR>HR(>%%XKHv%KFvB( eB RHXpXP%FPBHKF{L/ /(0R(/eP(BPeXev F>vvK/FP9e/ 1BFRHF KPFp(He%>Xe%RKWBPKR PPWpF>.R RpPB%eFFK%, (De  >K(HF p>8XKv/F B>Kv>v?e/pe (HeppiP X vHFRBF/xt (>gvvKPPR>>F%dX PK%PF B/KXB(/Xe%PXR/>/%HXRH%%XFv%KKPD (/eX((HX>RFvBK/eqp(XeBR(%(HXpFP/RH>RHFRe>%%BXBvBKK+BHKpHP R>>vH  Kv%K y&/ e>dX/(eB eRKX>% F>vvpBK>v%K/ ePPp>PvR/R(>p%/Xpv%K>vBKpnKH%R>>rR X>H>%eF1vy>RB(/ReK HBp  PXRH>>FpBvKv^/(HFHCB HeB(KPPR X/%eF//eeF(>ev //(e% B>> nXPv,Ppv KXyH/>%/P>pv>/v>RKvFKfB /(xv(/HHpH()Rd> %>FHv/KPBR/KeY(vH( vP/RHXI%FFev K/1P//eH(RXPpjPpR>F#>PFHvRKFee/ e>(v>/((PRRFX5% F>UNK/e>RKeF HH pRPvR/XH%R(HB4K n>(re/ >HRpR( R X>%vKPBHK%aF(ee  /PPp/>HRRFevTFpB>/H!%(HeR FX/p >XRvX/-(FRBK/6k (>eB />HP >F%eX v%FvB//Hev(BHz RP>R%>/%HXR!F/PB /F7v( HHpKPF%HX>%>FHv/KXBR/Feo( PB vP RHXI%FFHv (>eP//e>(RH/p,>vR>F0%vFHBjKFM%/ e>(vH/XPPRR/Xl%vF>BTK/HH >eF HH pFPv%RXHvvKRBZKv#>(Xe/ HHRpFXPR XF%vFRBHKvxFp=HH >PLp/>>RRF v=KRBBKv^R(HHF FP+p >>%RX/v>FRB /L_R(>PvRKPHpv>F%HX B/Fv* (F9R( Ho pP>pv>/%HXBvFKHB //Av( HHRR>HRa>R%>F_v//FBR(/e/( H/ v>FRH>R%FF=)PK>l#//eF(RH/pOX R%>v% FHvvKFe>/ HFBRH/pFPR%FX*% F>vv//<H/veF >H pFPvv/XR%RF/B.KRA> ee/p>>FpF>>R X/%vF/BHKRHP(NeB >HBp/>HRRXFvRF B/Kv7%(HeR FP,pv>>%LX/vHFRBK/1eRBBev (PHpv>F%0X t>B B//P&R(KH2p3P>%9/P%HXvvFKRB />2v(//P RPKRf>R%>XBv/KF+e/FeC( H> vP(RH>ReFF;v K>BB//eH(RHFp5P R>>vBWFHvRKFce(Fe>(vH/EF vHKpv>%%>>Bv FKB K(e(Hpp/PvR/XHH%%pXe%vDX(>e/ HHR_F BPPRHXH RBP/HLF(te B>(%Hepu>w(/veKeB>Kvm/v//em( >H(pFd<X(v/FRBF/^X;B%/ e>(KHm>K%PX v>FvFFvK/P(KHX  P>pv/p>eR/XXvHBp(/tv(/HH*P XPHpFP/pHXKR/FXvp/K_ (PH& ReHppPBRvXvKFBv//eH(RHF(t (O>>BveFHvRKFX>BHK%=e(PHC eP(RP%%FXvBKvfH/ReFu((/HK PP RF%vFFBGK i>/ve/KHFppK>KR X>%v RF>%%K%B(//NpHBp%>HRRXFX>RpXFv F%(PHP FPWp   >2RK>BpvP%RHOp(Xev /PHeX>K%KX v>Fv>vvpKBBB/HeF((pB>v%HXRvFpPF(B<K%E XX %PRRz> %> vXK%pF B XP(RH> vP/RH>R%F>EH(KXBB//eH(RKvpe>bR>>v%/pHXp%BFvBvXXvFH/pHPRRFX%% F/vvK/1H/ReFR->Ep>>HR/XF%RFBB^K ee/vev HHRpF>aR X>vKF/BFKR-R(YeB >Hvpp>H%HXFv_F B>KvH/(>eR RPnR6>>%KX/vHK BF//l (Xev /PHpRR/%qFOv>KFB//(qR(FH%  PRpv>/%HXRvF(#e>/>eF(/H  RPBR.> v%XvBHKHBv/Fer( H>pFP/R >Rv*F#BPK>Bv PeH FHFpOP R>>vB/K%vR/=jD(>e> KH/pH>/RFXR% FKvvK/;H/R(/ .P>p>> R/X%%RFR> K T(/vPP HH%pF>eR X/vPF/BHKRHe(Zep >P>/P>H%PXFBXF BXKvb/(HH* pPcp >>vPX/vPFRB /Xb (>evRPPHp%>F%Fp>v>KKB/(%zR(KHQ pP>RH>%%HXRvF/pB /X1v(vv% R>eRwF>%>XBv/KHBR/ eX( H> vXHRH>%%FF>vBK>Bv//H%(RHKp0P u>>v%/FHv%KF1)/ HFN(H/pvPR%XXh% F><v (*H(/eF RH ppPv% FR%RKPB9KRf>/ve/ HPFpF>RR XF%vF BH/vHe(6HK >PPp/>HRRKFBXF 8eKveX(HHP FXdR7>>%RX/vFFRD%/?H   evpKPHRS>FvHX v>( B//BmR XH# RP>RvvP%HF/vF//B (eLv  HF R>PR_>B%>Xvv/(HB%/Fe%( Pe vPBRHFR% FiB/K>E>//H((R>FpFP %P>v%vFHBvKF=_(%e> pH/RePRR/Xyv Kpvv/>6H(-eF %H RF (R/XB%RFpB2K A> vP  HP(pF>%R Xp%v//-RKRe>(ZHH >>Xp/FH%/XFvBF BRKve (HeRp(PURK>>%%X/v>FR;F(K{  _evp%PHR(>FvHFpv>KpB//KwR(FH3R PXpvXX%HF(vFKKB  >( (/Py R>kR{Fe%>KvFHKHxp/Fe ( PF vP/R >RvPFWB(K>A_//HH BHFpRP RK>vvXFHBv/vzg(Ke>pHH/pHPRvFX/% Kevv/XgH(%eFpH>op>>RR/XR%RFFBC/R&v/vHK HPFpF>#R FFe(F/UHKReb(be  >HvB(>H%(XFB^F BFKve/(veRpHPNRH>>%pX/eH/eBF/Rr (BevpvPHvR> %,FFv>K>B//vERRFPK  >ypv>(%HF vF 4Bv/>e (/PX R>HR_XRvPXvBXKHQR/FeQ( >>>HP/RB>RvPFcBKK>Bv PeH  HFpeP R>>v%/FRvR/XOd(Fe>(vH/pH>yRFX%% KPvvK(}H/RHK OH p>PBR/XH%RF BOK l>/vHR HHRpF>e%eX>%vF/X/vvKXB%FRvpKAp >HRRXFvVF B>Fv>K(PHe FPfp /KP%R>Xe%vBK/K? (>evBv(pHB BPHRF>(FB->/H;R(FK>eR(XHRpp>Hp%X/%XF/vK/K((H( RPFRm/v>FpBXB%pF v%ee(BH> vP/PF %P/RR>BKX}>//eH(RF(eB FPPR^GpFPBdKF_</ X e7(KeBP%RBX8% F>>HvIFpvB/e8v/BHKpeR(FF%RFFB1%eKP:6/>NF/4HX(FPPp(XX%/FevvK v=/(U%(RHR>PR%XFv0F >%KBrB(HeR F/FeB K>HRKX>(vB(/ecp(Kev /PHH  p>KXpvFFvB//HF),XHe vP>pv>/evRXX>%XBp/ 7v(/HHeX >PP B>F%Hv(KPBR/FedBHHF vP/RH>R%F>6X(p>HR//eH(RHFp%P RF>v%/FHvRKFHi/ve> ZH/p>PR%eX{% KXvvKR_H/ReF 6H p>PBR/X>%RF B1K%_>/vPt HPEpF>DR X>%v//b KRm (Wev >P(p/>HRvXFvFF BXKvS/(HeRH/PYpv>>%>X/vKFRBR% h (KevpFPHp%>F%eX v/KPB//HmR >H+ pP>R>eP%HFevFK%B /X5v(/HHp*PpRG> %>Fpv/KPBR/ eX( H> v>FRH>%%FFWH K>Bv//eP(RHFpI>RHB>v%vFHB(KFO_/ P>e(H/p/PRRRX^v(F>?vKRCH(PeF HH RKPvv/FR%RFvBIKRA>( e/ HPFpF>FR XR%vF BH/ve (#He >Ppp/>HRRKFBpF BpKvZB(HHp FXo%>>>%FX/vFFRl(/DH HkevpePHRy>F%RX v>H/B//(aR(BHm RP>%7>v%HF>vFKFB />rvp/HP RPvR+XH%>F%v//>BB/Fe(( PX vP/RH>R%vFOBHK>5S//e>(RXFRRP RR>vvHFHvvKFea/Re> FH/ppPRRRX3v / vv/aAH(ReF KH RF>%R/Xp%RFvB7K s> vHK HPXpF>(R XX%vK r KRe1(QHv >Hvp/X>vPXFvpF W/Kv_/(HHvReP7RF>>vHX/vHFRBF/%g (%evp>PHpv>Fv}FFv>KFB//XgR(BHk% vRpvXw%HFevFKHB p>ev(/H  RP RDX/%>K-HeKHVX/FeK( H> vX/RP>R%BF!BPK>ey//eH(vHFp P RX>v%/FHvRKvi0(Xe> FH/pHPRRFXX% F%vv/PoH/%eF 7>5p>PvR/XP%RFFBgKR:>/ve/ HH%pF>NR XXvRF/BHKRX BXKpeeKP&p(HeeR>>eRRF{vPFR(/eR FPQRR(/RvX/vHF%BF/<Q ( K/ /PHpR>p%MXpv>FBB//Fee(FHa  P(pv>(%HXRp1KnBp/>jv(/HH RPFP(> %XXvv(KHB%/Fe?% H> vP/RP>R%FFSvpK>Bv//eH(vHFp^P RXX>%/FHvRR/FXBK/Pe>/%pP>eRFX^% %>>BveK>BBP* rH p>X}PPXH%RFFBHK W>/ve/FRHRpK>9R X>%vF/BH%v=F(0e  FHvp >H%wXpvMF B>/Fa/(PeR RBpp >/RvF-vHF%BF/r) (/HP /PHpR>v%sXpv>/v%B/Hee(FH>  PXpv>/PPXRvpKzBR/>0B(/H/pPPFRk> %/Xvv(KHBv/Fe>(BH> vP/RF>R%KF_v (pBv//eH(RHFp3P R>K%%/FHvRKF^C/ e>p=HBpHPRRFXH% F>vvK/D%/ReK aHpp>PvR/XHB(FFBxK LF/ve  HP}pp>qR X>BPF/BPKRwRv e  /HvRp>HR%XFveF B//PI/(HeRp(P.pp>>%HX%vHFRBF(X9 (XevR/e(pR>p%cXvv>FBB//HF%(FHX  PFpv>(%HFHv%KmB />ev(/HP RP/R9>v%(Xvv/KH5R/Fee( H>%XP/RH>R%FFyv K>BvF%eH(RHFpeP R>>v%/ HvRKFOr/pe>(vH/pHPRRFXq% F>vvK/NH(HeF AH p>HPR/XH%RFFBrK 6>(>KH HHRpF>XR XX%vF(BH/5jp({e  >PPp/>PRRXF  F BXKv0((HeR FPSPP>>RBX/vPFRBK/n0 %>ev /PHp%>F%{X vXFvB//HOR(/H0  P>pB>%%HXRvFvPF vX/X7FHPp2PFRU> >/pBXp%%EK/Fe5( H>(PP/RH>R%FFUv K><>XPeH(RHFp P RX>v%/FHB-Kp0q/ e> /H/pPPR%/pp% FXvvK bH/ReFR_pFp>PBR/XP%RFKB?/d%u/ve  HHRpF>eR XK%vF/ BKRhF(+e  >Hvp/>H/(XFvVF BXKvZ/(HeRFPP{p >>%5X/vHFRBFve2 (Xev  PHp%>F%Z( v>FvB//PTR(FHh pPXpv>/%HFBvFK8B /XeX(/HH R/RH(p%P%%HXKv>B%/ eV( H>B( FHpR}%KKev K>Bv% KKER(He((%HXRHP%RFPBv FBBRKXMX/%pP>IRFX2% %/>BvpF%/%eR UH p>pPPFRHP%R(XpKRc>/ve/ HHRpFK>s XXvHF/BHKRK%Be/Pe/HBpv>HRRXFPPRBF6vPFpYFe%pNPEp >>e>ReX>%e>(vXKRS /Pe PPRK>F%yX P/%PX(vBXBBp(HH=(%He %%PF>vFKSB %>FBBp/%1%(%HXp%%XF/v/KHBRR%KXZvKKeP  P/pXP(RXvpK/Bv//eH%%(%eepPRXXf%/FHvRR/>X/peR(vH/pH/BHpRHXUR%Xe%%KX/%e  IH p>(HH%pP>(FKB>K +>/vKBgP((ep>eRvX>%vF/>A%%KPBXep FHvp/>HhB(Ro F B>KvC/XReR FP<p >>RvX/v/PKBF/4a p%ev (PHpR>F%>XBv>FvB/ p1R(KHy  Bvpv>/%HX%vFK,B  >FF(/HH RPFR-X %>F>BBKHBR/FP>( HX vP/RHX3%pFdv K>HH//eP(RHFK P R>>v%(FHvRKFHkeFe>(vH/pHPR%FXLB BzvvK/rH/ReFpHH % KpR/XH%RKPBfKp;>/Be/ FPepF>8R Fe%vF(BH/^6p(te  >XHp/>PRRXF1KF B>KvV (HeR F>HBX>>RBX/vBFRBF/iz Xvev  PHpv>F%SX v P(B//>-R (H, pP>pv>/%FFevFKIB (K8v((HHp6PpRt> %>KHv/KPBR(/>p( HF v>pRH>R%FF4PpK>Bv//e>(RHKpo>RHB>v%(FHB%KF+*/ P>>PH/pPPRRKXQvFF>jM/(EH/BeF PH p>PvR/FP%RFKBWK%Y>(^e/RHPFpF>eR XX%vKPBH(Rev(wep >HBp/>>RRKFBpF BXKvW((HHp FXs%e>>RBX/vPFRcl/wH Hyev (PHp%>F%vX I>%KB//PZR(KHYpHP>%vFH%HX%vFKeB /%Iv  HK RP(R8>B%>Xvv/KHee/Fe>( H> vP/RH>RBHFuv%K>:H//eH(RHFRXP RX>v%/FHv%KFeHBXe>(vH/pFPRRFXNB BCvvK/_H/ReF KH RFK(R/XP%RFRBqK i>/vK( HHRpF>HR XX%vFRBKKRzF(_e  >HBp/>H.RXFvwF BXKvu/(HeR FPdp >>%(X/vHFRBK/FL (>evvpK/Hv KP%pBvXKFB//HjR%R/Be( /H_ (PvR/vKKvB />VvB(/pe( HHB %PB PXF%PXvBHKXBvHXpKP/RH>Re(R/>pvFXBvp/Fxe(/pe>PR>>v%/%(Xpv/FpB%/>BB/peKP%RvXk% F>PvvKKXBX/ L(((HHPBRRXH%RFFF>%pKKB(e( FHRpF>A>epX>K%RBP/(iF(Ye vK PH p>PeR>X> %XXvpF%_>K% KPvp >>Rv(v>p% X RFKP2F(eeRKXH> BPRpvvXKeB//HuRG>/XHe>Bpv>/%HFvXeK+B />ee(/HH RPR/p> %>XvsHKHB%/FeI( H/pPP/RH>RBbFAvpK>eWBPeH(RHFpXP R>>vB/>(vRKF9O/ e> /H/R>KKRFXH% FFvvK/{H/R>H ^H p>>GR/X>%RFRppK :>/vHv HH%pF>dR X/vPF/BHKReR(lep >>9HP>HR%XFvXF B>KvH/eveR KP3pp>>%KX/vHPFBF/Hy (>ev /PH%R(v%fXRv>K9B//F5R(RPe  PFpvXv%HX%vFKZB //eP(/HH R>RR*>p%>KdXPKHBv/Fee( H> vX/BH>R%/F-vRK>o(//PHpPHFpPP RX>v%(FHlR//:m/%e> eH/p/PRvFXF% F/vvK/:H(HeF b>Pp>>,R/XF%RF/BA/ T%/ve( HH%pF>HR FF>(F/BPKRU%(be  >>v>>>HR%XFveF BRKv2/wpeR KPEpp>>RBX/vFKeBF/EM (>ev (PHpR/F%yX v>FBB//H1R(FHz  P>pv> %HXRvFKe5P/>6v(// eX(%H/pFP%RXXcvFB%/%e#( H>BH(%PXRg>/RBFPKvBv//eH v(epEP R>>B%/FHvRKRX / e>(vHRpHP%RFXe% F/BPK/tH/Re  fHpp>>HR%XH%RFFB(K xX/vH }%HRpF>9RpX>%vF/eHFP<F(#e  >Hvp >HRRpKv1F B>/Vt/(PeR F>Kp >>RvX/vHFRBF(HXv(>ev /PPpR>F%zX H>FvB//HT%(FHZ  P>pv>/%HXRv/KLB />mB >HH RPFH>pP>K%H>(v&XBvpF>BB(RHHP(R/>R%FF,PR%(FpBK//meHBp+P R>F)>PFHvRKF7e/ e>(vHvK%PRRFX*vHF>vBK/VH/Re  XH p>Pv%=XH%%FFcHvX->/ve/ PHRpF>Av Pp%vF/BHKRQF(He  >/Bp/>HRRX/vlFpB>KveB(HeR FP^p >>RvF PFFRBF/)fp(>ev /PHBR>F%AX vXFvB//H.R(FH+  P>pB>/%HXRvK/7B />Ivv//v?% BHXpRe(peP/pKF vKKHaF/(eHPBRH>R%FKHPvK>Bv//eP(RHFpD>E/B>v%/FHB1KFQe/ e>(vHRpKPRRFXg%vF>vBK/7F(eeF tH p PvR(XH%RPUBbKp#>/ve/ HHRpFp(R XX%vF(BHK%lF(8X  >Hvp/>PRRXFv,FpB>Kv9/(HHE FPxp >X%(X/vHFR>FvRFph%/Pe /XPS K>>R%vXKRB//HIR%R/(e/(/Q>pe>>RBX pPFHv%K BRHPplPFRk> e R XKv(B%/peb( H>?>((HvRePpKFv K>Bv//%R(RHKp{P R>>v%/F/pKKFse/ H((vH(pHPRRFX>%BF>vvK/eK/ReK 4H KvPvR(XH%RFFB*K H>KXe/ PHRpK>MRRX>B& PBHKBsF(ee  >Hvp/FvRRXKvoF%B>/y5/(/vK FPep X(RvX(vHFRBF/>wB(>ev />KpR>K%hX  vFvB(/H6R(FHz  X>Hp>/%PXRvKKsBp/>Hvp_HH %PFRe> %FXvB /HBR/(eu(%H> vP/RHFg%FFev KKBv/ eH HPHpuPpR>XB%/FPvRKKI0/ve((vH/pH>%RFXe% F/BPK/ZH/RHp -Hpp>Pv(HXH%%FFByK 9>/vP/HvHRpK>URpX>%BF/eHQ/mF(ee  XHvpp>H%RKRv0FpB>/Hk/(HeR FK8p >>RvX(vHFRBF/ef (>ev /P/pR>F%4XpvpFvB//HXBk /eeK(%HR (%PFevFKIB % FB,>(KeeP/R2> %>Xvv/KHXXRFee XH> vP/eHp/PK%(>BvFXeBRKPeg((pePvR>>v%/R Fe%%FX/pe/(vH/pH (HKR>>HKHvvK/)H(Hve DH p>>KR/XP%RFFBUKv1(/ve/ HPXpF>eR X> /F/BPKR{F(}e  >>v( >HR%XFveF B/KvH/(KeR KP,pp>>RBX/B>K>BF/Ht ( ev /PH%RX%%hXRv>K#B//KkR FPP  PXpv> %HXvvFK>eH/>=v(/HB RPKRo> (vXvv(KHBR/Fe.( >>P P/RP>R%KF4vvK>eve>eH(%HFpeP RX>v*/%vvRKK_o/Re> eH/pHKRRFXW% FXvvK/-H/%eF _H p>>pR/XH%RFKBPK r>/v/FgK Pp/% FPv%KK{e/pXX>X(eHe >Hvp//XPpR>>vRBXKBHo((FeR FP<Hv X>eRPv>FRBF/,= (>ev /PHp%>%%iX v>R>X%vX/)=X(H%%PXRF>/%HXRPR%XFFBPKeze(FHXPKRX> %>XvXpvHX%B%Kv(pH% vP/RHRP>X%HXXvKFvv(KXVeHKpKP R>>veB%>>%vRF(Bv/% {H/pHPRRFXWe BPHvK LH/ReF 1H p>(K:/XPv FFB?K >KBFK(e>/%e(p>HBRFeBRRXFveF pRe  >Hvp/>%RRXFv:FpB>Kvo/ >H( FPep X.RvX/vHKvBK/iIR(>H( /PHpRX/%KX vKFvB /HtR(FPH %P>RH>/%pXRvFKwe (e1v(RHHpwPFR > %>K>v/KKBR/Fek( H>Rv>(RHXe%FFXv /eBv /Hp(RHpptPBR>Xe%/F/p/KFYK/ eF(vH(pHPBRFXg(KF>vvK/QP/ReF rH KePvR/XH%vFFBOK A>>pe/ HHRp(>hR X>%vBpBH/eAF(Ke  XHvp %/RRXpv^F B>Kv:/(/vK FP#p FPRvX(vHFRBF/>9B(>ev /XepR>K%.FR>BFvBv/HeX(FHW  F>P >/%/XRB5K*BB/>HqdPHHpHPFR>> %>Xvm/BvBR/ReQ -H>pFP/R/e/%FFKv KXBv/(eH PHFp!FRR>>v%/FHvRKFET/ >F(vH/pHP%RFXG% F>H+K/<H/Re( !H p>PvB XH%RFFBHK N>/ve/%>HRpF>5RBX>%vF/BHP(#F(+e  KHvp/>HRRePvUF B>/H3/(HeR F(ep > RvX vHF%BF/>jB(>ev /X%pR>K%TX BBFvB//H#R(FHE  >FHv>/%PXRBHKgB />=v vHHpHPFRP> %>XvB /RBR/%ej sH> vP/vH>v%FFKv KpBv/(eH vP%py>HR>XP%/FHvR//^F/ e%(vH%pHPRRFFHvKF>B/K/3K/ReF 8H v;PvRBXHvFFFBHK e>p>e/ /HRp%>_%eX>BQ%PBH/HgF((e  >HvR/F/RRXRv1K>B>/HZ/(HXR FPNp >XRvX/vHFRB(/+f (>He /PHpR>K%FX v>FvF vPK B /BeKPXRH>/%HXRXP%eFvvRe^(/HH RPFR&> H%(vBHKHBR/FHHpFH>p.P/R>>R%FFI^ KXBv/ eH(vHFpeP R>XB%/FXvRKKNY/ e>(vP>pH><RFXe% F>vvK/eX/Re/ VHvp>>4R/KHvvFFBHK 8F/vep HHR%P>ORRX>%vF/B>KR{FHve  FHvp/>HRvXFvy>eB>/I./(>eR FPSp />RvX/vHF%BF/1D (Fev /PHpRFH%tX v>FBBR/HWR(F/%Up /HF>(%XXRvFK_F/v(/X((HF RPFRm ePXRKXRKPWH/Fe&( FKB>  HPp(PpFeBPK>Bv///(yp(/ep %P> BPpRKv%KBjz/ e>v /%e/p4e(p/>PR FHK(oF/ReF 6FBHHpPPXX>%RFFB?K M>/vE/veH%RN>,R X>H %KFevKXRBXK%e/(%H >P%>XFv<F > vPK>YeKB9B >PP>X%pX/vHFR>/vXK/B//Pe /XP? p>bR >(%HB(/pER(FHNBP K#( %>p YXXvKF//X5B(/HH R/(Re>p%>Xvv/pPB%/%eY( H>{>(%HXRs>X%He%KXzH//eH(RKpev PP/>B%%FHvRKFXPB KXSe/%pP>KRFX6% pFXK%BF G=FRuX/%H/ %P XPvPFFB5K >BBP(evX(pe  XRpXX%vF/BHRW5/(:e  >Hvp/>HRRXFveFpB>KvE/v(e% BPop >>epp(>(% XBB>KBB//P  PHpR>F%UX v>>vPK/PSB(FH&   eHKpF%PFRvFK2B %(/eB%(>BX >P)pB>/pe>%v>KHvBKPBBHF vP/RH>R%FFtVvp>BB(XeH(RHFBP BPFR-P%%:FVp(FeBKK(eQ/(XHPRRFXW% HvvvK/bH/ReF 4H p 3(R/XH%R1XBUKp.>/ve/ FPepF>MR BP%vF(BH/vKe(Ze  >P%p/>HRRKFF/F B>Kva/(Hev FP1%>>>RvX/vPFRB//ZeRpeev (PHRe>F%GX 0>/FB//P9R(KH*RFP>%v>%%HX%vFKeB //jv  K( RP/RDF>%>Xvv/(HQR/FeH( HF v>>RHXv%vF-vvK>IX//eH(R>FRFP R/>v%RFHBBKFHD(Ke> HH/pFPR%RXE% K/vvK }H(-eF HH p X R/X>%RKpB}Kp}>/ve/ FPepF>MR F(%vF(BH(R(H(}eR >HBp/>pRRXR pF BFKve%(He% FP=p >/%PX/vHFR3p/zVp(>HH %PHpR>Fv/X vXFvw v%LR(/Hrp(P>pv>/BHv/vFKHB /F^v( HH RX Rr>R%>XBv/K>BR/F v( H> vP/RH>v%FKH>eK>4.//HR(RHFp8X vl>v% FHvvKF_R/ HF FH/pFPRR%X*% F>Tv(H,H(yeF >H RKPvv/FB%RF B1KvC>(pe/ HPXpF>HR X/%vF BH/Hhv(xeR >XPp/>PRRXFvoFvB(KvW/(H>e FPep F>X X/v>FRBK/=eP(>H>KPPHpv>FBXX vXFvB//He#(pH-  P>vP>/%PXRv KXB /><vRrHH %PF%HpX%>Frv//eBR/Fe8p pA vP RH>v%FFHv K>HH//e>(RHKpiPRR>>ve%FHvRKF=)/ eF(vP PBPRR/XfB>F>vvK/HH/%eF HH pFPv%>XHvv/PBSKv:>(Xe/ HHR%F>RR X/%vFRBH/BnFpxPP >PHp/>FRRF>v,F B/Kv7 (HH8 FPHp > %IX/v>FRH//Y?p(>eB /PFRe>F%hX eFFvB(/He^(pHD  P>BP>/%PXRsFBRB /F{v((HHpvPFRF >%>FVv/  BR/Ke-(pH>pHP%RH>R%F(/v KXBv( K%(RH/p3>(R>>v%//HK/KFOH/ eF(vH pHPRv Xb%RF>vBK/&>/ReFvXH p>PvR/XH%vFF}H-Ki>(Me/pRHRpF>ov Fp%vF BHKvLF(Re pFPFp/>FRRX%v0F B>(v<%(HHj FP>p XKRvK/BHFRB /*cv(>PH /PH%P>F%HX v/FvB /HeH FH1 RP>Y}>/%PXRvKK;Bv/(!v(/HHvvPFRe> %/FPv/KHBRRReD(pH>RvR>RH>v%FFev /FBv/v%%(RH/pM/yR>>B%/FHvRK kX/ e>(vFvpHP%RFX>%BF>vvK/>p/ReK CPReBPvR XHvpFFB.K H>e e/ >HRp/>5RRX>%v/RBHKvDF(ee  FHvp/v6RRXFvhF B>/&l/ >KP FPHp XvRvX/vH/RBR/b+R(>Ht /PvpRX/%KX v/FvBB/HoR(F>apRP>RH>/%FXRB(KYe (p_v(RHHp8PF%e> %>F%v/K>BR/ ey(RH>p>XCRH>v%Fppv KXBv//eH MHppEP R> (%/FPvR//Fp/ eF(vPKpHPRRFK8vRF>BSK/o>/Re/ -PRRRPvRpXHBeFFB*K eF ee/ FHRpv>?R X>B6/QBH/e#F Xe  >Hvp/>KRRX/v#FBB>/if/(/HK FPHp (BRvX(vHFRBF/>sB(>ev //%pR>K%qXvv(FvB//HF (FHe  >FH(>/%>XRBXK8B />HvH>HH vPFRH> %FXvv/(FBR//e<(pH>p^P/RHv %FFGv K>Bv/ eH vK%pDPRR>F/%/FHvR(Fe// eF(vH pH>/RFFHvRF>BHK/<(/ReF +> p PvRRXHv_FFEPK H> Xe/ FHRp >W%VX>%v/PBHKvrF(>e  FHvpv>/RRX/vS% B>KB0/(HeR  PXp >>RvR/vHF%BF(HKX(>Hw />epR>F%-K BFFvB /HUv(FHH  >FpB>/%XXRBpK<B />H; (HHpVPFR/> %>XvB KPBR/pew BH> vP/RHFP%FFHv K(Bv/ eH HPXp3PRR>pv%/FPvRKFNu/ve((vH/pH RRFXe% F/BPK/?H/R/( dHpp>XuPPXH%vFFBBK f>/vP/HvHRp/>dRRX>vEF/BH U_F(He  XHvp >HRR(pv*F B>Kvu/(>eRRFpRp >FRvX/vH/PBF/vRX(>PP /  pR>K%xXRv>KHB%/H+R(F(/  PXpv>R%KXRvFKd///>LB(/P>eKPFRH> %XXvv/KHeRP e3(RH>p^P/%p>R%FFPv KKBv/(eH(RHFpMXaR>XH%/F>vRKF8?/ Pe(vHppHPBRFX>% F>wVK/8F/Re( 5H p>PvvPXH%vFFB>K hF/ve/p%HRp/>3RpX>%vF/eHa/hF(He  >HvR/>H%vfKvCF%B>KB;/(HeRRFPPp >KRvXpvH/XBF/5Hi(>HH /PFpR>F%IX vFFvB%/H-%(FHk  >FRF>/%/XRMeKnB />av(BHHp;PFRF> %FXvv// BR/pe.(%H> vP/RHK/%FFPv K(Bv/ eH(RvXp=P R>Xj%/FXvRKFxp/ eF(vH%pHPRRFKLvsF>BeK/TH/RHv .P pvPvR XHvFFFBPK }/(Be/ HHR>R>uRpX>%vPHBHKv:F(Xe  >HvR XeRRX(v+K(B>Kv#/pHPP FPPp >KRvX vHKveH/.3v(>PP /PHpRX/vXX v(Fv3%/HuR(FPHp9P>R>>/vKXRvFK1B /Kjv(pHHpHPFRH> v>F(v/K>BR(8eo(%H> vTHRH>v%FFFv K>Bv />F(RH/pyPRR>X(%//HiXKFfH/ eF(vHppHPRR/XI%RF>B^K/_P/ReFp H pFPvR/XH%RFFBF/(!>(4e/ HHRpK>kRpX>vHF%BHKR0F(9e  XHvpR>KRRXFv&g(B>KBx/(FHe FPNp >>RvX(vHFRPF/Q< (>eB /PHpR>F%YX v>FvBp/HcR(FHepFP>pv>/H(p%>Bv>>xBP/7%p/ eX HH>>pv>Xvv/KH>>BpK%Bp(He% eHF(v>XRBXvR>XBB /F(%HvpNP R>(F>%RB>%v>FBBPK/  H/pHPRRF%p% F>vvK/yH/ReF qHRp>PBR/XH%RFFBk( eK/ve( HH%pF>eR FFBEF/BXKR&((3e  >HvR>>HR%XFvPF BFKvO/(veR KPcpp>>RvX/vH/XBF/e5 (>ev /PH%RXX%-Xpv>FBB//PVR /H/  PKpv> %HXRvFKg5//>wB(/HX RP/Rl> p(Xvv(KHBv/Fe&( H>vvP/RH>R%KF_v K>BB//eH(RHFpvP R>>v%(F vRKFu8%w/PV%(Re>(%PHpR%pF/vvK/^H+qKKeP(XpFPvR/XH%RFFB_/v>>/BeB HHRpF(SPPR >%%R>FvpTK(Fe  >HvBp//PvpK>%RBBFe/ eHppXPBR(KP/PRBF%vHFRBFveKBA//%vB ee%pHeppB>(%vX%B>Xe6>/e!R NHP R%PF>vFK=B %>K%xp/pHE(BHBp/%XK>v/KHBRRK/P2%/(ep( HvRXHHR(X/%(XBB F/re(HeB(%H%RHXeFPBkKFk#/ /pBB(eHFP%%>XN% F>P>veKQB-XR#((RHKpHlpp >X%HX>Kp8K/ve/ H( eppKRpX%%vF/BHR(FKBK//0% HH% FPeXKv(F B>KvKBfe/vee PH  XPep%UHFRBF/ueRBBev (PHRP>F%9X v R/B//P+R( Hy pP>pB>/%FFevFKjB //.v((HHp0PpRc> %>K%v/KPBR(/Kp( HX v>FRH>R%F/s%PK>BB//eP(RPep9>R%B>v%pFHv%KF^w/ e> HH/pPPRR(XY%RF>vv/P#H/ReF eH p>PvRvF/%RFFBf/Fg>/Be/ PHRp >XR X>%vK>BHK%wF(>eB >Hvp/X%RRXKv_/ /{KvI((HeR FP(p F>X X/vPFRBK/8eK(>HRFPPHpB>FveX vXFvB(/He5(pHY  P>RB>/%PXRv KXB />mvpPHH %PFRje>%>XBv/KHBR/Fexp >R vP(RH>%%FF>v /FCP//eX(RHpp=P R>Fv%pFHvBKF-P/ HY(v>/pvPRR X1% F>BFK/HH MeF XH p>Pv%eXHBRK BhKB,>(Pe/ /HRpF>%R X/%vFRBH/ebF(.vB >Pep/>FRRXFv:F /HKvE((HeR FPep XFP(X/vPFRB//Um (>PvP>PHp%>F%eX vvFvB/BpER(KHD pP>pB>/%FFevFK)B />qv((HH RKFRW> %>XBv/KHBR/Fe?( H> v>KRH>R%FFeB>K>Bv//X/rX(/eX/%H(RU>vRKXvKKT(/ e>(vFpe (%P/peP%%/XPv GP( eF 6H B  KPFpFHHRBFHv%K/%e/l6p(/e >e% X>%vF/P BeKPBe//eP(KeR(>PpRXX>p XXB!KR(PHX FPcp (eHBpBXq%XF BXFvB(eB RPHpR>FP%ppX/%FB(/ GR(FHgB{ PH%pRP>p%XH%RBp/ }v(/HHeX FHepP>F%ev(KRBR/Felve/(HH//Hv %>BRXXRvKBB/BeH(RHFwI PP p%>RpFXpKK)>/ e>(v(ReP BPeXe%vF>vvK/K(v%KBe>HppRPvR/XHHR%XFPvPK/BK/Ke7H%p >3R X>>F%%X(ve-K(Fe  >HvBp//PvpK>%RBHRKvO/(HeRKWPap >>RvX/vHFRBR>pf (>ev%BPHp%>F%ZX v/KPB//HhRR%Hn pP>pvXB%HXRvFK4B />Ev  K> RPKRoXa%>Xvv/(He//Fee( HX v>FRHXv% F:vRK>UF//eH(RHFpBP RK>v%(FHvRKFHi/ve> eH/pXPRRBX9% /hvvKpoH(beF !H p>>SR/X>%RFFBUKvU>(He% HHRpFFXR XX%vF/pRKRk%(deR >Hvp/>/KpXFvFF A>KvG((HHP FP>pB>>RvX/BHFRBK/Atv((ev /PHR%>F%eX v/KPB//HfRppH4 pP>%v%>%HFPvFKFB /F;v(vv% RP%R2FB%>XBv/KHBR/ eX( H> vX%RH>%%F/n%eK>}F//e((RH(pL>RBB>vvHFHBPKF4q/ e>R H/p PR%lXb%RF>B>>P,H(>eFp H pXPvR/XHvAFpBVK {> /e/ PHRp >XR X>%v/PBHK%{F(>eB >Hvp/FKRRXKvuF pvKved(HeB FPsp F>(pX/v FRBv/AeK(>Pv (PHRX>F%KX v/Fve/(B9R(BH_pPP>Rp>/%HKKvFK/B /Rhv eHHRRPRRaXH%>FFv/KKBR/RHH( HR vX%RH>%%FFev K/dP//eH(R>ppcPpR>>vKRFHv%KFh// e>(vH/XFPRRFX1vuF>vvK/1/(PeF HH RVPvR(XH%vFFB>KB3>/ve/ vHRpK>A%oeB%vF/BH B_F(ee  >HvpR>KRRXFvn(%B>KBo/(HvF FPHp >KRvX/vH/R(X/dTR(>HA /PRpRFF%>X v/FvB//HSv(F>5ReP>RH>/%FXRv Kwe /v:v(RHHp0PFRB> %>FFv/K>BR/ e&(pH> vPBRH>v%FF>v K>Bv /e((RH/p;PRR>>B%/FHBPKF_>/ e>(vH/pHPRRRXS%RF>BHK/sP/RH/9pH pFPv%PXH%RFFejoF;>(4e/ >HRRH>QR R%%vF BHK%?F(ee  /PPp/>HRRXFvDFpB>Kv>/(HeR FPep >>RvX/vHFRBF/V1R(>ev /PPRe>F%OX XK%vX(B(K (KH>  P>pvpRPPRBXeK(B />Ov(/=K RPFR8> %>Xvv/K/XF/FeI( H/ vP(RH>%%FF>vBK>Bv//eF(RHKpaPvR(>v%/FHB>KFhe/ HFz(H/pPPRR/X,% F>mvZ>*H/%eF eH pXPvR/eR%RF/B)KpN>/ve/ H/%pF>eR XF%vF(BHKR>F(1e  >HBp/>HRRXKv4F B>KvV (HeR FPeRe>>RvX/>(%eF vKFBgH(> (P%pR>F%ap%> vUX(vBKeb((nzB((HH>R%HXRvF/HFX/>_B(/HP RPFR}> B/Xvv(KHB%/FeH( P>%>P/RP>R%/Fxv K>BvR/eH(RHFpeP R>>v%(FHvRKF&Z/pe>(vH/pP>vRFXt% %>Fo%%FFBXK(e>(PHP RVRpp>B% Xev/FKBPe  HHRpFXHevX>%vF/BPKRSF(Ze v>Hvp/>HR%XFvEF BXKv4/(HeRpXP3p >>%iX/vHFRBF/2c />X% (PppR>F%D%eXPvWFPBXKRBK/PLBPXR}>/%HXRP/pXBp/Rrv(/HHBH XHBpvPFpBX>%vB%(eeN( H>Bl((Hvp/H(RXXRv FKvpKK(%HvpmP R> eP%%>FH%BFPvB/K(BHRpHPRRF(K>RRXXYK(:R/ReF 0K+e%pcH% X>e%/FF%BKF/BH( HHRpF(HHBR>> %eXX%%K BXKvBK HHKp>H%p%>XFpB/Kvi/(HFKe>((Hv>X%FX/vHFR>FveF%BBKB9B(KHB>K%FX v>FvF%BLKRBK/PeXPXRR>/%HXRHR%(F/v/X>8e(>eB  tPpHP%R >RKP;i/Few( /pIB XHK>%vAFyv K>>Xv%/FvB/pHHpMH%peP%K vRKF!1(Rv%(vH/pHPvRFXu% />gpK/SH/ReF ,PKp>X)%>XH%vFFB>K Z>/ve/pPHRpF>{RRX>v?F/B/(K3F(=e ppHvp(>HRRXFv>FBB>KvI/ (eR KPyp FpRvX(vHFRBF/eq  >vP /PPpR>K%DX v>/.ke/HCv(FHv  P>pvF/%RXRv/KtBR/>e%(/P>RPPFR>> %%Xvv/KHBR(nek(RH>pHP/R>>RBFF>v KFBv/ eH KHF%zXPR>XT%/F>vR/{<-   o(vH pHPvRFXF% />K K/+>/Re/ lHBp>XvX>XH%vFFBHK 4K/vP/_pHRp/>zRRX>vXF/eH(/wF(He  FHvRx>H%vX%vCFvB>/ 3/(HeR F>Xp >(RvX(vHFRBF/9HK(>HH /PKpR>F%{X vBFvB /H0R(FHe  P>Bv>/%HXRvKKrB />9v(/HH RPFRP> %>Xvv(KpBR/FeTee(PHQ PPXpRPKRP>BKFF>vvK/6H/RPF H?>>B%BFHvRKF>KBRKXe>(eHFpXRBXI% F>B>%H:H/ReF PH pXPvR(XHv_FpBDK y>(ee/ PHRp >XR X>%vFvBHK%jF(,v> >HBp/>HRRXFv1F F%Kvl((He% FPep >/%PX/vHFRBv/WSp(>PVePPHp%>F%eX v>FvH/BvxR(KHV %P>R7>/%H(RvFKOB /X-v(/HH %PFRA> %>Xvv/KHBR//eV( H> ve%RH>R%FFtv K>Bv//XH(RHFpnPpR>>v%/FPvRKFz&/ e/(vH/pHP%%pXm% F>>Bv%KFBpX%OB/pH&/(H%pK>RRpFHpBKHvBK sv(ee >eRvX>%vF/FF%%K(Bpepp>Hvp/>HH%RpX>%(PFBCKe0g/Pvp(vep FP p%>FF%Bp/?{ (>(ee/(PPPp>vRX v>FvB/>XcR(FHq  P>pv>/%HKevFKaB /X}v(/HH R>eRx> %>Frv/KHBR(/H/( H> vPpRH>R%FKHvpK>Bv//eP(RHFp3>!%B>v%/FH}KKFae/ e>(vHRpKPRRFX{BXF>vBK/e>BKeF eH pFPvR/XHBReBB{Kp3>/Be/ FHRpFXRR XF%vFpBHKRdF(Mep >HBp/>>RRXKvyKRBFKv{((Hev FPLp F>%vX/vPFRBK/l-v(>evRPPHpv>F%>X v>FvB/(P+R(KH} RP>pB>/v>RKvFKeB /Fhv(/HHRRvBRw>p%>XBv/KFBR/FHF( HF vP%RH>R%FFwB K>BB//e>(RHKpa>R%%>v%(FHvvKF2z/ P> FH/pPPRRKX#%vF>vv/XkH/veF FH p>PvR/XX%RFKB0KR<>/Be/p>(KpF>eR XF%vF/BH(R(H(_ep >HBp/>FRRXF  F BFKvMB(HeR FPkep>>RBX/v>FRBK/lg %>ev /PHp%>F%uX vXFvB//HrR");local n=0;s.WclVEOwy(function()n=n+1 end)local function e(e,p)if p then return n end;n=e+n;end local p,n,o=h(0,h,e,a,s.YBFIiPLx);local function l()local p,n=s.YBFIiPLx(a,e(1,3),e(5,6)+2);e(2);return(n*256)+p;end;local b=true;local b=0 local function z()local e=n();local n=n();local t=1;local d=(p(n,1,20)*(2^32))+e;local e=p(n,21,31);local n=((-1)^p(n,32));if(e==0)then if(d==b)then return n*0;else e=1;t=0;end;elseif(e==2047)then return(d==0)and(n*(1/0))or(n*(0/0));end;return s.tXTtYAai(n,e-1023)*(t+(d/(2^52)));end;local c=n;local function _(n)local p;if(not n)then n=c();if(n==0)then return'';end;end;p=s.VfhXRVXE(a,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+b),#p do e=e..s.VfhXRVXE(p,n,n)end return e;end;local c=#s.Uyc_vqgW(u('\49.\48'))~=1 local e=n;local function pe(...)return{...},s.xykJHqrb('#',...)end local function ee()local e={};local u={};local a={};local b={a,u,nil,e};local e=n()local h={}for d=1,e do local p=o();local n;if(p==3)then n=(o()~=#{});elseif(p==2)then local e=z();if c and s.f_DQwdi_(s.Uyc_vqgW(e),'.(\48+)$')then e=s.ZOXhpqZE(e);end n=e;elseif(p==1)then n=_();end;h[d]=n;end;for s=1,n()do local e=o();if(p(e,1,1)==0)then local r=p(e,2,3);local o=p(e,4,6);local e={l(),l(),nil,nil};if(r==0)then e[t]=l();e[f]=l();elseif(r==#{1})then e[t]=n();elseif(r==k[2])then e[t]=n()-(2^16)elseif(r==k[3])then e[t]=n()-(2^16)e[f]=l();end;if(p(o,1,1)==1)then e[d]=h[e[d]]end if(p(o,2,2)==1)then e[t]=h[e[t]]end if(p(o,3,3)==1)then e[f]=h[e[f]]end a[s]=e;end end;b[3]=o();for e=1,n()do u[e-(#{1})]=ee();end;return b;end;local function te(p,n,e)local d=n;local d=e;return u(s.f_DQwdi_(s.f_DQwdi_(({s.WclVEOwy(p)})[2],n),e))end local function y(m,a,o)local function te(...)local l,k,_,ne,b,n,u,ee,g,z,c,p;local e=0;while-1<e do if 2<e then if 4<e then if e<6 then p=h(7);else e=-2;end else if e>=0 then for n=38,78 do if e<4 then ee={};g={...};break;end;z=s.xykJHqrb('#',...)-1;c={};break;end;else z=s.xykJHqrb('#',...)-1;c={};end end else if 1<=e then if 1==e then _=h(6,18,3,82,m);b=pe ne=0;else n=-41;u=-1;end else l=h(6,78,1,96,m);k=h(6,52,2,50,m);end end e=e+1;end;for e=0,z do if(e>=_)then ee[e-_]=g[e+1];else p[e]=g[e+1];end;end;local e=z-_+1 local e;local h;local function _(...)while true do end end while true do if n<-40 then n=n+42 end e=l[n];h=e[j];if h<=116 then if 57<h then if h>=87 then if 101<h then if 108<h then if 112<h then if h>=115 then if 112<h then repeat if 116~=h then if(p[e[d]]==e[f])then n=n+1;else n=e[t];end;break;end;local h,r;for f=0,4 do if 1>=f then if-1<f then repeat if 1>f then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if 3>f then p(e[d],e[t]);n=n+1;e=l[n];else if f>=0 then for o=15,87 do if f~=4 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;break;end;else h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;end end end end until true;else if(p[e[d]]==e[f])then n=n+1;else n=e[t];end;end else if h~=112 then for l=49,91 do if 113<h then if(p[e[d]]<p[e[f]])then n=n+1;else n=e[t];end;break;end;local n=e[d];local d=p[n];for e=n+1,e[t]do s.COAzDVzl(d,p[e])end;break;end;else local n=e[d];local d=p[n];for e=n+1,e[t]do s.COAzDVzl(d,p[e])end;end end else if h<=110 then if h>=108 then for o=21,57 do if h<110 then local h,a;for o=0,4 do if o>=2 then if 2>=o then p(e[d],e[t]);n=n+1;e=l[n];else if o>3 then if not p[e[d]]then n=n+1;else n=e[t];end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if-2<o then for r=45,96 do if o~=1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end break;end;p[e[d]][e[t]]=e[f];break;end;else p[e[d]][e[t]]=e[f];end else if h>108 then repeat if h>111 then for h=0,6 do if 3<=h then if 4>=h then if h~=1 then for r=48,52 do if 4~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 2~=h then repeat if h~=6 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);until true;else p(e[d],e[t]);n=n+1;e=l[n];end end else if 0<h then if 0~=h then for f=41,63 do if 2>h then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end end end break;end;local l=p[e[f]];if l then n=n+1;else p[e[d]]=l;n=e[t];end;until true;else for h=0,6 do if 3<=h then if 4>=h then if h~=1 then for r=48,52 do if 4~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 2~=h then repeat if h~=6 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);until true;else p(e[d],e[t]);n=n+1;e=l[n];end end else if 0<h then if 0~=h then for f=41,63 do if 2>h then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end end end end end end else if h>104 then if h>=107 then if h>103 then repeat if h~=108 then p[e[d]]=o[e[t]];break;end;local f,r;for h=0,2 do if h>=1 then if 2>h then p(e[d],e[t]);n=n+1;e=l[n];else f=e[d];r=p[f];for e=f+1,e[t]do s.COAzDVzl(r,p[e])end;end else p(e[d],e[t]);n=n+1;e=l[n];end end until true;else p[e[d]]=o[e[t]];end else if h<106 then local h,k,c,_,s;for a=0,5 do if a>2 then if a<4 then p[e[d]]=p[e[t]];n=n+1;e=l[n];else if 3<a then for t=29,71 do if a<5 then h=e[d]c,_=b(p[h](p[h+1]))u=_+h-1 s=0;for e=h,u do s=s+1;p[e]=c[s];end;n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,u))break;end;else h=e[d]p[h](r(p,h+1,u))end end else if 0<a then if-2<=a then repeat if a~=2 then h=e[d];k=p[e[t]];p[h+1]=k;p[h]=k[e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end else local f,h;for r=0,2 do if r<1 then p[e[d]]={};n=n+1;e=l[n];else if 0~=r then for o=15,95 do if r>1 then f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end end end else if 102>=h then local o;for h=0,6 do if h<=2 then if h>0 then if h>=0 then repeat if 2~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 4>=h then if 2~=h then repeat if 3~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if h>3 then repeat if 5<h then o=e[d]p[o](r(p,o+1,e[t]))break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];until true;else o=e[d]p[o](r(p,o+1,e[t]))end end end end else if 102<=h then repeat if 103<h then local o,a;for h=0,6 do if 2<h then if 4<h then if h>=3 then repeat if h~=6 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];until true;else p[e[d]][e[t]]=e[f];end else if 4==h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]]={};n=n+1;e=l[n];end end else if h>=1 then if h==2 then o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end break;end;p[e[d]]=p[e[t]][e[f]];until true;else local o,a;for h=0,6 do if 2<h then if 4<h then if h>=3 then repeat if h~=6 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];until true;else p[e[d]][e[t]]=e[f];end else if 4==h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]]={};n=n+1;e=l[n];end end else if h>=1 then if h==2 then o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end end end end end else if h>=94 then if 98>h then if 96>h then if 92<=h then repeat if h~=95 then local te,m,g,z,te,h,a,y,s,_,j,ee,ne,k,de,pe,c;h=0;while h>-1 do if h>=3 then if h<5 then if h~=1 then repeat if h<4 then z=s[g];break;end;k=s[m];until true;else z=s[g];end else if h==5 then p(k,z);else h=-2;end end else if 0>=h then s=e;else if h>=0 then for e=28,60 do if h>1 then g=t;break;end;m=d;break;end;else m=d;end end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];a=e[d];y=p[e[t]];p[a+1]=y;p[a]=y[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];h=0;while h>-1 do if 3<h then if h>=6 then if 3<=h then repeat if h<7 then p[k]=ne;break;end;h=-2;until true;else h=-2;end else if 0~=h then repeat if 5~=h then ne=ee[s[j]];break;end;k=s[_];until true;else k=s[_];end end else if 1<h then if h==2 then j=t;else ee=p;end else if h~=-4 then repeat if h~=1 then s=e;break;end;_=d;until true;else _=d;end end end h=h+1 end n=n+1;e=l[n];a=e[d]de,pe=b(p[a](p[a+1]))u=pe+a-1 c=0;for e=a,u do c=c+1;p[e]=de[c];end;n=n+1;e=l[n];a=e[d]p[a](r(p,a+1,u))break;end;local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];until true;else local te,z,g,y,te,h,a,m,s,c,j,ne,pe,k,de,ee,_;h=0;while h>-1 do if h>=3 then if h<5 then if h~=1 then repeat if h<4 then y=s[g];break;end;k=s[z];until true;else y=s[g];end else if h==5 then p(k,y);else h=-2;end end else if 0>=h then s=e;else if h>=0 then for e=28,60 do if h>1 then g=t;break;end;z=d;break;end;else z=d;end end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];a=e[d];m=p[e[t]];p[a+1]=m;p[a]=m[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];h=0;while h>-1 do if 3<h then if h>=6 then if 3<=h then repeat if h<7 then p[k]=pe;break;end;h=-2;until true;else h=-2;end else if 0~=h then repeat if 5~=h then pe=ne[s[j]];break;end;k=s[c];until true;else k=s[c];end end else if 1<h then if h==2 then j=t;else ne=p;end else if h~=-4 then repeat if h~=1 then s=e;break;end;c=d;until true;else c=d;end end end h=h+1 end n=n+1;e=l[n];a=e[d]de,ee=b(p[a](p[a+1]))u=ee+a-1 _=0;for e=a,u do _=_+1;p[e]=de[_];end;n=n+1;e=l[n];a=e[d]p[a](r(p,a+1,u))end else if h>93 then for l=31,65 do if 97>h then if(p[e[d]]==e[f])then n=n+1;else n=e[t];end;break;end;local e=e[d]p[e](p[e+1])break;end;else local e=e[d]p[e](p[e+1])end end else if 100<=h then if h~=101 then local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};else p[e[d]]=p[e[t]]*e[f];end else if h~=98 then local l,f,r,o,h;local n=0;while n>-1 do if 2<n then if n<=4 then if n>-1 then for e=33,68 do if n~=4 then o=l[r];break;end;h=l[f];break;end;else h=l[f];end else if 1<n then for e=17,92 do if n~=5 then n=-2;break;end;p(h,o);break;end;else n=-2;end end else if 1<=n then if n~=2 then f=d;else r=t;end else l=e;end end n=n+1 end else local n=e[d]local t={p[n](p[n+1])};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end end end end else if h<90 then if 87<h then if h>=87 then repeat if 89~=h then for h=0,1 do if h>=-4 then repeat if 1>h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;if p[e[d]]then n=n+1;else n=e[t];end;until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end break;end;local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];until true;else local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];end else local h,s;for a=0,6 do if 2<a then if a>4 then if 1~=a then repeat if a~=5 then if p[e[d]]then n=n+1;else n=e[t];end;break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else if a>=2 then repeat if 4>a then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end else if 1>a then p[e[d]]=o[e[t]];n=n+1;e=l[n];else if a>1 then p[e[d]]=o[e[t]];n=n+1;e=l[n];else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end end end end end else if 92>h then if h>=89 then repeat if h>90 then local n=e[d]local t={p[n](r(p,n+1,u))};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end break;end;if not p[e[d]]then n=n+1;else n=e[t];end;until true;else local d=e[d]local t={p[d](r(p,d+1,u))};local n=0;for e=d,e[f]do n=n+1;p[e]=t[n];end end else if 89~=h then for o=40,76 do if h~=92 then local e=e[d]p[e]=p[e](p[e+1])break;end;local o,a;for h=0,7 do if 3<h then if 5>=h then if 5==h then p[e[d]]={};n=n+1;e=l[n];else p[e[d]]={};n=n+1;e=l[n];end else if h~=2 then repeat if 7>h then p[e[d]]={};n=n+1;e=l[n];break;end;for e=e[d],e[t]do p[e]=nil;end;until true;else p[e[d]]={};n=n+1;e=l[n];end end else if 1<h then if 0~=h then for f=44,76 do if 3>h then p[e[d]]=p[e[t]];n=n+1;e=l[n];break;end;o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];break;end;else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end else if-1<=h then repeat if h~=1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end break;end;else local o,a;for h=0,7 do if 3<h then if 5>=h then if 5==h then p[e[d]]={};n=n+1;e=l[n];else p[e[d]]={};n=n+1;e=l[n];end else if h~=2 then repeat if 7>h then p[e[d]]={};n=n+1;e=l[n];break;end;for e=e[d],e[t]do p[e]=nil;end;until true;else p[e[d]]={};n=n+1;e=l[n];end end else if 1<h then if 0~=h then for f=44,76 do if 3>h then p[e[d]]=p[e[t]];n=n+1;e=l[n];break;end;o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];break;end;else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end else if-1<=h then repeat if h~=1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end end end end end end else if 71<h then if 79>h then if h>=75 then if h<77 then if 76~=h then p[e[d]][e[t]]=p[e[f]];else a[e[t]]=p[e[d]];end else if h>73 then repeat if h~=77 then local h,r;for o=0,1 do if o>-1 then repeat if o<1 then h=e[d];r=p[e[t]];p[h+1]=r;p[h]=r[e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h](p[h+1])until true;else h=e[d];r=p[e[t]];p[h+1]=r;p[h]=r[e[f]];n=n+1;e=l[n];end end break;end;local n=e[d]local t={p[n](r(p,n+1,u))};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end until true;else local n=e[d]local t={p[n](r(p,n+1,u))};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end end end else if 72>=h then if(e[d]<p[e[f]])then n=e[t];else n=n+1;end;else if 74>h then local n=e[d];local d=p[e[t]];p[n+1]=d;p[n]=d[e[f]];else local a,c,b,k,s,u,h,o;h=0;while h>-1 do if 3<h then if 6<=h then if 5~=h then for e=40,66 do if 7~=h then p[u]=s;break;end;h=-2;break;end;else p[u]=s;end else if h<5 then s=k[a[b]];else u=a[c];end end else if h>=2 then if 0<h then for e=29,61 do if h>2 then k=p;break;end;b=t;break;end;else b=t;end else if-3<=h then for n=36,68 do if h~=0 then c=d;break;end;a=e;break;end;else a=e;end end end h=h+1 end n=n+1;e=l[n];o=e[d]p[o]=p[o](r(p,o+1,e[t]))n=n+1;e=l[n];p[e[d]]=p[e[t]]*p[e[f]];n=n+1;e=l[n];o=e[d]p[o]=p[o](p[o+1])n=n+1;e=l[n];p[e[d]]=p[e[t]]*p[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];o=e[d]p[o](r(p,o+1,e[t]))end end end else if 82<h then if h<85 then if h>=79 then repeat if 84~=h then local e=e[d]p[e]=p[e](r(p,e+1,u))break;end;o[e[t]]=p[e[d]];until true;else o[e[t]]=p[e[d]];end else if 83<=h then for l=27,90 do if h>85 then p[e[d]]=p[e[t]]*p[e[f]];break;end;p[e[d]]=(e[t]~=0);n=n+1;break;end;else p[e[d]]=p[e[t]]*p[e[f]];end end else if h<=80 then if h>76 then for o=10,58 do if h<80 then local h,o;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];break;end;local o;for h=0,6 do if h<3 then if 1>h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else if-1<=h then for a=16,89 do if h<2 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end else if 4>=h then if 2~=h then for r=46,53 do if 3<h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if 5==h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else o=e[d]p[o](r(p,o+1,e[t]))end end end end break;end;else local h,o;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];end else if 81==h then local n=e[d];local d=p[n];for e=n+1,e[t]do s.COAzDVzl(d,p[e])end;else local h,c,z,_,s,k;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d];c=p[e[t]];p[h+1]=c;p[h]=c[e[f]];n=n+1;e=l[n];h=e[d]k,_=b(p[h](p[h+1]))u=_+h-1 s=0;for e=h,u do s=s+1;p[e]=k[s];end;n=n+1;e=l[n];h=e[d]k={p[h](r(p,h+1,u))};s=0;for e=h,e[f]do s=s+1;p[e]=k[s];end end end end end else if h>=65 then if 67<h then if 69<h then if 68<=h then for l=38,93 do if h~=71 then local n=e[d]p[n](r(p,n+1,e[t]))break;end;if p[e[d]]then n=n+1;else n=e[t];end;break;end;else local n=e[d]p[n](r(p,n+1,e[t]))end else if h>68 then p[e[d]]=p[e[t]]-p[e[f]];else local h,a;for o=0,6 do if 3>o then if 0>=o then p[e[d]]={};n=n+1;e=l[n];else if o>=0 then for h=12,56 do if o~=2 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end else if 5<=o then if o>=4 then for s=21,70 do if 6~=o then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else if o~=2 then repeat if o~=4 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end end end end else if h>=66 then if h<67 then local f,h;for r=0,2 do if r<1 then p[e[d]]={};n=n+1;e=l[n];else if 2~=r then p(e[d],e[t]);n=n+1;e=l[n];else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end else p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);end else local h;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]]=o[e[t]];end end else if 60<h then if 63<=h then if 59~=h then for r=33,90 do if 63<h then do return end;break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])break;end;else do return end;end else if 59<h then for r=31,58 do if 62>h then if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];do return end;break;end;else if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;end end else if h>=59 then if 60~=h then local l,f,r,h,o;local n=0;while n>-1 do if 2>=n then if 0<n then if 1<n then r=t;else f=d;end else l=e;end else if 5<=n then if n~=6 then p(o,h);else n=-2;end else if 3<n then o=l[f];else h=l[r];end end end n=n+1 end else p[e[d]]=p[e[t]]*e[f];end else for f=0,6 do if 2>=f then if f<=0 then p[e[d]]={};n=n+1;e=l[n];else if 0<=f then for h=37,92 do if f~=2 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end else if 4<f then if 5==f then p(e[d],e[t]);n=n+1;e=l[n];else p(e[d],e[t]);end else if 1<=f then repeat if 4>f then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end end end end end end end end else if h>28 then if h<43 then if h>=36 then if h<39 then if 37<=h then if h~=35 then for o=30,87 do if h<38 then local o,a,k,b,c,u,s,h;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<=2 then if 1<=h then if-3~=h then repeat if h<2 then b=d;break;end;c=t;until true;else b=d;end else k=e;end else if 5>h then if h>3 then s=k[b];else u=k[c];end else if 3<=h then for e=19,97 do if h~=6 then p(s,u);break;end;h=-2;break;end;else p(s,u);end end end h=h+1 end n=n+1;e=l[n];o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];p[e[d]]={};break;end;p[e[d]][e[t]]=p[e[f]];break;end;else local o,a,s,b,c,k,u,h;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<=2 then if 1<=h then if-3~=h then repeat if h<2 then b=d;break;end;c=t;until true;else b=d;end else s=e;end else if 5>h then if h>3 then u=s[b];else k=s[c];end else if 3<=h then for e=19,97 do if h~=6 then p(u,k);break;end;h=-2;break;end;else p(u,k);end end end h=h+1 end n=n+1;e=l[n];o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];p[e[d]]={};end else local e=e[d]p[e]=p[e]()end else if 41<=h then if 38<h then for f=13,67 do if 41<h then n=e[t];break;end;p[e[d]]=(e[t]~=0);n=n+1;e=l[n];p[e[d]]=(e[t]~=0);n=n+1;e=l[n];p[e[d]]=(e[t]~=0);n=n+1;e=l[n];p[e[d]]=(e[t]~=0);n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);break;end;else n=e[t];end else if 37<h then repeat if h<40 then p[e[d]]={};break;end;local r,h;r=e[d];h=p[e[t]];p[r+1]=h;p[r]=h[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]]*e[f];n=n+1;e=l[n];p[e[d]]=p[e[t]]+p[e[f]];until true;else p[e[d]]={};end end end else if h<32 then if 29<h then if 28<h then repeat if 31>h then local d=e[d]local t={p[d](p[d+1])};local n=0;for e=d,e[f]do n=n+1;p[e]=t[n];end break;end;local h,o;for a=0,6 do if a>2 then if 4<a then if a>=1 then repeat if a~=6 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];end else if 0<=a then for r=49,64 do if a>3 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end else if 0>=a then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];else if 2>a then p(e[d],e[t]);n=n+1;e=l[n];else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end until true;else local n=e[d]local t={p[n](p[n+1])};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end end else local h,s;for o=0,4 do if 2>o then if 1==o then h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if o>=3 then if 1~=o then repeat if 4~=o then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;until true;else if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;end else p(e[d],e[t]);n=n+1;e=l[n];end end end end else if 34>h then if 32<h then do return end;else if(p[e[d]]<p[e[f]])then n=n+1;else n=e[t];end;end else if 31<h then repeat if h>34 then local h,a;for o=0,4 do if o<2 then if-4~=o then repeat if o<1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];until true;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end else if 2>=o then p(e[d],e[t]);n=n+1;e=l[n];else if 1~=o then repeat if 3<o then if p[e[d]]then n=n+1;else n=e[t];end;break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];until true;else local h,a;for o=0,4 do if o<2 then if-4~=o then repeat if o<1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];until true;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end else if 2>=o then p(e[d],e[t]);n=n+1;e=l[n];else if 1~=o then repeat if 3<o then if p[e[d]]then n=n+1;else n=e[t];end;break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end end end end end else if h<=49 then if 46>h then if h>43 then if h~=40 then repeat if h<45 then local n=e[d]p[n]=p[n](r(p,n+1,e[t]))break;end;local h,a;for o=0,6 do if o<3 then if o<=0 then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if o~=-3 then repeat if o~=1 then h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if o>4 then if 3~=o then repeat if o~=5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];end else if-1<=o then repeat if o<4 then p[e[d]]={};n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end end until true;else local n=e[d]p[n]=p[n](r(p,n+1,e[t]))end else for h=0,3 do if h>1 then if 0<=h then for r=35,98 do if h~=2 then if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;else if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;end else if-1<=h then for f=36,53 do if 0~=h then o[e[t]]=p[e[d]];n=n+1;e=l[n];break;end;p[e[d]]=(e[t]~=0);n=n+1;e=l[n];break;end;else o[e[t]]=p[e[d]];n=n+1;e=l[n];end end end end else if h>=48 then if h~=48 then local r;for h=0,6 do if 2>=h then if h<1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else if h~=0 then for f=12,84 do if h<2 then p(e[d],e[t]);n=n+1;e=l[n];break;end;r=e[d]p[r]=p[r](p[r+1])n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end else if 4>=h then if 3==h then p[e[d]]=o[e[t]];n=n+1;e=l[n];else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 4<h then repeat if h<6 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=p[e[t]][e[f]];end end end end else local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];end else if h~=47 then local e=e[d]p[e]=p[e](r(p,e+1,u))else local h,u,r;for s=0,4 do if 1>=s then if s>-2 then for f=28,88 do if 1>s then a[e[t]]=p[e[d]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end else if s>=3 then if s>1 then for o=18,59 do if 4~=s then h=e[d]u={p[h](p[h+1])};r=0;for e=h,e[f]do r=r+1;p[e]=u[r];end n=n+1;e=l[n];break;end;n=e[t];break;end;else h=e[d]u={p[h](p[h+1])};r=0;for e=h,e[f]do r=r+1;p[e]=u[r];end n=n+1;e=l[n];end else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end end end else if 54>h then if 52<=h then if 52~=h then local e=e[d]local d,n=b(p[e](p[e+1]))u=n+e-1 local n=0;for e=e,u do n=n+1;p[e]=d[n];end;else local r,o;for h=0,4 do if h>=2 then if h<3 then r=e[d]p[r](p[r+1])n=n+1;e=l[n];else if h>=0 then repeat if 3<h then if not p[e[d]]then n=n+1;else n=e[t];end;break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];until true;else if not p[e[d]]then n=n+1;else n=e[t];end;end end else if-1<=h then for a=25,72 do if 1~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;r=e[d];o=p[e[t]];p[r+1]=o;p[r]=o[e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end else if h>48 then for a=15,95 do if 51>h then p[e[d]]=p[e[t]];break;end;local a;for h=0,6 do if 2<h then if h>4 then if 3<=h then for f=46,83 do if 6~=h then p(e[d],e[t]);n=n+1;e=l[n];break;end;a=e[d]p[a]=p[a](r(p,a+1,e[t]))break;end;else a=e[d]p[a]=p[a](r(p,a+1,e[t]))end else if h>1 then for f=39,55 do if h<4 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end else if h>=1 then if h>=-2 then repeat if h~=1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]={};n=n+1;e=l[n];end end end break;end;else local a;for h=0,6 do if 2<h then if h>4 then if 3<=h then for f=46,83 do if 6~=h then p(e[d],e[t]);n=n+1;e=l[n];break;end;a=e[d]p[a]=p[a](r(p,a+1,e[t]))break;end;else a=e[d]p[a]=p[a](r(p,a+1,e[t]))end else if h>1 then for f=39,55 do if h<4 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end else if h>=1 then if h>=-2 then repeat if h~=1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]={};n=n+1;e=l[n];end end end end end else if 55>=h then if 55~=h then local r,s;for h=0,6 do if 2<h then if 4<h then if h>2 then repeat if 6>h then for e=e[d],e[t]do p[e]=nil;end;n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];until true;else p[e[d]]=o[e[t]];end else if 3~=h then p(e[d],e[t]);n=n+1;e=l[n];else r=e[d];s=p[e[t]];p[r+1]=s;p[r]=s[e[f]];n=n+1;e=l[n];end end else if h<1 then p(e[d],e[t]);n=n+1;e=l[n];else if h>-1 then for f=47,87 do if h~=2 then r=e[d]p[r](p[r+1])n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end else local h,a;for o=0,6 do if o<3 then if 0<o then if-2~=o then repeat if o~=2 then h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];until true;else h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end else if 5<=o then if o~=5 then p[e[d]][e[t]]=e[f];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if o<4 then p[e[d]]={};n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end end end else if h<57 then p[e[d]]=(e[t]~=0);else local h;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];do return end;end end end end end else if h>13 then if 20>=h then if h<=16 then if 15<=h then if 16~=h then local h;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];else local r,o;for h=0,6 do if 3>h then if 0<h then if 2==h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]]={};n=n+1;e=l[n];end else r=e[d];o=p[e[t]];p[r+1]=o;p[r]=o[e[f]];n=n+1;e=l[n];end else if 4>=h then if h<4 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if h>=2 then for r=34,97 do if h~=5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end end end else local h;for o=0,6 do if o<=2 then if 1>o then p[e[d]]=a[e[t]];n=n+1;e=l[n];else if o>=-1 then repeat if 2>o then p[e[d]]=p[e[t]];n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h](p[h+1])n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]];n=n+1;e=l[n];end end else if o>=5 then if o>3 then repeat if 6>o then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,e[t]))until true;else h=e[d]p[h](r(p,h+1,e[t]))end else if o~=1 then repeat if o~=3 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end end else if 18>=h then if 16~=h then repeat if h~=18 then local a;for h=0,6 do if 2<h then if h>4 then if 2<h then repeat if 6>h then a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];break;end;p[e[d]][e[t]]=p[e[f]];until true;else a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];end else if h>1 then repeat if 4>h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end else if h>0 then if h>=-3 then for r=43,98 do if h~=1 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end end break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];if p[e[d]]then n=n+1;else n=e[t];end;until true;else local a;for h=0,6 do if 2<h then if h>4 then if 2<h then repeat if 6>h then a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];break;end;p[e[d]][e[t]]=p[e[f]];until true;else a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];end else if h>1 then repeat if 4>h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end else if h>0 then if h>=-3 then for r=43,98 do if h~=1 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end end end else if 15<h then repeat if h>19 then local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];break;end;local e=e[d]p[e]=p[e]()until true;else local e=e[d]p[e]=p[e]()end end end else if 24<h then if h>26 then if h>=25 then for a=34,63 do if 27~=h then local h;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=-p[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=p[e[t]]/e[f];n=n+1;e=l[n];p[e[d]]=p[e[t]]*p[e[f]];break;end;p[e[d]]=(e[t]~=0);break;end;else local h;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=-p[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=p[e[t]]/e[f];n=n+1;e=l[n];p[e[d]]=p[e[t]]*p[e[f]];end else if 21<h then repeat if h~=25 then for e=e[d],e[t]do p[e]=nil;end;break;end;local o,a;for h=0,6 do if 3<=h then if h<5 then if h==3 then p[e[d]]={};n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if h>4 then for r=32,88 do if h>5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];end end else if h>=1 then if 2~=h then o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];else o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end until true;else local o,a;for h=0,6 do if 3<=h then if h<5 then if h==3 then p[e[d]]={};n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if h>4 then for r=32,88 do if h>5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];end end else if h>=1 then if 2~=h then o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];else o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end end end else if 23<=h then if h~=22 then repeat if h~=23 then local e=e[d]p[e]=p[e](p[e+1])break;end;for e=e[d],e[t]do p[e]=nil;end;until true;else local e=e[d]p[e]=p[e](p[e+1])end else if 22==h then local a,o,u,k,b,f,h,r;for f=0,2 do if f>0 then if f>=0 then repeat if f~=2 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;until true;else h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;end else f=0;while f>-1 do if f>2 then if f>4 then if 6>f then p(b,k);else f=-2;end else if 4==f then b=a[o];else k=a[u];end end else if f>=1 then if f~=-2 then repeat if 2>f then o=d;break;end;u=t;until true;else o=d;end else a=e;end end f=f+1 end n=n+1;e=l[n];end end else local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))end end end end else if 6>=h then if h<3 then if h<1 then local h,o;for a=0,6 do if 2<a then if a>=5 then if 6~=a then p(e[d],e[t]);n=n+1;e=l[n];else h=e[d]p[h]=p[h](r(p,h+1,e[t]))end else if 0<=a then for s=46,83 do if a~=4 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if a>0 then if a>-3 then for r=13,74 do if 1~=a then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end else if 0<h then repeat if 1<h then p[e[d]]=p[e[t]]*p[e[f]];break;end;local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};until true;else local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};end end else if h<5 then if-1<h then repeat if h>3 then for h=0,2 do if 1>h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else if h>=0 then repeat if 2>h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];until true;else p[e[d]][e[t]]=e[f];end end end break;end;local o;for h=0,6 do if 3>h then if 1>h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else if h>=-1 then for a=35,80 do if h>1 then o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end else if h>4 then if 3~=h then repeat if 6>h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 2<h then repeat if 4>h then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];until true;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end until true;else for h=0,2 do if 1>h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else if h>=0 then repeat if 2>h then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];until true;else p[e[d]][e[t]]=e[f];end end end end else if 6>h then n=e[t];else p[e[d]]=o[e[t]];end end end else if 10<=h then if 12<=h then if h>9 then for o=44,53 do if 12<h then local h,o,b,u;for s=0,6 do if s<3 then if 1>s then p[e[d]]=a[e[t]];n=n+1;e=l[n];else if s>=-1 then repeat if s<2 then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]];n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end else if s<=4 then if s~=4 then h=e[d]b={p[h](r(p,h+1,e[t]))};u=0;for e=h,e[f]do u=u+1;p[e]=b[u];end n=n+1;e=l[n];else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if s~=2 then repeat if 5<s then p[e[d]]=p[e[t]];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end end end break;end;p[e[d]]=-p[e[t]];break;end;else local h,o,b,u;for s=0,6 do if s<3 then if 1>s then p[e[d]]=a[e[t]];n=n+1;e=l[n];else if s>=-1 then repeat if s<2 then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]];n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end else if s<=4 then if s~=4 then h=e[d]b={p[h](r(p,h+1,e[t]))};u=0;for e=h,e[f]do u=u+1;p[e]=b[u];end n=n+1;e=l[n];else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if s~=2 then repeat if 5<s then p[e[d]]=p[e[t]];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end end end end else if h~=8 then repeat if h~=10 then local r,s;for h=0,8 do if h<=3 then if 2<=h then if-1<h then repeat if 2<h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if h>=-4 then repeat if h~=1 then p[e[d]]=(e[t]~=0);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p[e[d]]=(e[t]~=0);n=n+1;e=l[n];end end else if h<6 then if h>0 then repeat if h>4 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 7<=h then if 7==h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else r=e[d];s=p[e[t]];p[r+1]=s;p[r]=s[e[f]];end else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end break;end;p[e[d]]=p[e[t]]/e[f];until true;else local r,s;for h=0,8 do if h<=3 then if 2<=h then if-1<h then repeat if 2<h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if h>=-4 then repeat if h~=1 then p[e[d]]=(e[t]~=0);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p[e[d]]=(e[t]~=0);n=n+1;e=l[n];end end else if h<6 then if h>0 then repeat if h>4 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if 7<=h then if 7==h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else r=e[d];s=p[e[t]];p[r+1]=s;p[r]=s[e[f]];end else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end end end else if h<8 then local l=e[d];local f=e[f];local d=l+2 local l={p[l](p[l+1],p[d])};for e=1,f do p[d+e]=l[e];end;local l=l[1]if l then p[d]=l n=e[t];else n=n+1;end;else if h>=6 then for o=28,88 do if 8~=h then p[e[d]]=(e[t]~=0);n=n+1;break;end;local h,o;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];break;end;else p[e[d]]=(e[t]~=0);n=n+1;end end end end end end end else if 175>h then if h<=145 then if 131<=h then if 138<=h then if h>141 then if 144<=h then if 143~=h then for l=45,89 do if h~=145 then local d=e[d];local f=p[d+2];local l=p[d]+f;p[d]=l;if(f>0)then if(l<=p[d+1])then n=e[t];p[d+3]=l;end elseif(l>=p[d+1])then n=e[t];p[d+3]=l;end break;end;if not p[e[d]]then n=n+1;else n=e[t];end;break;end;else if not p[e[d]]then n=n+1;else n=e[t];end;end else if 139<=h then for f=33,81 do if 142<h then local f,h;for r=0,2 do if r<=0 then p(e[d],e[t]);n=n+1;e=l[n];else if r>=0 then repeat if r~=2 then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;until true;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end break;end;local e=e[d]p[e](r(p,e+1,u))break;end;else local f,h;for r=0,2 do if r<=0 then p(e[d],e[t]);n=n+1;e=l[n];else if r>=0 then repeat if r~=2 then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;until true;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end end end else if h<=139 then if h==138 then local h,o;for a=0,7 do if 3<a then if 5<a then if 7==a then p[e[d]]={};else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end else if 3~=a then repeat if a<5 then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h](p[h+1])n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end else if a>1 then if-1<=a then for r=12,60 do if 2~=a then h=e[d]p[h](p[h+1])n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end else if a~=0 then h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end end else local h,s;for o=0,9 do if o>=5 then if 7<=o then if o>=8 then if 8==o then p(e[d],e[t]);n=n+1;e=l[n];else h=e[d]p[h]=p[h](r(p,h+1,e[t]))end else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end else if o>3 then for f=29,95 do if 6>o then a[e[t]]=p[e[d]];n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;else a[e[t]]=p[e[d]];n=n+1;e=l[n];end end else if 1>=o then if-2<o then repeat if o~=0 then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;a[e[t]]=p[e[d]];n=n+1;e=l[n];until true;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if 2>=o then h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];else if 1<o then repeat if 4>o then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end end end end end else if 140==h then p[e[d]]=p[e[t]][e[f]];else local a,s;for h=0,6 do if 3>h then if h<=0 then p[e[d]]=o[e[t]];n=n+1;e=l[n];else if h>=-1 then for r=15,55 do if 2>h then a=e[d];s=p[e[t]];p[a+1]=s;p[a]=s[e[f]];n=n+1;e=l[n];break;end;p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if 5<=h then if 4<h then repeat if h<6 then a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];break;end;if not p[e[d]]then n=n+1;else n=e[t];end;until true;else if not p[e[d]]then n=n+1;else n=e[t];end;end else if h<4 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end end end end else if h>=134 then if h<136 then if h>=132 then for o=49,93 do if h<135 then local o,s;for h=0,6 do if 3>h then if 1<=h then if-2<=h then for f=17,74 do if h<2 then p[e[d]]();n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if 5<=h then if 6>h then o=e[d]p[o]=p[o](r(p,o+1,e[t]))n=n+1;e=l[n];else if not p[e[d]]then n=n+1;else n=e[t];end;end else if h~=-1 then repeat if 3~=h then p(e[d],e[t]);n=n+1;e=l[n];break;end;o=e[d];s=p[e[t]];p[o+1]=s;p[o]=s[e[f]];n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end end end break;end;local n=e[d]p[n]=p[n](r(p,n+1,e[t]))break;end;else local n=e[d]p[n]=p[n](r(p,n+1,e[t]))end else if h<137 then local h;for r=0,4 do if 1<r then if r<=2 then p[e[d]]=o[e[t]];n=n+1;e=l[n];else if r==3 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else p[e[d]]=p[e[t]][e[f]];end end else if r>-1 then for o=12,73 do if r<1 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h]()n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h]()n=n+1;e=l[n];end end end else local h,a;for o=0,6 do if o>=3 then if o>=5 then if o==6 then p[e[d]]={};else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if o==3 then p[e[d]]={};n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end else if o<1 then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if-3~=o then repeat if o<2 then h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];until true;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end end end end end end else if h>=132 then if 132~=h then p[e[d]]=p[e[t]]-p[e[f]];else for h=0,6 do if 3>h then if h<=0 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else if 1==h then p[e[d]]=p[e[t]];n=n+1;e=l[n];else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if h<5 then if h>2 then for r=23,87 do if h>3 then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end else if h~=2 then for r=20,58 do if 5~=h then p[e[d]]=p[e[t]];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end end else local a,z,s,m,g,_,c,y,h,ee,j,k;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];a=e[d];z=p[e[t]];p[a+1]=z;p[a]=z[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];h=0;while h>-1 do if 4<=h then if h<6 then if 1<=h then repeat if 4<h then y=s[m];break;end;c=_[s[g]];until true;else c=_[s[g]];end else if h>=2 then repeat if 7>h then p[y]=c;break;end;h=-2;until true;else p[y]=c;end end else if h>1 then if-1~=h then for e=18,85 do if h>2 then _=p;break;end;g=t;break;end;else _=p;end else if h>-1 then for n=25,92 do if h<1 then s=e;break;end;m=d;break;end;else m=d;end end end h=h+1 end n=n+1;e=l[n];a=e[d]ee,j=b(p[a](p[a+1]))u=j+a-1 k=0;for e=a,u do k=k+1;p[e]=ee[k];end;n=n+1;e=l[n];a=e[d]p[a](r(p,a+1,u))end end end else if h>=124 then if 126>=h then if 124<h then if h>=123 then repeat if h>125 then local h,s;for a=0,6 do if 2>=a then if 1>a then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if 0~=a then repeat if 2>a then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];until true;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if a>4 then if 5~=a then p(e[d],e[t]);else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end else if a~=4 then p(e[d],e[t]);n=n+1;e=l[n];else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end break;end;p[e[d]]=y(k[e[t]],nil,o);until true;else p[e[d]]=y(k[e[t]],nil,o);end else p[e[d]][e[t]]=e[f];end else if h>=129 then if 128<h then for a=36,91 do if 130>h then local h,k,c,s;for a=0,6 do if 2<a then if a<5 then if a~=1 then for f=16,72 do if a~=4 then h=e[d]k,c=b(p[h](r(p,h+1,e[t])))u=c+h-1 s=0;for e=h,u do s=s+1;p[e]=k[s];end;n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];break;end;else h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];end else if a~=3 then repeat if 6>a then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if 1>a then p(e[d],e[t]);n=n+1;e=l[n];else if a~=1 then p(e[d],e[t]);n=n+1;e=l[n];else p(e[d],e[t]);n=n+1;e=l[n];end end end end break;end;local n=e[d]local t={p[n](r(p,n+1,e[t]))};local d=0;for e=n,e[f]do d=d+1;p[e]=t[d];end break;end;else local h,k,c,s;for a=0,6 do if 2<a then if a<5 then if a~=1 then for f=16,72 do if a~=4 then h=e[d]k,c=b(p[h](r(p,h+1,e[t])))u=c+h-1 s=0;for e=h,u do s=s+1;p[e]=k[s];end;n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];break;end;else h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];end else if a~=3 then repeat if 6>a then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if 1>a then p(e[d],e[t]);n=n+1;e=l[n];else if a~=1 then p(e[d],e[t]);n=n+1;e=l[n];else p(e[d],e[t]);n=n+1;e=l[n];end end end end end else if 123<=h then repeat if 127~=h then local d=e[d];local l=p[d]local f=p[d+2];if(f>0)then if(l>p[d+1])then n=e[t];else p[d+3]=l;end elseif(l<p[d+1])then n=e[t];else p[d+3]=l;end break;end;p[e[d]]=p[e[t]]+p[e[f]];until true;else p[e[d]]=p[e[t]]+p[e[f]];end end end else if 119>=h then if h<=117 then if(p[e[d]]~=e[f])then n=n+1;else n=e[t];end;else if h~=118 then for h=0,2 do if h>=1 then if h~=0 then repeat if h>1 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end else local h,a;p[e[d]]=o[e[t]];n=n+1;e=l[n];h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];end end else if h<=121 then if 117<h then repeat if 121~=h then local n=e[d]local d,e=b(p[n](r(p,n+1,e[t])))u=e+n-1 local e=0;for n=n,u do e=e+1;p[n]=d[e];end;break;end;p[e[d]]();until true;else p[e[d]]();end else if h>=120 then repeat if h<123 then local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];until true;else local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];end end end end end else if h>=160 then if h<167 then if h>162 then if 165<=h then if h>=161 then for o=31,84 do if h>165 then local n=e[d]local d,e=b(p[n](r(p,n+1,e[t])))u=e+n-1 local e=0;for n=n,u do e=e+1;p[n]=d[e];end;break;end;local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];break;end;else local n=e[d]local d,e=b(p[n](r(p,n+1,e[t])))u=e+n-1 local e=0;for n=n,u do e=e+1;p[n]=d[e];end;end else if 159<=h then for l=44,67 do if h<164 then local d=e[d];local f=p[d+2];local l=p[d]+f;p[d]=l;if(f>0)then if(l<=p[d+1])then n=e[t];p[d+3]=l;end elseif(l>=p[d+1])then n=e[t];p[d+3]=l;end break;end;local l,r,a,f,h,o;local n=0;while n>-1 do if 4<=n then if 6>n then if 0~=n then repeat if 5~=n then h=f[l[a]];break;end;o=l[r];until true;else h=f[l[a]];end else if 5<n then for e=19,71 do if n<7 then p[o]=h;break;end;n=-2;break;end;else p[o]=h;end end else if 1<n then if-1<n then for e=44,98 do if 2<n then f=p;break;end;a=t;break;end;else f=p;end else if n>-3 then repeat if n>0 then r=d;break;end;l=e;until true;else r=d;end end end n=n+1 end break;end;else local h,r,a,l,f,o;local n=0;while n>-1 do if 4<=n then if 6>n then if 0~=n then repeat if 5~=n then f=l[h[a]];break;end;o=h[r];until true;else f=l[h[a]];end else if 5<n then for e=19,71 do if n<7 then p[o]=f;break;end;n=-2;break;end;else p[o]=f;end end else if 1<n then if-1<n then for e=44,98 do if 2<n then l=p;break;end;a=t;break;end;else l=p;end else if n>-3 then repeat if n>0 then r=d;break;end;h=e;until true;else r=d;end end end n=n+1 end end end else if h>=161 then if h<162 then local h,o;for a=0,6 do if 2>=a then if a<1 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];else if a~=-3 then repeat if a<2 then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end else if 4<a then if 2<=a then repeat if a>5 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))end else if 2~=a then repeat if 4~=a then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end end end else local h;h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))end else local e=e[d]p[e](r(p,e+1,u))end end else if 170<h then if 172<h then if h>=169 then repeat if 173<h then do return p[e[d]]end break;end;local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];until true;else do return p[e[d]]end end else if h~=172 then local h;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];do return end;else local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])n=n+1;e=l[n];do return end;end end else if 168<h then if 166<h then repeat if 169~=h then p[e[d]]={};break;end;local f,r;for h=0,1 do if h~=-4 then for o=26,79 do if 1>h then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];r=p[f];for e=f+1,e[t]do s.COAzDVzl(r,p[e])end;break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end until true;else local f,r;for h=0,1 do if h~=-4 then for o=26,79 do if 1>h then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];r=p[f];for e=f+1,e[t]do s.COAzDVzl(r,p[e])end;break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end end else if 165<h then repeat if 168>h then local f,h;for r=0,2 do if 0>=r then p[e[d]]={};n=n+1;e=l[n];else if-1<=r then for o=26,98 do if 2~=r then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;break;end;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end break;end;local r,o;for h=0,4 do if 2>h then if-4<h then for r=28,62 do if 0<h then p[e[d]]={};n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]]={};n=n+1;e=l[n];end else if h>=3 then if 1~=h then for f=49,74 do if 4>h then p(e[d],e[t]);n=n+1;e=l[n];break;end;r=e[d];o=p[r];for e=r+1,e[t]do s.COAzDVzl(o,p[e])end;break;end;else p(e[d],e[t]);n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end end end until true;else local f,h;for r=0,2 do if 0>=r then p[e[d]]={};n=n+1;e=l[n];else if-1<=r then for o=26,98 do if 2~=r then p(e[d],e[t]);n=n+1;e=l[n];break;end;f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;break;end;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end end end end end end end else if 153>h then if 148>=h then if h>=147 then if 145<=h then for o=20,89 do if h<148 then local n=e[d]p[n](r(p,n+1,e[t]))break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];do return end;break;end;else local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];do return end;end else local h,s,u,b,_,c,k,a;p[e[d]]=o[e[t]];n=n+1;e=l[n];h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];a=0;while a>-1 do if a>=3 then if a>=5 then if 6~=a then p(k,c);else a=-2;end else if 0<=a then for e=21,65 do if 3<a then k=u[b];break;end;c=u[_];break;end;else k=u[b];end end else if 0<a then if 1<a then _=t;else b=d;end else u=e;end end a=a+1 end n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))end else if 150<h then if 151==h then for f=0,6 do if f<=2 then if 1<=f then if-3<=f then for h=35,97 do if f>1 then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end else if 4<f then if 3<=f then repeat if 5~=f then p(e[d],e[t]);break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if f>-1 then repeat if 4>f then p(e[d],e[t]);n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end end end else if(p[e[d]]~=p[e[f]])then n=n+1;else n=e[t];end;end else if 147<h then repeat if h~=149 then p[e[d]]=y(k[e[t]],nil,o);break;end;local a,s,b,k,u,h,o;for h=0,6 do if 3<=h then if h>=5 then if h>4 then repeat if 6~=h then p[e[d]]=(e[t]~=0);n=n+1;e=l[n];break;end;p[e[d]]=(e[t]~=0);until true;else p[e[d]]=(e[t]~=0);end else if h==4 then o=e[d]p[o]=p[o](r(p,o+1,e[t]))n=n+1;e=l[n];else p(e[d],e[t]);n=n+1;e=l[n];end end else if h<=0 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else if-1<h then for f=39,66 do if h~=1 then h=0;while h>-1 do if 2<h then if 4<h then if h>=1 then repeat if 5<h then h=-2;break;end;p(u,k);until true;else h=-2;end else if h==3 then k=a[b];else u=a[s];end end else if 0>=h then a=e;else if h>=-1 then for e=26,66 do if h~=2 then s=d;break;end;b=t;break;end;else s=d;end end end h=h+1 end n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end end end until true;else p[e[d]]=y(k[e[t]],nil,o);end end end else if 155>=h then if h<=153 then local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};else if h>151 then repeat if 155~=h then local h,o,r,a,u,f,b,k;for f=0,4 do if f<=1 then if 0~=f then p(e[d],e[t]);n=n+1;e=l[n];else f=0;while f>-1 do if 2<f then if 4>=f then if f>1 then for e=27,64 do if 3~=f then u=h[o];break;end;a=h[r];break;end;else u=h[o];end else if f~=6 then p(u,a);else f=-2;end end else if f<=0 then h=e;else if 0<f then repeat if 2>f then o=d;break;end;r=t;until true;else r=t;end end end f=f+1 end n=n+1;e=l[n];end else if f<3 then f=0;while f>-1 do if 2<f then if 4<f then if f>5 then f=-2;else p(u,a);end else if 3~=f then u=h[o];else a=h[r];end end else if 0<f then if-3<f then for e=13,77 do if 1~=f then r=t;break;end;o=d;break;end;else o=d;end else h=e;end end f=f+1 end n=n+1;e=l[n];else if 4~=f then f=0;while f>-1 do if f>=3 then if f>=5 then if 4<f then for e=39,83 do if 5<f then f=-2;break;end;p(u,a);break;end;else p(u,a);end else if 0~=f then for e=36,69 do if f<4 then a=h[r];break;end;u=h[o];break;end;else a=h[r];end end else if 1<=f then if f~=0 then for e=38,65 do if f>1 then r=t;break;end;o=d;break;end;else r=t;end else h=e;end end f=f+1 end n=n+1;e=l[n];else b=e[d];k=p[b];for e=b+1,e[t]do s.COAzDVzl(k,p[e])end;end end end end break;end;local h;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];until true;else local h,o,r,a,u,f,b,k;for f=0,4 do if f<=1 then if 0~=f then p(e[d],e[t]);n=n+1;e=l[n];else f=0;while f>-1 do if 2<f then if 4>=f then if f>1 then for e=27,64 do if 3~=f then u=h[o];break;end;a=h[r];break;end;else u=h[o];end else if f~=6 then p(u,a);else f=-2;end end else if f<=0 then h=e;else if 0<f then repeat if 2>f then o=d;break;end;r=t;until true;else r=t;end end end f=f+1 end n=n+1;e=l[n];end else if f<3 then f=0;while f>-1 do if 2<f then if 4<f then if f>5 then f=-2;else p(u,a);end else if 3~=f then u=h[o];else a=h[r];end end else if 0<f then if-3<f then for e=13,77 do if 1~=f then r=t;break;end;o=d;break;end;else o=d;end else h=e;end end f=f+1 end n=n+1;e=l[n];else if 4~=f then f=0;while f>-1 do if f>=3 then if f>=5 then if 4<f then for e=39,83 do if 5<f then f=-2;break;end;p(u,a);break;end;else p(u,a);end else if 0~=f then for e=36,69 do if f<4 then a=h[r];break;end;u=h[o];break;end;else a=h[r];end end else if 1<=f then if f~=0 then for e=38,65 do if f>1 then r=t;break;end;o=d;break;end;else r=t;end else h=e;end end f=f+1 end n=n+1;e=l[n];else b=e[d];k=p[b];for e=b+1,e[t]do s.COAzDVzl(k,p[e])end;end end end end end end else if 157<h then if 154~=h then for o=22,83 do if h~=158 then local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))break;end;p[e[d]]=p[e[t]]+p[e[f]];break;end;else local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))end else if h>=155 then for o=12,79 do if 157>h then local s,c,u,b,k,o,h,a;o=0;while o>-1 do if 3<=o then if 4>=o then if o~=-1 then repeat if o<4 then b=s[u];break;end;k=s[c];until true;else b=s[u];end else if o<6 then p(k,b);else o=-2;end end else if o>0 then if-3<=o then repeat if 2>o then c=d;break;end;u=t;until true;else u=t;end else s=e;end end o=o+1 end n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];p(e[d],e[t]);break;end;local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))break;end;else local h,o;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))end end end end end end else if 203<h then if h>218 then if h<=225 then if h>=222 then if h<=223 then if h~=223 then local o,a;for h=0,6 do if h<3 then if h<1 then o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];else if 2>h then p(e[d],e[t]);n=n+1;e=l[n];else o=e[d]p[o]=p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end end else if h>4 then if 2~=h then repeat if 5<h then p[e[d]]=p[e[t]][e[f]];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];end else if h>-1 then repeat if 3~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end else local o,a;for h=0,6 do if 3>h then if h<1 then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if h==2 then o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end end else if 5<=h then if 4~=h then repeat if h>5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if 4>h then p[e[d]]={};n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end end end else if 222~=h then for a=21,65 do if 225~=h then local o,u,a,k,b,f,h,r;for f=0,1 do if-1<f then repeat if f~=0 then h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;break;end;f=0;while f>-1 do if f<3 then if 1>f then o=e;else if f~=-1 then repeat if 2~=f then u=d;break;end;a=t;until true;else a=t;end end else if f<=4 then if f==3 then k=o[a];else b=o[u];end else if 3<=f then for e=34,80 do if 5~=f then f=-2;break;end;p(b,k);break;end;else f=-2;end end end f=f+1 end n=n+1;e=l[n];until true;else h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;end end break;end;local a,_,k,z,g,y,c,h,m,j,s;p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];a=e[d];_=p[e[t]];p[a+1]=_;p[a]=_[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<3 then if 1<=h then if-1<h then for e=48,65 do if 2~=h then z=d;break;end;g=t;break;end;else g=t;end else k=e;end else if h<=4 then if h~=2 then for e=45,75 do if h~=4 then y=k[g];break;end;c=k[z];break;end;else c=k[z];end else if 4~=h then for e=20,65 do if 6>h then p(c,y);break;end;h=-2;break;end;else p(c,y);end end end h=h+1 end n=n+1;e=l[n];p[e[d]]=(e[t]~=0);n=n+1;e=l[n];a=e[d]m,j=b(p[a](r(p,a+1,e[t])))u=j+a-1 s=0;for e=a,u do s=s+1;p[e]=m[s];end;n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,u))break;end;else local o,k,a,b,u,f,h,r;for f=0,1 do if-1<f then repeat if f~=0 then h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;break;end;f=0;while f>-1 do if f<3 then if 1>f then o=e;else if f~=-1 then repeat if 2~=f then k=d;break;end;a=t;until true;else a=t;end end else if f<=4 then if f==3 then b=o[a];else u=o[k];end else if 3<=f then for e=34,80 do if 5~=f then f=-2;break;end;p(u,b);break;end;else f=-2;end end end f=f+1 end n=n+1;e=l[n];until true;else h=e[d];r=p[h];for e=h+1,e[t]do s.COAzDVzl(r,p[e])end;end end end end else if h<=219 then local l=p[e[f]];if l then n=n+1;else p[e[d]]=l;n=e[t];end;else if 221~=h then local o,s,y,k,u,z,g,c,_,b,h;p[e[d]]=a[e[t]];n=n+1;e=l[n];o=e[d];s=p[e[t]];p[o+1]=s;p[o]=s[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];o=e[d]y={p[o](r(p,o+1,e[t]))};k=0;for e=o,e[f]do k=k+1;p[e]=y[k];end n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];o=e[d];s=p[e[t]];p[o+1]=s;p[o]=s[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<4 then if h<2 then if h>=-4 then repeat if h~=1 then u=e;break;end;z=d;until true;else u=e;end else if-2<=h then repeat if 3>h then g=t;break;end;c=p;until true;else c=p;end end else if 6>h then if 0~=h then for e=45,64 do if h<5 then _=c[u[g]];break;end;b=u[z];break;end;else b=u[z];end else if 4~=h then for e=34,75 do if h>6 then h=-2;break;end;p[b]=_;break;end;else p[b]=_;end end end h=h+1 end else local h,a,s,u,c,k,b,o;for o=0,6 do if 3>o then if 0<o then if 0<=o then repeat if o~=2 then o=0;while o>-1 do if 3>o then if o<1 then s=e;else if-1<o then repeat if 1<o then c=t;break;end;u=d;until true;else u=d;end end else if 5<=o then if o>=3 then for e=25,83 do if 6~=o then p(b,k);break;end;o=-2;break;end;else p(b,k);end else if 3==o then k=s[c];else b=s[u];end end end o=o+1 end n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end else if o>4 then if 3<=o then repeat if 5<o then h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];end else if o>1 then for r=39,87 do if o~=3 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end end end end end end else if h>229 then if h<=231 then if 230<h then local n=e[d];local d=p[e[t]];p[n+1]=d;p[n]=d[e[f]];else local d=e[d]local t={p[d](r(p,d+1,e[t]))};local n=0;for e=d,e[f]do n=n+1;p[e]=t[n];end end else if 228~=h then repeat if h>232 then local h,a;for o=0,4 do if 1>=o then if o~=1 then h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];else p(e[d],e[t]);n=n+1;e=l[n];end else if 2<o then if o>-1 then repeat if 3<o then if not p[e[d]]then n=n+1;else n=e[t];end;break;end;p[e[d]]=p[e[t]];n=n+1;e=l[n];until true;else if not p[e[d]]then n=n+1;else n=e[t];end;end else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end break;end;local h,s,c,k,a;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]c,k=b(p[h](p[h+1]))u=k+h-1 a=0;for e=h,u do a=a+1;p[e]=c[a];end;n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];p[e[d]]=o[e[t]];until true;else local h,s,c,k,a;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]];n=n+1;e=l[n];h=e[d]c,k=b(p[h](p[h+1]))u=k+h-1 a=0;for e=h,u do a=a+1;p[e]=c[a];end;n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,u))n=n+1;e=l[n];p[e[d]]=o[e[t]];end end else if h>=228 then if 228<h then a[e[t]]=p[e[d]];else local r,o,u,s,a,h;for h=0,6 do if h<=2 then if h>0 then if h~=-1 then for f=15,90 do if h~=2 then p[e[d]]={};n=n+1;e=l[n];break;end;h=0;while h>-1 do if h>2 then if h<=4 then if h~=-1 then for e=21,80 do if h~=4 then s=r[u];break;end;a=r[o];break;end;else a=r[o];end else if 2<h then repeat if 6~=h then p(a,s);break;end;h=-2;until true;else p(a,s);end end else if h<1 then r=e;else if h>-2 then repeat if h~=2 then o=d;break;end;u=t;until true;else o=d;end end end h=h+1 end n=n+1;e=l[n];break;end;else h=0;while h>-1 do if h>2 then if h<=4 then if h~=-1 then for e=21,80 do if h~=4 then s=r[u];break;end;a=r[o];break;end;else a=r[o];end else if 2<h then repeat if 6~=h then p(a,s);break;end;h=-2;until true;else p(a,s);end end else if h<1 then r=e;else if h>-2 then repeat if h~=2 then o=d;break;end;u=t;until true;else o=d;end end end h=h+1 end n=n+1;e=l[n];end else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if 5<=h then if 3<h then repeat if h~=5 then p(e[d],e[t]);break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if 2<=h then repeat if h~=4 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=0;while h>-1 do if h<=2 then if 1<=h then if-3~=h then repeat if h<2 then o=d;break;end;u=t;until true;else o=d;end else r=e;end else if 4<h then if 5~=h then h=-2;else p(a,s);end else if 1<h then for e=28,80 do if 3~=h then a=r[o];break;end;s=r[u];break;end;else s=r[u];end end end h=h+1 end n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end end end end end else if 227~=h then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];n=e[t];else local h,o;p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]]={};end end end end else if 211>h then if h>=207 then if h>=209 then if h>206 then repeat if 209~=h then local h,a;for o=0,6 do if 3>o then if 1<=o then if-3<=o then for s=20,94 do if o~=2 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end else if 5<=o then if 2<=o then for r=12,59 do if 5<o then p(e[d],e[t]);break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end else if o>2 then repeat if o~=3 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end break;end;local f,h;for r=0,2 do if 0<r then if-3<r then repeat if r~=1 then f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else f=e[d];h=p[f];for e=f+1,e[t]do s.COAzDVzl(h,p[e])end;end else p[e[d]]={};n=n+1;e=l[n];end end until true;else local h,o;for a=0,6 do if 3>a then if 1<=a then if-3<=a then for s=20,94 do if a~=2 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else p(e[d],e[t]);n=n+1;e=l[n];end else if 5<=a then if 2<=a then for r=12,59 do if 5<a then p(e[d],e[t]);break;end;h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end else if a>2 then repeat if a~=3 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end end else if 208==h then local h,o;for a=0,6 do if 2<a then if a<5 then if a>3 then h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];else p(e[d],e[t]);n=n+1;e=l[n];end else if a>=2 then repeat if 6>a then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;p[e[d]]={};until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end end else if a>=1 then if a>0 then repeat if 1<a then h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end end end else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);n=n+1;e=l[n];p(e[d],e[t]);end end else if h<205 then local u=k[e[t]];local r;local h={};r=s.hmVDUYVD({},{__index=function(n,e)local e=h[e];return e[1][e[2]];end,__newindex=function(p,e,n)local e=h[e]e[1][e[2]]=n;end;});for d=1,e[f]do n=n+1;local e=l[n];if e[j]==50 then h[d-1]={p,e[t]};else h[d-1]={a,e[t]};end;c[#c+1]=h;end;p[e[d]]=y(u,r,o);else if 202<h then repeat if h>205 then local d=e[d];local f=e[f];local l=d+2 local d={p[d](p[d+1],p[l])};for e=1,f do p[l+e]=d[e];end;local d=d[1]if d then p[l]=d n=e[t];else n=n+1;end;break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]]-p[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];if(p[e[d]]<p[e[f]])then n=n+1;else n=e[t];end;until true;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]]-p[e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];if(p[e[d]]<p[e[f]])then n=n+1;else n=e[t];end;end end end else if h>=215 then if 216<h then if 214~=h then for a=28,62 do if h~=218 then local h,s;for a=0,4 do if 1>=a then if-4~=a then repeat if 1>a then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];until true;else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end else if 2>=a then p(e[d],e[t]);n=n+1;e=l[n];else if 2~=a then for f=22,69 do if a~=3 then if p[e[d]]then n=n+1;else n=e[t];end;break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end end break;end;for h=0,6 do if 3>h then if h>=1 then if 0~=h then for r=33,72 do if h<2 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]]/e[f];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if h>4 then if 2~=h then for f=37,72 do if h>5 then p(e[d],e[t]);break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end else if h>=-1 then for f=45,83 do if 3~=h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p[e[d]]={};n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end end end break;end;else for h=0,6 do if 3>h then if h>=1 then if 0~=h then for r=33,72 do if h<2 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]]/e[f];n=n+1;e=l[n];break;end;else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end else if h>4 then if 2~=h then for f=37,72 do if h>5 then p(e[d],e[t]);break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end else if h>=-1 then for f=45,83 do if 3~=h then p(e[d],e[t]);n=n+1;e=l[n];break;end;p[e[d]]={};n=n+1;e=l[n];break;end;else p(e[d],e[t]);n=n+1;e=l[n];end end end end end else if h==216 then local u=k[e[t]];local r;local h={};r=s.hmVDUYVD({},{__index=function(n,e)local e=h[e];return e[1][e[2]];end,__newindex=function(p,e,n)local e=h[e]e[1][e[2]]=n;end;});for d=1,e[f]do n=n+1;local e=l[n];if e[j]==50 then h[d-1]={p,e[t]};else h[d-1]={a,e[t]};end;c[#c+1]=h;end;p[e[d]]=y(u,r,o);else do return p[e[d]]end end end else if 212>=h then if h<212 then p[e[d]]=p[e[t]]/e[f];else local h,a;for o=0,5 do if o<=2 then if 1<=o then if-2<o then repeat if o~=1 then h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];until true;else h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end else if 4<=o then if o~=1 then for h=14,95 do if 5~=o then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else p[e[d]]={};n=n+1;e=l[n];end end end end else if h>=212 then for o=42,91 do if 214~=h then local e=e[d]local d,n=b(p[e](p[e+1]))u=n+e-1 local n=0;for e=e,u do n=n+1;p[e]=d[n];end;break;end;local h,o;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];h=e[d];o=p[e[t]];p[h+1]=o;p[h]=o[e[f]];n=n+1;e=l[n];p[e[d]]={};n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];n=n+1;e=l[n];p[e[d]][e[t]]=e[f];break;end;else local e=e[d]local d,n=b(p[e](p[e+1]))u=n+e-1 local n=0;for e=e,u do n=n+1;p[e]=d[n];end;end end end end end else if h>188 then if h>=196 then if 200<=h then if h>=202 then if h~=198 then for l=32,93 do if 202<h then if p[e[d]]then n=n+1;else n=e[t];end;break;end;p[e[d]]=a[e[t]];break;end;else if p[e[d]]then n=n+1;else n=e[t];end;end else if 200==h then local h,c,a,_,s,k;for a=0,9 do if 5>a then if 2<=a then if a>2 then if a>2 then repeat if 4~=a then h=e[d];c=p[e[t]];p[h+1]=c;p[h]=c[e[f]];n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else p[e[d]]=o[e[t]];n=n+1;e=l[n];end else if 0~=a then p[e[d]]=o[e[t]];n=n+1;e=l[n];else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end else if 6>=a then if a>=1 then for o=17,89 do if a~=6 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end else if 7<a then if a~=4 then for o=42,83 do if 8~=a then n=e[t];break;end;h=e[d]k={p[h](r(p,h+1,u))};s=0;for e=h,e[f]do s=s+1;p[e]=k[s];end n=n+1;e=l[n];break;end;else n=e[t];end else h=e[d]k,_=b(p[h](p[h+1]))u=_+h-1 s=0;for e=h,u do s=s+1;p[e]=k[s];end;n=n+1;e=l[n];end end end end else p[e[d]]();end end else if h>=198 then if 195~=h then repeat if 199>h then for h=0,1 do if-3<=h then repeat if h>0 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end break;end;local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];h=e[d]p[h](r(p,h+1,e[t]))until true;else for h=0,1 do if-3<=h then repeat if h>0 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end else if h>=192 then repeat if 196<h then local h,s;for a=0,6 do if a>2 then if a>4 then if 4<a then repeat if a~=6 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=p[e[t]][e[f]];end else if 1<a then for f=34,90 do if a~=3 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if 0>=a then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if a>=-2 then for r=45,83 do if a<2 then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];break;end;else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end end end end break;end;local h,a;for o=0,4 do if 2>o then if 0==o then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end else if 2<o then if 1<o then for r=21,78 do if 4>o then h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];break;end;p[e[d]]={};break;end;else p[e[d]]={};end else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end end until true;else local h,s;for a=0,6 do if a>2 then if a>4 then if 4<a then repeat if a~=6 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];until true;else p[e[d]]=p[e[t]][e[f]];end else if 1<a then for f=34,90 do if a~=3 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if 0>=a then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else if a>=-2 then for r=45,83 do if a<2 then p[e[d]]=o[e[t]];n=n+1;e=l[n];break;end;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];break;end;else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end end end end end end end else if h>191 then if 193<h then if h>192 then for f=43,71 do if 194<h then for f=0,5 do if 2>=f then if f<=0 then a[e[t]]=p[e[d]];n=n+1;e=l[n];else if 0<f then repeat if 2~=f then a[e[t]]=p[e[d]];n=n+1;e=l[n];break;end;a[e[t]]=p[e[d]];n=n+1;e=l[n];until true;else a[e[t]]=p[e[d]];n=n+1;e=l[n];end end else if f<=3 then o[e[t]]=p[e[d]];n=n+1;e=l[n];else if 2~=f then repeat if f<5 then o[e[t]]=p[e[d]];n=n+1;e=l[n];break;end;if p[e[d]]then n=n+1;else n=e[t];end;until true;else if p[e[d]]then n=n+1;else n=e[t];end;end end end end break;end;local d=e[d];local l=p[d]local f=p[d+2];if(f>0)then if(l>p[d+1])then n=e[t];else p[d+3]=l;end elseif(l<p[d+1])then n=e[t];else p[d+3]=l;end break;end;else local d=e[d];local l=p[d]local f=p[d+2];if(f>0)then if(l>p[d+1])then n=e[t];else p[d+3]=l;end elseif(l<p[d+1])then n=e[t];else p[d+3]=l;end end else if h~=192 then local h,a;for o=0,4 do if 2>o then if-3<o then repeat if o>0 then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];until true;else p(e[d],e[t]);n=n+1;e=l[n];end else if 2<o then if o~=0 then for f=14,62 do if 4~=o then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d]p[h]=p[h](r(p,h+1,e[t]))break;end;else h=e[d]p[h]=p[h](r(p,h+1,e[t]))end else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end end end else p[e[d]]=-p[e[t]];end end else if 189<h then if 187<h then for o=34,93 do if 190<h then for h=0,4 do if h<2 then if-3<=h then repeat if h~=0 then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]]*p[e[f]];n=n+1;e=l[n];until true;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if 2<h then if 3==h then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else n=e[t];end else p[e[d]]=p[e[t]]*e[f];n=n+1;e=l[n];end end end break;end;local s,y,o,c,k,u,_,b,h,g,z;for h=0,6 do if 3<=h then if 4>=h then if h>=2 then for o=10,86 do if h~=4 then s=e[d]g={p[s](r(p,s+1,e[t]))};z=0;for e=s,e[f]do z=z+1;p[e]=g[z];end n=n+1;e=l[n];break;end;p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;else s=e[d]g={p[s](r(p,s+1,e[t]))};z=0;for e=s,e[f]do z=z+1;p[e]=g[z];end n=n+1;e=l[n];end else if h~=4 then repeat if h~=5 then h=0;while h>-1 do if h<=3 then if h<2 then if h~=-2 then repeat if 0~=h then c=d;break;end;o=e;until true;else o=e;end else if h==2 then k=t;else u=p;end end else if h>5 then if 5<=h then for e=19,92 do if h~=6 then h=-2;break;end;p[b]=_;break;end;else h=-2;end else if h==4 then _=u[o[k]];else b=o[c];end end end h=h+1 end break;end;s=e[d];y=p[e[t]];p[s+1]=y;p[s]=y[e[f]];n=n+1;e=l[n];until true;else h=0;while h>-1 do if h<=3 then if h<2 then if h~=-2 then repeat if 0~=h then c=d;break;end;o=e;until true;else o=e;end else if h==2 then k=t;else u=p;end end else if h>5 then if 5<=h then for e=19,92 do if h~=6 then h=-2;break;end;p[b]=_;break;end;else h=-2;end else if h==4 then _=u[o[k]];else b=o[c];end end end h=h+1 end end end else if 0<h then if h>=0 then repeat if 2~=h then s=e[d];y=p[e[t]];p[s+1]=y;p[s]=y[e[f]];n=n+1;e=l[n];break;end;h=0;while h>-1 do if 4<=h then if h>=6 then if 6==h then p[b]=_;else h=-2;end else if h==5 then b=o[c];else _=u[o[k]];end end else if h>=2 then if h>-1 then repeat if h<3 then k=t;break;end;u=p;until true;else u=p;end else if-3<h then repeat if 1~=h then o=e;break;end;c=d;until true;else o=e;end end end h=h+1 end n=n+1;e=l[n];until true;else h=0;while h>-1 do if 4<=h then if h>=6 then if 6==h then p[b]=_;else h=-2;end else if h==5 then b=o[c];else _=u[o[k]];end end else if h>=2 then if h>-1 then repeat if h<3 then k=t;break;end;u=p;until true;else u=p;end else if-3<h then repeat if 1~=h then o=e;break;end;c=d;until true;else o=e;end end end h=h+1 end n=n+1;e=l[n];end else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end break;end;else for h=0,4 do if h<2 then if-3<=h then repeat if h~=0 then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]]*p[e[f]];n=n+1;e=l[n];until true;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end else if 2<h then if 3==h then p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];else n=e[t];end else p[e[d]]=p[e[t]]*e[f];n=n+1;e=l[n];end end end end else p[e[d]]=a[e[t]];end end end else if h>=182 then if h<185 then if 182<h then if h>182 then repeat if 184~=h then local o,a;for h=0,6 do if h<=2 then if 0<h then if-1<h then repeat if h~=1 then o=e[d];a=p[e[t]];p[o+1]=a;p[o]=a[e[f]];n=n+1;e=l[n];break;end;o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];until true;else o=e[d]p[o](r(p,o+1,e[t]))n=n+1;e=l[n];end else p[e[d]][e[t]]=p[e[f]];n=n+1;e=l[n];end else if h<5 then if 1~=h then for r=16,95 do if h<4 then p[e[d]]={};n=n+1;e=l[n];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]]={};n=n+1;e=l[n];end else if h~=4 then repeat if h~=5 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];until true;else p[e[d]][e[t]]=e[f];end end end end break;end;for h=0,1 do if-3<h then for r=13,59 do if h~=0 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end until true;else for h=0,1 do if-3<h then for r=13,59 do if h~=0 then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end end else local e=e[d]p[e](p[e+1])end else if 187<=h then if 187<h then local h,s;for a=0,6 do if 2<a then if 5<=a then if a>3 then repeat if 5~=a then p[e[d]]={};break;end;p[e[d]]=(e[t]~=0);n=n+1;e=l[n];until true;else p[e[d]]=(e[t]~=0);n=n+1;e=l[n];end else if a>3 then p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];else h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];end end else if a>0 then if-3<a then for r=42,79 do if a~=1 then p(e[d],e[t]);n=n+1;e=l[n];break;end;h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];break;end;else h=e[d];s=p[e[t]];p[h+1]=s;p[h]=s[e[f]];n=n+1;e=l[n];end else p[e[d]]=o[e[t]];n=n+1;e=l[n];end end end else if(e[d]<p[e[f]])then n=e[t];else n=n+1;end;end else if h~=181 then repeat if h<186 then local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])break;end;local h;for a=0,6 do if 2<a then if 5<=a then if a~=5 then p[e[d]][e[t]]=p[e[f]];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else if a>-1 then for f=49,76 do if 3~=a then h=e[d]p[h]=p[h](p[h+1])n=n+1;e=l[n];break;end;p(e[d],e[t]);n=n+1;e=l[n];break;end;else h=e[d]p[h]=p[h](p[h+1])n=n+1;e=l[n];end end else if 0>=a then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];else if 2~=a then p[e[d]]=o[e[t]];n=n+1;e=l[n];else p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];end end end end until true;else local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h](p[h+1])end end end else if 177>=h then if 176>h then if(p[e[d]]~=p[e[f]])then n=n+1;else n=e[t];end;else if h~=177 then for h=0,1 do if h>0 then p[e[d]][e[t]]=e[f];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end else local s;for h=0,6 do if h<3 then if h<1 then p[e[d]]=o[e[t]];n=n+1;e=l[n];else if-2~=h then for r=20,75 do if h~=1 then p[e[d]]=a[e[t]];n=n+1;e=l[n];break;end;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];break;end;else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end else if h>=5 then if h>=3 then for f=18,70 do if h~=5 then p[e[d]]=a[e[t]];break;end;s=e[d]p[s]=p[s](r(p,s+1,e[t]))n=n+1;e=l[n];break;end;else s=e[d]p[s]=p[s](r(p,s+1,e[t]))n=n+1;e=l[n];end else if 3~=h then p(e[d],e[t]);n=n+1;e=l[n];else p[e[d]]=a[e[t]];n=n+1;e=l[n];end end end end end end else if 180<=h then if h~=181 then local h;p[e[d]]=p[e[t]][e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];p[e[d]]=p[e[t]]+p[e[f]];n=n+1;e=l[n];p[e[d]]=a[e[t]];n=n+1;e=l[n];h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];a[e[t]]=p[e[d]];else local h,a;for o=0,4 do if o>=2 then if 2<o then if o>1 then for h=15,98 do if 3<o then p[e[d]][e[t]]=e[f];break;end;p[e[d]][e[t]]=e[f];n=n+1;e=l[n];break;end;else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end else p[e[d]]={};n=n+1;e=l[n];end else if o~=1 then h=e[d]p[h](r(p,h+1,e[t]))n=n+1;e=l[n];else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end end end end else if h>=176 then repeat if h~=179 then local a,c,s,k,b,_,u,h;a=e[d];c=p[e[t]];p[a+1]=c;p[a]=c[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<=2 then if 0>=h then s=e;else if h>=0 then for e=17,52 do if 1~=h then b=t;break;end;k=d;break;end;else b=t;end end else if 4>=h then if 2~=h then for e=17,94 do if 4>h then _=s[b];break;end;u=s[k];break;end;else u=s[k];end else if 1<h then repeat if 5<h then h=-2;break;end;p(u,_);until true;else p(u,_);end end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];a=e[d];c=p[e[t]];p[a+1]=c;p[a]=c[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if 2<h then if 4<h then if 6~=h then p(u,_);else h=-2;end else if h~=0 then for e=33,63 do if h>3 then u=s[k];break;end;_=s[b];break;end;else u=s[k];end end else if 1<=h then if h>=-2 then for e=18,93 do if h~=2 then k=d;break;end;b=t;break;end;else b=t;end else s=e;end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))break;end;local h,a;for o=0,6 do if o<=2 then if o<1 then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else if 1~=o then p[e[d]][e[t]]=e[f];n=n+1;e=l[n];else p[e[d]][e[t]]=e[f];n=n+1;e=l[n];end end else if o>=5 then if 3<o then for h=21,52 do if 5<o then p[e[d]][e[t]]=e[f];break;end;p[e[d]]={};n=n+1;e=l[n];break;end;else p[e[d]]={};n=n+1;e=l[n];end else if 1<o then repeat if 4>o then h=e[d]p[h]=p[h](r(p,h+1,e[t]))n=n+1;e=l[n];break;end;h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];until true;else h=e[d];a=p[e[t]];p[h+1]=a;p[h]=a[e[f]];n=n+1;e=l[n];end end end end until true;else local a,b,s,c,k,_,u,h;a=e[d];b=p[e[t]];p[a+1]=b;p[a]=b[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if h<=2 then if 0>=h then s=e;else if h>=0 then for e=17,52 do if 1~=h then k=t;break;end;c=d;break;end;else k=t;end end else if 4>=h then if 2~=h then for e=17,94 do if 4>h then _=s[k];break;end;u=s[c];break;end;else u=s[c];end else if 1<h then repeat if 5<h then h=-2;break;end;p(u,_);until true;else p(u,_);end end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))n=n+1;e=l[n];p[e[d]]=o[e[t]];n=n+1;e=l[n];a=e[d];b=p[e[t]];p[a+1]=b;p[a]=b[e[f]];n=n+1;e=l[n];h=0;while h>-1 do if 2<h then if 4<h then if 6~=h then p(u,_);else h=-2;end else if h~=0 then for e=33,63 do if h>3 then u=s[c];break;end;_=s[k];break;end;else u=s[c];end end else if 1<=h then if h>=-2 then for e=18,93 do if h~=2 then c=d;break;end;k=t;break;end;else k=t;end else s=e;end end h=h+1 end n=n+1;e=l[n];a=e[d]p[a]=p[a](r(p,a+1,e[t]))end end end end end end end end n=1+n;end;end;return te end;local d=0xff;local o={};local l=(1);local t='';(function(n)local p=n local f=0x00 local e=0x00 p={(function(h)if f>0x22 then return h end f=f+1 e=(e+0xf18-h)%0x39 return(e%0x03==0x1 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x10);t={t..'\58 a',t};o[l]=ee();l=l+(1);t[1]='\58'..t[1];d[2]=0xff;end return true end)'ikGsL'and p[0x2](0x156+h))or(e%0x03==0x2 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x3a);t='\37';d={function()d()end};t=t..'\100\43';end return true end)'YDiah'and p[0x1](h+0xea))or(e%0x03==0x0 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x81);end return true end)'fUtVo'and p[0x3](h+0xb3))or h end),(function(h)if f>0x30 then return h end f=f+1 e=(e+0x7c6-h)%0x2e return(e%0x03==0x2 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x13);end return true end)'rzmOV'and p[0x1](0x227+h))or(e%0x03==0x1 and(function(p)if not n[p]then e=e+0x01 n[p]=(0xa4);d[2]=(d[2]*(te(function()o()end,r(t))-te(d[1],r(t))))+1;o[l]={};d=d[2];l=l+d;end return true end)'EsUMT'and p[0x3](h+0x258))or(e%0x03==0x0 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x67);end return true end)'KOJzb'and p[0x2](h+0x23f))or h end),(function(t)if f>0x2c then return t end f=f+1 e=(e+0xaa0-t)%0x24 return(e%0x03==0x0 and(function(p)if not n[p]then e=e+0x01 n[p]=(0x89);o[l]=le();l=l+d;end return true end)'_Tyzo'and p[0x1](0x328+t))or(e%0x03==0x1 and(function(p)if not n[p]then e=e+0x01 n[p]=(0xea);end return true end)'sokti'and p[0x3](t+0x9e))or(e%0x03==0x2 and(function(p)if not n[p]then e=e+0x01 n[p]=(0xa8);end return true end)'gfQLw'and p[0x2](t+0x335))or t end)}p[0x1](0x511)end){};local e=y(r(o));return e(...);end return ee((function()local n={}local e=0x01;local p;if s.WgYPCwZx then p=s.WgYPCwZx(ee)else p=''end if s.f_DQwdi_(p,s.wHYtFQeV)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(e,n,p,t,d,l)local l;if e<4 then if e<2 then if 0<e then do return function(n,e,p)if p then local e=(n/2^(e-1))%2^((p-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;else do return n(1),n(4,d,t,p,n),n(5,d,t,p)end;end else if-2<=e then for l=21,91 do if 3~=e then do return 16777216,65536,256 end;break;end;do return n(1),n(4,d,t,p,n),n(5,d,t,p)end;break;end;else do return 16777216,65536,256 end;end end else if 6<=e then if 7<=e then if 5~=e then repeat if e~=8 then do return setmetatable({},{['__\99\97\108\108']=function(e,d,p,t,n)if n then return e[n]elseif t then return e else e[d]=p end end})end break;end;do return p(e,nil,p);end until true;else do return setmetatable({},{['__\99\97\108\108']=function(e,p,t,d,n)if n then return e[n]elseif d then return e else e[p]=t end end})end end else do return d[p]end;end else if 3<e then for l=43,58 do if e>4 then local e=t;do return function()local n=n(p,e(e,e),e(e,e));e(1);return n;end;end;break;end;local e=t;local h,l,f=d(2);do return function()local d,n,t,p=n(p,e(e,e),e(e,e)+3);e(4);return(p*h)+(t*l)+(n*f)+d;end;end;break;end;else local e=t;local l,t,d=d(2);do return function()local n,p,h,f=n(p,e(e,e),e(e,e)+3);e(4);return(f*l)+(h*t)+(p*d)+n;end;end;end end end end),...)
+-- all dependencies backed up by 25ms :>
+local lib = loadstring(game:HttpGet("https://you.whimper.xyz/sources/Lunor/Backup/Backend/ObfuscatedSource"))()
+local FlagsManager = loadstring(game:HttpGet("https://you.whimper.xyz/sources/Lunor/Backup/Backend/ObfuscatedConfigSource"))()
+
+-- print = function() end
+-- warn = function() end
+-- local PreventSkidsToMakeGayThings = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/InfiniX/main/Library/Anti/AntiDebug/main.lua", true))()
+
+-- if not (type(PreventSkidsToMakeGayThings) == "table") then
+--   while true do end
+-- end
+
+if not isfile('Lunor_Trans.png') then
+    writefile("Lunor.png", game:HttpGet('https://you.whimper.xyz/sources/Lunor/Backup/Lunor_Trans.png'))
+end
+
+local GetService,cloneref=game.GetService,cloneref or function(r)return r end
+local services=setmetatable({},{
+    __index=function(self,service)
+        local r=cloneref(GetService(game,service))
+        self[service]=r
+        return r
+    end
+})
+local genv = getgenv and getgenv() or shared or _G or {}
+
+local LRM_UserNote = "Owner" -- Debugging Purpose Only
+local LRM_ScriptVersion = "v0030" -- Debugging Purpose Only
+
+--[[Please Commnet When you are about to upload]]--
+local function RoleChecker()
+    if string.find(LRM_UserNote, "Ad Reward") then
+        return "Free Version"
+    elseif string.find(LRM_UserNote, "Premium") then
+        return "Premium Version"
+    elseif string.find(LRM_UserNote, "Owner") then
+        return "Dev Version"
+    else
+        return "No Role Assigned"
+    end
+end
+
+local function formatVersion(version)
+    local formattedVersion = "v" .. version:sub(2):gsub(".", "%0.") -- Keep 'v' and add dot between digits
+    return formattedVersion:sub(1, #formattedVersion - 1) -- Remove last dot
+end
+
+local function interpolate_color(color1, color2, t)
+    local r = math.floor((1 - t) * color1[1] + t * color2[1])
+    local g = math.floor((1 - t) * color1[2] + t * color2[2])
+    local b = math.floor((1 - t) * color1[3] + t * color2[3])
+    return string.format("#%02x%02x%02x", r, g, b)
+end
+
+local function hex_to_rgb(hex)
+    return {
+        tonumber(hex:sub(1, 2), 16),
+        tonumber(hex:sub(3, 4), 16),
+        tonumber(hex:sub(5, 6), 16)
+    }
+end
+
+local function gradient(word)
+    if not word or #word == 0 then
+        return "Error"
+    end
+
+    if genv.GradientColor == nil then
+        start_color = hex_to_rgb("ea00ff")
+        end_color = hex_to_rgb("5700ff")
+    else
+        -- print(genv.GradientColor.startingColor, genv.GradientColor.endingColor)
+        start_color = hex_to_rgb(genv.GradientColor.startingColor)
+        end_color = hex_to_rgb(genv.GradientColor.endingColor)
+    end
+
+    local gradient_word = ""
+    local word_len = #word
+    local step = 1.0 / math.max(word_len - 1, 1)
+
+    for i = 1, word_len do
+        local t = step * (i - 1)
+        local color = interpolate_color(start_color, end_color, t)
+        gradient_word = gradient_word .. string.format('<font color="%s">%s</font>', color, word:sub(i, i))
+    end
+
+    return gradient_word
+end
+
+-- Example usage
+-- print(gradient("Hello"))
+local function getSPOCKIcon()
+    local asset
+    local success, product = pcall(function()
+        return getcustomasset(readfile('SPOCK_Trans2.png'))
+    end)
+
+    if not success or identifyexecutor():find("Cryptic") then
+        asset = "http://www.roblox.com/asset/?id=115594743966251"
+    else
+        asset = product
+    end
+    return asset
+end
+
+local main = lib:Load({
+    Title = 'Fisch '..formatVersion(LRM_ScriptVersion)..' | ' .. gradient("discord.gg/SPOCK").. " | ".. RoleChecker(),
+    KeyAuth = "3itx_49ckx39",
+    ToggleButton = getSPOCKIcon()
+})
+
+
+
+local tabs = {
+    Main = main:AddTab("Main"),
+    AutoFarm = main:AddTab("Auto Farm"),
+    Items = main:AddTab("Items"),
+    Teleporation = main:AddTab("Teleports"),
+    Misc = main:AddTab("Misc"),
+    Webhook = main:AddTab("Webhook"),
+    Visuals = main:AddTab("Visuals"),
+    Config = main:AddTab("Configs")
+}
+main:SelectTab()
+
+
+
+local sections = {
+    Welcome = tabs.Main:AddSection({Defualt = true , Locked = true}),
+    -- FishPremium = tabs.AutoFarm:AddSection({Title = gradient("Premium - Rod Exploit"), Description = "", Defualt = false , Locked = false}),
+    Fish = tabs.AutoFarm:AddSection({Title = gradient("Auto Fishing"), Description = "", Defualt = true , Locked = false}),
+    FishPlus = tabs.AutoFarm:AddSection({Title = gradient("Advanced Auto Fish"), Description = "", Defualt = false , Locked = false}),
+    FishBait = tabs.AutoFarm:AddSection({Title = gradient("Baits"), Description = "", Defualt = false , Locked = false}),
+    -- FishSell = tabs.AutoFarm:AddSection({Title = gradient("Selling"), Description = "", Defualt = false , Locked = false}),
+    Webhook1 = tabs.Webhook:AddSection({Title = gradient(""), Description = "", Defualt = true , Locked = true}),
+    Webhook2 = tabs.Webhook:AddSection({Title = gradient("Webhook Settings"), Description = "", Defualt = true , Locked = false}),
+    Webhook3 = tabs.Webhook:AddSection({Title = gradient("Start Webhooks"), Description = "", Defualt = true , Locked = false}),
+    FishSettings = tabs.AutoFarm:AddSection({Title = gradient("Auto Fish Settings"), Description = "", Defualt = false , Locked = false}),
+    Item0 = tabs.Items:AddSection({Defualt = true , Locked = true}),
+    Item = tabs.Items:AddSection({Title = gradient("Purchase"), Description = "", Defualt = false , Locked = false}),
+    Item5 = tabs.Items:AddSection({Title = gradient("Selling & Favouriting"), Description = "", Defualt = false , Locked = false}),
+    Item1 = tabs.Items:AddSection({Title = gradient("Appraise"), Description = "", Defualt = false , Locked = false}),
+    Item2 = tabs.Items:AddSection({Title = gradient("Enchant"), Description = "", Defualt = false , Locked = false}),
+    Item3 = tabs.Items:AddSection({Title = gradient("Totems"), Description = "", Defualt = false , Locked = false}),
+    Item4 = tabs.Items:AddSection({Title = gradient("Treasures"), Description = "", Defualt = false , Locked = false}),
+    Tele = tabs.Teleporation:AddSection({Defualt = true , Locked = true}),
+    Tele1 = tabs.Teleporation:AddSection({Title = gradient("Teleports"), Description = "", Defualt = false , Locked = false}),
+    Tele2 = tabs.Teleporation:AddSection({Title = gradient("Advanced Teleports"), Description = "", Defualt = false , Locked = false}),
+    Misc = tabs.Misc:AddSection({Title = gradient("Character"), Description = "", Defualt = false , Locked = false}),
+    Misc1 = tabs.Misc:AddSection({Title = gradient("Anti Staff"), Description = "", Defualt = false , Locked = false}),
+    Misc3 = tabs.Misc:AddSection({Title = gradient("Platform"), Description = "", Defualt = false , Locked = false}),
+    Misc2 = tabs.Misc:AddSection({Title = gradient("Gifting"), Description = "", Defualt = false , Locked = false}),
+    Misc4 = tabs.Misc:AddSection({Title = gradient("Boats"), Description = "", Defualt = false , Locked = false}),
+    -- Misc5 = tabs.Misc:AddSection({Title = gradient("Exploits"), Description = "", Defualt = false , Locked = false}),
+    Visuals = tabs.Visuals:AddSection({Title = gradient("Visuals"), Description = "", Defualt = false , Locked = false}),
+    Visuals1 = tabs.Visuals:AddSection({Title = gradient("FPS"), Description = "", Defualt = false , Locked = false}),
+    Visuals2 = tabs.Visuals:AddSection({Title = gradient("Hide Identity"), Description = "", Defualt = false , Locked = false}),
+    Visuals3 = tabs.Visuals:AddSection({Title = gradient("ESP (soon)"), Description = "", Defualt = false , Locked = false}),
+    Visuals4 = tabs.Visuals:AddSection({Title = gradient("Rod Skin"), Description = "", Defualt = false , Locked = false}),
+    Gradient = tabs.Config:AddSection({Title = gradient("Gradient"), Description = "", Defualt = false , Locked = false}),
+}
+
+local variables = {
+    autoSellDelay = 0,
+    autoselling = false,
+    TweenMethod = false,
+    TeleportMethod = true,
+    AutoCast = false,
+    AutoShake = false,
+    AutoCatch = false,
+    AlreadyRequested = false,
+    AutoToggleRadar = false,
+    Method1 = false,
+    Coords = "",
+    AutoCastZone = false,
+    baits = {},
+    SelectedBait = nil,
+    AutoPredictor = false,
+    AutoDrop = false
+}
+
+genv.WelcomeParagraph  = sections.Welcome:AddParagraph({Title = gradient("Loading..."), Description = "Please wait..\nIf you've been stuck on this for a long time please join our discord and report it."})
+data = loadstring(game:HttpGet("https://you.whimper.xyz/sources/Lunor/data.lua"))()
+
+
+local function prompt(npc)
+    local promptInstance = npc:FindFirstChild("dialogprompt")
+    if promptInstance then
+
+        local player = services.Players.LocalPlayer
+        local char = player.Character
+        local oldParent = promptInstance.Parent
+        local oldDistance = promptInstance.MaxActivationDistance
+
+        promptInstance.MaxActivationDistance = math.huge
+        promptInstance.Parent = char
+
+        for _, obj in ipairs(char:GetChildren()) do
+            if obj:IsA("ProximityPrompt") then
+                obj:InputHoldBegin()
+                task.wait(0.01) -- Adjust this as needed for reliability
+                obj:InputHoldEnd()
+            end
+        end
+
+        promptInstance.Parent = oldParent
+        promptInstance.MaxActivationDistance = oldDistance
+    end
+end
+
+if not genv.SPOCKDependencies then
+    local players = services.Players
+    local player = players.LocalPlayer
+    local workspaceService = game:GetService("Workspace")
+    local replicatedStorage = services.ReplicatedStorage
+    local virtualUser = game:GetService("VirtualUser")
+    
+    player.Idled:Connect(function()
+        virtualUser:CaptureController()
+        virtualUser:ClickButton2(Vector2.new())
+    end)
+
+    local npcData = {
+        {name = "Marc Merchant", position = Vector3.new(466, 151, 224)},
+        {name = "Appraiser", position = Vector3.new(453.182373046875, 150.50003051757812, 206.90878295898438)},
+        {name = "Merlin", position = Vector3.new(-928.0328369140625, 223.7000274658203, -998.7449951171875)},
+        {name = "Jack Marrow", position = Vector3.new(-2829.855712890625, 212.09266662597656, 1517.4398193359375)},
+        {name = "Mods Latern Keeper", position = Vector3.new(-39, -247, 196)},
+        {name = "Terrapin Shipwright", position = Vector3.new(5869.421875, 143.49795532226562, 7.101318359375)}
+    }
+
+    for _, npcInfo in ipairs(npcData) do
+        player:RequestStreamAroundAsync(npcInfo.position)
+        local npc = workspaceService.world.npcs:FindFirstChild(npcInfo.name)
+        if npc then
+            npc.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            prompt(npc)
+        end
+    end
+
+    player:GetPropertyChangedSignal("GameplayPaused"):Connect(function()
+        if player.GameplayPaused then
+            player.GameplayPaused = false
+        end
+    end)
+
+    -- Anti Death Screen
+    local deathGui = player.PlayerGui:FindFirstChild("death")
+    if deathGui then
+        deathGui:GetPropertyChangedSignal("Enabled"):Connect(function()
+            if deathGui.Enabled then
+                deathGui.Enabled = false
+            end
+        end)
+    end
+
+    -- File Setup
+    if not isfolder("SPOCK/Fisch") then
+        makefolder("SPOCK/Fisch")
+    else
+    end
+    if not isfile("SPOCK/Fisch/saved_teleports.json") then
+        writefile("SPOCK/Fisch/saved_teleports.json", "{}")
+    end
+     
+    if workspace.zones.fishing:FindFirstChild("Brine Pool Water") then
+        workspace.zones.fishing:FindFirstChild("Brine Pool Water"):Destroy()
+    end
+    
+    player:RequestStreamAroundAsync("-1969.1385498046875, 312.765869140625, 255.92677307128906")
+    if workspace.world.map["Roslit Bay"]:FindFirstChild("Lava") then
+        for _,v in pairs(workspace.world.map["Roslit Bay"].Lava:GetDescendants()) do
+            if v.Name == "Lava" then
+                v:Destroy()
+            end
+        end
+    end
+
+    player:RequestStreamAroundAsync("1288.759765625, -899.0166015625, -191.36984252929688")
+    for _,v in pairs(workspace.world.map["Enchant Room"]:GetDescendants()) do
+        if v:IsA("TouchTransmitter") then
+            v.Parent:Destroy()
+        end
+    end
+    -- Rename Fisch Dev Mistake
+    workspace.world.npcs["Terrapin Shipwright"].Name = "Ancient Shipwright"
+    genv.SPOCKDependencies = true
+    services.ReplicatedStorage.events.anno_localthought:Fire([[<b><font color="#5359bf">L</font><font color="#4c4eb9">u</font><font color="#4644b3">n</font><font color="#403aad">o</font><font color="#3a30a8">r</font> Has Been loaded</b>]],5)
+end
+
+lib:Notification("Loaded!","Anti AFK and more have been loaded.", 5)
+
+
+local Players = services.Players
+local CoreGui = game:GetService("StarterGui")
+local GuiService = game:GetService('GuiService')
+local ReplicatedStorage = game:GetService('ReplicatedStorage')
+local VIM = game:GetService('VirtualInputManager')
+local Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+local HttpService = services.HttpService
+local LocalPlayer = Players.LocalPlayer
+local Enabled = false
+local Rod = false
+local Progress = false
+local Finished = false
+
+local PlayerStats = ReplicatedStorage:WaitForChild("playerstats")[LocalPlayer.Name].Stats
+local character = LocalPlayer.Character
+
+function CreatePrice(Path, Price)
+    _G.existingLabel = Path:FindFirstChild("STOP SKIDDING >:(")
+    if _G.existingLabel then
+        _G.existingLabel.Text = tostring(Price) .. "C$"
+    else
+        _G.itemPrice = Instance.new("TextLabel", Path)
+        _G.itemPrice.Position = UDim2.new(0, 1, 0, 0)
+        _G.itemPrice.Size = UDim2.new(1, 0, 0.183, 0)
+        _G.itemPrice.ZIndex = 99999
+        _G.itemPrice.Transparency = 1
+        _G.itemPrice.Text = tostring(Price) .. "C$"
+        _G.itemPrice.TextXAlignment = Enum.TextXAlignment.Right
+        _G.itemPrice.Name = "STOP SKIDDING >:("
+        _G.itemPrice.TextSize = 14
+        _G.itemPrice.TextScaled = false
+        _G.itemPrice.Font = Enum.Font.SourceSans
+
+        _G.uiStroke = Instance.new("UIStroke", _G.itemPrice)
+        _G.uiStroke.Color = Color3.fromRGB(255, 255, 255)
+        _G.uiStroke.Thickness = 0
+        _G.uiStroke.Transparency = 0
+
+        _G.uiGradient = Instance.new("UIGradient", _G.uiStroke)
+        _G.uiGradient.Color = ColorSequence.new{
+            ColorSequenceKeypoint.new(0.000, Color3.fromRGB(116, 46, 255)),
+            ColorSequenceKeypoint.new(1.000, Color3.fromRGB(205, 113, 255))
+        }
+    end
+end
+
+function getFishInventorySetting(fishName)
+    _G.playerName = game.Players.LocalPlayer.Name
+    _G.playerInventory = ReplicatedStorage.playerstats:FindFirstChild(_G.playerName).Inventory
+    _G.fishItem = _G.playerInventory:FindFirstChild(tostring(fishName))
+
+    if _G.fishItem then
+        _G.fishSettings = {}
+        _G.fishSettings["Name"] = _G.fishItem.Value
+
+        for _, child in ipairs(_G.fishItem:GetChildren()) do
+            if child:IsA("ValueBase") then 
+                _G.fishSettings[child.Name] = child.Value
+            end
+        end
+
+        return _G.fishSettings
+    else
+        return nil
+    end
+end
+
+function GetBackPackItemValue(Name)
+    _G.Price = nil
+
+    if type(getFishInventorySetting(Name)) == "table" then
+        if getFishInventorySetting(Name).Weight then
+            _G.Price = math.ceil(data.Fish[getFishInventorySetting(Name).Name].Price / data.Fish[getFishInventorySetting(Name).Name].WeightPool[2] * getFishInventorySetting(Name).Weight * 10)
+        else return 0
+        end
+        if getFishInventorySetting(Name).Shiny then
+            _G.Price = _G.Price * 1.85
+        end
+        if getFishInventorySetting(Name).Sparkling then
+            _G.Price = _G.Price * 1.85
+        end
+        if getFishInventorySetting(Name).Mutation then
+            _G.Price = _G.Price * data.Mutations[tostring(getFishInventorySetting(Name).Mutation)].PriceMultiply
+        end
+        if getFishInventorySetting(Name).Stack then
+            _G.Price = _G.Price * getFishInventorySetting(Name).Stack
+        end
+        return math.ceil(_G.Price)
+    else
+        return getFishInventorySetting(Name)
+    end
+end
+
+function UpdatePrice(item)
+    _G.itemValue = item.Value
+    _G.price = GetBackPackItemValue(_G.itemValue)
+    if _G.price then
+        CreatePrice(item.Parent, _G.price)
+    end
+end
+
+function clearPriceLabels()
+    for _, descendant in ipairs(game.Players.LocalPlayer.PlayerGui.hud.safezone:WaitForChild("backpack"):GetDescendants()) do
+        if descendant:IsA("TextLabel") and descendant.Name == "STOP SKIDDING >:(" then
+            descendant:Destroy()
+        end
+    end
+end
+
+
+_G.connections = {}
+_G.running = false
+genv.AutoPriceCheck = false
+function monitorBackpack()
+    _G.running = true 
+
+    _G.backpack = game.Players.LocalPlayer.PlayerGui.hud.safezone:WaitForChild("backpack")
+
+    function processItem(descendant)
+        if not _G.running then return end
+        if descendant:IsA("ValueBase") and descendant.Name == "item" then
+            _G.price = GetBackPackItemValue(descendant.Value)
+            if _G.price then
+                CreatePrice(descendant.Parent, _G.price)
+            end
+        end
+    end
+
+    _G.descendantAddedConnection = _G.backpack.DescendantAdded:Connect(function(descendant)
+        if not _G.running then return end
+        task.defer(function()
+            processItem(descendant)
+        end)
+    end)
+    table.insert(_G.connections, _G.descendantAddedConnection)
+
+
+    for _, descendant in ipairs(_G.backpack:GetDescendants()) do
+        processItem(descendant)
+        if descendant:IsA("ValueBase") and descendant.Name == "item" then
+            _G.propertyChangedConnection = descendant:GetPropertyChangedSignal("Value"):Connect(function()
+                if not _G.running then return end
+                processItem(descendant)
+            end)
+            table.insert(_G.connections, _G.propertyChangedConnection)
+        end
+    end
+end
+
+
+function ChangePlayerCFrame(X, Y, Z)
+    if variables.TweenMethod then
+        for _, model in pairs(workspace:GetChildren()) do
+            if model:IsA("Model") then
+                for _, obj in pairs(model:GetDescendants()) do
+                    if obj:IsA("Seat") then
+                        obj.Disabled = true
+                    end
+                end
+            end
+        end
+
+        local TargetTween = game:GetService("TweenService"):Create(
+            LocalPlayer.Character:WaitForChild("HumanoidRootPart"),
+            TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
+            {CFrame = CFrame.new(X, Y, Z) + CFrame.new(0, 5, 0)}
+        )
+        TargetTween:Play()
+        TargetTween.Completed:Connect(function()
+            for _, model in pairs(workspace:GetChildren()) do
+                if model:IsA("Model") then
+                    for _, obj in pairs(model:GetDescendants()) do
+                        if obj:IsA("Seat") then
+                            obj.Disabled = false
+                        end
+                    end
+                end
+            end
+        end)
+    elseif variables.TeleportMethod == true then
+        LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = CFrame.new(X, Y + 3, Z)
+    end
+end
+
+
+function clickButton()
+    if LocalPlayer.PlayerGui:FindFirstChild("shakeui") then
+        if LocalPlayer.PlayerGui:FindFirstChild("shakeui"):FindFirstChild("safezone") then
+            if LocalPlayer.PlayerGui:FindFirstChild("shakeui"):FindFirstChild("safezone"):FindFirstChild("button") then
+                local VirtualInputManager = game:GetService("VirtualInputManager")
+                local buttonPosition = LocalPlayer.PlayerGui:FindFirstChild("shakeui"):FindFirstChild("safezone"):FindFirstChild("button").AbsolutePosition
+                local buttonSize = LocalPlayer.PlayerGui:FindFirstChild("shakeui"):FindFirstChild("safezone"):FindFirstChild("button").AbsoluteSize
+
+                VirtualInputManager:SendMouseButtonEvent(
+                    buttonPosition.X + buttonSize.X / 2,
+                    buttonPosition.Y + buttonSize.Y / 2,
+                    0,
+                    true,
+                    game,
+                    1
+                )
+
+                VirtualInputManager:SendMouseButtonEvent(
+                    buttonPosition.X + buttonSize.X / 2,
+                    buttonPosition.Y + buttonSize.Y / 2,
+                    0,
+                    false,
+                    game,
+                    1
+                )
+            end
+        end
+    end
+end
+
+
+
+
+local function brightFunc()
+    Lighting.Brightness = 2
+    Lighting.ClockTime = 14
+    Lighting.FogEnd = 100000
+    Lighting.GlobalShadows = false
+    Lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+end
+
+local function getEquippedRod()
+    return ReplicatedStorage.playerstats[tostring(LocalPlayer)].Stats.rod.Value
+end
+
+local function equipRod()
+    local rodName = getEquippedRod()
+    if rodName and not LocalPlayer.Character:FindFirstChild(rodName) then
+        local rod = LocalPlayer.Backpack:FindFirstChild(rodName)
+        if rod then rod.Parent = LocalPlayer.Character end
+    end
+end
+
+local function determineBestBait()
+    local bestBait = nil
+    local bestValue = -math.huge
+
+    if genv.SelectedBait == "Most" or genv.SelectedBait == "Least" then
+        -- Handle "Most" and "Least"
+        for _, baitName in ipairs(availableBaits) do
+            local baitStat = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.bait:FindFirstChild("bait_" .. baitName)
+            if baitStat then
+                local baitValue = baitStat.Value
+                if genv.SelectedBait == "Most" then
+                    if baitValue > bestValue then
+                        bestValue = baitValue
+                        bestBait = baitName
+                    end
+                elseif genv.SelectedBait == "Least" then
+                    if baitValue < bestValue or bestValue == -math.huge then
+                        bestValue = baitValue
+                        bestBait = baitName
+                    end
+                end
+            end
+        end
+    else
+        -- Handle other cases based on the selected bait property
+        for _, baitName in ipairs(availableBaits) do
+            if data.Bait[baitName] then
+                local baitData = data.Bait[baitName]
+                local baitValue = baitData[genv.SelectedBait]
+                if baitValue then
+                    baitValue = tonumber(baitValue)
+                    if baitValue and baitValue > bestValue then
+                        bestValue = baitValue
+                        bestBait = baitName
+                    end
+                end
+            end
+        end
+    end
+
+    -- Equip the best bait
+    if bestBait then
+        if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.bait.Value ~= bestBait then
+            if services.Players.LocalPlayer.PlayerGui:FindFirstChild("reel") then
+                repeat task.wait() until not services.Players.LocalPlayer.PlayerGui:FindFirstChild("reel")
+            end
+            LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+            LocalPlayer.Backpack["Equipment Bag"].Parent = LocalPlayer.Character
+            services.ReplicatedStorage.packages.Net["RE/Bait/Equip"]:FireServer(bestBait)
+            LocalPlayer.Character["Equipment Bag"].Parent = LocalPlayer.Backpack
+            -- Get the rarity of the best bait
+            local baitData = data.Bait[bestBait]
+            local baitRarity = baitData and baitData.Rarity or "Unknown"
+            local baitLureSpeed = baitData and baitData.LureSpeed or "Unknown"
+            local baitLuck = baitData and baitData.Luck or "Unknown"
+            local baitGeneralLuck = baitData and baitData.GenerelLuck or "Unknown"
+            local baitResilience = baitData and baitData.Resilience or "Unknown"
+
+            -- Notify the player about the bait and its rarity
+            lib:Notification("Auto Bait", "Equipped " .. bestBait, 5)
+            
+
+            -- Paragraph part.. very overkill, I know.
+            local rarityColors = {
+                Common = "<font color='rgb(142, 187, 191)'>Common</font>",
+                Uncommon = "<font color='rgb(161, 255, 169)'>Uncommon</font>",
+                Rare = "<font color='rgb(119, 108, 181)'>Rare</font>",
+                Legendary = "<font color='rgb(240, 181, 109)'>Legendary</font>",
+                Mythical = "<font color='rgb(255, 62, 120)'>Mythical</font>",
+                Unusual = "<font color='rgb(192, 135, 198)'>Unusual</font>",
+                Unknown = "<font color='rgb(255, 255, 255)'>Unknown</font>"
+            }
+
+            -- Function to determine the rich text color based on the value
+            local function getValueColor(value)
+                if value == "Unknown" then
+                    return value -- If the value is unknown, return it as is
+                elseif tonumber(value) then
+                    local numValue = tonumber(value)
+                    if numValue > 0 then
+                        return "<font color='rgb(0, 255, 0)'>" .. value .. "</font>" -- Green for positive numbers
+                    elseif numValue < 0 then
+                        return "<font color='rgb(255, 0, 0)'>" .. value .. "</font>" -- Red for negative numbers
+                    elseif numValue == 0 then
+                        return "<font color='rgb(255, 255, 255)'>" .. value .. "</font>" -- White for 0
+                    end
+                end
+                return value -- Return as is if it's not a number
+            end
+
+            -- Safely update the UI with rich text formatting
+            pcall(function()
+                local baitRarityColor = rarityColors[baitRarity] or rarityColors.Unknown
+            
+                -- Apply the rarity color to the best bait name
+                local bestBaitColor = baitRarityColor:gsub("Common", bestBait)
+                    :gsub("Uncommon", bestBait)
+                    :gsub("Rare", bestBait)
+                    :gsub("Legendary", bestBait)
+                    :gsub("Mythical", bestBait)
+                    :gsub("Unusual", bestBait)
+                    :gsub("Unknown", bestBait)
+            
+                local baitLureSpeedColor = getValueColor(baitLureSpeed)
+                local baitLuckColor = getValueColor(baitLuck)
+                local baitGeneralLuckColor = getValueColor(baitGeneralLuck)
+                local baitResilienceColor = getValueColor(baitResilience)
+            
+                genv.BaitParagraph:SetTitle("Optimal Bait: " .. bestBaitColor)
+                genv.BaitParagraph:SetDesc("Lure Speed: " .. baitLureSpeedColor .. " | Luck: " .. baitLuckColor .. " | General Luck: " .. baitGeneralLuckColor .. " | Resilience: " .. baitResilienceColor)
+            end)
+
+        end
+    else
+        lib:Notification("Auto Bait", "No suitable baits found.", 5)
+        genv.AutoBaitToggle:Set(false)
+    end
+end
+
+
+local function DestroyGhostItems()
+    for i,v in pairs(LocalPlayer.Character:GetChildren()) do
+        if v:IsA("Tool") and v:FindFirstChild("link") then
+            if v.link.Value and v.link.Value:IsDescendantOf(game) then
+                continue
+            else
+                v:Destroy()
+            end
+        end
+    end
+    for i,v in pairs(LocalPlayer.Backpack:GetChildren()) do
+        if v:IsA("Tool") and v:FindFirstChild("link") then
+            if v.link.Value and v.link.Value:IsDescendantOf(game) then
+                continue
+            else
+                v:Destroy()
+            end
+        end
+    end
+    for _, child in ipairs(LocalPlayer.PlayerGui.hud.safezone.backpack.inventory.scroll:GetChildren()) do
+        local item = child:FindFirstChild("item")
+        if item and item.Value == nil then
+            child:Destroy()
+        end
+    end
+end
+
+
+
+local function formatPrice(price)
+    return string.format("%s$", tostring(price):reverse():gsub("%d%d%d", "%0,"):reverse():gsub("^,", ""))
+end
+
+local function unformatPrice(formattedPrice)
+    local cleanPrice = formattedPrice:gsub("[^0-9]", "")
+    return tonumber(cleanPrice)
+end
+
+local function rgbToRichText(rgbString, text)
+    -- Split the RGB string into individual components
+    local r, g, b = rgbString:match("([^,]+),([^,]+),([^,]+)")
+    r, g, b = tonumber(r), tonumber(g), tonumber(b)
+
+    -- Return the text in rich text format with the specified RGB color
+    return string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", r * 255, g * 255, b * 255, text)
+end
+
+
+local function gift(user, item)
+    local checkFish = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    local inventoryItem = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[tostring(checkFish.link.Value)]
+
+    if genv.ExcludeFavourite then
+        if inventoryItem:FindFirstChild("Favourited") then
+        else
+            pcall(function()
+                local args = {
+                    [1] = Players:WaitForChild(user)
+                }
+            
+                LocalPlayer.Character[item].offer:FireServer(unpack(args))
+            end)
+        end
+    else
+        pcall(function()
+            local args = {
+                [1] = Players:WaitForChild(user)
+            }
+        
+            LocalPlayer.Character[item].offer:FireServer(unpack(args))
+        end)
+    end
+end    
+
+local function validToolCheck()
+    local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    
+    if tool and tool:FindFirstChild("offer") then
+        return true
+    else
+        return false
+    end
+end
+
+local function giftAll()
+    for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+        if v:IsA("Tool") and v:FindFirstChild("offer") then
+            v.Parent = LocalPlayer.Character
+            gift(genv.SelectedPlayer, v.Name) 
+            LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+            wait()
+        end
+    end
+end
+
+function formatNumber(number)
+    return tostring(number):reverse():gsub("(%d%d%d)", "%1,"):gsub(",$", ""):reverse()
+end
+
+if RoleChecker() == "Free Version" or RoleChecker() == "No Role Assigned" then
+    sections.Premium = tabs.Main:AddSection({Defualt = true , Locked = true})
+    sections.Premium:AddParagraph({Title = '<font color="rgb(255,0,0)">Tired of the key system?</font>', Description = "Buy premium by joining our Discord."})
+    sections.Premium:AddButton({
+        Title = "Copy Discord Invite",
+        Callback = function()
+            setclipboard("https://discord.gg/hVJsUpAn")
+            lib:Notification("Discord","Copied invite to clipboard, just paste it.", 5)
+        end,
+    })
+end
+
+-- sections.Welcome:AddParagraph({Title = '<font color="#ea00ff" size="30">W</font><font color="#d500ff" size="30">e</font><font color="#c000ff" size="30">l</font><font color="#aa00fe" size="30">c</font><font color="#9600ff" size="30">o</font><font color="#8100ff" size="30">m</font><font color="#6c00ff" size="30">e</font><font color="#5700ff" size="30">!</font>', 
+--                                Description = "Here's what's new:\n-\n-\n-"})
+
+genv.WelcomeParagraph:SetTitle(gradient("Welcome!"))
+genv.WelcomeParagraph:SetDesc([[<font color="rgb(255,255,255)">Here's what's new:</font>
+[+] Tidebreaker Speed
+[+] Toggle to Make TideBreaker Easier to Control
+[+] If your executor support u can change the MaxSpeed,TurningSpeed,Acceleration
+]])
+
+
+-- genv.FishPremiumParagraph = sections.FishPremium:AddParagraph({Title = 'Original Rod & Enchant:', Description = "Rod: Will update after 'Use Rod'\nEnchant: Will update after 'Use Enchant'"})
+
+-- local rodNamesExploit = {}
+-- for name, _ in pairs(data.Rods) do
+--     table.insert(rodNamesExploit, name)
+-- end
+
+-- sections.FishPremium:AddDropdown("RodsList", {
+--     Title = "Rods List",
+--     Description = "",
+--     Options = rodNamesExploit,
+--     Default = "",
+--     PlaceHolder = "Select Rod",
+--     Multiple = false,
+--     Callback = function(selectRod)
+--         genv.selectedExploitRod = selectRod
+--     end,
+-- })
+
+-- local enchantNamesExploit = {}
+-- for name, _ in pairs(data.Enchants) do
+--     table.insert(enchantNamesExploit, name)
+-- end
+
+-- sections.FishPremium:AddDropdown("EnchantsList", {
+--     Title = "Enchants List",
+--     Description = "",
+--     Options = enchantNamesExploit,
+--     Default = "",
+--     PlaceHolder = "Select Enchant",
+--     Multiple = false,
+--     Callback = function(selectEnchant)
+--         genv.selectedExploitEnchant = selectEnchant
+--     end,
+-- })
+
+
+-- local exploitGroupButton = sections.FishPremium:AddGroupButton()
+
+-- exploitGroupButton:AddButton({
+--     Title = "Use Last Known",
+--     Variant = "Outline",
+--     Callback = function()
+--         if genv.realRod ~= nil then
+--             if services.Players.LocalPlayer.Backpack:FindFirstChild(genv.latestRod) then
+--                 services.Players.LocalPlayer.Backpack[genv.latestRod].Name = genv.realRod
+--             else
+--                 services.Players.LocalPlayer.Character[genv.latestRod].Name = genv.realRod
+--             end
+--         end
+--         if genv.realEnchant ~= nil then
+--             services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[genv.lastKnownRod].Value = genv.realEnchant
+--         end
+--     end
+-- })
+
+-- exploitGroupButton:AddButton({
+--     Title = "Use Rod",
+--     Variant = "Primary",
+--     Callback = function()
+--         if genv.realRod == nil then
+--             genv.realRod = tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value)
+--         end
+--         genv.lastKnownRod = tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value)
+--         services.ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value = genv.selectedExploitRod
+--         if services.Players.LocalPlayer.Backpack:FindFirstChild(genv.lastKnownRod) then
+--             services.Players.LocalPlayer.Backpack[genv.lastKnownRod].Name = genv.selectedExploitRod
+--             genv.latestRod = genv.selectedExploitRod
+--         end
+--         genv.FishPremiumParagraph:SetDesc(
+--             "Rod: " .. (genv.realRod or "Will update after 'Use Rod'") .. 
+--             "\nEnchant: " .. (genv.realEnchant or "Will update after 'Use Enchant'")
+--         )
+--     end,
+-- })
+
+-- exploitGroupButton:AddButton({
+--     Title = "Use Enchant",
+--     Variant = "Primary",
+--     Callback = function()
+--         print(genv.lastKnownRod)
+--         print(tostring(genv.latestRod))
+--         print(tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value))
+--         local currentRod = genv.latestRod or tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value)
+--         if genv.realEnchant == nil then
+--             if genv.lastKnownRod ~= nil then
+--                 genv.realEnchant = tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[genv.lastKnownRod].Value)
+--             else
+--                 genv.realEnchant = tostring(services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[currentRod].Value)
+--             end
+--         end
+--         if genv.lastKnownRod ~= nil then
+--             if services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods:FindFirstChild(genv.lastKnownRod) then
+--                 services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[genv.lastKnownRod].Value = genv.selectedExploitEnchant
+--             else
+--                 services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[genv.latestRod].Value = genv.selectedExploitEnchant
+--             end
+--         else
+--             services.ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[currentRod].Value = genv.selectedExploitEnchant
+--         end
+--         genv.FishPremiumParagraph:SetDesc(
+--             "Rod: " .. (genv.realRod or "Will update after 'Use Rod'") .. 
+--             "\nEnchant: " .. (genv.realEnchant or "Will update after 'Use Enchant'")
+--         )
+--     end,
+-- })
+
+
+sections.Fish:AddToggle("AutoCast", {
+    Title = "Auto Equip Rod",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoEquipRod = isEnabled
+        
+        spawn(function()
+            while variables.AutoEquipRod do
+                if not genv.TotemInUse then
+                    equipRod()
+                    task.wait(0.1)
+                -- end
+                end
+            end
+        end)
+    end
+})
+
+variables.Caster = sections.Fish:AddToggle("AutoCast", {
+    Title = "Auto Cast",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoCast = isEnabled
+
+        spawn(function()
+            while variables.AutoCast do
+                local character = LocalPlayer.Character
+                if character then
+                    local equippedRod = character:FindFirstChild(getEquippedRod())
+                    if equippedRod then
+                        local bobber = equippedRod:FindFirstChild("bobber")
+                        if not bobber and not genv.TotemInUse then
+                            equippedRod.events.cast:FireServer(variables.autoCastPower, 1)
+                            task.wait(variables.AutoCastDelay)
+                        end
+                    end
+                end
+                task.wait(0.1)
+            end
+        end)
+    end
+})
+
+
+local connection
+
+sections.Fish:AddToggle("AutoShake", {
+    Title = "Auto Shake",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoShake = isEnabled
+        if variables.AutoShake then
+            lib:Notification("Auto Shake","Adjust the speed to your liking in the settings.", 4)
+        end
+        -- local pressedBackSlash = false
+        while variables.AutoShake do
+            task.wait(variables.AutoShakeDelay)
+            if not LocalPlayer.PlayerGui:FindFirstChild("shakeui") then
+                continue
+            end
+            GuiService.SelectedObject = nil
+            if not variables.Method1 then
+                pcall(function()
+                    local button = LocalPlayer.PlayerGui:WaitForChild("shakeui", 1):WaitForChild("safezone", 1):WaitForChild("button", 1)
+
+                    button.Selectable = true
+                    GuiService.SelectedObject = button
+                
+                    -- if not pressedBackSlash then
+                    --     GuiService.GuiNavigationEnabled = false
+                    --     pressedBackSlash = true
+                    -- end
+                
+                    VIM:SendKeyEvent(true, Enum.KeyCode.Return, false, LocalPlayer.PlayerGui)
+                    VIM:SendKeyEvent(false, Enum.KeyCode.Return, false, LocalPlayer.PlayerGui)
+                end)
+            else
+                clickButton()
+            end 
+        end
+        GuiService.SelectedObject = nil
+    end
+})
+
+
+sections.Fish:AddToggle("AutoDropper", {
+    Title = "Auto Drop Bobber",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoDrop = isEnabled
+
+        if variables.AutoDrop then
+            local rod = character:WaitForChild(PlayerStats.rod.Value)
+            variables.autoDropConnection = rod.ChildAdded:Connect(function(child)
+                if child.Name == "bobber" then
+                    task.wait(0.16)
+
+                    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+                    local nearestWaterPosition = nil
+                    local closestDistance = math.huge
+                    local desiredOffset = 1
+
+                    for x = -50, 50, 5 do
+                        for z = -50, 50, 5 do
+                            local checkPosition = humanoidRootPart.Position + Vector3.new(x, 0, z)
+                            local rayOrigin = Vector3.new(checkPosition.X, humanoidRootPart.Position.Y + 50, checkPosition.Z)
+                            local rayDirection = Vector3.new(0, -100, 0)
+
+                            local raycastParams = RaycastParams.new()
+                            raycastParams.FilterDescendantsInstances = {workspace.Terrain}
+                            raycastParams.FilterType = Enum.RaycastFilterType.Whitelist
+
+                            local rayResult = workspace:Raycast(rayOrigin, rayDirection, raycastParams)
+                            if rayResult then
+                                local hitPosition = rayResult.Position
+                                local hitMaterial = rayResult.Material
+
+                                if hitMaterial == Enum.Material.Water then
+                                    local distance = (humanoidRootPart.Position - hitPosition).Magnitude
+                                    if distance < closestDistance and distance > desiredOffset then
+                                        closestDistance = distance
+                                        nearestWaterPosition = hitPosition
+                                    end
+                                end
+                            end
+                        end
+                    end
+
+                    if nearestWaterPosition then
+                        print("Water found at:", nearestWaterPosition)
+                        local offsetDirection = (nearestWaterPosition - humanoidRootPart.Position).Unit
+                        local finalPosition = nearestWaterPosition + offsetDirection * desiredOffset
+                        child.CFrame = CFrame.new(finalPosition)
+                        print("Bobber moved to water.")
+                    else
+                        print("No suitable water found.")
+                    end
+                end
+            end)
+        else
+            if variables.autoDropConnection then
+                variables.autoDropConnection:Disconnect()
+                variables.autoDropConnection = nil
+                print("AutoDropper turned off.")
+            end
+        end
+    end
+})
+
+
+
+local function generateRandomNumber(min, max)
+    return math.random() * (max - min) + min
+end
+
+sections.Fish:AddToggle("AutoCatch", {
+    Title = "Auto Reel",
+    Default = false,
+    IgnoreFirst = true,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoCatch = isEnabled
+
+        if isEnabled then
+            variables.AlreadyRequested = false
+            coroutine.wrap(function()
+                while variables.AutoCatch do
+                    task.wait(0.1)
+
+                    local reelGui = LocalPlayer.PlayerGui:FindFirstChild("reel")
+                    if not (reelGui and reelGui.Enabled) then
+                        continue
+                    end
+                    
+                    -- print("enabled")
+                    -- print("making sure of position..")
+                    repeat task.wait() until services.Players.LocalPlayer.PlayerGui.reel.bar.fish.Position == UDim2.new(0.5, 0, 0.5, 0)
+                    -- print("correct position")
+                    local bar = reelGui:FindFirstChild("bar")
+                    local playerBar = bar and bar:FindFirstChild("playerbar")
+                    local fish = bar and bar:FindFirstChild("fish")
+                    if not bar or not playerBar or not fish then
+                        continue -- Skip if essential components are missing
+                    end
+                    -- print("found bar, waiting for move")
+                    if variables.ReelMethod1 == false then
+                        -- Wait for bar to move before firing the event
+                        local startPosition = LocalPlayer.PlayerGui:WaitForChild("reel").bar.playerbar.AbsolutePosition.X
+                        repeat task.wait() until LocalPlayer.PlayerGui:WaitForChild("reel").bar.playerbar.AbsolutePosition.X ~= startPosition
+                        -- print("moved!")
+
+                        if variables.snapChance and math.random(1, 100) <= variables.snapChance then
+                            local args = {generateRandomNumber(-0.05, 0.1), false}
+                            -- print("nuh uh")
+                            ReplicatedStorage:WaitForChild("events"):WaitForChild("reelfinished"):FireServer(unpack(args))
+                        else
+                            -- print('remote.')
+                            if genv.PerfectCatch then
+                                ReplicatedStorage:WaitForChild("events"):WaitForChild("reelfinished"):FireServer(100, true)
+                            else
+                                ReplicatedStorage:WaitForChild("events"):WaitForChild("reelfinished"):FireServer(100, false)
+                            end
+                        end
+
+                        repeat task.wait(0.1) until not LocalPlayer.PlayerGui:FindFirstChild("reel")
+                    else
+                        -- Follow Bar Method
+                        repeat
+                            task.wait()
+                            if playerBar and fish then
+                                playerBar.Position = fish.Position
+                            else
+                                break
+                            end
+                        until not LocalPlayer.PlayerGui:FindFirstChild("reel")
+                    end
+                end
+            end)()
+        else
+            variables.AutoCatch = false
+        end
+    end
+})
+
+
+
+
+
+
+
+-- sections.Fish:AddToggle("AutoCatch", {
+--     Title = "Auto Reel",
+--     Default = false,
+--     IgnoreFirst = true,
+--     Description = "",
+--     Callback = function(isEnabled)
+--         variables.AutoCatch = isEnabled
+        
+--         if isEnabled then
+--             variables.AlreadyRequested = false
+
+--             -- Check the method type
+--             if not variables.Method1 then
+--                 -- Method 1: Auto Reel
+--                 spawn(function()
+--                     while variables.AutoCatch do
+--                         task.wait()
+--                         local reelGui = LocalPlayer.PlayerGui:FindFirstChild("reel")
+--                         if reelGui and not variables.AlreadyRequested then
+--                             variables.AlreadyRequested = true
+                            
+--                             -- Fire server event
+--                             local reelfinished = ReplicatedStorage:WaitForChild("events"):FindFirstChild("reelfinished")
+--                             if reelfinished then
+--                                 reelfinished:FireServer(100, true)
+--                             end
+
+--                             -- Adjust GUI bar properties
+--                             local playerBar = LocalPlayer.PlayerGui:FindFirstChild("reel"):FindFirstChild("bar"):FindFirstChild("playerbar")
+--                             if playerBar then
+--                                 playerBar.Size = UDim2.new(1, 0, 1.3, 0)
+--                                 playerBar.Position = UDim2.new(0.5, 0, 0.5, 0)
+--                             end
+
+--                             variables.AlreadyRequested = false
+--                         end
+--                     end
+--                 end)
+--             else
+--                 -- Method 2: Match Bar Position
+--                 spawn(function()
+--                     while variables.AutoCatch do
+--                         task.wait()
+--                         local reelGui = LocalPlayer.PlayerGui:FindFirstChild("reel")
+--                         if reelGui and reelGui:FindFirstChild("bar") then
+--                             local playerBar = reelGui.bar:FindFirstChild("playerbar")
+--                             local fishBar = reelGui.bar:FindFirstChild("fish")
+--                             if playerBar and fishBar then
+--                                 playerBar.Position = fishBar.Position
+--                             end
+--                         end
+--                     end
+--                 end)
+--             end
+--         else
+--             -- Disable AutoCatch
+--             variables.AutoCatch = false
+--         end
+--     end
+-- })
+
+
+sections.Fish:AddToggle("FreezeCharacter", {
+    Title = "Freeze Character",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.FreezeCharacter = isEnabled
+        local oldpos = nil
+
+        while variables.FreezeCharacter do
+            local player = LocalPlayer
+            local character = player.Character or player.CharacterAdded:Wait()
+            local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+        
+            if oldpos == nil then
+                oldpos = humanoidRootPart.CFrame
+            end
+        
+            humanoidRootPart.CFrame = oldpos
+            humanoidRootPart.Velocity = Vector3.zero
+        
+            task.wait() 
+        end
+    end
+})
+local Connections2
+sections.Fish:AddToggle("AutoBalanceNuke", {
+    Title = "Auto Balance Nuke",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoBalanceNuke = isEnabled
+        
+        local StartMinigame
+
+        if genv.getgc then
+        task.spawn(function()
+            for i, v in pairs(getgc(true)) do
+                if type(v) == "function" then
+                    local name = debug.info(v, "n")
+
+                    if name == "StartMinigame" then
+                        task.spawn(function()
+                            -- v()
+                        end)
+
+                        StartMinigame = v
+                    elseif name == "LoopMinigame" then
+                        if debug.setupvalue then
+                            task.spawn(function()
+                                while true do
+                                    if true then -- Toggle to balance nuke : )
+                                        local success, result = pcall(function()
+                                            debug.setupvalue(v, 13, os.clock() - 10)
+                                        end)
+
+                                        if not success then
+                                            break
+                                        end
+                                    end
+
+                                    task.wait()
+                                end
+                            end)
+                        end
+                    end
+                end
+            end
+    end)
+        else
+            local LocalPlayer = game.Players.LocalPlayer
+            if genv.AutoBalanceNuke then
+                task.wait(1)
+                if LocalPlayer.PlayerGui:FindFirstChild("NukeMinigame") then
+                    Connections2.AutoBalanceNuke = LocalPlayer.PlayerGui.NukeMinigame.Center.Marker.Pointer.Frame:GetPropertyChangedSignal("AbsoluteRotation"):Connect(function()
+                        local rot = LocalPlayer.PlayerGui.NukeMinigame.Center.Marker.Pointer.Frame.AbsoluteRotation
+                        if rot < -35 then
+                            VIM:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+                            VIM:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+                        elseif rot > 35 then
+                            VIM:SendKeyEvent(true, Enum.KeyCode.Q, false, game)
+                            VIM:SendKeyEvent(false, Enum.KeyCode.Q, false, game)
+                        end
+                    end)
+                end
+            else
+                if Connections2.AutoBalanceNuke then
+                    Connections2.AutoBalanceNuke:Disconnect()
+                    Connections2.AutoBalanceNuke = nil
+                end
+            end
+        end
+    end
+})
+
+
+-- sections.FishPlus:AddParagraph({Title = '<font color="#ea00ff">A</font><font color="#e100ff">d</font><font color="#d800ff">v</font><font color="#d000ff">a</font><font color="#c700ff">n</font><font color="#be00fe">c</font><font color="#b600ff">e</font><font color="#ad00ff">d</font><font color="#a400ff"> </font><font color="#9c00ff">A</font><font color="#9300ff">u</font><font color="#8a00ff">t</font><font color="#8200ff">o</font><font color="#7900ff"> </font><font color="#7000ff">F</font><font color="#6800ff">a</font><font color="#5f00ff">r</font><font color="#5700ff">m</font>', Description = "Usage:\n- Select Zone\n- Create Safe Zone\n- Freeze Character\n- Auto Cast and others.."})
+
+local uniqueNames = {}
+for _, descendant in ipairs(workspace.zones.fishing:GetDescendants()) do
+    if descendant:FindFirstChild("CrabZone") then
+        if not uniqueNames[descendant.Name] then
+            uniqueNames[descendant.Name] = true
+        end
+    end
+end
+
+local zoneNames = {}
+for name, _ in pairs(uniqueNames) do
+    table.insert(zoneNames, name)
+end
+
+sections.FishPlus:AddDropdown("FishZones", {
+    Title = "Fishing Zone",
+    Description = "",
+    Options = zoneNames,
+    Default = "",
+    PlaceHolder = "Select Zone",
+    Multiple = false,
+    Callback = function(selectedZone)
+        genv.selectedZone = selectedZone
+    end,
+})
+
+sections.FishPlus:AddDropdown("FishOverridesZones", {
+    Title = "Event Overrides",
+    Description = "",
+    Options = {"The Depths - Serpent", "Megalodon", "Great Hammerhead Shark", "Great White Shark", "Whale Shark", "Isonade", "Bluefin Tuna Abundance", "Arapaima Abundance", "Swordfish Abundance", "Chinook Salmon Abundance", "Amberjack Abundance", "Mackerel Abundance","Ancient Algae","Mushgrove Algae","Forsaken Algae","Snowcap Algae","Golden Tide Pool"},
+    Default = "This feature is a WIP, it will work in the next few days!",
+    PlaceHolder = "Select Zone",
+    Multiple = true,
+    Callback = function(selectedEvents)
+        genv.selectedEventOverrides = selectedEvents
+    end,
+})
+
+genv.RunningFishZone = false
+
+local function checkOverrides()
+    for _, child in ipairs(workspace.zones.fishing:GetChildren()) do
+        for _, overrideEvent in ipairs(genv.selectedEventOverrides or {}) do
+            if string.find(overrideEvent:lower(), "algae") and string.find(child.Name:lower(), overrideEvent:lower()) then
+                return child
+            end
+        end
+
+        if child:FindFirstChild("beacon") then
+            local poiHeader = child:FindFirstChild("POIHeader")
+            if poiHeader and poiHeader:FindFirstChild("title") and poiHeader.title:IsA("TextLabel") then
+                local titleText = poiHeader.title.Text
+                -- Match the event name using string.find
+                for _, overrideEvent in ipairs(genv.selectedEventOverrides or {}) do
+                    if string.find(titleText, overrideEvent) then
+                        return child -- Return the matching zone
+                    end
+                end
+            end
+        end
+
+        -- Check for abundance properties
+        local abundance = child:FindFirstChild("Abundance")
+        if abundance and abundance:FindFirstChild("Chance") and abundance:FindFirstChild("Mutation") then
+            for _, overrideEvent in ipairs(genv.selectedEventOverrides or {}) do
+                if string.find(child.Name, overrideEvent) then
+                    return child -- Return the matching zone
+                end
+            end
+        end
+    end
+    return nil -- Return nil if no match is found
+end
+
+
+sections.FishPlus:AddToggle("FreezeInZone", {
+    Title = "Freeze In Zone",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        local player = LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoid = character:WaitForChild("Humanoid")
+        local rootPart = character:WaitForChild("HumanoidRootPart")
+        local workspace = game:GetService("Workspace")
+        local oldPos = nil
+
+        genv.RunningFishZone = isEnabled
+        if genv.RunningFishZone then
+            oldPos = rootPart.CFrame
+
+            coroutine.wrap(function()
+                while genv.RunningFishZone do
+                    task.wait()
+                    rootPart.Velocity = Vector3.zero
+                    workspace.FallenPartsDestroyHeight = 0/0
+                    humanoid.PlatformStand = true
+
+                    local eventZone = checkOverrides()
+                    local targetZone = eventZone or workspace.zones.fishing:FindFirstChild(genv.selectedZone)
+
+                    if targetZone then
+                        local position = targetZone.Position
+                        local size = targetZone.Size
+                        if eventZone then
+                            rootPart.CFrame = CFrame.new(position.X, position.Y + (size.Y / 3) - 2, position.Z)
+                        else
+                            rootPart.CFrame = CFrame.new(position.X, position.Y - (size.Y / 2) + 2, position.Z)
+                        end
+                    end
+                end
+                humanoid.PlatformStand = false
+                workspace.FallenPartsDestroyHeight = -1200
+                if oldPos then
+                    rootPart.CFrame = oldPos
+                end
+            end)()
+        else
+            genv.RunningFishZone = false
+            humanoid.PlatformStand = false
+            workspace.FallenPartsDestroyHeight = -1200
+            if oldPos then
+                rootPart.CFrame = oldPos
+            end
+        end
+    end,
+})
+
+
+
+genv.StartFishingInZone = false
+
+sections.FishPlus:AddToggle("StartFishingInZone", {
+    Title = "Start Fishing In Zone",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        local player = services.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local head = character:WaitForChild("Head")
+
+        genv.StartFishingInZone = isEnabled
+        while genv.StartFishingInZone do
+            task.wait()
+
+            -- Find the fishing rod and its bobber
+            local rod = character:FindFirstChild(PlayerStats.rod.Value)
+            if rod then
+                local bobber = rod:FindFirstChild("bobber")
+                if bobber then
+                    
+                    local eventZone = checkOverrides()
+                    local targetZone = eventZone or workspace.zones.fishing:FindFirstChild(genv.selectedZone)
+
+                    if targetZone then
+                        if eventZone then
+                            local targetPosition = targetZone.Position
+                            local targetSize = targetZone.Size
+                            local surfacePos = Vector3.new(
+                                targetPosition.X,
+                                targetPosition.Y + (targetSize.Y / 2), -- Top surface
+                                targetPosition.Z
+                            )
+                            bobber.CFrame = CFrame.new(surfacePos)
+                        else
+                            -- For regular fish, place the bobber above the player's head
+                            local bobberPos = head.Position + Vector3.new(0, 2, 0) -- 2 studs above the head
+                            bobber.CFrame = CFrame.new(bobberPos)
+                        end
+                    end
+                end
+            end
+        end
+    end
+})
+
+
+
+
+
+
+
+
+genv.AutoBestiaryParagraph = sections.FishPlus:AddParagraph({
+    Title = gradient("Auto Bestiary"),
+    Description = "<font color=\"rgb(255, 0, 0)\">NOTE: Auto Bestiary was rushed, expect bugs. You need to use reinforced rod.</font>"
+})
+
+sections.FishPlus:AddToggle("AutoBestiary", {
+    Title = "Auto Bestiary",
+    Default = false,
+    Description = "Automatically complete the bestiary by fishing in required zones.",
+    Callback = function(isEnabled)
+        genv.AutoBestiaryEnabled = isEnabled
+
+        if genv.AutoBestiaryEnabled then
+            coroutine.wrap(function()
+                local player = services.Players.LocalPlayer
+                local character = player.Character or player.CharacterAdded:Wait()
+                local humanoid = character:WaitForChild("Humanoid")
+                local rootPart = character:WaitForChild("HumanoidRootPart")
+                local workspace = game:GetService("Workspace")
+                local replicatedStorage = services.ReplicatedStorage
+                local bestiary = replicatedStorage.playerstats[player.Name].Bestiary
+
+                -- Load fish data
+                local data = loadstring(game:HttpGet("https://raw.githubusercontent.com/Catto-YFCN/GoofyData/refs/heads/main/data"))()
+                local allFish = {}
+                if type(data.Fish) == "table" then
+                    for fishName, fishData in pairs(data.Fish) do
+                        allFish[fishName] = fishData.From or "Unknown"
+                    end
+                end
+
+                -- Zone Failsafe Map
+                local zoneFailsafeMap = {
+                    Snowcap = "Snowcap Ocean",
+                    Terrapin = "Terrapin Ocean",
+                    Roslit = "Roslit Bay Clam",
+                    ["Roslit Volcano"] = "Lava",
+                    Mushgrove = "Mushgrove Water",
+                    Moosewood = "Moosewood Ocean",
+                    ["Ancient Isle"] = "Ancient Isle Ocean"
+                }
+
+                local function getUncompletedFish()
+                    local completedFish = {}
+                    for _, entry in ipairs(bestiary:GetChildren()) do
+                        completedFish[entry.Name] = true
+                    end
+
+                    local uncompletedFish = {}
+                    for fishName, zone in pairs(allFish) do
+                        -- Skip fish with "N/A" zone
+                        if not completedFish[fishName] and zone ~= "N/A" then
+                            table.insert(uncompletedFish, { name = fishName, zone = zone })
+                        end
+                    end
+
+                    return uncompletedFish
+                end
+
+                local function findZone(zoneName)
+                    -- Check for zone and fallback
+                    local zone = workspace.zones.fishing:FindFirstChild(zoneName)
+                    if not zone and zoneFailsafeMap[zoneName] then
+                        zone = workspace.zones.fishing:FindFirstChild(zoneFailsafeMap[zoneName])
+                    end
+                    return zone
+                end
+
+                local function freezeCharacter(position)
+                    humanoid.PlatformStand = true
+                    rootPart.Velocity = Vector3.zero
+                    rootPart.CFrame = CFrame.new(position)
+                end
+
+                while genv.AutoBestiaryEnabled do
+                    task.wait()
+
+                    local uncompletedFish = getUncompletedFish()
+                    if #uncompletedFish == 0 then
+                        print("All bestiary entries are completed!")
+                        break
+                    end
+
+                    -- Get the next fish to complete
+                    local nextFish = uncompletedFish[1]
+                    print("Fishing for: " .. nextFish.name .. " in zone: " .. nextFish.zone)
+                    genv.AutoBestiaryParagraph:SetDesc("<font color=\"rgb(255, 0, 0)\">NOTE: Auto Bestiary is new and was rushed, expect bugs. </font>\n<font color=\"rgb(255, 255, 255)\">Fishing for: </font>" .. nextFish.name .. "\n<font color=\"rgb(255, 255, 255)\">Zone: </font>" .. nextFish.zone)
+
+
+                    -- Find the required zone
+                    local targetZone = findZone(nextFish.zone)
+                    if targetZone then
+                        local targetPosition = targetZone.Position
+                        local targetSize = targetZone.Size
+                        local zonePosition = Vector3.new(
+                            targetPosition.X,
+                            targetPosition.Y + (targetSize.Y / 2), 
+                            targetPosition.Z
+                        )
+
+                        -- Move to zone and freeze
+                        rootPart.CFrame = CFrame.new(zonePosition)
+                        task.wait(1) -- Allow some time for positioning
+                        freezeCharacter(zonePosition)
+
+                        while genv.AutoBestiaryEnabled and #getUncompletedFish() > 0 do
+                            task.wait()
+
+                            local rod = character:FindFirstChild(getEquippedRod())
+                            if rod then
+                                local bobber = rod:FindFirstChild("bobber")
+                                if bobber then
+                                    -- Simulate casting the rod
+                                    bobber.CFrame = CFrame.new(zonePosition)
+                                end
+                            end
+
+                            -- Ensure character stays in place
+                            freezeCharacter(zonePosition)
+                        end
+                    else
+                        warn("Zone not found for: " .. nextFish.zone)
+                    end
+                end
+
+                -- Reset character state when Auto Bestiary stops
+                humanoid.PlatformStand = false
+                print("Auto Bestiary completed or stopped.")
+            end)()
+        else
+            -- Disable Auto Bestiary
+            genv.AutoBestiaryEnabled = false
+            print("Auto Bestiary disabled.")
+        end
+    end,
+})
+
+
+
+
+-- sections.FishPlus:AddButton({
+--     Title = "Create Safe Zone",
+--     Variant = "Primary",
+--     Callback = function()
+--         local SafeZone = Instance.new("Part")
+--         SafeZone.Size = Vector3.new(15, 1, 15)
+--         SafeZone.Position = Vector3.new(math.random(-2000,2000), math.random(50000,90000), math.random(-2000,2000))
+--         SafeZone.Anchored = true
+--         SafeZone.BrickColor = BrickColor.new("Royal purple")
+--         SafeZone.Material = Enum.Material.ForceField
+--         SafeZone.Parent = game.Workspace
+--         LocalPlayer.Character.HumanoidRootPart.CFrame = SafeZone.CFrame + Vector3.new(0, 5, 0)
+--     end,
+-- })
+
+
+genv.BaitParagraph = sections.FishBait:AddParagraph({
+    Title = gradient("Optimal Bait:"),
+    Description = "Info"
+})
+
+sections.FishBait:AddDropdown("FishBait", {
+    Title = "Prioritized Bait",
+    Description = "Most & Least uses the baits you have the most or least of.",
+    Options = {"Most", "Least", "Lure Speed", "Luck", "Universal Luck", "Resilience"},
+    Default = "",
+    PlaceHolder = "Select Bait",
+    Multiple = false,
+    Callback = function(selectedBait)
+        genv.SelectedBait = selectedBait
+        if genv.SelectedBait == "Lure Speed" then
+            genv.SelectedBait = "LureSpeed"
+        elseif genv.SelectedBait == "Universal Luck" then
+            genv.SelectedBait = "GenerelLuck"
+        end
+    end
+})
+
+
+
+genv.AutoBaitToggle = sections.FishBait:AddToggle("Auto Bait", {
+    Title = "Auto Bait",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoBait = isEnabled
+        while genv.AutoBait do
+            local bait = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.bait
+            availableBaits = {}
+
+            for _, child in ipairs(bait:GetChildren()) do
+                if child.Value ~= 0 then
+                    local baitName = string.sub(child.Name, 6) -- Remove the "bait_" prefix
+                    table.insert(availableBaits, baitName)
+                end
+            end
+
+            determineBestBait()
+            wait(1)
+        end
+    end
+})
+
+-- local giantBarConnection
+
+-- sections.FishSettings:AddToggle("GiantBar", {
+--     Title = "Giant Reel Bar",
+--     Default = false,
+--     Description = "Broken",
+--     Callback = function(isEnabled)
+--         genv.GiantBar = isEnabled
+
+--         if giantBarConnection then
+--             giantBarConnection:Disconnect()
+--             giantBarConnection = nil
+--         end
+
+--         if isEnabled then
+--             local playerGui = LocalPlayer.PlayerGui
+--             giantBarConnection = playerGui.ChildAdded:Connect(function(child)
+--                 if child.Name == "reel" then
+--                     local playerBar = child:FindFirstChild("bar") and child.bar:FindFirstChild("playerbar")
+--                     if playerBar then
+--                         task.wait(0.3)
+--                         playerBar.Size = UDim2.new(1, 0, 1.3, 0)
+--                         playerBar.Position = UDim2.new(0.5, 0, 0.5, 0)
+--                     end
+--                 end
+--             end)
+
+--             -- Apply changes to existing reel, if any
+--             local reel = playerGui:FindFirstChild("reel")
+--             if reel then
+--                 local playerBar = reel:FindFirstChild("bar") and reel.bar:FindFirstChild("playerbar")
+--                 if playerBar then
+--                     playerBar.Size = UDim2.new(1, 0, 1.3, 0)
+--                     playerBar.Position = UDim2.new(0.5, 0, 0.5, 0)
+--                 end
+--             end
+--         end
+--     end
+-- })
+
+
+-- local playerBar = LocalPlayer.PlayerGui:FindFirstChild("reel"):FindFirstChild("bar"):FindFirstChild("playerbar")
+-- if playerBar then
+--     playerBar.Size = UDim2.new(1, 0, 1.3, 0)
+--     playerBar.Position = UDim2.new(0.5, 0, 0.5, 0)
+-- end
+
+sections.FishSettings:AddToggle("PerfectCatch", {
+    Title = "Perfect Catch",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.PerfectCatch = isEnabled
+    end,
+})
+
+sections.FishSettings:AddSlider("AutoShakeDelay", {
+    Title = "Auto Shake Delay",
+    Description = "Set this to 0 if you want super fast.",
+    Default = 0,
+    Min = 0,
+    Max = 100,
+    Increment = 1,
+    Callback = function(value)
+        variables.AutoShakeDelay = value * 0.001
+        -- print(variables.AutoShakeDelay)
+    end,
+})
+
+sections.FishSettings:AddSlider("AutoCastPower", {
+    Title = "Auto Cast Power",
+    Description = "",
+    Default = 100,
+    Min = 1,
+    Max = 100,
+    Increment = 1,
+    Callback = function(value)
+        variables.autoCastPower = value
+    end,
+})
+
+sections.FishSettings:AddSlider("AutoCastDelay", {
+    Title = "Auto Cast Delay",
+    Description = "This is in 100ms increments (0.1s)",
+    Default = 5,
+    Min = 0,
+    Max = 20,
+    Increment = 1,
+    Callback = function(value)
+        variables.AutoCastDelay = value * 0.1
+        -- print(variables.AutoShakeDelay)
+    end,
+})
+
+sections.FishSettings:AddDropdown("FischShakeMethod", {
+    Title = "Auto Shake Method",
+    Description = "",
+    Options = {"Navigation","Click"},
+    Default = "Navigation",
+    PlaceHolder = "Select Method",
+    Multiple = false,
+    Callback = function(selectedOptions)
+        if selectedOptions == "Navigation" then
+            variables.Method1 = false
+        elseif selectedOptions == "Click" then
+            variables.Method1 = true
+        end
+    end
+})
+
+sections.FishSettings:AddDropdown("FischCatchMethod", {
+    Title = "Auto Reel Method",
+    Description = "",
+    Options = {"Instant","Follow Bar"},
+    Default = "Instant",
+    PlaceHolder = "Select Method",
+    Multiple = false,
+    Callback = function(selectedOptions)
+        if selectedOptions == "Instant" then
+            variables.ReelMethod1 = false
+        elseif selectedOptions == "Follow Bar" then
+            variables.ReelMethod1 = true
+        end
+    end
+})
+
+sections.FishSettings:AddSlider("SnapChance", {
+    Title = "Snap Chance",
+    Description = "",
+    Default = 0,
+    Min = 0,
+    Max = 100,
+    Increment = 1,
+    Callback = function(value)
+        variables.snapChance = value
+    end,
+})
+
+-- ill finish it tmr
+sections.FishSettings:AddDropdown("IgnoreSnapRarity", {
+    Title = "Ignore Snap Rarity",
+    Description = "",
+    Options = {"Trash", "Common", "Rare", "Legendary", "Mythical", "Unusual", "Limited"},
+    Default = "",
+    PlaceHolder = "Select Rarity",
+    Multiple = false,
+    Callback = function(selectedOptions)
+        if selectedOptions == "Instant" then
+            variables.Method1 = false
+        elseif selectedOptions == "Follow Bar" then
+            variables.Method1 = true
+        end
+    end
+})
+
+
+
+
+
+genv.InventoryValue = sections.Item0:AddParagraph({
+    Title = gradient("Inventory Information"),
+    Description = "Inventory Info: <font color=\"rgb(255,0,0)\">Offline</font>\nInventory Value: <font color=\"rgb(255,0,0)\">Offline</font>\nHeld Item Value: <font color=\"rgb(255,0,0)\">Offline</font>"
+})
+
+sections.Item0:AddToggle("CheckValue", {
+    Title = "Check Value",
+    Default = false,
+    Description = "Off by default because performance.",
+    Callback = function(isEnabled)
+        genv.CheckValue = isEnabled
+    end,
+})
+
+function calculateInventoryValue()
+    _G.totalValue = 0
+    _G.handValue = 0
+    _G.backpackItems = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory:GetChildren()
+
+    for _, v in ipairs(_G.backpackItems) do
+        _G.itemValue = GetBackPackItemValue(v)
+        if _G.itemValue then
+            _G.totalValue += _G.itemValue
+        end
+    end
+
+    local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    if tool and tool:FindFirstChild("link") then
+        _G.handValue = GetBackPackItemValue(tool.link.Value)
+    end
+
+    local favourited = 0
+    local totalFish = 0
+    for _, item in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if not item:FindFirstChild("link") then continue end
+        local link = item.link.Value
+    
+        if link:FindFirstChild("Favourited") then
+            favourited += 1
+        end
+        if link:FindFirstChild("Stack") then
+            totalFish += link.Stack.Value
+        end
+    end
+    
+    genv.InventoryValue:SetDesc(string.format(
+        'You have <font color="#FFFFFF">%s</font> fish, <font color="#FFFF00">%s</font> favourited.\nInventory Value: <font color="#FFFDE4">%s</font>\nHeld Item Value: <font color="#FFFDE4">%s</font>',
+        formatNumber(totalFish),  -- Total fish in white
+        formatNumber(favourited), -- Favourited in yellow
+        formatPrice(_G.totalValue),
+        formatPrice(_G.handValue)
+    ))    
+    pcall(function()
+        genv.InventoryValueGift:SetDesc(string.format(
+            'You have <font color="#FFFFFF">%s</font> fish, <font color="#FFFF00">%s</font> favourited.\nInventory Value: <font color="#FFFDE4">%s</font>\nHeld Item Value: <font color="#FFFDE4">%s</font>',
+            formatNumber(totalFish),  -- Total fish in white
+            formatNumber(favourited), -- Favourited in yellow
+            formatPrice(_G.totalValue),
+            formatPrice(_G.handValue)
+        ))
+    end)
+    return formatPrice(_G.totalValue)
+end
+
+function getInventoryValue()
+    local totalValue = 0
+    local backpackItems = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory:GetChildren()
+
+    for _, v in ipairs(backpackItems) do
+        local itemValue = GetBackPackItemValue(v)
+        if itemValue then
+            totalValue = totalValue + itemValue  -- Use the = operator for addition
+        end
+    end
+
+    return totalValue
+end
+
+
+
+task.spawn(function()
+    while task.wait(1) do
+        if genv.CheckValue then
+            calculateInventoryValue()
+        end
+    end
+end)
+
+        local text
+        local currentModel2
+        genv.BobberVisuals = false
+        genv.BovverTextVisualColor = Color3.new(1, 1, 1)
+        genv.BobberGlow = false
+        local glow
+        genv.BobberGlowColor = Color3.new(255, 255, 255)
+
+sections.Visuals3:AddColorpicker("BobberVisualsTextColor", {
+    Title = "Bobber Visuals Text Color ",
+    Default = Color3.fromRGB(255, 255, 255),
+    Callback = function(selectedColor)
+    genv.BovverTextVisualColor = selectedColor
+    if text and genv.BobberGlow then
+    text.Color = selectedColor
+    end
+    end,
+})
+
+sections.Visuals3:AddToggle("ToggleBobberVisuals", {
+    Title = "Bobber Visuals",
+    Default = false,
+    Description = "Display Cool info on your bobber",
+    Callback = function(isEnabled)
+genv.BobberVisuals =  isEnabled
+while genv.BobberVisuals do
+    local PlayerStats = services.ReplicatedStorage.playerstats[tostring(services.Players.LocalPlayer.Name)].Stats
+    local character = game.Players.LocalPlayer.Character
+    local rod = character:FindFirstChild(PlayerStats.rod.Value)
+
+    if rod then
+        local bobber = rod:FindFirstChild("bobber")
+        if bobber then
+            local camera = workspace.CurrentCamera
+            local screenPosition, onScreen = camera:WorldToViewportPoint(bobber.Position)
+            
+            if onScreen then
+                if not text then
+                    text = Drawing.new("Text")
+                    text.Size = 20
+                    text.Color = genv.BovverTextVisualColor
+                    text.Center = true
+                    text.Outline = true
+                    text.OutlineColor = Color3.new(0, 0, 0)
+                    text.Visible = true
+                end
+
+                for _, child in ipairs(bobber:GetChildren()) do
+                    if child:IsA("Model") and child.Name ~= PlayerStats.bait.Value and child.Name ~= PlayerStats.bobber.Value then
+                        if currentModel2 ~= child.Name then
+                            currentModel2 = child.Name
+                        end
+                    end
+                end
+                
+                if currentModel2 and not bobber:FindFirstChild(currentModel2) then
+                    currentModel2= nil
+                end
+
+                local lureText
+                if rod.values.lure.Value == 100 then
+                    lureText = "Catching: " .. (currentModel2 or "Unknown")
+                else
+                    lureText = "Lure: " .. string.format("%.3f", rod.values.lure.Value) .. "%"
+                end
+
+                text.Text = "Bobber | Zone: " .. tostring(rod.values.bobberzone.Value) .. " | " .. lureText
+                text.Position = Vector2.new(screenPosition.X, screenPosition.Y)
+            else
+                if text then
+                    text:Remove()
+                    text = nil
+                end
+            end
+        else
+            if text then
+                text:Remove()
+                text = nil
+            end
+        end
+    else
+        if text then
+            text:Remove()
+            text = nil
+        end
+    end
+    
+    task.wait() 
+end
+    if text and not genv.BobberVisuals then
+        text:Remove()
+        text = nil
+    end
+    end,
+})
+
+sections.Visuals3:AddColorpicker("BobberVisualsTextColor", {
+    Title = "Bobber Glow Color",
+    Default = Color3.fromRGB(255, 255, 255),
+    Callback = function(selectedColor)
+        genv.BobberGlowColor = selectedColor
+        if genv.BobberGlow then
+            local player = services.Players.LocalPlayer
+            local bobberName = services.ReplicatedStorage.playerstats[tostring(player.Name)].Stats.bobber.Value
+            local character = player.Character or player.CharacterAdded:Wait()
+            local rod = character:FindFirstChild(PlayerStats.rod.Value)
+
+            local bobber = rod:FindFirstChild("bobber")
+            if bobber then
+            local bobberBobber =  bobber:FindFirstChild(bobberName)
+            if bobberBobber then
+                local glowEffect = bobberBobber:FindFirstChild("SPOCK_GlowEffect")
+                if glowEffect then
+                    bobberBobber:FindFirstChild("SPOCK_GlowEffect").OutlineColor = selectedColor
+                end
+            end
+            end
+        end
+    end,
+})
+
+
+
+sections.Visuals3:AddToggle("ToggleBobberGlow", {
+    Title = "Bobber Glow",
+    Default = false,
+    Description = "Make your Bobber Glow",
+    Callback = function(isEnabled)
+        genv.BobberGlow = isEnabled
+        while genv.BobberGlow do
+            local player = services.Players.LocalPlayer
+            local playerStats = services.ReplicatedStorage.playerstats[tostring(player.Name)].Stats
+            local character = player.Character or player.CharacterAdded:Wait()  -- Ensure the character exists
+            local rodName = playerStats.rod.Value
+            local bobberName = playerStats.bobber.Value
+
+            local rod = character:FindFirstChild(rodName)
+            if rod then
+                local bobber = rod:FindFirstChild("bobber")
+                if bobber then
+                    local bobberPart = bobber:FindFirstChild(bobberName)
+                    if bobberPart and not bobberPart:FindFirstChild("SPOCK_GlowEffect") then
+                        local glow = Instance.new("Highlight", bobberPart)
+                        glow.Name = "SPOCK_GlowEffect"
+                        glow.FillTransparency = 1
+                        glow.OutlineColor = genv.BobberGlowColor or Color3.new(1, 1, 1)  -- Default color if not set
+                    end
+                end
+            end
+
+            task.wait()
+        end
+    end,
+})
+
+
+-- sections.Visuals3:AddToggle("Inventory Value", {
+--     Title = "Exact Inventory Value",
+--     Default = true,
+--     Description = "Displays a text showing the total value of items",
+--     Callback = function(isEnabled)
+--         if isEnabled then
+--                 function calculateInventoryValue()
+--                 _G.totalValue = 0
+--                 _G.backpackItems = LocalPlayer.PlayerGui.hud.safezone.backpack:GetDescendants()
+
+--                 for _, v in ipairs(_G.backpackItems) do
+--                     if v:IsA("ValueBase") and v.Name == "item" then
+--                         print(v)
+--                         _G.itemValue = GetBackPackItemValue(v.Value)
+--                         if _G.itemValue then
+--                             _G.totalValue += _G.itemValue
+--                         end
+--                     end
+--                 end
+
+--                 genv.InventoryValue:SetDesc(string.format("Inventory Value: %s", _G.totalValue.."C$"))
+--             end
+
+--             calculateInventoryValue()
+--             task.spawn(function()
+--                 while isEnabled do
+--                     calculateInventoryValue()
+--                     task.wait(1)
+--                 end
+--             end)
+--         else
+--             genv.InventoryValue:SetDesc("Inventory Value: Offline")
+--         end
+--     end,
+-- })
+
+
+sections.Item:AddToggle("AutoOpenItem", {
+    Title = "Auto Open Held Item",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoOpenItem = isEnabled
+        while genv.AutoOpenItem do
+            local item = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+            if item then
+                item:Activate()
+            else
+                lib:Notification("Auto Open Item", "No item found to activate.", 5)
+                genv.AutoOpenItem = false
+                return
+            end
+            task.wait()
+        end
+    end,
+})
+
+
+genv.SkinCrateToggle = sections.Item:AddToggle("AutoOpenSkinCrate", {
+    Title = "Auto Open Held Skin Crate",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoOpenSkinCrate = isEnabled
+        if genv.AutoOpenSkinCrate then
+            local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+            
+            if tool then
+                if tool.Name == "Skin Crate" then
+                    local skinLink = tostring(tool.link.Value)
+                    local stackValue = tonumber(ReplicatedStorage.playerstats[game.Players.LocalPlayer.Name].Inventory[skinLink].Stack.Value)
+
+                    for i = 1, stackValue do
+                        ReplicatedStorage.packages.Net["RF/SkinCrates/RequestSpin"]:InvokeServer()
+                        task.wait(8)
+
+                        if not genv.AutoOpenSkinCrate then
+                            break
+                        end
+                    end
+
+                    genv.SkinCrateToggle:Set(false)
+                    lib:Notification("Auto Open Skin Crate", "Completed", 5)
+
+                else
+                    lib:Notification("Auto Open Skin Crate", "You're not holding a Skin Crate...", 5)
+                    genv.SkinCrateToggle:Set(false)
+                end
+            else
+                lib:Notification("Auto Open Skin Crate", "You're not holding a Skin Crate...", 5)
+                genv.SkinCrateToggle:Set(false)
+            end
+        end
+    end,
+})
+
+
+local validItems = {}
+if type(data.Items) == "table" then
+    for itemName, itemData in pairs(data.Items) do
+        if itemData.Price ~= "inf" and itemData.Price ~= "No Price" then
+            local formattedPrice = formatPrice(itemData.Price)
+            table.insert(validItems, itemName .. " - " .. formattedPrice)
+        end
+    end
+end
+
+-- Add the valid items to the dropdown
+sections.Item:AddDropdown("PurchaseItem", {
+    Title = gradient("Items"),
+    Description = "",
+    Options = validItems,  -- Use the formatted item names and prices
+    Default = "",
+    PlaceHolder = "Select Item",
+    Multiple = false,
+    Callback = function(selectedItem)
+        -- print("Selected Item:", selectedItem)
+        genv.SelectedPurchaseItem = selectedItem
+    end,
+})
+
+
+sections.Item:AddTextbox({
+    Title = "Items - Amount",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Input",
+    TextDisappear = false,
+    Callback = function(purchaseAmount)
+        genv.PurchaseItemAmount = tonumber(purchaseAmount)
+        -- print(purchaseAmount)
+    end
+})
+
+sections.Item:AddButton({
+    Title = "Purchase - Item(s)",
+    Callback = function()
+        local itemName, formattedPrice = genv.SelectedPurchaseItem:match("^(.-) %- (.+)$")
+        local price = unformatPrice(formattedPrice)
+
+        if genv.PurchaseItemAmount == nil then
+            genv.PurchaseItemAmount = 1
+        end
+
+        -- Get the item type from data.Items
+        local itemType = data.Items[itemName] and data.Items[itemName].Type or "Unknown"
+
+        -- Check if the player has enough coins
+        if price * genv.PurchaseItemAmount > ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value then
+            lib:Notification("Purchase - Item(s)", "Insufficient cash, you need " .. formatNumber(price * genv.PurchaseItemAmount) .. "$ but you have only " .. formatNumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value)) .. "$", 5)
+            return
+        end
+        -- Fire the purchase event
+        game:GetService('ReplicatedStorage').events.purchase:FireServer(itemName, itemType, nil, genv.PurchaseItemAmount)
+
+        -- Notify successful purchase
+        lib:Notification("Purchase - Item(s)", "Successfully purchased " .. genv.PurchaseItemAmount .. " " .. itemName, 5)
+    end,
+})
+
+
+
+local playerRods = ReplicatedStorage.playerstats[LocalPlayer.Name].Rods
+
+local playerRodsSet = {}
+for _, rod in ipairs(playerRods:GetChildren()) do
+    playerRodsSet[rod.Name] = true
+end
+
+local validRods = {}
+
+if type(data.Rods) == "table" then
+    for rodName, rodData in pairs(data.Rods) do
+        if not playerRodsSet[rodName] and type(rodData) == "table" and rodData.Price ~= "inf" and rodData.Price ~= "No Price" then
+            local formattedPrice = formatPrice(rodData.Price)
+            table.insert(validRods, rodName .. " - " .. formattedPrice)
+        end
+    end
+end
+
+
+local purchaseRodDropdown = sections.Item:AddDropdown("PurchaseRod", {
+    Title = gradient("Rods"),
+    Description = "",
+    Options = validRods,  -- Use the formatted rod names and prices
+    Default = "",
+    PlaceHolder = "Select Rod",
+    Multiple = false,
+    Callback = function(selectedRod)
+        -- print(selectedRod)
+        variables.SelectedPurchaseRod = selectedRod
+    end,
+})
+
+sections.Item:AddButton({
+    Title = "Purchase - Rod",
+    Callback = function()
+        local rodName, formattedPrice = variables.SelectedPurchaseRod:match("^(.-) %- (.+)$")
+        local price = unformatPrice(formattedPrice)
+
+        -- Cash check
+        if price > ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value then
+            lib:Notification("Purchase - Rod", "Insufficient cash, you need " .. formatNumber(tonumber(price)) .. "$ but you have only " .. formatNumber(tonumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value))) .. "$", 5)
+            return -- Prevent purchase if not enough cash
+        end
+
+        -- Proceed with purchase
+        game:GetService('ReplicatedStorage').events.purchase:FireServer(rodName, 'Rod', price, 1)
+        lib:Notification("Purchase - Rod", "Successfully purchased " .. rodName, 5)
+
+        -- Remove the rod from valid rods
+        for i, rod in ipairs(validRods) do
+            if rod:match("^" .. rodName) then
+                table.remove(validRods, i)
+                break
+            end
+        end
+
+        -- Refresh the rod dropdown
+        purchaseRodDropdown:Refresh(validRods, true)
+        purchaseRodDropdown:Set(validRods)
+    end,
+})
+
+lanternsTable = {}
+
+for _, v in ipairs(ReplicatedStorage.resources.replicated.instances.lanterns:GetChildren()) do
+    table.insert(lanternsTable, v.Name)
+end
+
+for _, v in ipairs(ReplicatedStorage.playerstats[LocalPlayer.Name].Lanterns:GetChildren()) do
+    for i = #lanternsTable, 1, -1 do
+        if lanternsTable[i] == v.Name then
+            table.remove(lanternsTable, i)
+        end
+    end
+end
+
+
+local lanternSelected = nil
+
+local LanternDropdown = sections.Item:AddDropdown("PurchaseLanter", {
+    Title = gradient("Lantern"),
+    Description = "",
+    Options = lanternsTable,  -- Use the formatted rod names and prices
+    Default = "",
+    PlaceHolder = "Select Lantern",
+    Multiple = false,
+    Callback = function(selectedRod)
+        lanternSelected = selectedRod
+    end,
+})
+
+sections.Item:AddTextbox({
+    Title = "Lantern - Amount",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Input",
+    TextDisappear = false,
+    Callback = function(purchaseAmount)
+        genv.PurchaseLanternAmount = tonumber(purchaseAmount)
+    end
+})
+
+sections.Item:AddButton({
+    Title = "Purchase - Lantern(s)",
+    Callback = function()
+        if  genv.PurchaseLanternAmount == nil then
+            genv.PurchaseLanternAmount = 1
+        end
+        if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value < genv.PurchaseLanternAmount * 500 then
+            lib:Notification(
+                "Auto Buy Lantern",
+                "Insufficient cash, you need " .. formatNumber(genv.PurchaseLanternAmount * 500) .. "$ but you have only " .. formatNumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value)) .. "$",
+                5
+            )
+            return
+        end
+
+        lib:Notification("Purchase - Item(s)", "Starting purchase of " .. genv.PurchaseLanternAmount, 5)
+
+        for i = 1, genv.PurchaseLanternAmount do
+            local success, err = pcall(function()
+                workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Mods Latern Keeper"):WaitForChild("mods lantern"):WaitForChild("purchase"):InvokeServer()
+            end)
+
+            if not success then
+                lib:Notification("Purchase Error", "Failed to purchase lantern: " .. err, 5)
+                return
+            end
+        end
+        lib:Notification("Purchase - Lantern(s)", "Successfully purchased " .. genv.PurchaseLanternAmount, 5)
+    end,
+})
+
+genv.AutoBuyLantern = sections.Item:AddToggle("AutoBuyLantern", {
+    Title = "Auto Buy Lantern Till Selected",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        while isEnabled do
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value < 500 then
+                lib:Notification("Auto Buy Lantern", "Insufficient cash, you need " .. formatNumber(tonumber(500)) .. "$ but you have only " .. formatNumber(tonumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value))) .. "$", 5)
+                genv.AutoBuyLantern:Set(false)
+                return
+            end
+
+            local lanterns = ReplicatedStorage.playerstats[LocalPlayer.Name].Lanterns:GetChildren()
+            local foundLantern = false
+            for _, v in ipairs(lanterns) do
+                if v.Name == lanternSelected then
+                    foundLantern = true
+                    break
+                end
+            end
+
+            if foundLantern then
+                lib:Notification("Auto Buy Lantern", "Lantern '" .. lanternSelected .. "' has been successfully acquired.", 5)
+                genv.AutoBuyLantern:Set(false)
+                break
+            end
+
+            if isEnabled then
+                local success, err = pcall(function()
+                    workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Mods Latern Keeper"):WaitForChild("mods lantern"):WaitForChild("purchase"):InvokeServer()
+                end)
+
+                if not success then
+                    lib:Notification("Purchase Error", "Failed to purchase lantern: " .. err, 5)
+                    genv.AutoBuyLantern:Set(false)
+                    return
+                end
+            else
+                genv.AutoBuyLantern:Set(false)
+            end
+
+            task.wait()
+        end
+    end,
+})
+
+local formattedOptions = {}
+
+-- Format the options using the provided formatPrice function
+for crateName, crateData in pairs(data.SkinCrates) do
+    local formattedPrice = formatPrice(crateData.Price)
+    table.insert(formattedOptions, crateName .. " - " .. formattedPrice)
+end
+
+local SelectedCrate = nil
+local SelectedCrateAmount = 1
+
+sections.Item:AddDropdown("PurchaseCrates", {
+    Title = gradient("Skin Crates"),
+    Description = "",
+    Options = formattedOptions,  -- Use the formatted options from data.SkinCrates
+    Default = "",
+    PlaceHolder = "Select a Skin Crate ",
+    Multiple = false,
+    Callback = function(selectedRod)
+        SelectedCrate = selectedRod:split(" - ")[1]
+    end,
+})
+
+sections.Item:AddTextbox({
+    Title = "Skin Crates - Amount",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Input",
+    TextDisappear = false,
+    Callback = function(purchaseAmount)
+        SelectedCrateAmount = tonumber(purchaseAmount)
+    end
+})
+
+sections.Item:AddButton({
+    Title = "Purchase - Skin Crate(s)",
+    Callback = function()
+        if SelectedCrateAmount == nil then
+            SelectedCrateAmount = 1
+        end
+        for i = 1, SelectedCrateAmount do
+            local success, err = pcall(function()
+                ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/SkinCrates/Purchase"):InvokeServer(SelectedCrate)
+                task.wait(0.2)
+            end)
+
+            if not success then
+                lib:Notification("Purchase Error", "Failed to purchase Skin Crates: " .. err, 5)
+                return -- Exit the loop if there's an error
+            end
+        end
+
+        lib:Notification("Purchase - Skin Crate(s)", "Successfully purchased " .. SelectedCrateAmount, 5)
+    end,
+})
+
+
+
+sections.Item:AddDropdown("PurchaseMerlin", {
+    Title = gradient("Merlin"),
+    Description = "",
+    Options = {"Enchant Relic","Luck"},
+    Default = "",
+    Multiple = false,
+    PlaceHolder = "Select Magic",
+    Callback = function(selectedMerlin)
+        variables.SelectedPurchaseMerlin = selectedMerlin
+    end
+})
+
+genv.AutoBuyLuckToggle = sections.Item:AddToggle("AutoBuyMerlinLuck", {
+    Title = "Auto Buy Luck",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoBuyMerlinLuck = isEnabled
+        while variables.AutoBuyMerlinLuck do
+            if not LocalPlayer.PlayerGui.hud.safezone.statuses:FindFirstChild("statusUI") then
+                workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("luck"):InvokeServer()
+            end
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value < 5000 then
+                lib:Notification("Auto Buy Luck", "Insufficient cash, you need " .. formatNumber(tonumber(5000)) .. "$ but you have only " .. formatNumber(tonumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value))) .. "$", 5)
+                genv.AutoBuyLuckToggle:Set(false)
+                return
+            end
+            wait(1)
+            if not variables.AutoBuyMerlinLuck then break end
+        end
+    end,
+})
+
+sections.Item:AddButton({
+    Title = "Purchase - Merlin",
+    Callback = function()
+        if variables.SelectedPurchaseMerlin == "Enchant Relic" then
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value < 11000 then
+                lib:Notification("Purchase - Merlin", "Insufficient cash, you need " .. formatNumber(tonumber(11000)) .. "$ but you have only " .. formatNumber(tonumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value))) .. "$", 5)
+                return -- Prevent purchase if not enough cash
+            end
+            workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("power"):InvokeServer()
+        elseif variables.SelectedPurchaseMerlin == "Luck" then
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value < 5000 then
+                lib:Notification("Purchase - Merlin", "Insufficient cash, you need " .. formatNumber(tonumber(5000)) .. "$ but you have only " .. formatNumber(tonumber(math.floor(ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value))) .. "$", 5)
+                return -- Prevent purchase if not enough cash
+            end
+            workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("luck"):InvokeServer()
+        end
+        lib:Notification("Purchase - Merlin","Successfully purchased " .. variables.SelectedPurchaseMerlin, 5)
+    end,
+})
+
+sections.Item5:AddParagraph({Title = gradient("Selling")})
+sections.Item5:AddToggle("AutoSell", {
+    Title = "Auto Sell",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.autoselling = isEnabled
+        if isEnabled then
+            coroutine.wrap(function()
+                while variables.autoselling do
+                    pcall(function()
+                        ReplicatedStorage.events.SellAll:InvokeServer()
+                    end)
+                    task.wait(variables.autoSellDelay)
+                    if not variables.autoselling then break end
+                end
+            end)()
+        end
+    end,
+})
+
+
+
+sections.Item5:AddSlider("Auto Sell Delay", {
+    Title = "Auto Sell Delay [Seconds]",
+    Description = "",
+    Default = 60,
+    Min = 0,
+    Max = 600,
+    Increment = 1,
+    Callback = function(value)
+        variables.autoSellDelay = value
+    end,
+})
+
+local sellFishGroupButton = sections.Item5:AddGroupButton()
+
+sellFishGroupButton:AddButton({
+    Title = "Sell All",
+    Variant = "Primary",
+    Callback = function()
+        ReplicatedStorage.events.SellAll:InvokeServer()
+    end,
+})
+
+sellFishGroupButton:AddButton({
+    Title = "Sell Hand",
+    Variant = "Primary",
+    Callback = function()
+        ReplicatedStorage.events.Sell:InvokeServer()
+    end,
+})
+
+sections.Item5:AddToggle("AutoSellHand", {
+    Title = "Auto Sell Held Item",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.autosellingHand = isEnabled
+        while isEnabled do
+            ReplicatedStorage.events.Sell:InvokeServer()
+            task.wait()
+        end
+    end,
+})
+
+sections.Item5:AddParagraph({Title = gradient("Favouriting")})
+
+local fishNames = {}
+if type(data.Fish) == "table" then
+    for fishName, fishData in pairs(data.Fish) do
+        table.insert(fishNames, fishName)
+    end
+end
+
+sections.Item5:AddDropdown("FishFavSelectDropDown", {
+    Title = "Select Fishes",
+    Description = "",
+    Options = fishNames,
+    Default = "",
+    PlaceHolder = "Select Fish(s)",
+    Multiple = true,
+    Callback = function(selectedFishes)
+        genv.SelectedFishes = selectedFishes
+        
+        -- Convert the selectedFishes table to a string and print it
+        local selectedFishesStr = table.concat(selectedFishes, ", ")
+        print("Selected Fishes: " .. selectedFishesStr)
+    end,
+})
+
+
+
+local connection
+
+sections.Item5:AddToggle("AutoFav", {
+    Title = "Auto Favourite",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoFav = isEnabled
+        if connection then
+            connection:Disconnect()
+        end
+        if genv.AutoFav then
+            connection = LocalPlayer.Backpack.ChildAdded:Connect(function(child)
+                if table.find(genv.SelectedFishes, child.Name) then
+                    LocalPlayer.PlayerGui.hud.safezone.backpack.events.favourite:FireServer(child)
+                end
+            end)
+        end
+    end,
+})
+
+local favFishGroupButton = sections.Item5:AddGroupButton()
+
+favFishGroupButton:AddButton({
+    Title = "Fav All",
+    Variant = "Primary",
+    Callback = function()
+        for _, item in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if not item:FindFirstChild("link") then continue end
+            local link = item.link.Value
+        
+            if not link:FindFirstChild("Favourited") then
+                services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RE/Backpack/Favourite"):FireServer(item)
+            end
+        end
+    end,
+})
+
+
+
+favFishGroupButton:AddButton({
+    Title = "Unfav All",
+    Variant = "Primary",
+    Callback = function()
+        for _, item in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+            if not item:FindFirstChild("link") then continue end
+            local link = item.link.Value
+        
+            if link:FindFirstChild("Favourited") then
+                services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RE/Backpack/Favourite"):FireServer(item)
+            end
+        end
+    end,
+})
+
+
+
+genv.AppraiseParagraph = sections.Item1:AddParagraph({Title = "", Description = "Info"})
+
+local mutationNames = {}
+
+-- Assuming `Mutations` holds the mutation data
+if type(data.Mutations) == "table" then
+    for mutationName, mutationData in pairs(data.Mutations) do
+        -- Debugging: Print the Chance value to check its format
+        -- print(mutationName, mutationData.Chance)
+
+        -- Check if the Chance value is not "0"
+        if mutationData.Chance ~= "0" then
+            -- Add mutation name to the list if Chance is not "0"
+            table.insert(mutationNames, mutationName)
+        end
+    end
+end
+
+-- Function to convert RGB to rich text
+local function rgbToRichText(rgbString, text)
+    -- Split the RGB string into individual components
+    local r, g, b = rgbString:match("([^,]+),([^,]+),([^,]+)")
+    r, g, b = tonumber(r), tonumber(g), tonumber(b)
+
+    -- Return the text in rich text format with the specified RGB color
+    return string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", r * 255, g * 255, b * 255, text)
+end
+
+local function updateAppraiseDescription()
+    local selectedMutation = genv.SelectedMutation or {}
+    local selectedMutationText = ""
+
+    -- If there are multiple selected mutations, display them as "Name/Name" with colors
+    if #selectedMutation > 0 then
+        local coloredMutations = {}
+        for _, mutationName in ipairs(selectedMutation) do
+            local mutationData = data.Mutations[mutationName]
+            local mutationColor = mutationData and mutationData.Color or "1,1,1" -- Default to white if no color is defined
+            table.insert(coloredMutations, rgbToRichText(mutationColor, mutationName))
+        end
+        selectedMutationText = table.concat(coloredMutations, "/")
+    end
+
+    -- Calculate chance and value multiplier for the selected mutation
+    local totalChance = 0
+    for _, mutationName in pairs(mutationNames) do
+        local mutation = data.Mutations[mutationName]
+        if mutation and mutation.Chance and mutation.Chance ~= "0" then
+            totalChance = totalChance + tonumber(mutation.Chance)
+        end
+    end
+    local selectedMutationData = data.Mutations[selectedMutation[1]] -- Assume the first selected mutation for chance calculation
+    local selectedChance = selectedMutationData and selectedMutationData.Chance or "0"
+    local chancePercentage = tonumber(selectedChance) / totalChance * 100
+    local formattedChance = string.format("%.2f", chancePercentage)
+    local mutationPrice = selectedMutationData and selectedMutationData.PriceMultiply or "N/A"
+
+    -- Build the `SelectedMutationPlus` description
+    local result = {}
+    local hasSparkling, hasShiny, hasBig, hasGiant = false, false, false, false
+
+    -- Check if SelectedMutationPlus exists and is not empty
+    if genv.SelectedMutationPlus and #genv.SelectedMutationPlus > 0 then
+        for _, mutation in ipairs(genv.SelectedMutationPlus) do
+            if mutation == "Sparkling" then
+                hasSparkling = true
+            elseif mutation == "Shiny" then
+                hasShiny = true
+            elseif mutation == "Big" then
+                hasBig = true
+            elseif mutation == "Giant" then
+                hasGiant = true
+            end
+        end
+
+        if hasSparkling and hasShiny then
+            table.insert(result, "<font color='#fff0bc'>Sparkling, Shiny</font>")
+        elseif hasSparkling then
+            table.insert(result, "<font color='#fff0bc'>Sparkling</font>")
+        elseif hasShiny then
+            table.insert(result, "<font color='#fff0bc'>Shiny</font>")
+        end
+
+        if hasBig and hasGiant then
+            table.insert(result, "<font color='#8bff89'>Big/Giant</font>")
+        elseif hasBig then
+            table.insert(result, "<font color='#8bff89'>Big</font>")
+        elseif hasGiant then
+            table.insert(result, "<font color='#8bff89'>Giant</font>")
+        end
+    end
+
+    -- Combine all parts of the description
+    local descriptionParts = {}
+    if selectedMutationText ~= "" then
+        table.insert(descriptionParts, selectedMutationText)
+    end
+    if #result > 0 then
+        table.insert(descriptionParts, table.concat(result, ", "))
+    end
+
+    local richDescription = table.concat(descriptionParts, ", ")
+
+    -- Update the description in the UI
+    genv.AppraiseParagraph:SetDesc(richDescription)
+end
+
+
+-- SelectedMutation dropdown
+genv.SelectedMutationToggle = sections.Item1:AddDropdown("SelectedMutation", {
+    Title = "Select Mutation",
+    Description = "If you select multiple, it'll stop at any it gets.",
+    Options = mutationNames,
+    Default = "",
+    PlaceHolder = "Select Mutation",
+    Multiple = true,
+    AllowNull = true,  -- Allow deselection
+    Callback = function(selectedMutation)
+        genv.SelectedMutation = selectedMutation or ""  -- Handle null case
+        updateAppraiseDescription()
+    end,
+})
+
+-- SelectedMutationPlus dropdown
+genv.SelectedMutationPlusToggle = sections.Item1:AddDropdown("SelectedMutationPlus", {
+    Title = "Select Mutation Plus",
+    Description = "If you select both sparkling and shiny, it'll go until you get both. If you select both big and giant it'll stop at either one.",
+    Options = {"Sparkling", "Shiny", "Big", "Giant"},
+    Default = {},
+    PlaceHolder = "Select Mutation Plus",
+    Multiple = true,
+    AllowNull = true,
+    Callback = function(selectedMutationPlus)
+        genv.SelectedMutationPlus = selectedMutationPlus or {}  -- Handle null case
+        updateAppraiseDescription()
+    end,
+})
+
+
+genv.AutoAppraiseToggle = sections.Item1:AddToggle("AutoAppraise", {
+    Title = "Auto Appraise",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoAppraise = isEnabled
+        if genv.AutoAppraise then
+            validFish = ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/AppraiseAnywhere/HaveValidFish"):InvokeServer()
+            if not validFish then
+                lib:Notification("Auto Appraise", "Not holding fish or invalid fish.", 5)
+                genv.AutoAppraiseToggle:Set(false)
+                return
+            elseif validFish then
+                print("normal mode..")
+                local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                local currentTool = tostring(tool:WaitForChild("link").Value)
+
+                local inventoryConnection
+
+                -- Check if the current fish already meets criteria
+                local inventory = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]
+                local criteria = {}
+                local requirementsMet = {}
+                local meetsRequirements = true
+
+                if genv.SelectedMutation and #genv.SelectedMutation > 0 then
+                    -- Add all selected mutations to criteria
+                    for _, selectedMutation in ipairs(genv.SelectedMutation) do
+                        table.insert(criteria, selectedMutation)
+                    end
+                
+                    -- Check if Mutation.Value exists in SelectedMutation
+                    if inventory:FindFirstChild("Mutation") and table.find(genv.SelectedMutation, inventory.Mutation.Value) then
+                        table.insert(requirementsMet, inventory.Mutation.Value)
+                    else
+                        meetsRequirements = false
+                    end
+                end
+                
+
+                for _, mutation in ipairs(genv.SelectedMutationPlus or {}) do
+                    table.insert(criteria, mutation)
+                    if mutation == "Sparkling" and not inventory:FindFirstChild("Sparkling") then
+                        meetsRequirements = false
+                    elseif mutation == "Shiny" and not inventory:FindFirstChild("Shiny") then
+                        meetsRequirements = false
+                    elseif mutation == "Big" or mutation == "Giant" then
+                        local weight = tonumber(inventory:FindFirstChild("Weight").Value)
+                        print(weight)
+                        local baseWeight = tonumber(data.Fish[tool.Name].WeightPool[2] / 10)
+                        print(baseWeight)
+                        if mutation == "Giant" and weight <= baseWeight * 1.99 then
+                            meetsRequirements = false
+                        elseif mutation == "Big" and weight <= baseWeight then
+                            meetsRequirements = false
+                        else
+                            table.insert(requirementsMet, mutation)
+                        end
+                    end
+                end
+
+                print("Criteria: " .. table.concat(criteria, ", "))
+                print("Requirements met: " .. table.concat(requirementsMet, ", "))
+
+                if meetsRequirements then
+                    print("Current fish meets all criteria. No need to appraise.")
+                    genv.AutoAppraiseToggle:Set(false)
+                    return
+                end
+
+                -- If not meeting criteria, appraise the fish
+                task.spawn(function()
+                    workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+                end)
+
+                inventoryConnection = LocalPlayer.Backpack.ChildAdded:Connect(function(item)
+                    if not genv.AutoAppraise then
+                        if inventoryConnection then
+                            inventoryConnection:Disconnect()
+                            inventoryConnection = nil
+                        end
+                    end
+
+                    if tostring(item:WaitForChild("link").Value) ~= currentTool then
+                        game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+                        item = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        task.wait()
+                        game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+                        task.wait(1)
+                        currentTool = tostring(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):WaitForChild("link").Value)
+
+                        -- Repeat criteria checks for the new item
+                        inventory = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]
+                        criteria = {}
+                        requirementsMet = {}
+                        meetsRequirements = true
+
+                        if genv.SelectedMutation and #genv.SelectedMutation > 0 then
+                            -- Add all selected mutations to criteria
+                            for _, selectedMutation in ipairs(genv.SelectedMutation) do
+                                table.insert(criteria, selectedMutation)
+                            end
+                        
+                            -- Check if Mutation.Value exists in SelectedMutation
+                            if inventory:FindFirstChild("Mutation") and table.find(genv.SelectedMutation, inventory.Mutation.Value) then
+                                table.insert(requirementsMet, inventory.Mutation.Value)
+                            else
+                                meetsRequirements = false
+                            end
+                        end
+                        
+
+                        for _, mutation in ipairs(genv.SelectedMutationPlus or {}) do
+                            table.insert(criteria, mutation)
+                            if mutation == "Sparkling" and not inventory:FindFirstChild("Sparkling") then
+                                meetsRequirements = false
+                            elseif mutation == "Shiny" and not inventory:FindFirstChild("Shiny") then
+                                meetsRequirements = false
+                            elseif mutation == "Big" or mutation == "Giant" then
+                                local weight = tonumber(inventory:FindFirstChild("Weight").Value)
+                                local baseWeight = tonumber(data.Fish[item.Name].WeightPool[2])
+                                if mutation == "Giant" and weight <= baseWeight * 1.99 then
+                                    meetsRequirements = false
+                                elseif mutation == "Big" and weight <= baseWeight then
+                                    meetsRequirements = false
+                                else
+                                    table.insert(requirementsMet, mutation)
+                                end
+                            end
+                        end
+
+                        print("Criteria: " .. table.concat(criteria, ", "))
+                        print("Requirements met: " .. table.concat(requirementsMet, ", "))
+
+                        if meetsRequirements then
+                            print("All requirements met! Stopping auto-appraise.")
+                            LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                            if inventoryConnection then
+                                genv.AutoAppraiseToggle:Set(false)
+                                inventoryConnection:Disconnect()
+                                inventoryConnection = nil
+                                return
+                            end
+                        else
+                            pcall(function()
+                                workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+                            end)
+                            repeat task.wait() until not game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                        end
+                    end
+                end)
+            end
+        end
+    end,
+})
+sections.Item1:AddButton({
+    Title = "Appraise Once",
+    Variant = "Outline",
+    Callback = function()
+        validFish = ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/AppraiseAnywhere/HaveValidFish"):InvokeServer()
+        if not validFish then
+            lib:Notification("Auto Appraise", "Not holding fish or invalid fish.", 5)
+            genv.AutoAppraiseToggle:Set(false)
+            return
+        else
+            task.spawn(function()
+                workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+            end)
+            inventoryConnection2 = LocalPlayer.Backpack.ChildAdded:Connect(function(item)
+                -- set the item parent to character
+                if item:IsA("Tool") then
+                    item.Parent = LocalPlayer.Character
+                end
+            end)
+        end
+    end,
+})
+
+
+-- genv.AutoAppraiseToggle = sections.Item1:AddToggle("AutoAppraise", {
+--     Title = "Auto Appraise",
+--     Default = false,
+--     Description = "",
+--     Callback = function(isEnabled)
+--         genv.AutoAppraise = isEnabled
+--         if genv.AutoAppraise then
+--             validFish = ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/AppraiseAnywhere/HaveValidFish"):InvokeServer()
+--             if not validFish then
+--                 lib:Notification("Auto Appraise", "Not holding fish or invalid fish.", 5)
+--                 genv.AutoAppraiseToggle:Set(false)
+--                 return
+--             elseif validFish then
+--                 print("normal mode..")
+--                 local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                 local currentTool = tostring(tool:WaitForChild("link").Value)
+
+--                 local inventoryConnection
+
+--                 task.spawn(function()
+--                     workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+--                 end)
+                
+--                 inventoryConnection = LocalPlayer.Backpack.ChildAdded:Connect(function(item)
+--                     if not genv.AutoAppraise then
+--                         if inventoryConnection then
+--                             inventoryConnection:Disconnect()
+--                             inventoryConnection = nil
+--                         end
+--                     end
+
+--                     if tostring(item:WaitForChild("link").Value) ~= currentTool then
+--                         game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+--                         item = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                         LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+--                         task.wait()
+--                         game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+--                         currentTool = tostring(item:WaitForChild("link").Value)
+
+--                         local inventory = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]
+                        
+--                         -- Build criteria string
+--                         local criteria = {}
+--                         if genv.SelectedMutation and genv.SelectedMutation ~= "" then
+--                             table.insert(criteria, genv.SelectedMutation)
+--                         end
+--                         for _, mutation in ipairs(genv.SelectedMutationPlus or {}) do
+--                             table.insert(criteria, mutation)
+--                         end
+--                         print("Criteria: " .. table.concat(criteria, ", "))
+                        
+--                         -- Track requirements met
+--                         local requirementsMet = {}
+--                         local meetsRequirements = true
+                        
+--                         -- Check regular mutation first
+--                         if genv.SelectedMutation and genv.SelectedMutation ~= "" then
+--                             if inventory:FindFirstChild("Mutation") and 
+--                                inventory:FindFirstChild("Mutation").Value == genv.SelectedMutation then
+--                                 table.insert(requirementsMet, genv.SelectedMutation)
+--                             else
+--                                 meetsRequirements = false
+--                             end
+--                         end
+                        
+--                         -- Check mutation plus requirements if any are selected and mutation requirement was met
+--                         if meetsRequirements and #genv.SelectedMutationPlus > 0 then
+--                             -- Check Sparkling
+--                             if table.find(genv.SelectedMutationPlus, "Sparkling") then
+--                                 if inventory:FindFirstChild("Sparkling") then
+--                                     table.insert(requirementsMet, "Sparkling")
+--                                 else
+--                                     meetsRequirements = false
+--                                 end
+--                             end
+                            
+--                             -- Check Shiny
+--                             if table.find(genv.SelectedMutationPlus, "Shiny") then
+--                                 if inventory:FindFirstChild("Shiny") then
+--                                     table.insert(requirementsMet, "Shiny")
+--                                 else
+--                                     meetsRequirements = false
+--                                 end
+--                             end
+                            
+--                             -- Check Big/Giant
+--                             local requiresBig = table.find(genv.SelectedMutationPlus, "Big") ~= nil
+--                             local requiresGiant = table.find(genv.SelectedMutationPlus, "Giant") ~= nil
+                            
+--                             if requiresBig or requiresGiant then
+--                                 local weight = tonumber(inventory:FindFirstChild("Weight").Value)
+--                                 local baseWeight = tonumber(data.Fish[item.Name].WeightPool[2])
+                                
+--                                 if requiresGiant and weight > baseWeight * 1.99 then
+--                                     table.insert(requirementsMet, "Giant")
+--                                 elseif requiresBig and weight > baseWeight then
+--                                     table.insert(requirementsMet, "Big")
+--                                 else
+--                                     meetsRequirements = false
+--                                 end
+--                             end
+--                         end
+                        
+--                         -- Print current fish info
+--                         if inventory:FindFirstChild("Mutation") then
+--                             print("Current fish mutation: " .. inventory.Mutation.Value)
+--                         end
+--                         print("Requirements met: " .. table.concat(requirementsMet, ", "))
+                        
+--                         -- If all requirements are met, stop auto-appraising
+--                         if meetsRequirements then
+--                             print("All requirements met! Stopping auto-appraise.")
+--                             LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+--                             if inventoryConnection then
+--                                 genv.AutoAppraiseToggle:Set(false)
+--                                 inventoryConnection:Disconnect()
+--                                 inventoryConnection = nil
+--                                 return
+--                             end
+--                         else
+--                             -- Continue appraising if requirements aren't met
+--                             pcall(function()
+--                                 workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+--                             end)
+--                             repeat task.wait() until not game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                         end
+--                     end
+--                 end)
+--             end
+--         end
+--     end,
+-- })
+
+-- genv.AutoAppraiseToggle = sections.Item1:AddToggle("AutoAppraise", {
+--     Title = "Auto Appraise",
+--     Default = false,
+--     Description = "",
+--     Callback = function(isEnabled)
+--         genv.AutoAppraise = isEnabled
+--         if genv.AutoAppraise then
+--             validFish = ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/AppraiseAnywhere/HaveValidFish"):InvokeServer()
+--             if not validFish then
+--                 lib:Notification("Auto Appraise","Not holding fish or invalid fish.", 5)
+--                 genv.AutoAppraiseToggle:Set(false)
+--                 return
+--             elseif validFish then
+--                 print("normal mode..")
+--                 local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                 local currentTool = tostring(tool:WaitForChild("link").Value)
+
+
+--                 local inventoryConnection
+
+--                 task.spawn(function()
+--                     workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+--                 end)
+--                 inventoryConnection = LocalPlayer.Backpack.ChildAdded:Connect(function(item)
+
+--                     if not genv.AutoAppraise then
+--                         if inventoryConnection then
+--                             inventoryConnection:Disconnect()
+--                             inventoryConnection = nil
+--                         end
+--                     end
+
+--                     if tostring(item:WaitForChild("link").Value) ~= currentTool then
+
+--                         game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+--                         item = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                         LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+--                         task.wait()
+--                         game.Players.LocalPlayer.Character.Humanoid:EquipTool(item)
+--                         currentTool = tostring(item:WaitForChild("link").Value)
+
+--                         if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Mutation") then
+--                             -- print(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Mutation").Value)
+--                             -- print(genv.SelectedMutation)
+--                             if #genv.SelectedMutationPlus > 0 then
+--                                 -- if in there is sparkling then
+--                                 if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Sparkling") ~= nil then
+--                                     -- print("sparkling is in there")
+--                                 end
+--                                 -- if in there is shiny then
+--                                 if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Shiny") ~= nil then
+--                                     -- print("shiny is in there")
+--                                 end
+--                                 -- if in there is big then
+--                                 if tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Weight").Value) > tonumber(data.Fish[item.Name].WeightPool[2]) then
+--                                     -- print("big")
+--                                 end
+--                                 if tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Weight").Value) > tonumber(data.Fish[item.Name].WeightPool[2] * 1.99) then
+--                                     -- print("giant")
+--                                 end
+--                                 -- and if it's big/giant then just use the big's threshold..
+
+--                                 -- anyways, after that, move onto the next part below where it does the mutation check.
+
+
+--                             if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[currentTool]:FindFirstChild("Mutation").Value == genv.SelectedMutation then
+--                                 LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+--                                 if inventoryConnection then
+--                                     genv.AutoAppraiseToggle:Set(false)
+--                                     inventoryConnection:Disconnect()
+--                                     inventoryConnection = nil
+--                                     return
+--                                 end
+--                             end
+--                         end
+--                         pcall(function()
+--                             workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Appraiser"):WaitForChild("appraiser"):WaitForChild("appraise"):InvokeServer()
+--                         end)
+--                         repeat task.wait() until not game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--                     end
+--                 end
+--                 end)
+--             end
+--         end
+--     end,
+-- })
+
+genv.EnchantParagraph = sections.Item2:AddParagraph({Title = "", Description = "Info"})
+
+
+-- Populate the enchant names for the dropdown
+local enchantNames = {}
+if type(data.Enchants) == "table" then
+    for enchantName, enchantData in pairs(data.Enchants) do
+        -- Add enchant name to list
+        table.insert(enchantNames, enchantName)
+    end
+end
+
+-- Add the enchant dropdown
+sections.Item2:AddDropdown("EnchantSelectDropDown", {
+    Title = "Selected Enchant",
+    Description = "",
+    Options = enchantNames,  -- Populate with enchant names
+    Default = "",
+    PlaceHolder = "Select Enchant",
+    Multiple = false,
+    Callback = function(selectedEnchant)
+        -- Store the selected enchant name
+        genv.SelectedEnchant = selectedEnchant
+        
+        -- Fetch the description and color of the selected enchant
+        local enchantDescription = data.Enchants[selectedEnchant] and data.Enchants[selectedEnchant].Description or "No description available"
+        local enchantColor = data.Enchants[selectedEnchant] and data.Enchants[selectedEnchant].Color or "1,1,1"  -- Default to white if no color
+        
+        -- Convert the color and description to rich text format
+        local coloredText = rgbToRichText(enchantColor, selectedEnchant)
+        local richDescription = coloredText .. "\n" .. enchantDescription
+        
+        -- Update the description
+        genv.EnchantParagraph:SetDesc(richDescription)
+    end,
+})
+
+genv.AutoEnchantToggle = sections.Item2:AddToggle("AutoEnchantToggle", {
+    Title = "Auto Enchant",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoEnchant = isEnabled
+        
+        if genv.AutoEnchant then
+            if data.Enchants[genv.SelectedEnchant].IsExalted then
+                if not workspace[LocalPlayer.Name]:FindFirstChild("Exalted Relic") then
+                    lib:Notification("Auto Enchant","Please hold an Exalted Relic.", 5)
+                    genv.AutoEnchantToggle:Set(false)
+                    return
+                end
+            elseif not data.Enchants[genv.SelectedEnchant].IsExalted then
+                if not workspace[LocalPlayer.Name]:FindFirstChild("Enchant Relic") then
+                    lib:Notification("Auto Enchant","Please hold an Enchant Relic.", 5)
+                    genv.AutoEnchantToggle:Set(false)
+                    return
+                end
+            end
+            if ReplicatedStorage.world.cycle.Value ~= "Night" then
+                lib:Notification("Auto Enchant","It needs to be night time.", 5)
+                genv.AutoEnchantToggle:Set(false)
+                return 
+            end
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[getEquippedRod()].Value == genv.SelectedEnchant then
+                lib:Notification("Auto Enchant","You already have this enchant.", 5)
+                genv.AutoEnchantToggle:Set(false)
+                return 
+            end
+            LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1310, -799, -82)
+        end
+        task.wait(1)
+        while genv.AutoEnchant do
+            task.wait(0.1)
+            if workspace.world.interactables:FindFirstChild("Enchant Altar"):FindFirstChild("ProximityPrompt").Enabled and genv.AutoEnchant then
+                if data.Enchants[genv.SelectedEnchant].IsExalted then
+                    if not workspace[LocalPlayer.Name]:FindFirstChild("Exalted Relic") then
+                        lib:Notification("Auto Enchant","Please hold an Exalted Relic.", 5)
+                        genv.AutoEnchantToggle:Set(false)
+                        return
+                    end
+                elseif not data.Enchants[genv.SelectedEnchant].IsExalted then
+                    if not workspace[LocalPlayer.Name]:FindFirstChild("Enchant Relic") then
+                        lib:Notification("Auto Enchant","Please hold an Enchant Relic.", 5)
+                        genv.AutoEnchantToggle:Set(false)
+                        return
+                    end
+                end
+
+                -- fireproximityprompt(workspace.world.interactables["Enchant Altar"].ProximityPrompt, 0)
+                workspace.world.interactables:FindFirstChild("Enchant Altar"):FindFirstChild("ProximityPrompt").Parent = LocalPlayer.Character
+                local player = services.Players.LocalPlayer
+                local char = player.Character
+
+                for _, obj in ipairs(char:GetChildren()) do
+                    if obj:IsA("ProximityPrompt") then
+                        obj.HoldDuration = 0
+                        obj:InputHoldBegin()
+                        task.wait(0.01)
+                        obj:InputHoldEnd()
+                        obj.Parent = workspace.world.interactables:FindFirstChild("Enchant Altar")
+                    end
+                end              
+                task.wait(0.5)
+                if LocalPlayer.PlayerGui.over:FindFirstChild("prompt") then
+                    local confirmButton = LocalPlayer.PlayerGui.over.prompt.confirm
+                    if getconnections then
+                        for i, v in pairs(getconnections(confirmButton.MouseButton1Click)) do
+                            v.Function()
+                        end
+                    else
+                        firesignal(confirmButton.MouseButton1Click)
+                    end
+                end                
+            end
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Rods[getEquippedRod()].Value == genv.SelectedEnchant then
+                genv.AutoEnchantToggle:Set(false)
+            end
+        end
+    end,
+})
+
+-- sections.Item3:AddParagraph({Title = '<font color="#ea00ff">T</font><font color="#cc00ff">o</font><font color="#af00ff">t</font><font color="#9100ff">e</font><font color="#7400ff">m</font><font color="#5700ff">s</font>', Description = ""})
+
+-- Create a list for totems
+local totemItems = {}
+if type(data.Items) == "table" then
+    for itemName, itemData in pairs(data.Items) do
+        if itemName:find("Totem") then
+            -- Add items containing "Totem" to the totem list
+            table.insert(totemItems, itemName)
+        end
+    end
+end
+
+-- Add the totems to the dropdown
+sections.Item3:AddDropdown("DayTotem", {
+    Title = "Totem - Day",
+    Description = "",
+    PlaceHolder = "Select Totem - Day",
+    Options = totemItems,  -- Populate the dropdown with filtered totems
+    Default = "",
+    Multiple = false,
+    Callback = function(SelectedTotem)
+        -- print("Selected Totem:", SelectedTotem)
+        genv.SelectedDayTotem = SelectedTotem
+    end,
+})
+
+
+sections.Item3:AddDropdown("NightTotem", {
+    Title = "Totem - Night",
+    Description = "",
+    Options = totemItems,
+    Default = "",
+    PlaceHolder = "Select Totem - Night",
+    Multiple = false,
+    Callback = function(SelectedTotem)
+        -- print("Selected Totem:", SelectedTotem)
+        genv.SelectedNightTotem = SelectedTotem
+        
+    end
+})
+
+genv.LastCycle = nil
+genv.AutoPurchaseIfNone = false
+genv.TotemInUse = false
+sections.Item3:AddToggle("AutoTotemToggle", {
+    Title = "Auto Totem",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoTotemToggle = isEnabled
+        if genv.AutoTotemToggle then
+            if variables.AutoCast then
+                lib:Notification("Auto Totem", "Auto Totem has compatibility issues with auto fishing and will be very glitchy.", 5)
+            end
+        end
+        while genv.AutoTotemToggle do
+            task.wait(1)
+            
+            local currentCycle = ReplicatedStorage.world.cycle.Value
+
+            if currentCycle ~= genv.LastCycle then
+                if currentCycle == "Day" then
+                    if not LocalPlayer.Backpack:FindFirstChild(genv.SelectedDayTotem) and genv.AutoPurchaseIfNone == true then
+                        game:GetService('ReplicatedStorage').events.purchase:FireServer(genv.SelectedDayTotem, "Item", nil, 1)
+                        task.wait(1)
+                    end
+
+                    if LocalPlayer.Backpack:FindFirstChild(genv.SelectedDayTotem) then
+                        genv.TotemInUse = true
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        LocalPlayer.Backpack:FindFirstChild(genv.SelectedDayTotem).Parent = LocalPlayer.Character
+                    end
+
+                    if workspace[LocalPlayer.Name]:FindFirstChild(genv.SelectedDayTotem) then
+                        workspace[LocalPlayer.Name][genv.SelectedDayTotem]:Activate()
+                    end
+                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                    genv.TotemInUse = false
+                elseif currentCycle == "Night" then
+                    if not LocalPlayer.Backpack:FindFirstChild(genv.SelectedNightTotem) and genv.AutoPurchaseIfNone == true then
+                        game:GetService('ReplicatedStorage').events.purchase:FireServer(genv.SelectedDayTotem, "Item", nil, 1)
+                        task.wait(1)
+                    end
+
+                    if LocalPlayer.Backpack:FindFirstChild(genv.SelectedNightTotem) then
+                        genv.TotemInUse = true
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        LocalPlayer.Backpack:FindFirstChild(genv.SelectedNightTotem).Parent = LocalPlayer.Character
+                    end
+
+                    if workspace[LocalPlayer.Name]:FindFirstChild(genv.SelectedNightTotem) then
+                        workspace[LocalPlayer.Name][genv.SelectedNightTotem]:Activate()
+                    end
+                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                    genv.TotemInUse = false
+                end
+
+                genv.LastCycle = currentCycle
+                genv.TotemInUse = false
+            end
+        end
+    end,
+})
+
+sections.Item3:AddToggle("AutoTotemToggle", {
+    Title = "Auto Purchase Totem",
+    Default = false,
+    Description = " Auto Purcahse(s) Totem if you got none",
+    Callback = function(isEnabled)
+        genv.AutoPurchaseIfNone = isEnabled
+    end,
+})
+
+sections.Item3:AddParagraph({
+    Title = gradient("Sundial"),
+    Description = "Uses Sundial Totem until the event."
+})
+
+
+local eventList = {"Megalodon", "Night of the Fireflies", "Night of the Luminous", "Shiny Surge", "Mutation Surge"}
+sections.Item3:AddDropdown("EventTotem", {
+    Title = "Select Event",
+    Description = "",
+    Options = eventList,
+    Default = "",
+    PlaceHolder = "Select Event",
+    Multiple = false,
+    Callback = function(SelectedEvent)
+        genv.SelectedEvent = SelectedEvent
+    end
+})
+
+
+sections.Item3:AddToggle("AutoTotemToggle", {
+    Title = "Auto Sundial",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoSundial = isEnabled
+        if genv.AutoSundial then
+            if variables.AutoCast then
+                lib:Notification("Auto Sundial", "Auto Sundial has compatibility issues with auto fishing and will be very glitchy.", 5)
+            end
+        end
+        while genv.AutoSundial do
+            local currentCycle = ReplicatedStorage.world.cycle.Value
+
+            if currentCycle ~= genv.LastCycle then
+                -- Special case for "Megalodon"
+                if genv.SelectedEvent == "Megalodon" then
+                    local foundMegalodon = false
+
+                    for _, child in pairs(workspace.zones.fishing:GetChildren()) do
+                        if child:FindFirstChild("beacon") then
+                            local poiHeader = child:FindFirstChild("POIHeader")
+                            if poiHeader and poiHeader:FindFirstChild("title") and poiHeader.title:IsA("TextLabel") then
+                                print("Event title:", poiHeader.title.Text)
+                                if poiHeader.title.Text:find("Megalodon") then
+                                    print("Megalodon detected in POIHeader, waiting for it to end.")
+                                    foundMegalodon = true
+                    
+                                    -- Wait until "Megalodon" is no longer present
+                                    while genv.AutoSundial do
+                                        local currentText = poiHeader.title.Text
+                                        if not currentText:find("Megalodon") then
+                                            print("Megalodon event ended.")
+                                            break
+                                        end
+                                        task.wait(1)
+                                    end
+                    
+                                    -- Exit loop since "Megalodon" was found
+                                    break
+                                end
+                            end
+                        end
+                    
+                        local abundance = child:FindFirstChild("Abundance")
+                        if abundance and abundance:FindFirstChild("Chance") and abundance:FindFirstChild("Mutation") then
+                            print("Fishing zone:", child.Name)
+                            if child.Name:find("Megalodon") then
+                                print("Megalodon detected in fishing zone name, waiting for it to end.")
+                                foundMegalodon = true
+                    
+                                -- Wait until "Megalodon" is no longer in the name
+                                while genv.AutoSundial do
+                                    if not child.Name:find("Megalodon") then
+                                        print("Megalodon event ended in fishing zone name.")
+                                        break
+                                    end
+                                    task.wait(1)
+                                end
+                    
+                                -- Exit loop since "Megalodon" was found
+                                break
+                            end
+                        end
+                    end
+                    
+                    -- If Megalodon was not found, execute fallback behavior
+                    if not foundMegalodon then
+                        if variables.AutoCast then
+                            _G.setToFalse = true
+                            variables.Caster:Set(false)
+                        end
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        LocalPlayer.Character.Humanoid:EquipTool(LocalPlayer.Backpack["Sundial Totem"])
+                        LocalPlayer.Character["Sundial Totem"]:Activate()
+                        LocalPlayer.Character["Sundial Totem"].Parent = LocalPlayer.Backpack
+                        task.wait(1)
+                        if _G.setToFalse then
+                            variables.Caster:Set(true)
+                            _G.setToFalse = false
+                        end
+                    end
+                    
+                else
+                    -- Default behavior
+                    if ReplicatedStorage.world.event.Value == genv.SelectedEvent then
+                        print("Event matched: ", genv.SelectedEvent)
+                    else
+                        print(ReplicatedStorage.world.event.Value)
+                        -- if variables.AutoCast then
+                        --     _G.setToFalse = true
+                        --     variables.Caster:Set(false)
+                        --     task.wait(3)
+                        -- end
+                        -- variables.Caster:Set(false)
+                        genv.UsingTotem = true
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        LocalPlayer.Character.Humanoid:EquipTool(LocalPlayer.Backpack["Sundial Totem"])
+                        LocalPlayer.Character["Sundial Totem"]:Activate()
+                        LocalPlayer.Character["Sundial Totem"].Parent = LocalPlayer.Backpack
+                        -- LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                        -- task.wait(3)
+                        genv.UsingTotem = false
+                        -- variables.Caster:Set(true)
+                        -- task.wait(3)
+                        -- if _G.setToFalse then
+                        --     variables.Caster:Set(true)
+                        --     _G.setToFalse = false
+                        -- end
+                    end
+                end
+
+                -- Update the LastCycle tracker
+                genv.LastCycle = currentCycle
+            end
+
+            task.wait(1)
+        end
+    end,
+})
+
+
+sections.Item3:AddToggle("AutoMeteorToggle", {
+    Title = "Auto Meteor",
+    Default = false,
+    Description = "Automatically collects item from meteor.",
+    Callback = function(isEnabled)
+        genv.AutoMeteor = isEnabled
+        if genv.AutoMeteor then
+            AutoMeteorConnection = workspace:WaitForChild("MeteorItems").ChildAdded:Connect(function(child)
+                local oldPosition = LocalPlayer.Character.HumanoidRootPart.CFrame
+                LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.MeteorItems[child.Name].WorldPivot
+            
+                local meteorPrompt = nil
+            
+                for _, child in ipairs(workspace:WaitForChild("MeteorItems"):GetDescendants()) do
+                    if child:IsA("ProximityPrompt") then
+                        meteorPrompt = child
+                        print("here")
+                        break
+                    end
+                end
+                task.wait(3)
+                print('here2')
+                if meteorPrompt then
+                    print('here3')
+                    fireproximityprompt(meteorPrompt)
+                    task.wait(1)
+                    LocalPlayer.Character.HumanoidRootPart.CFrame = oldPosition
+                end
+            end)
+        else
+            if AutoMeteorConnection ~= nil then
+                AutoMeteorConnection:Disconnect()
+                AutoMeteorConnection = nil
+            end
+        end
+    end,
+})
+
+sections.Item3:AddToggle("AutoMeteorToggle", {
+    Title = "Auto Purchase Sundial",
+    Default = false,
+    Description = "Automatically purchases more Sundial Totem(s) if you don't have any.",
+    Callback = function(isEnabled)
+        genv.AutoPurchaseSundial = isEnabled
+        while genv.AutoPurchaseSundial do
+            local heldTool = LocalPlayer.Character:FindFirstChildOfClass("Tool")
+            if heldTool ~= "Sundial Totem" then
+                --not holding.
+                if not LocalPlayer.Backpack["Sundial Totem"] then
+                    -- not in backpack either, gotta purchase..
+                    game:GetService('ReplicatedStorage').events.purchase:FireServer("Sundial Totem", "Item", nil, 1)
+                else 
+                    -- LocalPlayer.Character.Humanoid:EquipTool(LocalPlayer.Backpack["Sundial Totem"])
+                end
+            else
+                -- still got sundial, and in hand.
+            end
+            task.wait(1)
+        end
+    end,
+})
+
+
+-- sections.Item4:AddParagraph({Title = '<font color="#ea00ff">T</font><font color="#d700ff">r</font><font color="#c500ff">e</font><font color="#b200ff">a</font><font color="#a000ff">s</font><font color="#8e00ff">u</font><font color="#7b00ff">r</font><font color="#6900ff">e</font><font color="#5700ff">s</font>', Description = ""})
+-- sections.Item4:AddParagraph({Title = gradient("Dupe Info"), Description = "<b>The items selected below will be duped.</b>\nFor example: If you have 20 treasure maps and use 3 and got the selected item, the remaining 17 maps will be used and you'll be left with 17 of that item."})
+
+-- local treasureNames = {}
+-- if type(data.Treasure) == "table" then
+--     for treasureName, treasureData in pairs(data.Treasure) do
+--         table.insert(treasureNames, treasureName)
+--     end
+-- end
+
+-- sections.Item4:AddDropdown("TreasureItems", {
+--     Title = "Select Item(s)",
+--     Description = "",
+--     PlaceHolder = "Select Item - Treasure",
+--     Options = treasureNames,
+--     Default = "",
+--     Multiple = true,
+--     Callback = function(SelectedTreasureItems)
+--         genv.SelectedTreasureItems = SelectedTreasureItems
+
+--         for _, item in ipairs(genv.SelectedTreasureItems) do
+--             print(item)
+--         end
+--     end,
+-- })
+
+local function interactWithChest(chest)
+    if chest and chest:FindFirstChild("ProximityPrompt") then
+        local prompt = chest.ProximityPrompt
+        prompt.HoldDuration = 0
+        prompt.MaxActivationDistance = math.huge
+        
+        local player = services.Players.LocalPlayer
+        local char = player.Character
+        
+        -- Temporarily parent the ProximityPrompt to the character
+        prompt.Parent = char
+        task.wait()
+        for _, obj in ipairs(char:GetChildren()) do
+            if obj:IsA("ProximityPrompt") then
+                obj:InputHoldBegin()
+                task.wait(0.01)
+                obj:InputHoldEnd()
+                obj:Destroy() -- Remove the prompt
+                chest:Destroy() -- Destroy the chest after interaction
+            end
+        end
+    else
+        warn("Chest or ProximityPrompt not found!")
+    end
+end
+
+
+
+local function fixAllMaps()
+    LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+    for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+        if v.Name == "Treasure Map" then
+            game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+            print("equipped, remote..")
+            workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+            print("remote success")
+        end
+    end
+end
+
+local function collectAllChests()
+    for i, v in pairs(workspace.world.chests:GetDescendants()) do
+        if v:IsA("Part") and v:FindFirstChild("ChestSetup") then 
+            for _, v in pairs(workspace.world.chests:GetDescendants()) do
+                if v.Name == "ProximityPrompt" then
+                    if fireproximityprompt then
+                        fireproximityprompt(v)
+                    else
+                        interactWithChest(v)
+                    end
+                end
+            end
+        end 
+    end
+end
+
+
+sections.Item4:AddToggle("RepairMapCollectTreasureToggle", {
+    Title = "Auto Repair & Collect Treasure(s)",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.MapToggle = isEnabled
+        while variables.MapToggle do
+            if genv.TreasureDupeAllowed then
+                -- Dupe Mode
+                print("wait mode")
+                local mapCount = 0
+
+                for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                    if v.Name == "Treasure Map" then
+                        mapCount = mapCount + 1
+                    end
+                end
+                print(mapCount)
+                print(genv.MinMapAmount)
+                if mapCount >= genv.MinMapAmount then
+                    print('above')
+                    print(mapCount)
+                    print(genv.MinMapAmount)
+                    fixAllMaps()
+
+                    
+                    local announcements = LocalPlayer.PlayerGui.hud.safezone.announcements
+
+                    DUPEMODECONNECTION = announcements.ChildAdded:Connect(function(child)
+                        if child.Name == "Template" then
+                            local main = child:FindFirstChild("Main")
+                            if main and main:IsA("TextLabel") then
+                                for _, item in ipairs(genv.SelectedTreasureItems or {}) do
+                                    if main.Text:find(item) then
+                                        if item:find("Sunken") then
+                                            -- Check if "Rod" is also present in the text
+                                            if not main.Text:find("Rod") then
+                                                print("Found Sunken but not Rod:", item)
+                                                genv.treasureDupeMode = true
+                                                collectAllChests()
+                                                DUPEMODECONNECTION:Disconnect()
+                                                genv.treasureDupeMode = false
+                                                break
+                                            else
+                                                print("Ignored because it contains Rod:", item)
+                                            end
+                                        else
+                                            print("found:", item)
+                                            genv.treasureDupeMode = true
+                                            collectAllChests()
+                                            DUPEMODECONNECTION:Disconnect()
+                                            genv.treasureDupeMode = false
+                                            break
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end)
+                    
+
+                    -- Collect Treasure
+                    for i, v in pairs(workspace.world.chests:GetDescendants()) do
+                        if v:IsA("Part") and v:FindFirstChild("ChestSetup") then 
+                            for _, v in pairs(workspace.world.chests:GetDescendants()) do
+                                if v.Name == "ProximityPrompt" then
+                                    if not variables.MapToggle or genv.treasureDupeMode then
+                                        break
+                                    end
+                                    
+                                    if fireproximityprompt then
+                                        fireproximityprompt(v)
+                                    else
+                                        interactWithChest(v.Parent.Name)
+                                    end
+                                    task.wait(1)
+                                end
+                            end
+                        end 
+                    end
+                end
+            else
+                -- Normal, Auto Mode
+                print("do.")
+                LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+                    if v.Name == "Treasure Map" then
+                        game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+                        print("equipped, remote..")
+                        workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+                        print("remote success")
+                    end
+                end
+
+                -- Collect Treasure
+                for i, v in pairs(workspace.world.chests:GetDescendants()) do
+                    if v:IsA("Part") and v:FindFirstChild("ChestSetup") then 
+                        for _, v in pairs(workspace.world.chests:GetDescendants()) do
+                            if v.Name == "ProximityPrompt" then
+                                if not variables.MapToggle then
+                                    break
+                                end       
+                                
+                                if fireproximityprompt then
+                                    fireproximityprompt(v)
+                                else
+                                    interactWithChest(v.Parent.Name)
+                                end
+                                task.wait(1)
+                            end
+                        end
+                    end 
+                end
+            end
+            DestroyGhostItems()
+            task.wait(1)
+        end
+    end,
+})
+
+
+local treasureGroupButton = sections.Item4:AddGroupButton()
+
+treasureGroupButton:AddButton({
+    Title = "Repair Held Map",
+    Variant = "Outline",
+    Callback = function()
+        -- should add a check to see if they're holding or not lol
+        workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+    end,
+})
+
+treasureGroupButton:AddButton({
+    Title = "Use Held Map",
+    Variant = "Outline",
+    Callback = function()
+        local treasureCoordinates = tostring(LocalPlayer.PlayerGui["Treasure Map"].Main.CoordinatesLabel.Text)
+
+        -- Extract the coordinates from the text
+        local x, y, z = treasureCoordinates:match("X ([%d%.%-]+), Y ([%d%.%-]+), Z ([%d%.%-]+)")
+        
+        if x and y and z then
+            local formattedString = string.format("TreasureChest_%s_%s_%s", x, y, z)
+            print(formattedString)
+            
+            local chest = workspace.world.chests:FindFirstChild(formattedString)
+            if chest then
+                if fireproximityprompt then
+                    fireproximityprompt(chest.ProximityPrompt)
+                else       
+                    interactWithChest(chest)
+                end
+            else
+                lib:Notification("Use Held Map", "Treasure chest not found!", 5)
+            end
+            
+            task.wait()
+        else
+            lib:Notification("Use Held Map", "An error has occurred, make sure you're holding the map.", 5)
+        end
+    end,
+})
+
+-- treasureGroupButton:AddButton({
+--     Title = "Repair All Maps",
+--     Variant = "Primary",
+--     Callback = function()
+--         for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+--             if v.Name == "Treasure Map" then
+--                 game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+--                 print("equipped, remote..")
+--                 workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+--                 print("remote success")
+--             end
+--         end
+--     end,
+-- })
+
+-- treasureGroupButton:AddButton({
+--     Title = "Collect All Treasures",
+--     Variant = "Primary",
+--     Callback = function()
+--         for i, v in pairs(workspace.world.chests:GetDescendants()) do
+--             if v:IsA("Part") and v:FindFirstChild("ChestSetup") then 
+--                 for _, v in pairs(workspace.world.chests:GetDescendants()) do
+--                     if v.Name == "ProximityPrompt" then
+--                         task.wait(1)
+--                         fireproximityprompt(v)
+--                     end
+--                 end
+--                 task.wait(1)
+--             end 
+--         end
+--     end,
+-- })
+
+
+treasureGroupButton:AddButton({
+    Title = "Use All Fillionaires",
+    Variant = "Primary",
+    Callback = function()
+        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+        local Fillionaire = LocalPlayer.Backpack:FindFirstChild("Fillionaire")
+        local FillionaireLink = tostring(Fillionaire.link.Value)
+        local FillionaireAmount = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[FillionaireLink].Stack.Value
+        
+        if Fillionaire then
+            for _ = 1, FillionaireAmount do
+                LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):EquipTool(Fillionaire)
+            end
+        end
+        task.wait(1)
+        local mainGui = LocalPlayer.PlayerGui.Fillionaire.Main
+
+        for _, child in ipairs(mainGui:GetChildren()) do
+            if child.Name == "Template" and child.Visible then
+                local playerNumbers = child:FindFirstChild("PlayerNumbers")
+                if playerNumbers then
+                    for i = 1, 4 do
+                        local numberButton = playerNumbers:FindFirstChild(tostring(i))
+                        if numberButton and numberButton:IsA("GuiButton") then
+                            if getconnections then
+                                for _, v in pairs(getconnections(numberButton.MouseButton1Click)) do
+                                    v.Function()
+                                end
+                            else
+                                firesignal(numberButton.MouseButton1Click)
+                            end
+                            -- print("Triggered MouseButton1Click for:", numberButton.Name) -- Debug
+                        end
+                    end
+                end
+                task.wait()
+                child:Destroy()
+            end
+        end
+    end,
+})
+
+sections.Item4:AddParagraph({Title = gradient("Dupe Info"), Description = "<b>The items selected below will be duped.</b>\nFor example: If you have 20 treasure maps and use 3 and got the selected item, the remaining 17 maps will be used and you'll be left with 17 of that item."})
+
+-- local treasureNames = {}
+-- if type(data.Treasure) == "table" then
+--     for treasureName, treasureData in pairs(data.Treasure) do
+--         table.insert(treasureNames, treasureName)
+--     end
+-- end
+
+
+
+
+sections.Item4:AddDropdown("TreasureItems", {
+    Title = "Select Item(s)",
+    Description = "",
+    PlaceHolder = "Select Item - Treasure",
+    Options = {"Aurora Totem", "Meteor Totem", "Tempest Totem", "Fillionaire", "Magic Thread", "Ancient Thread", "Lunar Thread", "Weird Algae", "Truffle Worm", "Quality Bait Crate", "XP (Untested)", "[Sunken] Fish"},
+    Default = "",
+    Multiple = true,
+    Callback = function(SelectedTreasureItems)
+        -- Modify the selected items
+        genv.SelectedTreasureItems = {}
+
+        for _, item in ipairs(SelectedTreasureItems) do
+            if item == "XP (Untested)" then
+                table.insert(genv.SelectedTreasureItems, "XP")
+            elseif item == "[Sunken] Fish" then
+                table.insert(genv.SelectedTreasureItems, "Sunken")
+            else
+                table.insert(genv.SelectedTreasureItems, item)
+            end
+        end
+
+        -- Debug: Print the modified list
+        print("Selected Treasure Items:", table.concat(genv.SelectedTreasureItems, ", "))
+    end,
+})
+
+
+
+sections.Item4:AddToggle("EnableTreasureDupe", {
+    Title = "Enable Treasure Dupe",
+    Default = false,
+    Description = "Auto Repair & Collect Treasures still needs to be on.",
+    Callback = function(isEnabled)
+        genv.TreasureDupeAllowed = isEnabled
+        print()
+    end,
+})
+
+sections.Item4:AddSlider("MinMapAmount", {
+    Title = "Minimum Map Amount",
+    Description = "20 is recommended for more effective duping.",
+    Default = 20,
+    Min = 0,
+    Max = 20,
+    Increment = 1,
+    Callback = function(value)
+        genv.MinMapAmount = value
+    end,
+})
+
+
+variables.TeleLocationParagraph = sections.Tele:AddParagraph({Title = gradient("Location Info"), Description = "X,Y,Z | Location"})
+
+task.spawn(function()
+    while wait(1) do
+        local position = LocalPlayer.Character.HumanoidRootPart.Position
+        local zone = workspace[LocalPlayer.Name].zone.Value
+        formattedPosition = string.format("%.1f, %.1f, %.1f", position.X, position.Y, position.Z)
+        formattedPositionWithZone = string.format("%.1f, %.1f, %.1f | %s", position.X, position.Y, position.Z, tostring(zone))
+        variables.TeleLocationParagraph:SetDesc(formattedPositionWithZone)
+    end
+end)
+
+ 
+
+local function loadSavedLocations()
+    pcall(function()
+        local savedLocations = {}
+        local savedPositions = {}
+        local data = readfile("SPOCK/Fisch/saved_teleports.json")
+
+        
+        for teleportSaveName, formattedPosition in data:gmatch('"(.-)" = "(.-)"') do
+            table.insert(savedLocations, teleportSaveName)
+            savedPositions[teleportSaveName] = formattedPosition
+        end
+
+        return savedLocations, savedPositions
+    end)
+end
+
+savedLocations, savedPositions = loadSavedLocations()
+
+genv.SavedLocationsDropDown = sections.Tele:AddDropdown("SavedLocations", {
+    Title = "Saved Locations Teleport",
+    Description = "",
+    Options = savedLocations,
+    PlaceHolder = "Select Location",
+    Default = "",
+    Multiple = false,
+    Callback = function(selectedLocation)
+        local position = savedPositions[selectedLocation]
+        genv.SelectedSavedLocations = savedPositions[selectedLocation]
+        if position then
+            local x, y, z = position:match("([^,]+),([^,]+),([^,]+)")
+            x, y, z = tonumber(x), tonumber(y), tonumber(z)
+            ChangePlayerCFrame(x, y, z)
+        end
+    end,
+})
+
+sections.Tele:AddTextbox({
+    Title = "Save: Name",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Input",
+    TextDisappear = false,
+    Callback = function(teleportSaveName)
+        variables.teleportSaveName = teleportSaveName
+    end
+})
+
+local teleportGroupButton = sections.Tele:AddGroupButton()
+
+teleportGroupButton:AddButton({
+    Title = "Save Location",
+    Callback = function()
+        if formattedPosition then
+            local teleportData = string.format('"%s" = "%s"\n', variables.teleportSaveName, formattedPosition)
+            appendfile("SPOCK/Fisch/saved_teleports.json", teleportData)
+            lib:Notification("Save Location", "Successfully saved location " .. formattedPosition .. " as " .. variables.teleportSaveName, 5)
+            savedLocations, savedPositions = loadSavedLocations()
+            genv.SavedLocationsDropDown:Refresh(savedLocations, true)
+        else
+            lib:Notification("Error", "Formatted position is nil. Cannot save location.", 5)
+        end
+    end,
+})
+
+
+teleportGroupButton:AddButton({
+    Title = "Delete Location",
+    Callback = function()
+        local selectedLocation = genv.SavedLocationsDropDown.Value
+        if selectedLocation and selectedLocation ~= "" then
+            -- Read current file content
+            local data = readfile("SPOCK/Fisch/saved_teleports.json")
+            
+            -- Create new content excluding the selected location
+            local newContent = ""
+            for teleportSaveName, formattedPosition in data:gmatch('"(.-)" = "(.-)"') do
+                if teleportSaveName ~= selectedLocation then
+                    newContent = newContent .. string.format('"%s" = "%s"\n', teleportSaveName, formattedPosition)
+                end
+            end
+            
+            -- Write the new content back to file
+            writefile("SPOCK/Fisch/saved_teleports.json", newContent)
+            
+            -- Update the saved locations and refresh dropdown
+            savedLocations, savedPositions = loadSavedLocations()
+            genv.SavedLocationsDropDown:Refresh(savedLocations, true)
+            genv.SavedLocationsDropDown:Set()
+            
+            -- Show success notification
+            lib:Notification("Delete Location", "Successfully deleted location: " .. selectedLocation, 5)
+        else
+            lib:Notification("Error", "Please select a location to delete", 5)
+        end
+    end,
+})
+
+sections.Tele1:AddDropdown("TeleportMethod", {
+    Title = "Teleportation Method",
+    Description = "Choose CFrame for instant teleportation or Tween for a smooth flight to the destination.",
+    Options = {"Tween", "CFrame"},
+    Default = "CFrame",
+    Multiple = false,
+    Callback = function(selectedOptions)
+        if selectedOptions == "CFrame" then
+            variables.TeleportMethod = true
+            variables.TweenMethod = false
+        elseif selectedOptions == "Tween" then
+            variables.TweenMethod = true
+            variables.TeleportMethod = false
+        end
+    end,
+})
+
+local Players = Players
+local Workspace = game:GetService("Workspace")
+
+local persistentPlayers = {}
+
+Workspace.ChildAdded:Connect(function(child)
+    if child:IsA("Model") and Players:FindFirstChild(child.Name) then
+        if child:FindFirstChild("Humanoid") then
+            child.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            if not table.find(persistentPlayers, child.Name) then
+                table.insert(persistentPlayers, child.Name)
+                -- print("Updated Persistent List:", table.concat(persistentPlayers, ", "))
+                pcall(function()
+                    genv.PlayerDropDown:Refresh(persistentPlayers, true)
+                    genv.PlayerDropDown:Set(persistentPlayers)
+                end)
+            end
+        end
+    end
+end)
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        if character:FindFirstChild("Humanoid") then
+            character.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            if not table.find(persistentPlayers, player.Name) then
+                table.insert(persistentPlayers, player.Name)
+                -- print("Updated Persistent List:", table.concat(persistentPlayers, ", "))
+                pcall(function()
+                    genv.PlayerDropDown:Refresh(persistentPlayers, true)
+                    genv.PlayerDropDown:Set(persistentPlayers)
+                end)
+            end
+        end
+    end)
+end)
+
+for _, player in ipairs(Players:GetPlayers()) do
+    if player.Character and player.Character:FindFirstChild("Humanoid") then
+        player.Character.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+        if not table.find(persistentPlayers, player.Name) then
+            table.insert(persistentPlayers, player.Name)
+        end
+    end
+    player.CharacterAdded:Connect(function(character)
+        if character:FindFirstChild("Humanoid") then
+            character.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            if not table.find(persistentPlayers, player.Name) then
+                table.insert(persistentPlayers, player.Name)
+                -- print("Updated Persistent List:", table.concat(persistentPlayers, ", "))
+                pcall(function()
+                    genv.PlayerDropDown:Refresh(persistentPlayers, true)
+                    genv.PlayerDropDown:Set(persistentPlayers)
+                end)
+            end
+        end
+    end)
+end
+
+genv.PlayerDropDown = sections.Tele1:AddDropdown("PlayerTeleport", {
+    Title = "Players",
+    Description = "",
+    Options = persistentPlayers,
+    Default = "",
+    PlaceHolder = "Select Player",
+    Multiple = false,
+    Callback = function(selectedPlayer)
+        genv.selectedPlayer = selectedPlayer
+        LocalPlayer.Character.HumanoidRootPart.CFrame = workspace[selectedPlayer].HumanoidRootPart.CFrame
+    end,
+})
+
+
+sections.Tele1:AddDropdown("FishZones", {
+    Title = "Fishing Zones",
+    Description = "",
+    Options = zoneNames,
+    Default = "",
+    PlaceHolder = "Select Zone",
+    Multiple = false,
+    Callback = function(selectedZone)
+        genv.selectedZone = selectedZone
+        local part = workspace.zones.fishing:FindFirstChild(selectedZone)
+        if part then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = part.CFrame
+        end
+    end,
+})
+
+local eventNames = {}  -- Create an empty table to store zone names
+local nameCount = {}   -- Create a table to track the count of each name
+local zoneMapping = {} -- Create a table to map display names to actual part names
+
+-- Iterate through all children in the fishing zones
+for _, child in pairs(workspace.zones.fishing:GetChildren()) do
+    -- Check for zones that have a "beacon" and a "POIHeader" with a "title"
+    if child:FindFirstChild("beacon") then
+        local poiHeader = child:FindFirstChild("POIHeader")
+        if poiHeader and poiHeader:FindFirstChild("title") and poiHeader.title:IsA("TextLabel") then
+            local zoneName = poiHeader.title.Text
+            -- Track the count of each name and modify the name if it's repeated
+            if not nameCount[zoneName] then
+                nameCount[zoneName] = 1
+            else
+                nameCount[zoneName] = nameCount[zoneName] + 1
+            end
+
+            -- If there are duplicates, append the count to the name
+            if nameCount[zoneName] > 1 then
+                zoneName = zoneName .. " (" .. nameCount[zoneName] .. ")"
+            end
+
+            -- Map the display name to the actual part name
+            zoneMapping[zoneName] = child.Name
+
+            -- Add the modified zone name to the list
+            table.insert(eventNames, zoneName)
+        end
+    end
+
+    -- Check for zones with "Abundance", "Chance", and "Mutation"
+    local abundance = child:FindFirstChild("Abundance")
+    if abundance and abundance:FindFirstChild("Chance") and abundance:FindFirstChild("Mutation") then
+        local zoneName = child.Name
+        -- Track the count of each name and modify the name if it's repeated
+        if not nameCount[zoneName] then
+            nameCount[zoneName] = 1
+        else
+            nameCount[zoneName] = nameCount[zoneName] + 1
+        end
+
+        -- If there are duplicates, append the count to the name
+        if nameCount[zoneName] > 1 then
+            zoneName = zoneName .. " (" .. nameCount[zoneName] .. ")"
+        end
+
+        -- Map the display name to the actual part name
+        zoneMapping[zoneName] = child.Name
+
+        -- Add the modified zone name to the list
+        table.insert(eventNames, zoneName)
+    end
+end
+
+
+-- ill finish it tmr
+sections.Tele1:AddDropdown("FishZones", {
+    Title = "Events",
+    Description = "",
+    Options = eventNames,
+    Default = "",
+    PlaceHolder = "Select Event",
+    Multiple = true,
+    Callback = function(selectedEvents)
+        genv.selectedEventOverrides = selectedEvents
+        -- Find the selected part by name and teleport the player
+        for _, event in ipairs(selectedEvents) do
+            print("Selected event:", event)
+
+            -- Get the actual part name from the zoneMapping table
+            local actualZoneName = zoneMapping[event]
+
+            if actualZoneName then
+                local part = workspace.zones.fishing:FindFirstChild(actualZoneName)
+                if part then
+                    print("Teleporting to part:", part)
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = part.CFrame
+                end
+            end
+        end
+    end,
+})
+
+
+local areaTeleportNames = {}
+genv.TpSpotsName = {}
+
+for _, folder in pairs(workspace.world.spawns:GetChildren()) do
+    if folder.Name ~= "TpSpots" and folder.Name ~= "loading" and folder.Name ~= "TeleportDelay" then
+        table.insert(areaTeleportNames, folder.Name)
+    end
+end
+
+for _,Place in pairs(workspace.world.spawns.TpSpots:GetChildren()) do
+    table.insert(genv.TpSpotsName, Place.Name)
+end
+
+sections.Tele1:AddDropdown("AreaTeleports", {
+    Title = "Areas",
+    Description = "",
+    Options = areaTeleportNames,
+    PlaceHolder = "Select Area",
+    Default = "",
+    Multiple = false,
+    Callback = function(selectedArea)
+        local areaTeleportFolder = workspace.world.spawns:FindFirstChild(selectedArea)
+        if areaTeleportFolder then
+            local firstChild = areaTeleportFolder:GetChildren()[1]
+            if firstChild and firstChild:IsA("BasePart") then
+                ChangePlayerCFrame(firstChild.Position.X, firstChild.Position.Y, firstChild.Position.Z)
+            end
+        end
+    end
+})
+
+sections.Tele1:AddDropdown("AreaTeleports2", {
+    Title = "TP Spots",
+    Description = "",
+    Options = genv.TpSpotsName,
+    Default = "",
+    PlaceHolder = "Select Spot",
+    Multiple = false,
+    Callback = function(selectedArea)
+        _G.TPSpots = workspace.world.spawns.TpSpots:FindFirstChild(selectedArea)
+        
+        if _G.TPSpots then
+            ChangePlayerCFrame(_G.TPSpots.Position.X, _G.TPSpots.Position.Y + 5, _G.TPSpots.Position.Z)
+        else
+            warn("Selected area '" .. selectedArea .. "' does not exist.")
+        end
+    end
+})
+
+
+local NPC = {
+    ["Inn Keeper Forsaken Shores"] = "-2476.73779296875, 133.00003051757812, 1573.2672119140625",
+    ["Summit Inn Keeper 1"] = "19664.458984375, 132.45314025878906, 5245.27783203125",
+    ["Rhea"] = "-1038.4249267578125, 203.33749389648438, -1115.580078125",
+    ["Kenith"] = "-1143.18017578125, 134.6342315673828, -1077.2073974609375",
+    ["Skin Seller"] = "302.2337646484375, 132.14491271972656, 205.36087036132812",
+    ["Forsaken Skin Merchant"] = "-2564.42578125, 148.63946533203125, 1645.054443359375",
+    ["Terrapin Shipwright"] = "5869.421875, 143.49795532226562, 7.101318359375",
+    ["Pierre"] = "391.3885498046875, 135.348388671875, 196.71238708496094",
+    ["Alfredrickus"] = "-1520.84228515625, 141.5052947998047, 764.6096801757812",
+    ["Inn Keeper Snowcap"] = "2660.8125, 155.0608367919922, 2395.78857421875",
+    ["Snowcap Skin Merchant"] = "2652.446044921875, 141.2260284423828, 2537.990966796875",
+    ["Mushgrove Elf"] = "2409.3662109375, 135.85812377929688, -732.3370361328125",
+    ["Daisy"] = "581.550048828125, 165.49075317382812, 213.49996948242188",
+    ["Idle Fishing NPC Moosewood2"] = "365.4126892089844, 132.44651794433594, 182.0972137451172",
+    ["Mushgrove Skin Merchant"] = "2642.84814453125, 129.79051208496094, -708.4285278320312",
+    ["Runaway Elf"] = "-7.39788818359375, 322.27178955078125, -9295.1376953125",
+    ["Jack Marrow"] = "-2830.748046875, 215.2417449951172, 1518.34814453125",
+    ["Terrapin Elf"] = "-160.50210571289062, 139.4464874267578, 1896.0755615234375",
+    ["Claudia"] = "-7.519559383392334, 157.2010040283203, -1065.5740966796875",
+    ["Idle Fishing NPC Moosewood"] = "423.3988037109375, 136.25140380859375, 333.18975830078125",
+    ["Roslit Skin Merchant"] = "-1626.4571533203125, 133.33004760742188, 616.2025756835938",
+    ["Terrapin Angler"] = "-1706.8802490234375, 148.00003051757812, 754.8173217773438",
+    ["Summit Inn Keeper 4"] = "19889.65234375, 1154.7476806640625, 5510.896484375",
+    ["Inn Keeper DesolateDeep"] = "-1651.9581298828125, -214.17938232421875, -2833.086669921875",
+    ["Maverick Merchant"] = "-982.96435546875, -245.1102294921875, -2692.517333984375",
+    ["Phineas"] = "469.91229248046875, 150.69342041015625, 277.9549865722656",
+    ["Hiker #7"] = "19669.998046875, 140.966064453125, 5301.51953125",
+    ["Mel Merchant"] = "-1658.4344482421875, -214.2913360595703, -2819.47314453125",
+    ["Max Merchant"] = "-929.8687133789062, 131.07882690429688, -1104.6328125",
+    ["Wilson"] = "2940.719482421875, 280.7838134765625, 2569.629638671875",
+    ["Roddy"] = "-1004.0133056640625, -244.91015625, -2737.48291015625",
+    ["Hiker #5"] = "19790.9453125, 415.4871826171875, 5418.53173828125",
+    ["Hiker #11"] = "20062.3515625, 1136.42822265625, 5521.576171875",
+    ["Forsaken Elf"] = "-2488.8203125, 134.00784301757812, 1474.3687744140625",
+    ["Hiker #12"] = "19922.19921875, 1138.01318359375, 5357.24169921875",
+    ["Latern Keeper"] = "658.4459838867188, 163.5, 260.2139892578125",
+    ["???"] = "-85.54763793945312, -515.29931640625, 1135.826171875",
+    ["Forsaken3"] = "-2706.95458984375, 165.62498474121094, 1755.236328125",
+    ["Idle Fishing NPC 2.5"] = "-1778.79052734375, 148.22744750976562, 653.3268432617188",
+    ["Moosewood Elf"] = "401.2041931152344, 136.28366088867188, 305.82623291015625",
+    ["Miller Merchant"] = "19574.537109375, 132.71607971191406, 5312.08056640625",
+    ["Hiker #2"] = "19526.990234375, 132.71607971191406, 5326.3896484375",
+    ["Summit Inn Keeper 2"] = "19750.71875, 416.0520935058594, 5382.96484375",
+    ["Hiker #3"] = "19824.34375, 130.375, 5216.85693359375",
+    ["Roslit Shipwright"] = "-1452.0543212890625, 133.0000457763672, 745.169189453125",
+    ["Hiker #1"] = "19603.392578125, 169.7622528076172, 5351.04443359375",
+    ["Snowcap Shipwright"] = "2622.93994140625, 136.28387451171875, 2401.30517578125",
+    ["Hiker #9"] = "19802.94921875, 424.77880859375, 5356.3935546875",
+    ["Hiker #10"] = "19944.62109375, 1142.7388916015625, 5541.900390625",
+    ["Desolate Skin Merchant"] = "-1573.1217041015625, -289.9115295410156, -2965.453125",
+    ["Hiker #6"] = "20131.880859375, 208.6810760498047, 5453.31298828125",
+    ["Statue Shipwright"] = "23.2196044921875, 135.03036499023438, -1007.029052734375",
+    ["Quiet Synph"] = "566.2632446289062, 152.00003051757812, 353.8721008300781",
+    ["Appraiser"] = "453.182373046875, 150.50003051757812, 206.90878295898438",
+    ["Clarence"] = "-1625.3936767578125, -231.07135009765625, -2903.8525390625",
+    ["Custos"] = "21.590187072753906, -707.9070434570312, 1253.7547607421875",
+    ["Meteoriticist"] = "5921.576171875, 261.98199462890625, 596.27197265625",
+    ["Tenebris"] = "1061.18408203125, -631.1304321289062, 1310.313232421875",
+    ["Lucas"] = "449.3396301269531, 181.99989318847656, 180.68907165527344",
+    ["Abyssus"] = "1399.0474853515625, -1016.0322875976562, 966.2442016601562",
+    ["Marc Merchant"] = "466.1600341796875, 151.00205993652344, 224.49708557128906",
+    ["Forsaken2"] = "-2586.603271484375, 149.00967407226562, 1682.072265625",
+    ["Man Working On Rowboat"] = "-1446.365478515625, 134.98231506347656, 702.0789794921875",
+    ["The Depths Angler"] = "981.8839111328125, -702.6148681640625, 1232.17529296875",
+    ["Hiker #4"] = "19595.90234375, 132.71607971191406, 5271.5751953125",
+    ["Perditus"] = "770.0521240234375, -730.6285400390625, 1383.4951171875",
+    ["Inn Keeper Roslit"] = "-1512.37890625, 133.00003051757812, 631.2435302734375",
+    ["Aspicientis"] = "1214.53125, -708.64404296875, 1320.8018798828125",
+    ["Tom Elf"] = "404.63018798828125, 136.81517028808594, 317.099609375",
+    ["Idle Fishing NPC 1"] = "-1428.9964599609375, 133.00003051757812, 686.034423828125",
+    ["Forsaken1"] = "-2593.36572265625, 149.00970458984375, 1676.066162109375",
+    ["Ancient Elf"] = "5813.37841796875, 147.48866271972656, 267.740234375",
+    ["Merlin"] = "-928.0328369140625, 223.7000274658203, -998.7449951171875",
+    ["Travelling Merchant"] = "-1059.0887451171875, 130.74203491210938, -1170.650390625",
+    ["Gatherer Archaeologist"] = "6028.23388671875, 194.9801483154297, 298.5621337890625",
+    ["Submersus"] = "1211.426513671875, -1015.798095703125, 1315.8280029296875",
+    ["Roslit Elf"] = "-1919.3199462890625, 499.4999694824219, 162.685546875",
+    ["Idle Fishing NPC 2"] = "-1778.5130615234375, 148.42538452148438, 648.0894775390625",
+    ["Occultus"] = "1022.309326171875, -705.2661743164062, 1564.7314453125",
+    ["Milo Merchant"] = "957.1780395507812, -711.5802001953125, 1263.293212890625",
+    ["Mike Merchant"] = "2717.568359375, 157.17335510253906, 2374.478759765625",
+    ["Analyst Archaeologist"] = "6086.53662109375, 194.98025512695312, 277.4117431640625",
+    ["Henry"] = "483.539306640625, 152.383056640625, 236.296142578125",
+    ["Marina"] = "68.12350463867188, 159.0147705078125, -1040.607177734375",
+    ["Mann Merchant"] = "6080.77685546875, 194.97999572753906, 308.7760009765625",
+    ["The Depths Skin Merchant"] = "1036.80517578125, -807.3424072265625, 1443.938232421875",
+    ["Apprentice Archaeologist"] = "6087.63671875, 194.980224609375, 280.2427978515625",
+    ["Chiseler"] = "6087.37841796875, 194.9801788330078, 294.5010986328125",
+    ["AncientIsle Angler"] = "5738.27880859375, 176.99285888671875, -51.95977783203125",
+    ["Ancient Skin Merchant"] = "6029.15380859375, 194.8448028564453, 266.4958190917969",
+    ["Inn Keeper AncientIsle"] = "6047.9111328125, 198.47718811035156, 335.5181884765625",
+    ["Explorer Archaeologist"] = "5971.81591796875, 258.9874572753906, 236.7926025390625",
+    ["Jack"] = "-180.81967163085938, 145.87623596191406, 1954.0701904296875",
+    ["Sleeper"] = "-1498.0291748046875, -234.701416015625, -2852.48828125",
+    ["Statue Elf"] = "43.9637451171875, 144.2205810546875, -1029.9287109375",
+    ["Sunstone Shipwright"] = "-945.2999267578125, 131.07882690429688, -1116.234619140625",
+    ["Forsaken Shipwright"] = "-2476.388427734375, 133.1121368408203, 1540.5460205078125",
+    ["Marytn Merchant"] = "-2509.317138671875, 135.78355407714844, 1583.0770263671875",
+    ["Inn Keeper"] = "487.4584655761719, 150.80003356933594, 231.49893188476562",
+    ["Summit Shipwright"] = "19609.19140625, 131.42013549804688, 5186.5927734375",
+    ["Orc"] = "-1848.1353759765625, 165.7111358642578, 165.60140991210938",
+    ["Sunstone Angler"] = "-886.2785034179688, 133.9722137451172, -1118.807373046875",
+    ["Moosewood Skin Merchant"] = "416.0176086425781, 134.859619140625, 189.09486389160156",
+    ["Synph"] = "-138.2506561279297, -512.3742065429688, 1131.9312744140625",
+    ["Mushgrove Guard"] = "2520.591064453125, 160.1083984375, -890.6786499023438",
+    ["Arnold"] = "320.1063232421875, 133.97727966308594, 264.3226013183594",
+    ["Agaric"] = "2601.31982421875, 132.3877410888672, -729.6150512695312",
+    ["Inn Keeper Sunstone"] = "-904.1670532226562, 131.57933044433594, -1104.810546875",
+    ["Paul"] = "381.74188232421875, 136.50003051757812, 341.8910217285156",
+    ["mirror Area"] = "HumanoidRootPart not found",
+    ["Matt Merchant"] = "-1454.2396240234375, 133.00003051757812, 675.738037109375",
+    ["Summit Inn Keeper 3"] = "20298.84765625, 706.5057373046875, 5748.56591796875",
+    ["Mods Latern Keeper"] = "-39.045677185058594, -246.5999755859375, 195.6443634033203",
+    ["Moosewood Angler"] = "480.10247802734375, 150.5010528564453, 302.2268981933594",
+    ["Snowcap Elf"] = "2638.445556640625, 141.78384399414062, 2425.3388671875",
+    ["Santa Claus"] = "-159.24945068359375, 364.6510009765625, -9497.666015625",
+    ["Sunstone Elf"] = "-894.0286865234375, 133.57225036621094, -1112.41064453125",
+    ["Idle Fishing NPC Terrapin"] = "-71.04296875, 133.08493041992188, 2036.72509765625",
+    ["Drew"] = "-35.971435546875, 140.4624481201172, -1104.604248046875",
+    ["Leeri"] = "-142.27484130859375, -548.29931640625, 1426.4293212890625",
+    ["Cole"] = "-20.985851287841797, 136.49261474609375, -1135.5667724609375",
+    ["Ashe"] = "-1709.9970703125, 150.34718322753906, 729.2640380859375",
+    ["Mushgrove Shipwright"] = "2453.97265625, 130.52963256835938, -661.6033325195312",
+    ["Moosewood Shipwright"] = "357.97259521484375, 133.615966796875, 258.154541015625",
+    ["Perdido"] = "-98.76107788085938, -566.29931640625, 1549.70361328125",
+}
+
+local Interactable = {
+    ["Windset Totem"] = "2851.57421875, 178.1171112060547, 2703.02294921875",
+    ["Long Rod"] = "485.6950378417969, 171.6563262939453, 145.74610900878906",
+    ["Tidebreaker"] = "-1637.361328125, -213.62155151367188, -2848.759033203125",
+    ["Flimsy Rod"] = "471.1076965332031, 148.36170959472656, 229.64244079589844",
+    ["Tempest Totem"] = "36.4246826171875, 133.02679443359375, 1946.0823974609375",
+    ["Refill Station"] = "20063.865234375, 1134.41455078125, 5524 .5302734375",
+    ["Fortune Rod"] = "-1520.879638671875, 141.2832794189453, 771.94677734375",
+    ["Fast Rod"] = "447.1835632324219, 148.22573852539062, 220.1874542236328",
+    ["Flippers"] = "-1636.26708984375, -214.4133758544922, -2850.9501953125",
+    ["Red Energy Crystal"] = "19922.52734375, 1139.0325927734375, 5351.244140625",
+    ["Lost Rod"] = "2879.876953125, 135.7919158935547, 2727.4814453125",
+    ["Aurora Totem"] = "-1812.632568359375, -139.7498779296875, -3279.98779296875",
+    ["Basic Diving Gear"] = "369.1747741699219, 132.5088348388672, 248.7053680419922",
+    ["Beginner Oxygen Tank"] = "19782.734375, 413.361572265625, 5384.38720703125",
+    ["Summit Rod"] = "20207.75390625, 736.0582885742188, 5711.3515625",
+    ["Enchant Altar"] = "1310.5465087890625, -799.4696044921875, -82.7303466796875",
+    ["Steady Rod"] = "-1511.2352294921875, 139.67950439453125, 759.4171142578125",
+    ["Kings Rod"] = "1375.576416015625, -810.2017211914062, -303.5092468261719",
+    ["Carbon Rod"] = "454.0836181640625, 150.59007263183594, 225.32882690429688",
+    ["Lucky Rod"] = "446.08599853515625, 148.2530059814453, 222.16000366210938",
+    ["Glider"] = "-1713.796142578125, 145.90367126464844, 740.8370361328125",
+    ["Smokescreen Totem"] = "2791.712158203125, 137.3506622314453, -629.4522705078125",
+    ["Training Rod"] = "457.69384765625, 148.35752868652344, 230.414306640625",
+    ["Phoenix Rod"] = "5971.03125, 270.37750244140625, 852.37255859375",
+    ["Magnet Rod"] = "-194.99887084960938, 130.14808654785156, 1930.9710693359375",
+    ["Quality Bait Crate"] = "-177.6083526611328, 141.68313598632812, 1932.85693359375",
+    ["Basic Oxygen Tank"] = "19523.20703125, 130.6274871826172, 5328.50634765625",
+    ["Intermediate Oxygen Tank"] = "20214.212890625, 734.760498046875, 5715.3271484375",
+    ["Crab Cage"] = "474.8035888671875, 149.66456604003906, 229.49468994140625",
+    ["Bait Crate"] = "384.57513427734375, 135.3519287109375, 337.53399658203125",
+    ["Coral Geode"] = "-1641.544921875, -214.0647735595703, -2845.41796875",
+    ["Blizzard Totem"] = "20148.748046875, 740.1343994140625, 5803.6611328125",
+    ["Rod Of The Depths"] = "1704.840087890625, -903.5467529296875, 1447.786865234375",
+    ["Winter Cloak"] = "19950.82421875, 1143.836181640625, 5581.42529296875",
+    ["Avalanche Rod"] = "19770.181640625, 415.68096923828125, 5419.19677734375",
+    ["Arctic Rod"] = "19578.236328125, 132.33837890625, 5307.3828125",
+    ["Advanced Oxygen Tank"] = "19948.294921875, 1140.8302001953125, 5540.115234375",
+    ["Pickaxe"] = "19783.19140625, 415.7436218261719, 5391.92041015625",
+    ["Rapid Rod"] = "-1509.24462890625, 139.7259063720703, 759.628173828125",
+    ["GPS"] = "517.896728515625, 149.21763610839844, 284.8568420410156",
+    ["Meteor Totem"] = "-1945.8262939453125, 272.4389953613281, 231.54412841796875",
+    ["Nocturnal Rod"] = "-141.87423706054688, -515.3135375976562, 1139.0452880859375",
+    ["Sundial Totem"] = "-1149.452880859375, 134.5681915283203, -1077.2763671875",
+    ["Plastic Rod"] = "454.4253845214844, 148.16973876953125, 229.17242431640625",
+    ["Advanced Glider"] = "19939.048828125, 1140.6904296875, 5542.84912109375",
+    ["Fish Radar"] = "365.75177001953125, 134.50498962402344, 274.1058044433594",
+    ["Eclipse Totem"] = "5967.28271484375, 272.2904968261719, 836.9033813476562",
+    ["Scurvy Rod"] = "-2828.218505859375, 213.4571990966797, 1512.2095947265625",
+    ["Conception Conch"] = "-104.02766418457031, -735.5084838867188, 1211.6905517578125",
+    ["Heaven's Rod"] = "20025.7578125, -468.9183654785156, 7146.93310546875",
+}
+
+
+local OptionnsInteractable = {}
+local OptionsNpc = {}
+
+for name, _ in pairs(NPC) do
+    table.insert(OptionsNpc, name)
+end
+
+for name, _ in pairs(Interactable) do
+    table.insert(OptionnsInteractable, name)
+end
+
+function parseCoordinates(coordString)
+    local coords = {}
+    for num in string.gmatch(coordString, "[-%d%.]+") do
+        table.insert(coords, tonumber(num))
+    end
+    return unpack(coords)
+end
+
+for _, folder in pairs(workspace.world.spawns:GetChildren()) do
+    if folder.Name ~= "TpSpots" and folder.Name ~= "loading" and folder.Name ~= "TeleportDelay" then
+        table.insert(areaTeleportNames, folder.Name)
+    end
+end
+
+sections.Tele1:AddDropdown("AreaTeleports3", {
+    Title = "Interactables",
+    Description = "",
+    Options = OptionnsInteractable,
+    Default = "",
+    PlaceHolder = "Select Spot",
+    Multiple = false,
+    Callback = function(selectedArea)
+        local coordString = Interactable[selectedArea]
+        if coordString then
+            ChangePlayerCFrame(parseCoordinates(coordString))
+        end
+    end
+})
+
+sections.Tele1:AddDropdown("AreaTeleports4", {
+    Title = "NPCs",
+    Description = "",
+    Options = OptionsNpc,
+    Default = "",
+    PlaceHolder = "Select",
+    Multiple = false,
+    Callback = function(selectedNpc)
+        local coordString = NPC[selectedNpc]
+        if coordString then
+            ChangePlayerCFrame(parseCoordinates(coordString))
+        end
+    end
+})
+
+
+sections.Tele2:AddTextbox({
+    Title = "TP To Coordinates",
+    PlaceHolder = "Enter Coords | Example: 1234,128,1239",
+    Default = "",
+    Description = "",   
+    TextDisappear = true,
+    Callback = function(TPCoord)
+        local Coords = tostring(TPCoord)
+        -- Split the string into x, y, z components
+        local x, y, z = Coords:match("([^,]+),([^,]+),([^,]+)")
+        
+        -- Convert the string values to numbers
+        local targetPosition = Vector3.new(tonumber(x), tonumber(y), tonumber(z))
+        
+        -- Set the player's position
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(targetPosition)
+        
+    end
+})
+
+sections.Tele2:AddButton({
+    Title = "Discover All Locations",
+    Variant = "Primary",
+    Callback = function()
+        for key, value in pairs(data.Locations) do
+            services.ReplicatedStorage:WaitForChild("events"):WaitForChild("discoverlocation"):FireServer(key)
+        end
+    end,
+})
+
+sections.Tele2:AddParagraph({Title = "Something cool is coming..", Description = "Soon."})
+
+-- genv.ROTDParagraph = sections.Tele2:AddParagraph({Title = "<font color=\"rgb(240, 50, 50)\">Rod Of The Depths</font>",
+--                              Description = "Requirements:\n- Vertigo Bestiary Completed\n- Opened The Depths Door\n- Abyssal Enchant Relic\n- Hexed Enchant Relic\n- 750,000 C$\n<font color=\"rgb(255, 255, 255)\">Do not touch anything while it completes it.</font>"})
+
+-- local ROTDGroupButton = sections.Tele2:AddGroupButton()
+
+-- function ROTDCheck()
+--     local Players = services.Players
+--     local ReplicatedStorage = services.ReplicatedStorage
+--     local LocalPlayer = Players.LocalPlayer
+--     local Bestiary = ReplicatedStorage.playerstats[LocalPlayer.Name]:FindFirstChild("Bestiary")
+--     local Cache = ReplicatedStorage.playerstats[LocalPlayer.Name]:FindFirstChild("Cache")
+--     local Coins = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value
+--     local inventory = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory
+    
+--     local requiredChildren = {
+--         "Night Shrimp",
+--         "Spiderfish",
+--         "Twilight Eel",
+--         "Fangborn Gar",
+--         "Abyssacuda",
+--         "Voidfin Mahi",
+--         "Rubber Ducky",
+--         "Isonade",
+--         "The Depths Key",
+--     }
+    
+--     local allFound = true
+--     for _, childName in ipairs(requiredChildren) do
+--         if not Bestiary or not Bestiary:FindFirstChild(childName) then
+--             allFound = false
+--             break
+--         end
+--     end
+    
+--     local bestiaryStatus = allFound and "<font color=\"rgb(0, 255, 0)\">Vertigo Bestiary Completed</font>" 
+--                           or "<font color=\"rgb(255, 0, 0)\">Vertigo Bestiary Completed</font>"
+    
+--     local doorStatus = Cache and Cache:FindFirstChild("Door.TheDepthsGate") and 
+--                        "<font color=\"rgb(0, 255, 0)\">Opened The Depths Door</font>" 
+--                        or "<font color=\"rgb(255, 0, 0)\">Opened The Depths Door</font>"
+    
+--     local coinsStatus = Coins > 750000 and "<font color=\"rgb(0, 255, 0)\">750,000 C$</font>" 
+--                             or "<font color=\"rgb(255, 0, 0)\">750,000 C$</font>"
+    
+--     local hexedStatus = false
+--     local abyssalStatus = false
+--     for _, item in pairs(inventory:GetChildren()) do
+--         if item.Name:find("Enchant Relic") then
+--             if item:FindFirstChild("Mutation") then
+--                 if item.Mutation.Value == "Hexed" then
+--                     hexedStatus = true
+--                 end
+--                 if item.Mutation.Value == "Abyssal" then
+--                     abyssalStatus = true
+--                 end
+--             end
+--         end
+--     end
+    
+--     local hexedStatusText = hexedStatus and "<font color=\"rgb(0, 255, 0)\">Hexed Enchant Relic</font>" 
+--                                         or "<font color=\"rgb(255, 0, 0)\">Hexed Enchant Relic</font>"
+    
+--     local abyssalStatusText = abyssalStatus and "<font color=\"rgb(0, 255, 0)\">Abyssal Enchant Relic</font>" 
+--                                           or "<font color=\"rgb(255, 0, 0)\">Abyssal Enchant Relic</font>"
+    
+--     genv.ROTDParagraph:SetDesc(
+--         "Requirements:\n" .. 
+--         "- " .. bestiaryStatus .. "\n" ..
+--         "- " .. doorStatus .. "\n" ..
+--         "- " .. abyssalStatusText .. "\n" ..
+--         "- " .. hexedStatusText .. "\n" ..
+--         "- " .. coinsStatus .. "\n" ..
+--         "<font color=\"rgb(255, 255, 255)\">Do not touch anything while it completes it.</font>"
+--     )
+-- end
+
+
+
+-- ROTDGroupButton:AddButton({
+--     Title = "Check Requirements",
+--     Variant = "Outline",
+--     Callback = function()
+--         ROTDCheck()
+--     end,
+-- })
+
+
+-- ROTDGroupButton:AddButton({
+--     Title = "Complete & Buy ROTD",
+--     Variant = "Primary",
+--     Callback = function()
+--         print("zz")
+--     end,
+-- })
+
+-- genv.HeavenParagraph = sections.Tele2:AddParagraph({Title = "<font color=\"rgb(255, 255, 0)\">Heaven's Rod</font>",
+--                              Description = "Requirements:\n- 1,750,000 C$\n<font color=\"rgb(255, 255, 255)\">Do not touch anything while it completes it.</font>"})
+
+-- local HeavenGroupButton = sections.Tele2:AddGroupButton()
+
+-- function HeavenCheck()
+--     local Players = services.Players
+--     local ReplicatedStorage = services.ReplicatedStorage
+--     local LocalPlayer = Players.LocalPlayer
+--     local Coins = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.coins.Value
+    
+--     local coinsStatus = Coins > 1750000 and "<font color=\"rgb(0, 255, 0)\">1,750,000 C$</font>" 
+--                             or "<font color=\"rgb(255, 0, 0)\">1,750,000 C$</font>"
+    
+--     genv.HeavenParagraph:SetDesc(
+--         "Requirements:\n" ..
+--         "- " .. coinsStatus .. "\n" ..
+--         "<font color=\"rgb(255, 255, 255)\">Do not touch anything while it completes it.</font>"
+--     )
+-- end
+
+
+-- HeavenGroupButton:AddButton({
+--     Title = "Check Requirements",
+--     Variant = "Outline",
+--     Callback = function()
+--         HeavenCheck()
+--     end,
+-- })
+-- function HeavenRodGrabber()
+--     local Players = services.Players
+--     local Workspace = game:GetService("Workspace")
+--     local ReplicatedStorage = services.ReplicatedStorage
+--     local LocalPlayer = Players.LocalPlayer
+--     LocalPlayer:RequestStreamAroundAsync(Vector3.new(20125.1328125, 210.0240020751953, 5449.103515625))
+--     local BlueShardPath = nil
+--     for _, v in pairs(Workspace.world.map["Northern Summit"]:GetDescendants()) do
+--         if v:IsA("MeshPart") and v.Name == "Meshes/Shard1" and v.BrickColor == BrickColor.new("Electric blue") then
+--             BlueShardPath = v.Parent.Parent
+--             print(BlueShardPath)
+--             break
+--         end
+--     end
+--     LocalPlayer:RequestStreamAroundAsync(Vector3.new(19500.53515625, 332.25433349609375, 5548.9072265625))
+--     local YellowShardPath = nil
+--     for _, child in ipairs(workspace.world.map["Northern Summit"]:GetChildren()) do
+--         if child.ClassName == "Model" and child:GetAttribute("ItemName") == "Yellow Energy Crystal" then
+--             print(child.Name)
+--             child.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+--             YellowShardPath = child
+--         end
+--     end
+
+--     while genv.ProccessingRod do
+--         local Backpack = LocalPlayer.Backpack
+--         local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+--         if not Backpack:FindFirstChild("Pickaxe") then
+--             services.ReplicatedStorage.events.purchase:FireServer("Pickaxe", "Item", nil, 1)
+--         end
+--         if not Backpack:FindFirstChild("Blue Energy Crystal") then
+--             Character.HumanoidRootPart.CFrame = CFrame.new(20125.296875, 212.6418914794922, 5449.6962890625)
+--             local Pickaxe = Backpack:FindFirstChild("Pickaxe") or Character:FindFirstChild("Pickaxe")
+--             if Pickaxe then
+--                 if Pickaxe.Parent == Backpack then
+--                     Pickaxe.Parent = Character
+--                 end
+--                 repeat task.wait()
+--                     Character.HumanoidRootPart.CFrame = CFrame.new(20125.296875, 212.6418914794922, 5449.6962890625)
+--                     Character:FindFirstChild("Pickaxe"):Activate()
+--                 until BlueShardPath:FindFirstChild("Root"):FindFirstChild("Prompt").Enabled
+--                 fireproximityprompt(BlueShardPath.Root.Prompt)
+--             end
+--         end
+
+--         if not Backpack:FindFirstChild("Green Energy Crystal") then
+--         services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/NorthEvent/PlayerClaimItem"):InvokeServer()
+--         end
+
+--         if not Backpack:FindFirstChild("Red Energy Crystal") then
+--             services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/NorthExp/PurchaseShard"):InvokeServer()
+--         end
+--         if not Backpack:FindFirstChild("Avalanche Totem") then
+--             services.ReplicatedStorage.events.purchase:FireServer("Avalanche Totem", "Item", nil, 1)
+--         end
+--         repeat task.wait() until not services.ReplicatedStorage.world.totemInUse.value
+--         game.Players.LocalPlayer.Character.Humanoid:EquipTool(services.Players.LocalPlayer.Backpack["Avalanche Totem"])
+--         Character:WaitForChild("Avalanche Totem"):Activate()
+--         repeat task.wait() until YellowShardPath.Root.Prompt.Enabled
+--         LocalPlayer.Character.HumanoidRootPart.Position = YellowShardPath.Root.Position
+--         YellowShardPath.Root.Prompt.Parent = LocalPlayer.Character
+--         local char = LocalPlayer.Character
+--         for _, obj in ipairs(char:GetChildren()) do
+--             if obj:IsA("ProximityPrompt") then
+--                 obj.HoldDuration = 0
+--                 obj.MaxActivationDistance = math.huge
+--                 obj:InputHoldBegin()
+--                 task.wait(0.01)
+--                 obj:InputHoldEnd()
+--                 print("shoulda gotten it..")
+--                 obj.Parent = YellowShardPath.Root
+--             end
+--         end
+--         LocalPlayer:RequestStreamAroundAsync(Vector3.new(19964.609375, 1135.482666015625, 5348.857421875))
+--         LocalPlayer.Character.HumanoidRootPart.Position  = workspace.world.map["Northern Summit"].ColoredGlassFloor.Hitbox.Position
+--         local Crystals = {"Blue", "Green", "Red", "Yellow"}
+--         local remote = services.ReplicatedStorage.packages.Net["RE/NorthFinalPuzzleService/Place"]
+
+--         for _, crystal in ipairs(Crystals) do
+--             remote:FireServer(crystal)
+--         end
+
+--         task.wait()
+--     end
+-- end
+
+-- HeavenGroupButton:AddButton({
+--     Title = "Complete & Buy Heaven's Rod",
+--     Variant = "Primary",
+--     Callback = function()
+--         genv.ProccessingRod = true
+--         HeavenRodGrabber()
+--     end,
+-- })
+
+
+
+-- for _, spawnFolder in ipairs(workspace.world.spawns:GetChildren()) do
+--     if spawnFolder:IsA("Folder") then
+--         local newSection = tabs.Teleporation:AddSection({Title = spawnFolder.Name})
+--         table.insert(sections, newSection)
+
+--         newSection:AddParagraph({
+--             Title = spawnFolder.Name,
+--             Description = "Teleport Section for " .. spawnFolder.Name
+--         })
+
+--         TeleportationButton[spawnFolder.Name] = {
+--             Section = newSection,
+--             T1 = newSection:AddGroupButton()
+--         }
+
+--         for _, spawnPoint in ipairs(spawnFolder:GetChildren()) do
+--             if spawnPoint:IsA("BasePart") then
+--                 local spawnPosition = spawnPoint.Position
+
+--                 local baseName = spawnPoint.Name
+--                 local uniqueName = baseName
+
+--                 if nameCounts[baseName] then
+--                     nameCounts[baseName] = nameCounts[baseName] + 1
+--                     uniqueName = baseName .. " (" .. nameCounts[baseName] .. ")"
+--                 else
+--                     nameCounts[baseName] = 1
+--                 end
+
+--                 TeleportationButton[spawnFolder.Name].T1:AddButton({
+--                     Title = uniqueName,
+--                     Variant = "Outline",
+--                     Callback = function()
+--                         ChangePlayerCFrame(spawnPosition.X, spawnPosition.Y, spawnPosition.Z)
+--                     end,
+--                 })
+--             end
+--         end
+--     end
+-- end
+
+sections.Misc:AddParagraph({
+    Title = gradient("Oxygen"),
+})
+
+local oxygenConnection
+local oxygenPeaksConnection
+local temperatureConnection
+
+sections.Misc:AddToggle("AntiDrown", {
+    Title = "Disable Oxygen - Normal",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        local oxygen = LocalPlayer.Character:FindFirstChild("client") and LocalPlayer.Character.client:FindFirstChild("oxygen")
+        -- print("Oxygen Object:", oxygen)
+        if isEnabled then
+            if oxygen then
+                -- print("Connecting to Oxygen Normal")
+                oxygen.Disabled = true
+                oxygenConnection = oxygen.Changed:Connect(function()
+                    -- print("Oxygen Changed - Disabled:", oxygen.Disabled)
+                    oxygen.Disabled = true
+                end)
+            end
+        else
+            if oxygenConnection then
+                -- print("Disconnecting Oxygen Normal connection")
+                oxygenConnection:Disconnect()
+                oxygen.Enabled = true
+            end
+        end
+    end,
+})
+
+sections.Misc:AddToggle("AntiDrown", {
+    Title = "Disable Oxygen - Peaks",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        local oxygenPeaks = LocalPlayer.Character:FindFirstChild("client") and LocalPlayer.Character.client:FindFirstChild("oxygen(peaks)")
+        -- print("Oxygen Peaks Object:", oxygenPeaks)
+        if isEnabled then
+            if oxygenPeaks then
+                -- print("Connecting to Oxygen Peaks")
+                oxygenPeaks.Disabled = true
+                oxygenPeaksConnection = oxygenPeaks.Changed:Connect(function()
+                    -- print("Oxygen Peaks Changed - Disabled:", oxygenPeaks.Disabled)
+                    oxygenPeaks.Disabled = true
+                end)
+            end
+        else
+            if oxygenPeaksConnection then
+                -- print("Disconnecting Oxygen Peaks connection")
+                oxygenPeaksConnection:Disconnect()
+                oxygenPeaks.Enabled = true
+            end
+        end
+    end,
+})
+
+sections.Misc:AddToggle("AntiDrown", {
+    Title = "Disable Temperature",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        local temperature = LocalPlayer.Character:FindFirstChild("client") and LocalPlayer.Character.client:FindFirstChild("temperature")
+        -- print("Temperature Object:", temperature)
+        if isEnabled then
+            if temperature then
+                -- print("Connecting to Temperature")
+                temperature.Disabled = true
+                temperatureConnection = temperature.Changed:Connect(function()
+                    -- print("Temperature Changed - Disabled:", temperature.Disabled)
+                    temperature.Disabled = true
+                end)
+            end
+        else
+            if temperatureConnection then
+                -- print("Disconnecting Temperature connection")
+                temperatureConnection:Disconnect()
+                temperature.Enabled = true
+            end
+        end
+    end,
+})
+
+
+
+
+sections.Misc:AddParagraph({
+    Title = gradient("Others"),
+})
+genv.PlatformColor = Color3.new(1.000000, 1.000000, 1.000000)
+genv.PlatFormsize = 15
+genv.Platform = nil
+sections.Misc3:AddColorpicker("PlatformColor", {
+    Title = "PlatForm Color",
+    Default = Color3.new(1.000000, 1.000000, 1.000000),
+    Callback = function(selectedColor)
+            if genv.Platform ~= nil then
+            genv.Platform.Color = selectedColor
+        else
+            genv.PlatformColor = selectedColor
+        end
+    end,
+})
+
+sections.Misc3:AddSlider("PlatFormSize", {
+    Title = "Platform Size",
+    Description = "",
+    Default = 15,
+    Min = 0,
+    Max = 255,
+    Increment = 1,
+    Callback = function(value)
+        if genv.Platform ~= nil then
+            genv.Platform.Size = Vector3.new(value, 1, value)
+        else
+            genv.PlatFormsize = value
+        end
+    end,
+})
+
+sections.Misc3:AddToggle("JesusMode", {
+    Title = "Portable Platform",
+    Default = false,
+    Description = "Recommended",
+    Callback = function(isEnabled)
+        genv.PortablePlatform = isEnabled
+    if genv.PortablePlatform  then
+    genv.Platform = Instance.new("Part")
+    genv.Platform.Name = LocalPlayer.Name .. " PortablePlatform"
+    genv.Platform.Size = Vector3.new(genv.PlatFormsize, 1, genv.PlatFormsize)
+    genv.Platform.Anchored = true
+    genv.Platform.CanCollide = true
+    genv.Platform.Material = Enum.Material.Neon
+    genv.Platform.Shape = Enum.PartType.Ball
+    genv.Platform.CFrame = CFrame.new(0,0,0)
+    genv.Platform.Parent = LocalPlayer.Character
+    elseif genv.PortablePlatform == false then
+        if genv.Platform ~= nil then
+        genv.Platform:Destroy()
+        genv.Platform = nil
+        end
+    end
+
+    while genv.PortablePlatform do
+
+                -- Get the character's HumanoidRootPart
+                local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+                -- Find the nearest terrain position that is water
+                local nearestWaterPosition = nil
+                local closestDistance = math.huge
+                local desiredOffset = 1 -- Distance offset from the player
+
+                -- Iterate over a smaller, more efficient grid
+                for x = -50, 50, 5 do
+                    for z = -50, 50, 5 do
+                        local checkPosition = humanoidRootPart.Position + Vector3.new(x, 0, z)
+                        local rayOrigin = Vector3.new(checkPosition.X, humanoidRootPart.Position.Y + 50, checkPosition.Z)
+                        local rayDirection = Vector3.new(0, -100, 0)
+
+                        -- Perform raycasting
+                        local raycastParams = RaycastParams.new()
+                        raycastParams.FilterDescendantsInstances = {workspace.Terrain}
+                        raycastParams.FilterType = Enum.RaycastFilterType.Whitelist
+
+                        local rayResult = workspace:Raycast(rayOrigin, rayDirection, raycastParams)
+                        if rayResult then
+                            local hitPosition = rayResult.Position
+                            local hitMaterial = rayResult.Material
+
+                            -- Check if the material is water and ensure minimum offset
+                            if hitMaterial == Enum.Material.Water then
+                                local distance = (humanoidRootPart.Position - hitPosition).Magnitude
+                                if distance < closestDistance and distance > desiredOffset then
+                                    closestDistance = distance
+                                    nearestWaterPosition = hitPosition
+                                end
+                            end
+                        end
+                    end
+                end
+
+                -- Teleport the bobber to the nearest water position
+                if nearestWaterPosition then
+                    local offsetDirection = (nearestWaterPosition - humanoidRootPart.Position).Unit
+                    local finalPosition = nearestWaterPosition + offsetDirection * desiredOffset
+
+                    genv.Platform.CFrame = CFrame.new(finalPosition)
+                end
+
+                task.wait() -- Adjust the wait time if necessary
+            end
+
+    end,
+})
+
+
+sections.Misc3:AddToggle("JesusMode", {
+    Title = "Walk on water",
+    Default = false,
+    Description = "Old method",
+    Callback = function(isEnabled)
+        if isEnabled then
+            for _, Ocean in pairs(game:GetService("Workspace").zones.fishing:GetDescendants()) do
+                if Ocean:IsA("Part") and Ocean.Name == "Ocean" then 
+                    Ocean.CanCollide = true
+                end
+                end
+            for _, Ocean in pairs(game:GetService("Workspace").zones.fishing:GetDescendants()) do
+                if Ocean:IsA("Part") and Ocean.Name == "Deep Ocean" then 
+                    Ocean.CanCollide = true
+                end
+                end
+        else
+            for _, Ocean in pairs(game:GetService("Workspace").zones.fishing:GetDescendants()) do
+                if Ocean:IsA("Part") and Ocean.Name == "Ocean" then 
+                    Ocean.CanCollide = false
+                end
+                end
+            for _, Ocean in pairs(game:GetService("Workspace").zones.fishing:GetDescendants()) do
+                if Ocean:IsA("Part") and Ocean.Name == "Deep Ocean" then 
+                    Ocean.CanCollide = false
+                end
+                end
+        end
+    end,
+})
+
+
+local PromptButtonHoldBegan = nil
+genv.InstantPPToggle = sections.Misc:AddToggle("InstantProximityPrompt", {
+    Title = "Instant Interact",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        if isEnabled then
+            if fireproximityprompt then
+                PromptButtonHoldBegan = game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(prompt)
+                    fireproximityprompt(prompt)
+                end)
+            else
+                lib:Notification('Incompatible Exploit', 'Your exploit does not support this feature (missing fireproximityprompt)')
+                genv.InstantPPToggle:Set(false)
+            end
+        else
+            if PromptButtonHoldBegan ~= nil then
+                PromptButtonHoldBegan:Disconnect()
+                PromptButtonHoldBegan = nil
+            end
+        end
+    end,
+})
+
+sections.Misc:AddToggle("TitleLoop", {
+    Title = "Loop Through Titles",
+    Default = false,
+    Description = "Others can see this, this is just for fun.",
+    Callback = function(isEnabled)
+        genv.TitleLoop = isEnabled
+        local titleStats = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.title
+        
+        if titleStats then
+            while genv.TitleLoop do
+                for _, child in ipairs(titleStats:GetChildren()) do
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RE/Titles/Equip"):FireServer(child.Name)
+                    -- print("Fired server with argument:", child.Name)
+                    task.wait(0.05)
+                    if not genv.TitleLoop then break end
+                end
+            end
+        end
+    end,
+})
+
+
+sections.Misc:AddToggle("RodLoop", {
+    Title = "Loop Through Rods",
+    Default = false,
+    Description = "Others can see this, this is just for fun.",
+    Callback = function(isEnabled)
+        genv.RodLoop = isEnabled
+        local rods = ReplicatedStorage:WaitForChild("playerstats"):WaitForChild(LocalPlayer.Name).Rods
+
+        if rods then
+            while genv.RodLoop do
+                for _, child in ipairs(rods:GetChildren()) do
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RE/Rod/Equip"):FireServer(child.Name)
+
+                    -- print("Fired equiprod event with argument:", child.Name)
+                    task.wait(0.05)
+                    if not genv.RodLoop then break end
+                end
+            end
+        end
+    end,
+})
+
+local Emotes = {}
+
+for _,v in pairs(services.ReplicatedStorage.resources.animations.emotes:GetChildren()) do
+    if v:IsA("Animation") then
+        table.insert(Emotes, v.name)
+    end
+end
+
+local OldAnimation
+    function playEmote(name)
+    if OldAnimation then OldAnimation:Stop() end
+    OldAnimation = services.Players.LocalPlayer.Character.Humanoid:LoadAnimation(services.ReplicatedStorage.resources.animations.emotes[name])
+    OldAnimation:Play()
+    end
+
+sections.Misc:AddDropdown("", {
+    Title = "Emotes",
+    Description = "Your able to play the animations (FE)",
+    Options = Emotes,
+    Default = "",
+    Multiple = false,
+    Callback = function(SelectedEmote)
+        playEmote(SelectedEmote)
+    end
+})
+
+sections.Misc:AddButton({
+    Title = "Stop Emoting",
+    Variant = "Primary",
+    Callback = function()
+       if OldAnimation then OldAnimation:Stop() end
+    end,
+})
+
+sections.Misc:AddSlider("TiderBreaker", {
+    Title = "Tidebreaker Speed",
+    Description = "",
+    Default = 6500,
+    Min = 0,
+    Max = 50000,
+    Increment = 1,
+    Callback = function(value)
+        if character:FindFirstChild("Tidebreaker") then
+            character:FindFirstChild("Tidebreaker"):WaitForChild("Core"):WaitForChild("VectorForce").Force = Vector3.new(value,0,0)
+        elseif services.Players.LocalPlayer.Backpack:FindFirstChild("Tidebreaker") then
+            services.Players.LocalPlayer.Backpack:FindFirstChild("Tidebreaker"):WaitForChild("Core"):WaitForChild("VectorForce").Force = Vector3.new(value,0,0)
+        else
+        lib:Notification("Error", "it seems like you don't own a tidebreaker", 5)
+        end
+    end,
+})
+genv.UHHHHHHWTF = false
+sections.Misc:AddToggle("TideBreaker2", {
+    Title = "Make TideBreaker Easier to Control",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+    genv.UHHHHHHWTF = isEnabled
+    if genv.UHHHHHHWTF then
+        if character:FindFirstChild("Tidebreaker") then
+            character:FindFirstChild("Tidebreaker"):WaitForChild("Core"):WaitForChild("VectorForce").ApplyAtCenterOfMass = genv.UHHHHHHWTF
+        elseif services.Players.LocalPlayer.Backpack:FindFirstChild("Tidebreaker") then
+            services.Players.LocalPlayer.Backpack:FindFirstChild("Tidebreaker"):WaitForChild("Core"):WaitForChild("VectorForce").ApplyAtCenterOfMass = genv.UHHHHHHWTF
+        else
+        lib:Notification("Error", "it seems like you don't own a tidebreaker", 5)
+        end
+    end
+    end,
+})
+
+local randomMiscButton = sections.Misc:AddGroupButton()
+
+-- randomMiscButton:AddButton({
+--     Title = "Refresh Dropdown",
+--     Variant = "Outline",
+--     Callback = function()
+--         UpdatePlayerList()
+--     end,
+-- })
+
+
+randomMiscButton:AddButton({
+    Title = "Remove AFK Permanently",
+    Variant = "Primary",
+    Callback = function()
+       ReplicatedStorage.events.afk:Destroy()
+    end,
+})
+
+
+randomMiscButton:AddButton({
+    Title = "Redeem All Codes",
+    Variant = "Primary",
+    Callback = function()
+        if type(data.Codes) == "table" then
+            for codeName in pairs(data.Codes) do
+                ReplicatedStorage:WaitForChild("events"):WaitForChild("runcode"):FireServer(codeName)      
+            end
+        end
+    end,
+})
+
+randomMiscButton:AddButton({
+    Title = "Die",
+    Variant = "Primary",
+    Callback = function()
+        ReplicatedStorage:WaitForChild("events"):WaitForChild("drown"):FireServer(0)     
+    end,
+})
+
+groupId = 7381705
+
+-- Function to fetch roles in the group
+local function fetchGroupRoles(groupId)
+    local response = request({
+        Url = string.format("https://groups.roblox.com/v1/groups/%d/roles", groupId),
+        Method = "GET",
+        Headers = { ["Content-Type"] = "application/json" }
+    })
+
+    if response and response.Success then
+        return HttpService:JSONDecode(response.Body)
+    else
+        warn("Failed to fetch group roles:", response.StatusCode, response.StatusMessage)
+        return nil
+    end
+end
+
+local rolesList = {}
+
+local rolesData = fetchGroupRoles(groupId)
+if rolesData and rolesData.roles then
+    for _, role in ipairs(rolesData.roles) do
+        table.insert(rolesList, role.name)
+    end
+end
+
+genv.AntiStaffDropDown = sections.Misc1:AddDropdown("AntiStaffList", {
+    Title = "Select Roles",
+    Description = "",
+    Options = rolesList,
+    Default = "",
+    Multiple = true,
+    Callback = function(selectedRoles)
+        genv.SelectedRoles = selectedRoles
+        -- print("Selected Roles:")
+        for _, role in ipairs(genv.SelectedRoles) do
+            -- print(role)
+        end
+    end
+})
+
+-- role ~= "Fischer" and
+-- ^ add this too but removed for now for testing purposes
+genv.FinishedChecked = false
+if genv.FinishedChecked == false then
+genv.AntiStaffDropDown:Refresh(rolesList,true)
+for _, role in ipairs(rolesList) do
+    if role ~= "Guest" and role ~= "Fischer" then
+        genv.AntiStaffDropDown:Set(role)
+    end
+end
+genv.FinishedChecked = true
+end
+
+local RolewatchConnection
+
+genv.AntiStaffToggle = sections.Misc1:AddToggle("AntiStaff", {
+    Title = "Anti Staff",
+    Default = true,
+    Description = "Leaves the game automatically if a staff joins",
+    Callback = function(isEnabled)
+        if isEnabled then
+            RolewatchConnection = Players.PlayerAdded:Connect(function(player)
+                if player:IsInGroup(groupId) then
+                    local playerRole = tostring(player:GetRoleInGroup(groupId)):lower()
+
+                    -- Ensure SelectedRoles is valid before iterating
+                    if type(genv.SelectedRoles) == "table" then
+                        for _, selectedRole in ipairs(genv.SelectedRoles) do
+                            if playerRole == selectedRole:lower() then
+                                LocalPlayer:Kick(".")
+                                _G.UIStroke = Instance.new("UIStroke", game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt"))
+                                _G.UIStroke.Color = Color3.new(0.231373, 0.231373, 0.231373)
+                                _G.UIStroke.Transparency = 0.6
+                                _G.UICorner = Instance.new("UICorner", game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt"))
+                                _G.UICorner.CornerRadius = UDim.new(0, 5)
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").BackgroundColor3 = Color3.new(0.078431, 0.078431, 0.078431)
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").Size = UDim2.new(0, 400, 0, 330)
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").MessageArea.ErrorFrame.ErrorMessage.RichText = true
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").TitleFrame.ErrorTitle.RichText = true
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").TitleFrame.ErrorTitle.Text = [[<font color="#5359bf">L</font><font color="#4c4eb9">u</font><font color="#4644b3">n</font><font color="#403aad">o</font><font color="#3a30a8">r</font>]]
+                                game:GetService("CoreGui").RobloxPromptGui:WaitForChild("promptOverlay"):FindFirstChild("ErrorPrompt").MessageArea.ErrorFrame.ErrorMessage.Text = [[
+<b><font color="#5359bf">L</font><font color="#4c4eb9">u</font><font color="#4644b3">n</font><font color="#403aad">o</font><font color="#3a30a8">r</font></b> has detected a Staff and has Initiated Self-Kick on your profile.
+
+Username: <font color="rgb(255,255,255)">]] .. player.Name .. [[</font>  
+Role: <font color="rgb(255,255,255)">]] .. selectedRole .. [[</font>.
+Action Was Taken at : <font color="rgb(255,255,255)">]] .. os.date("%I:%M %p") .. [[</font>
+
+<font color="rgb(255,255,0)">⚠️ Please be careful, actions like this may result in further consequences.</font>
+]]
+                                break
+                            end
+                        end
+                    else
+                        warn("SelectedRoles is not a table or is nil.")
+                    end
+                end
+            end)
+            lib:Notification("Anti Staff", "Anti Staff has automatically been enabled.", 5)
+        else
+            if RolewatchConnection then
+                RolewatchConnection:Disconnect()
+                RolewatchConnection = nil
+            end
+        end
+    end
+})
+
+
+
+genv.InventoryValueGift = sections.Misc2:AddParagraph({
+    Title = gradient("Inventory Information"),
+    Description = "Inventory Info: <font color=\"rgb(255,0,0)\">Offline</font>\nInventory Value: <font color=\"rgb(255,0,0)\">Offline</font>\nHeld Item Value: <font color=\"rgb(255,0,0)\">Offline</font>"
+})
+
+function UpdatePlayerList()
+    variables.PlayerList = {}
+    for _, v in pairs(Players:GetPlayers()) do
+        table.insert(variables.PlayerList, v.DisplayName .. " (@"..v.Name..") ")
+    end
+    genv.UserDropDown:Refresh(variables.PlayerList, true)
+    genv.UserDropDown:Set(variables.CopyuserSelect)
+end
+
+
+genv.UserDropDown = sections.Misc2:AddDropdown("AllUsers", {
+    Title = "Select User",
+    Description = "",
+    PlaceHolder = "Search Player",
+    Options = variables.PlayerList,
+    Default = "",
+    Multiple = false,
+    Callback = function(selectedPlayer)
+        local realName = selectedPlayer:match("%(@(.-)%)")
+        genv.SelectedPlayer = realName
+        print(genv.SelectedPlayer)
+    end
+})
+
+UpdatePlayerList()
+
+local giftGroupButton = sections.Misc2:AddGroupButton()
+
+giftGroupButton:AddButton({
+    Title = "Refresh Dropdown",
+    Variant = "Outline",
+    Callback = function()
+        UpdatePlayerList()
+    end,
+})
+
+giftGroupButton:AddButton({
+    Title = "Gift Hand",
+    Variant = "Primary",
+    Callback = function()
+        local check = validToolCheck()
+        if check then
+            local fish = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+            
+            gift(genv.SelectedPlayer, fish.Name)        
+        else
+            lib:Notification("Gift Hand", "You don't seem to have a valid fish equipped3..", 5)
+        end
+    end,
+})
+
+giftGroupButton:AddButton({
+    Title = "Gift All",
+    Variant = "Primary",
+    Callback = function()
+        giftAll()
+    end,
+})
+
+sections.Misc2:AddToggle("ExcludeFav", {
+    Title = "Exclude Favourites",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.ExcludeFavourite = isEnabled
+    end,
+})
+
+
+genv.GiftHandToggle = sections.Misc2:AddToggle("LoopGiftHand", {
+    Title = "Loop Gift Hand",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.GiftHand = isEnabled
+        while genv.GiftHand do
+
+            local check = validToolCheck()
+            if check then
+                local fish = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                gift(genv.SelectedPlayer, fish.Name)
+            else
+                lib:Notification("Gift Hand", "You don't seem to have a valid fish equipped2..", 5)
+                genv.GiftHandToggle:Set(false)
+            end
+            task.wait()
+        end
+    end,
+})
+
+sections.Misc2:AddToggle("LoopAccept", {
+    Title = "Loop Accept",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.Accept = isEnabled
+        local function processOffers()
+            for _, frame in pairs(LocalPlayer.PlayerGui.hud.safezone.bodyannouncements:GetChildren()) do
+                if frame:IsA("Frame") and frame.Name == "offer" then
+                    local confirmButton = frame:FindFirstChild("confirm")
+                    if confirmButton and confirmButton:IsA("TextButton") then 
+                        if getconnections then
+                            for i, v in pairs(getconnections(confirmButton.MouseButton1Click)) do
+                                v.Function()
+                            end
+                        else
+                            firesignal(confirmButton.MouseButton1Click)
+                        end
+                    end                    
+                end
+            end
+        end
+        
+        while genv.Accept do
+            if #LocalPlayer.PlayerGui.hud.safezone.bodyannouncements:GetChildren() > 0 then
+                processOffers()
+            end
+            task.wait(0.1)
+        end
+        
+    end,
+})
+
+sections.Misc2:AddToggle("LoopGiftInv", {
+    Title = "Loop Gift Inventory",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.GiftInventory = isEnabled
+        if genv.GiftInventory then
+            LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+        end
+        while genv.GiftInventory do
+            giftAll()
+            wait(1)
+            if not genv.GiftInventory then
+                LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+                break
+            end
+        end
+    end,
+})
+
+
+genv.GiftInformationParagraph = sections.Misc2:AddParagraph({
+    Title = gradient("Information"),
+    Description = '<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#FF0000">Offline</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#FF0000">Offline</font>'})
+
+    
+
+sections.Misc2:AddTextbox({
+    Title = "Gift: Amount",
+    Default = "",
+    Description = "Amount of your held item that'll be give..",
+    PlaceHolder = "Ex: 5",
+    TextDisappear = false,
+    Callback = function(giftAmount)
+        genv.giftAmount = tonumber(giftAmount)
+    end
+})
+
+-- genv.LoopGiftAmountToggle = sections.Misc2:AddToggle("LoopGiftAmount", {
+--     Title = "Loop Gift Amount",
+--     Default = false,
+--     Description = "",
+--     Callback = function(isEnabled)
+--         genv.LoopGiftAmount = isEnabled
+--         local check = validToolCheck()
+--         if check then
+--             local fish = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--             local link = tostring(fish.link.Value)
+--             print(link)
+--             local amount = tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[link].Stack.Value)
+--             print(amount)
+--             print(genv.giftAmount)
+--             if amount < tonumber(genv.giftAmount) then
+--                 lib:Notification("Loop Gift Amount", "You have less of this fish than your desired gifting amount..", 5)
+--                 genv.LoopGiftAmountToggle:Set(false)
+--             else
+--                 local targetAmount = amount - genv.giftAmount
+                
+--                 while genv.LoopGiftAmount do
+--                     amount = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[link].Stack
+            
+--                     if amount > tonumber(targetAmount) then
+--                         gift(genv.selectedPlayer, fish.Name)
+--                         task.wait(0.1)
+--                     else
+--                         lib:Notification("Loop Gift Amount", "Completed.", 5)
+--                         genv.LoopGiftAmountToggle:Set(false)
+--                         genv.GiftInformationParagraph:SetDesc('<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#00FF00">Completed</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#00FF00">Completed</font>')
+--                         break
+--                     end
+--                 end
+--             end
+--         else
+--             lib:Notification("Gift Hand", "You don't seem to have a valid fish equipped..", 5)
+--         end
+--     end,
+-- })
+
+
+genv.LoopGiftAmountToggle = sections.Misc2:AddToggle("LoopGiftAmount", {
+    Title = "Loop Gift Amount",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.LoopGiftAmount = isEnabled
+
+        if not isEnabled then
+            return
+        end
+
+        local check = validToolCheck()
+        if check then
+            local fish = tostring(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").link.Value)
+            local stack = tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish].Stack.Value)
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish] then
+                print(stack)
+                print(tonumber(genv.giftAmount))
+                if tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish].Stack.Value) < tonumber(genv.giftAmount) then
+                    print(stack, genv.giftAmount, "lol")
+                    genv.LoopGiftAmountToggle:Set(false)
+                    lib:Notification("Loop Gift Amount", "You have less of this fish than your desired gifting amount..", 5)
+                    return
+                else
+                    local realFish = tostring(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"))
+                    local startingValue = tonumber(stack) -- 10
+                    print(startingValue)
+                    local amountToGift = startingValue - genv.giftAmount -- (gA = 4) = 6
+                    print(startingValue, genv.giftAmount ..  " = " .. amountToGift)
+                    while genv.LoopGiftAmount do
+                        local stack = tonumber(ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish].Stack.Value)
+                        print(tonumber(stack) .. " " .. amountToGift)
+                        if tonumber(stack) > amountToGift then
+                            print("supposed to gift..")
+                            local targetItem = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish]
+                            local previousValue = targetItem.Stack.Value
+                            gift(genv.SelectedPlayer, realFish)
+                            while targetItem.Stack.Value == previousValue do
+                                task.wait()
+                            end
+                            local fishValue = tonumber(stack) or 0
+                            local giftValue = tonumber(amountToGift) or 0
+
+                            local formattedFishValue = formatNumber(fishValue)
+                            local formattedGiftValue = formatNumber(giftValue)
+
+                            local updatedDesc = string.format(
+                                '<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#FFFF00">%s -> %s</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#FF0000">Offline</font>',
+                                formattedFishValue,
+                                formattedGiftValue
+                            )
+
+                            genv.GiftInformationParagraph:SetDesc(updatedDesc)
+                        else
+                            genv.LoopGiftAmountToggle:Set(false)
+                            lib:Notification("Loop Gift Amount", "Completed.", 5)
+                            genv.GiftInformationParagraph:SetDesc('<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#00FF00">Completed</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#FF0000">Offline</font>')
+                            return
+                        end
+                        task.wait(3)
+                    end
+                end
+            end
+        end
+    end,
+})
+
+
+
+
+sections.Misc2:AddTextbox({
+    Title = "Gift: Value",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Ex: 1000000",
+    TextDisappear = false,
+    Callback = function(giftValue)
+        genv.giftValue = giftValue
+    end
+})
+
+genv.ToggleGiftInvValue = sections.Misc2:AddToggle("ToggleGiftInv", {
+    Title = "Gift Value: Inventory [ procrastinating on this.. ]",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoGiftInvValue = isEnabled
+        -- if _G.totalValue < genv.giftValue then
+        --     lib:Notification("Gift Value: Inventory", "You don't have enough value to gift..", 5)
+        --     genv.ToggleGiftInv:Set(false)
+        -- else
+        --     print("hi")
+        -- end
+    end,
+})
+
+
+genv.ToggleGiftHandValue = sections.Misc2:AddToggle("LoopGiftHand", {
+    Title = "Gift Value: Hand",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.AutoGiftHandValue = isEnabled
+
+        if not isEnabled then
+            return
+        end
+
+        local check = validToolCheck()
+        if check then
+            local fish = tostring(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").link.Value)
+            if ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish] then                
+                if tonumber(GetBackPackItemValue(fish)) < tonumber(genv.giftValue) then
+                    print(GetBackPackItemValue(fish), genv.giftValue, "lol")
+                    genv.ToggleGiftHandValue:Set(false)
+                    lib:Notification("Gift Value: Hand", "You don't have enough value to gift..", 5)
+                    return
+                else
+                    local realFish = tostring(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"))
+                    local startingValue = tonumber(GetBackPackItemValue(fish)) -- 10m
+                    print(startingValue)
+                    local valueToGift = startingValue - genv.giftValue -- 6m
+
+                    while genv.AutoGiftHandValue do
+                        print("here")
+                        if tonumber(GetBackPackItemValue(fish)) > valueToGift then
+                            print('here1')
+                            local targetItem = ReplicatedStorage.playerstats[LocalPlayer.Name].Inventory[fish]
+                            local previousValue = targetItem.Stack.Value
+                            print('here??')
+                            print(fish)
+                            print(genv.SelectedPlayer)
+                            gift(genv.SelectedPlayer, realFish)
+                            while targetItem.Stack.Value == previousValue do
+                                task.wait()
+                            end
+                            local fishValue = tonumber(GetBackPackItemValue(fish)) or 0
+                            local giftValue = tonumber(valueToGift) or 0
+
+                            local formattedFishValue = formatNumber(fishValue)
+                            local formattedGiftValue = formatNumber(giftValue)
+
+                            local updatedDesc = string.format(
+                                '<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#FF0000">Offline</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#FFFF00">%s -> %s</font>',
+                                formattedFishValue,
+                                formattedGiftValue
+                            )
+
+                            genv.GiftInformationParagraph:SetDesc(updatedDesc)
+                        else
+                            genv.ToggleGiftHandValue:Set(false)
+                            lib:Notification("Gift Value: Hand", "Completed.", 5)
+                            genv.GiftInformationParagraph:SetDesc('<b>Once the amount is reached, the toggle will automatically turn off and stopped.</b>\nGift Amount: <font color="#FF0000">Offline</font>\nGift Value (Inv): <font color="#FF0000">Offline</font>\nGift Value (Hand): <font color="#00FF00">Completed</font>')
+                            return
+                        end
+                        task.wait(3)
+                    end
+                end
+            end
+        end
+    end,
+})
+
+
+
+-- genv.GiftHand = isEnabled
+-- while genv.GiftHand do
+
+--     local check = validToolCheck()
+--     if check then
+--         local fish = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+--         gift(genv.SelectedPlayer, fish.Name)
+--     else
+--         lib:Notification("Gift Hand", "You don't seem to have a valid fish equipped2..", 5)
+--         genv.GiftHandToggle:Set(false)
+--     end
+--     task.wait()
+-- end
+
+sections.Visuals:AddToggle("AutoRadarMode", {
+    Title = "Enable Fish Radar",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        variables.AutoToggleRadar = true
+        if isEnabled then
+                for _, descendant in ipairs(workspace.zones.fishing:GetDescendants()) do
+                    if descendant.Name == "radar1" or descendant.Name == "radar2" then
+                        descendant.Enabled = true
+                        descendant.MaxDistance = math.huge
+                    end
+                end
+        else
+            variables.AutoToggleRadar = false
+            for _, descendant in ipairs(workspace.zones.fishing:GetDescendants()) do
+                if descendant.Name == "radar1" or descendant.Name == "radar2" then
+                    descendant.Enabled = false
+                    descendant.MaxDistance = 250
+                end
+            end
+        end
+    end,
+})
+
+
+sections.Visuals:AddToggle("Inventory Value", {
+    Title = "Calculate Each Item Value",
+    Default = false,
+    Description = "Displays a text showing the value of items",
+    Callback = function(isEnabled)
+        genv.AutoPriceCheck = isEnabled
+        
+        if isEnabled then
+            for _, v in pairs(LocalPlayer.PlayerGui.hud.safezone.backpack:GetDescendants()) do
+                if v:IsA("ValueBase") and v.Name == "item" then
+                    local itemValue = GetBackPackItemValue(v.Value)
+                    if itemValue then
+                        CreatePrice(v.Parent, itemValue)
+                    end
+                end
+            end
+
+
+            task.spawn(function()
+                while genv.AutoPriceCheck do
+                    if not _G.running then
+                        _G.running = true
+                        monitorBackpack()
+                    end
+                    
+                    task.wait(1)
+                end
+
+                if not genv.AutoPriceCheck and _G.running then
+                    _G.running = false
+
+                    if _G.connections then
+                        for _, connection in ipairs(_G.connections) do
+                            if connection.Connected then
+                                connection:Disconnect()
+                            end
+                        end
+                        _G.connections = {}
+                    end
+
+                    clearPriceLabels()
+                end
+            end)
+        else
+
+            genv.AutoPriceCheck = false
+        end
+    end,
+})
+
+
+sections.Visuals:AddToggle("AutoFullBright", {
+    Title = "Enable FullBright",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.FullBright = isEnabled
+        if genv.FullBright then
+            brightLoop = RunService.RenderStepped:Connect(brightFunc)
+        elseif not genv.FullBright then
+            if brightLoop then
+                brightLoop:Disconnect()
+            end
+        end
+    end,
+})
+
+
+
+local createdVisual = false
+local LureVisualUI = {}
+local updateConnection
+
+sections.Visuals:AddToggle("LureVisual", {
+    Title = "Lure Visual",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.LureVisual = isEnabled
+
+        local function createLureVisual()
+            createdVisual = true
+
+            LureVisualUI["1"] = Instance.new("ScreenGui", gethui())
+            LureVisualUI["1"]["Name"] = [[LureVisual]]
+
+            LureVisualUI["2"] = Instance.new("Frame", LureVisualUI["1"])
+            LureVisualUI["2"]["BorderSizePixel"] = 0
+            LureVisualUI["2"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21)
+            LureVisualUI["2"]["Size"] = UDim2.new(0, 0, 0, 0) -- Start small for animation
+            LureVisualUI["2"]["Position"] = UDim2.new(0.457, 0, 0.87, 0)
+            LureVisualUI["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+            LureVisualUI["2"]["Name"] = [[CoolMonke]]
+            LureVisualUI["2"]["BackgroundTransparency"] = 1 -- Fully transparent at start
+
+            -- Add UICorner for rounded edges
+            LureVisualUI["3"] = Instance.new("UICorner", LureVisualUI["2"])
+
+            -- Add UIStroke for border
+            LureVisualUI["4"] = Instance.new("UIStroke", LureVisualUI["2"])
+            LureVisualUI["4"]["Thickness"] = 0.6
+            LureVisualUI["4"]["Color"] = Color3.fromRGB(255, 255, 255)
+
+            -- Add TextLabel for Lure percentage
+            LureVisualUI["5"] = Instance.new("TextLabel", LureVisualUI["2"])
+            LureVisualUI["5"]["BorderSizePixel"] = 0
+            LureVisualUI["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+            LureVisualUI["5"]["TextSize"] = 24
+            LureVisualUI["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+            LureVisualUI["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+            LureVisualUI["5"]["BackgroundTransparency"] = 1
+            LureVisualUI["5"]["RichText"] = true
+            LureVisualUI["5"]["Size"] = UDim2.new(1, 0, 1, 0)
+            LureVisualUI["5"]["Text"] = [[Lure: 0%]]
+
+            -- Add progress bar at the bottom
+            LureVisualUI["7"] = Instance.new("Frame", LureVisualUI["2"])
+            LureVisualUI["7"]["BorderSizePixel"] = 0
+            LureVisualUI["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+            LureVisualUI["7"]["Size"] = UDim2.new(0, 170, 0, 7)
+            LureVisualUI["7"]["Position"] = UDim2.new(-0.00595, 0, 0.87, 0)
+            LureVisualUI["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+
+            LureVisualUI["8"] = Instance.new("UICorner", LureVisualUI["7"])
+            LureVisualUI["8"]["CornerRadius"] = UDim.new(0, 8000)
+
+            -- Tween Animation for Pop-Up
+            local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+            local goal = {Size = UDim2.new(0, 168, 0, 46), BackgroundTransparency = 0.3}
+            local tween = game:GetService("TweenService"):Create(LureVisualUI["2"], tweenInfo, goal)
+            tween:Play()
+        end
+
+        local function cleanupUI()
+            if createdVisual and LureVisualUI["1"] then
+                -- Smooth fade-out
+                local fadeOutTween = game:GetService("TweenService"):Create(LureVisualUI["2"], TweenInfo.new(0.5), {BackgroundTransparency = 1, Size = UDim2.new(0, 0, 0, 0)})
+                fadeOutTween:Play()
+                fadeOutTween.Completed:Connect(function()
+                    LureVisualUI["1"]:Destroy()
+                    createdVisual = false
+                end)
+            end
+        end
+
+        if isEnabled then
+            updateConnection = game:GetService("RunService").Heartbeat:Connect(function()
+                local player = LocalPlayer
+
+                if player.PlayerGui:FindFirstChild("reel") then
+                    cleanupUI()
+                    return
+                end
+
+                local rod = player.Character and player.Character:FindFirstChild(getEquippedRod())
+                if rod then
+                    local values = rod:FindFirstChild("values")
+                    if values then
+                        local casted = values:FindFirstChild("casted")
+                        if casted and casted.Value == false then
+                            cleanupUI()
+                        elseif casted and casted.Value == true and not createdVisual then
+                            createLureVisual()
+                        end
+
+                        if createdVisual then
+                            local lure = values:FindFirstChild("lure")
+                            local bite = values:FindFirstChild("bite")
+                            if lure and bite and bite.Value == false and lure.Value < 100 then
+                                local lureValue = math.floor(lure.Value + 0.5) -- Round to nearest whole number
+                                LureVisualUI["5"].Text = "Lure: " .. tostring(lureValue) .. "%"
+                            elseif bite and bite.Value then
+                                LureVisualUI["5"].Text = "Caught!"
+                                task.delay(0.5, cleanupUI)
+                            end
+                        end
+                    end
+                else
+                    cleanupUI()
+                end
+            end)
+        else
+            if updateConnection then
+                updateConnection:Disconnect()
+                updateConnection = nil
+            end
+            cleanupUI()
+        end
+    end,
+})
+
+
+
+sections.Visuals:AddToggle("AutoPredictor", {
+    Title = "Auto Predictor",
+    Default = false,
+    Description = "Predict what fish your about to get before catching it",
+    Callback = function(isEnabled)
+        local currentModel = nil
+        while isEnabled do 
+            if character then
+                local rod = character:FindFirstChild(PlayerStats.rod.Value)
+                if rod then
+                    local bobber = rod:FindFirstChild("bobber")
+                    if bobber then
+                        for _, child in ipairs(bobber:GetChildren()) do
+                            if child:IsA("Model") and child.Name ~= PlayerStats.bait.Value and child.Name ~= PlayerStats.bobber.Value then
+                                if currentModel ~= child.Name then
+                                    lib:Notification("Auto Predictor","Predicted: "..child.Name, 3)
+                                    currentModel = child.Name
+                                end
+                            end
+                        end
+                        if currentModel and not bobber:FindFirstChild(currentModel) then
+                            currentModel = nil
+                        end
+                    end
+                end
+            end
+            task.wait()
+        end
+    end,
+})
+
+sections.Visuals:AddColorpicker("WaterColor", {
+    Title = "Water Color",
+    Default = Color3.fromRGB(60, 66, 85),
+    Callback = function(selectedColor)
+    game:GetService("Workspace").Terrain.WaterColor = selectedColor
+    end,
+})
+
+sections.Visuals:AddSlider("WaterSpeed", {
+    Title = "Waves Speed",
+    Description = "",
+    Default = 10,
+    Min = 0,
+    Max = 255,
+    Increment = 1,
+    Callback = function(value)
+        game:GetService("Workspace").Terrain.WaterWaveSpeed = value
+    end,
+})
+
+local hideUIConnection
+sections.Visuals1:AddToggle("HideUI", {
+    Title = "Hide UI",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        local hud = LocalPlayer.PlayerGui:FindFirstChild("hud")
+        if hud and hud:IsA("ScreenGui") then
+            if isEnabled then
+                hud.Enabled = false
+                if not hideUIConnection then
+                    hideUIConnection = hud:GetPropertyChangedSignal("Enabled"):Connect(function()
+                        hud.Enabled = false
+                    end)
+                end
+            else
+                if hideUIConnection then
+                    hideUIConnection:Disconnect()
+                    hideUIConnection = nil
+                end
+                hud.Enabled = true
+            end
+        end
+    end,
+})
+
+
+sections.Visuals1:AddColorpicker("RenderScreenColor", {
+    Title = "Change Render Screen Color",
+    Default = Color3.fromRGB(0, 0, 0),
+    Callback = function(selectedColor)
+        local playerGui = LocalPlayer:WaitForChild("PlayerGui")
+        playerGui:FindFirstChild("guh").Frame.BackgroundColor3 = selectedColor
+    end,
+})
+
+sections.Visuals1:AddToggle("Blackscreen", {
+    Title = "Low Rendering Screen",
+    Default = false,
+    Description = "Disables Rendering",
+    Callback = function(isEnabled)
+        genv.whiteScreenToggle = isEnabled
+        local playerGui = LocalPlayer:WaitForChild("PlayerGui")
+        local blackScreenGui = playerGui:FindFirstChild("guh")
+        
+        if isEnabled then
+            if not blackScreenGui then
+                blackScreenGui = Instance.new("ScreenGui")
+                blackScreenGui.Name = "guh"
+                blackScreenGui.DisplayOrder = 999
+                blackScreenGui.ResetOnSpawn = false
+                blackScreenGui.Parent = playerGui
+                
+            if not isfile('SPOCK_Trans.png') then
+                writefile("SPOCK_Trans.png", game:HttpGet('https://you.whimper.xyz/sources/SPOCK/Backup/SPOCK_Trans.png'))
+            end
+            genv.Blacke02 = Instance.new("Frame", blackScreenGui)
+            genv.Blacke02.Position = UDim2.new(0,0,0,-60)
+            genv.Blacke02.Size = UDim2.new(1,0,2,0)
+            genv.Blacke02.BackgroundColor3 = Color3.new(0,0,0)
+            genv.Blacke03 = Instance.new("TextLabel", genv.Blacke02)
+            genv.Blacke03.Position = UDim2.new(0.43,0,0,450)
+            genv.Blacke03.AutomaticSize = "XY"
+            genv.Blacke03.Text = "SPOCK"
+            genv.Blacke03.TextColor3 = Color3.new(255,255,255)
+            genv.Blacke03.RichText = true
+            genv.Blacke03.TextSize = 100
+            genv.Blacke03.Font = Enum.Font.SourceSansBold
+            genv.Blacke03.BackgroundTransparency = 1
+            genv.Blacke04 = Instance.new("ImageLabel",genv.Blacke02)
+            genv.Blacke04.Position = UDim2.new(0.52,0,0,370)
+            genv.Blacke04.Size = UDim2.new(0,256,0,256)
+            genv.Blacke04.BackgroundTransparency = 1
+            genv.Blacke04.Image = getSPOCKIcon()
+            end
+            blackScreenGui.Enabled = true
+            game:GetService("RunService"):Set3dRenderingEnabled(false)
+        else
+            if blackScreenGui then
+                blackScreenGui.Enabled = false
+            end
+            game:GetService("RunService"):Set3dRenderingEnabled(true)
+        end
+    end,
+})
+
+
+local rainConnection
+
+sections.Visuals1:AddToggle("Rain", {
+    Title = "Disable Rain",
+    Default = true,
+    Description = "Hides Raining",
+    Callback = function(isEnabled)
+        genv.hideRainToggle = isEnabled
+
+        -- Disconnect existing connection if it exists
+        if rainConnection then
+            rainConnection:Disconnect()
+            rainConnection = nil
+        end
+
+        if isEnabled then
+            -- Continuously monitor and disable rain
+            rainConnection = game:GetService("RunService").RenderStepped:Connect(function()
+                -- Safely handle potential errors
+                pcall(function()
+                    -- Disable rain emitters in the Camera
+                    local rainEmitter = workspace.Camera:FindFirstChild("__RainEmitter")
+                    if rainEmitter then
+                        if rainEmitter:FindFirstChild("RainStraight") then
+                            rainEmitter.RainStraight.Lifetime = NumberRange.new(0, 0)
+                        end
+                        if rainEmitter:FindFirstChild("RainTopDown") then
+                            rainEmitter.RainTopDown.Lifetime = NumberRange.new(0, 0)
+                        end
+                    end
+                end)
+
+                -- Disable attachments related to rain in the Terrain
+                pcall(function()
+                    for _, descendant in ipairs(workspace.Terrain:GetDescendants()) do
+                        if descendant:IsA("Attachment") and (descendant.Name == "__RainOccludedAttachment" or descendant.Name == "__RainSplashAttachment") then
+                            if descendant:FindFirstChild("RainStraight") then
+                                descendant.RainStraight.Lifetime = NumberRange.new(0, 0)
+                            end
+                            if descendant:FindFirstChild("RainTopDown") then
+                                descendant.RainTopDown.Lifetime = NumberRange.new(0, 0)
+                            end
+                            if descendant:FindFirstChild("RainSplash") then
+                                descendant.RainSplash.Lifetime = NumberRange.new(0, 0)
+                            end
+                        end
+                    end
+                end)
+            end)
+        else
+            -- Re-enable rain emitters when toggled off
+            pcall(function()
+                local rainEmitter = workspace.Camera:FindFirstChild("__RainEmitter")
+                if rainEmitter then
+                    if rainEmitter:FindFirstChild("RainStraight") then
+                        rainEmitter.RainStraight.Lifetime = NumberRange.new(0.8, 0.8)
+                    end
+                    if rainEmitter:FindFirstChild("RainTopDown") then
+                        rainEmitter.RainTopDown.Lifetime = NumberRange.new(0.8, 0.8)
+                    end
+                end
+            end)
+        end
+    end,
+})
+
+
+
+local underwaterConnections = {}
+
+sections.Visuals1:AddToggle("Rain", {
+    Title = "Disable Underwater Screen",
+    Default = true,
+    Description = "Hides Raining",
+    Callback = function(isEnabled)
+        for _, conn in pairs(underwaterConnections) do
+            if conn.Connected then conn:Disconnect() end
+        end
+        underwaterConnections = {}
+
+        if isEnabled then
+            local lighting = game:GetService("Lighting")
+            for _, effectName in pairs({"underwaterbl", "underwatercc"}) do
+                local effect = lighting:FindFirstChild(effectName)
+                if effect then
+                    table.insert(underwaterConnections, effect:GetPropertyChangedSignal("Enabled"):Connect(function()
+                        if effect.Enabled then effect.Enabled = false end
+                    end))
+                end
+            end
+        end
+    end,
+})
+
+
+-- Clear All Terrain [Improve FPS]
+local terrainClearConnection
+sections.Visuals1:AddToggle("ClearTerrain", {
+    Title = "Clear All Terrain [Improve FPS]",
+    Default = false,
+    Description = "Clears all terrain to improve performance.",
+    Callback = function(isEnabled)
+        genv.clearTerrainToggle = isEnabled
+
+        -- Disconnect any existing connection
+        if terrainClearConnection then
+            terrainClearConnection:Disconnect()
+            terrainClearConnection = nil
+        end
+
+        if genv.clearTerrainToggle then
+            -- Continuously clear terrain children
+            terrainClearConnection = game:GetService("RunService").RenderStepped:Connect(function()
+                workspace.Terrain:ClearAllChildren()
+            end)
+        end
+    end,
+})
+
+-- Disable Waves [Improve FPS]
+local wavesConnection
+sections.Visuals1:AddToggle("DisableWaves", {
+    Title = "Disable Waves [Improve FPS]",
+    Default = true,
+    Description = "Disables waves to improve performance.",
+    Callback = function(isEnabled)
+        genv.disableWavesToggle = isEnabled
+        if genv.disableWavesToggle == true then
+        local waves =  workspace.active.constant.Waves.Waves:FindFirstChild("waves")
+        if waves then
+        waves.Enabled = false 
+        end
+        elseif genv.disableWavesToggle == false then
+        local waves =  workspace.active.constant.Waves.Waves:FindFirstChild("waves")
+        if waves then
+        waves.Enabled = true 
+        end
+        end
+    end,
+})
+
+-- Disable Aurora Borealis Sky [Improve FPS]
+local auroraConnection
+sections.Visuals1:AddToggle("DisableAurora", {
+    Title = "Disable Aurora Borealis Sky [Improve FPS]",
+    Default = true,
+    Description = "Disables aurora borealis beams for better performance.",
+    Callback = function(isEnabled)
+        genv.disableAuroraToggle = isEnabled
+
+        -- Disconnect any existing connection
+        if auroraConnection then
+            auroraConnection:Disconnect()
+            auroraConnection = nil
+        end
+
+        if genv.disableAuroraToggle then
+            -- Continuously disable beams in Aurora Borealis
+            auroraConnection = game:GetService("RunService").RenderStepped:Connect(function()
+                local aurora = workspace:FindFirstChild("active") 
+                               and workspace.active:FindFirstChild("constant") 
+                               and workspace.active.constant:FindFirstChild("Aurora Borealis") 
+                               and workspace.active.constant["Aurora Borealis"]:FindFirstChild("Aurora Borealis")
+                if aurora and aurora:IsA("Folder") then
+                    for _, beam in ipairs(aurora:GetDescendants()) do
+                        if beam:IsA("Beam") then
+                            beam.Enabled = false
+                        end
+                    end
+                end
+            end)
+        end
+    end,
+})
+
+
+genv.ToggledTest = false
+genv.ColoredREEEL = Color3.new(0.435294, 0, 1)
+
+sections.Visuals2:AddColorpicker("LocalPlayerColor", {
+    Title = "Character Color",
+    Default = Color3.fromRGB(60, 66, 85),
+    Callback = function(selectedColor)
+    genv.ColoredREEEL = selectedColor
+    for _,v in pairs(LocalPlayer.Character:GetDescendants()) do
+        if genv.ToggledTest == true then
+        if v:IsA("BasePart") then
+                v.Color = genv.ColoredREEEL
+        end
+    end
+    end
+    end
+})
+genv.ToggledTest = false
+genv.ColoredREEEL = Color3.new(0.435294, 0, 1)
+genv.lockConnections2 = {}
+sections.Visuals2:AddToggle("LocalPlayerIdentity", {
+    Title = "Hide LocalPlayer Identity",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        if isEnabled then
+        genv.ToggledTest = true
+        function createRainbowGradient(parent)
+    _G.gradient = Instance.new("UIGradient", parent)
+    _G.gradient.Color = ColorSequence.new{
+        ColorSequenceKeypoint.new(0.000, Color3.fromRGB(242, 138, 54)),
+        ColorSequenceKeypoint.new(0.250, Color3.fromRGB(242, 54, 107)),
+        ColorSequenceKeypoint.new(0.500, Color3.fromRGB(134, 54, 242)),
+        ColorSequenceKeypoint.new(0.750, Color3.fromRGB(54, 187, 242)),
+        ColorSequenceKeypoint.new(1.000, Color3.fromRGB(54, 242, 173))
+    }
+    return _G.gradient
+end
+
+function setupCharacter(character)
+    _G.humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    _G.user = _G.humanoidRootPart:WaitForChild("user")
+
+    -- Cleanup previous character meshes and appearance
+    for _, v in ipairs(character:GetDescendants()) do
+        if v:IsA("CharacterMesh") or v:IsA("Accessory") or v:IsA("SpecialMesh") or (v:IsA("Decal") and v.Name == "face") then
+            v:Destroy()
+        elseif v:IsA("BasePart") then
+            v.Material = Enum.Material.Neon
+            v.Color = genv.ColoredREEEL
+        end
+    end
+
+    if character:FindFirstChild("Shirt") then character.Shirt:Destroy() end
+    if character:FindFirstChild("Pants") then character.Pants:Destroy() end
+
+    -- Apply rainbow gradients
+    _G.Rainbow = createRainbowGradient(_G.user.user)
+    _G.Rainbow2 = createRainbowGradient(_G.user.level)
+    _G.Rainbow3 = createRainbowGradient(_G.user.streak)
+    _G.Rainbow4 = createRainbowGradient(_G.user.title)
+    _G.Rainbow5 = createRainbowGradient(LocalPlayer.PlayerGui.hud.safezone.coins)
+    _G.Rainbow6 = createRainbowGradient(LocalPlayer.PlayerGui.hud.safezone.lvl)
+
+genv.lockConnections = {}
+
+function lockText(property, target, value)
+    target[property] = value
+
+    -- Create a connection to monitor property changes
+    genv.connection = target:GetPropertyChangedSignal(property):Connect(function()
+        if target[property] ~= value then
+            target[property] = value
+        end
+    end)
+
+    -- Store the connection in the lockConnections table
+    table.insert(genv.lockConnections, genv.connection)
+end
+
+    lockText("Text", _G.user.user, "Hidden")
+    lockText("Text", _G.user.level, "Level: ∞")
+    lockText("Text", _G.user.streak, "∞")
+    lockText("Text", _G.user.title, "❤")
+    lockText("Text", LocalPlayer.PlayerGui.hud.safezone.coins, "~~~~~~★ C$")
+    lockText("Text", LocalPlayer.PlayerGui.hud.safezone.lvl, "Level: ∞")
+    genv.MoneyLog = nil
+    genv.MoneyLog = LocalPlayer.PlayerGui.hud.safezone.StatChangeList.ChildAdded:Connect(function(v)
+        if v:IsA("TextLabel") then
+            v.Text = "math.huge 👍"
+        end
+    end)
+
+function lockTextSafe(path, text)
+ _G.success, _G.err = pcall(function()
+        lockText("Text", path, text)
+    end)
+    if not _G.success then
+        warn("Failed to set lockText: " .. _G.err)
+    end
+end
+_G.players = Players
+_G.localPlayer = _G.players.LocalPlayer
+_G.userId = "p_" .. _G.localPlayer.UserId
+
+_G.roactProvider = game:GetService("CoreGui"):FindFirstChild("RoactAppExperimentProvider")
+if not _G.roactProvider then
+    warn("Please wait till your game is fully loaded")
+    return
+end
+
+_G.offsetFrame = _G.roactProvider:FindFirstChild("Children")
+    and _G.roactProvider.Children:FindFirstChild("OffsetFrame")
+if _G.offsetFrame then
+    _G.undoFrame = _G.offsetFrame:FindFirstChild("PlayerScrollList")
+        and _G.offsetFrame.PlayerScrollList:FindFirstChild("SizeOffsetFrame")
+        and _G.offsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer
+        and _G.offsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame
+        and _G.offsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame
+        and _G.offsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+
+    if _G.undoFrame and _G.undoFrame[_G.userId] then
+        _G.userFrame = _G.undoFrame[_G.userId]:WaitForChild("ChildrenFrame")
+
+        lockTextSafe(_G.userFrame:WaitForChild("NameFrame"):WaitForChild("BGFrame"):WaitForChild("OverlayFrame"):WaitForChild("PlayerName"):WaitForChild("PlayerName"), "⭐ You Found Me!")
+        lockTextSafe(_G.userFrame:WaitForChild("GameStat_C$"):WaitForChild("OverlayFrame"):WaitForChild("StatText"), "★★★★★")
+        lockTextSafe(_G.userFrame:WaitForChild("GameStat_Level"):WaitForChild("OverlayFrame"):WaitForChild("StatText"), "∞")
+    end
+end
+
+    function animateRainbow()
+        _G.multi = 0.7
+        _G.val = 0
+        
+        game:GetService("RunService").RenderStepped:Connect(function(r)
+            _G.val += r*_G.multi
+            
+            if _G.val > 0.5 then
+                _G.multi = _G.multi*-1
+            elseif _G.val < -0.5 then
+                _G.multi = _G.multi*-1
+            end
+
+            _G.Rainbow.Offset = Vector2.new(_G.val, 0)
+            _G.Rainbow2.Offset = Vector2.new(_G.val, 0)
+            _G.Rainbow3.Offset = Vector2.new(_G.val, 0)
+            _G.Rainbow4.Offset = Vector2.new(_G.val, 0)
+            _G.Rainbow5.Offset = Vector2.new(_G.val, 0)
+            _G.Rainbow6.Offset = Vector2.new(_G.val, 0)
+        end)
+    end
+
+    task.spawn(animateRainbow)
+end
+
+
+genv.Cow = nil
+genv.Cow = LocalPlayer.CharacterAdded:Connect(setupCharacter)
+if LocalPlayer.Character then
+    setupCharacter(LocalPlayer.Character)
+end
+
+genv.Cow2 = nil
+genv.Cow2 = game:GetService("CoreGui").ExperienceChat.appLayout.chatWindow.scrollingView.bottomLockedScrollView
+    .RCTScrollView.RCTScrollContentView.DescendantAdded:Connect(function(descendant)
+        if descendant:IsA("TextLabel") then
+            descendant.Text = string.gsub(descendant.Text, LocalPlayer.Name, "[Hidden]")
+            descendant.Text = string.gsub(descendant.Text, LocalPlayer.DisplayName, "[Hidden]")
+        end
+    end)
+genv.Cow3 = nil
+genv.Cow3 = LocalPlayer.PlayerGui.hud.safezone.topannouncements.DescendantAdded:Connect(function(descendant)
+        if descendant:IsA("TextLabel") then
+            descendant.Text = string.gsub(descendant.Text, LocalPlayer.Name, "[Hidden]")
+            descendant.Text = string.gsub(descendant.Text, LocalPlayer.DisplayName, "[Hidden]")
+        end
+    end)
+for _, descendant in pairs(game:GetService("CoreGui").ExperienceChat.appLayout.chatWindow.scrollingView.bottomLockedScrollView.RCTScrollView.RCTScrollContentView:GetDescendants()) do
+    if descendant:IsA("TextLabel") then
+        descendant.Text = string.gsub(descendant.Text, LocalPlayer.Name, "[Hidden]")
+        descendant.Text = string.gsub(descendant.Text, LocalPlayer.DisplayName, "[Hidden]")
+    end
+end
+    repeat task.wait()
+        if genv.ToggledTest == false then
+    genv.Cow3:Disconnect()
+    genv.Cow3 = nil
+    genv.Cow2:Disconnect()
+    genv.Cow2 = nil
+    genv.Cow:Disconnect()
+    genv.Cow = nil
+    genv.MoneyLog:Disconnect()
+    genv.MoneyLog = nil
+
+    for _, connection in ipairs(genv.lockConnections) do
+    connection:Disconnect() 
+    end
+    genv.lockConnections = {}
+    print("Disabled Testing")
+    end
+    until genv.ToggledTest == false
+    else
+    if genv.ToggledTest == true then
+        genv.ToggledTest = false
+        lib:Notification("Hide LocalPlayer Identity", "All actions stopped. To fully disable, die using the 'Die' button in Misc > Character.", 10)
+    end
+        end
+    end,
+})
+
+sections.Visuals2:AddToggle("HideAllIdentities", {
+    Title = "Hide All Player Identities",
+    Default = false,
+    Description = "Extra Protection if you want to protect your self",
+    Callback = function(isEnabled)
+        genv.HideAllIdentitiesEnabled = isEnabled
+
+        local function safeCall(func)
+            local success, result = pcall(func)
+            if not success then
+                warn("Error occurred: ", result)
+            end
+        end
+
+        local function hideIdentityForCharacter(character)
+            for _, descendant in ipairs(character:GetDescendants()) do
+                safeCall(function()
+                    -- Check for and modify or remove name tags and other elements related to user information
+                    if descendant:IsA("BillboardGui") then
+                        local user = descendant:FindFirstChild("user")
+                        if user then
+                            -- Hide user-related information
+                            if user:FindFirstChild("user") then
+                                user.user.Text = "[Hidden]"
+                            end
+                            if user:FindFirstChild("level") then
+                                user.level.Text = "[Hidden]"
+                            end
+                            if user:FindFirstChild("streak") then
+                                user.streak.Text = "[Hidden]"
+                            end
+                            if user:FindFirstChild("title") then
+                                user.title.Text = "[Hidden]"
+                            end
+                        end
+                    end
+
+                    if character:FindFirstChild("Shirt") then character.Shirt:Destroy() end
+                    if character:FindFirstChild("Pants") then character.Pants:Destroy() end
+
+                    if descendant:IsA("Accessory") or descendant:IsA("CharacterMesh") or (descendant:IsA("Decal") and descendant.Name == "face") then
+                        descendant:Destroy()
+                    end
+
+                    -- Remove tags or other UI elements
+                    if descendant:IsA("TextLabel") or descendant:IsA("TextButton") then
+                        if descendant.Text then
+                            descendant.Text = "[Hidden]"
+                        end
+                    end
+                    
+                    -- Remove character meshes, accessories, and face decals
+                    if descendant:IsA("CharacterMesh") or descendant:IsA("Accessory") or descendant:IsA("SpecialMesh") or (descendant:IsA("Decal") and descendant.Name == "face") then
+                        descendant:Destroy()
+                    elseif descendant:IsA("BasePart") then
+                        descendant.Material = Enum.Material.Rubber
+                    end
+                end)
+            end
+        end
+
+        function lockText(property, target, value)
+            target[property] = value
+            local connection = target:GetPropertyChangedSignal(property):Connect(function()
+                if target[property] ~= value then
+                    target[property] = value
+                end
+            end)
+            table.insert(genv.lockConnections2, connection)
+        end
+
+        function lockTextSafe(path, text)
+            local success, err = pcall(function()
+                lockText("Text", path, text)
+            end)
+            if not success then
+                warn("Failed to set lockText: " .. err)
+            end
+        end
+
+        local function hideAllPlayers()
+            local players = Players
+            local roactProvider = game:GetService("CoreGui"):FindFirstChild("RoactAppExperimentProvider")
+            if not roactProvider then
+                warn("Please wait till your game is fully loaded")
+                return
+            end
+
+            _G.offsetFrame = roactProvider.Children:FindFirstChild("OffsetFrame")
+            if _G.offsetFrame then
+                local undoFrame = game:GetService("CoreGui").RoactAppExperimentProvider.Children.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+
+                if undoFrame then
+                    for _, player in ipairs(players:GetPlayers()) do
+                        local playerFrame = undoFrame:FindFirstChild("p_"..player.UserId)
+                        if playerFrame then
+                            local userFrame = playerFrame:WaitForChild("ChildrenFrame")
+                            local playerNameLabel = userFrame:WaitForChild("NameFrame"):WaitForChild("BGFrame"):WaitForChild("OverlayFrame"):WaitForChild("PlayerName"):WaitForChild("PlayerName")
+                            lockTextSafe(playerNameLabel, "[Hidden]")
+                            
+                            local gameStatCLabel = userFrame:WaitForChild("GameStat_C$"):WaitForChild("OverlayFrame"):WaitForChild("StatText")
+                            lockTextSafe(gameStatCLabel, "★★★★★")
+
+                            local gameStatLevelLabel = userFrame:WaitForChild("GameStat_Level"):WaitForChild("OverlayFrame"):WaitForChild("StatText")
+                            lockTextSafe(gameStatLevelLabel, "∞")
+                        end
+                    end
+                end
+            end
+        end
+
+        local function hideChatMessages()
+            safeCall(function()
+                local chat = game:GetService("CoreGui"):FindFirstChild("ExperienceChat")
+                if chat then
+                    local players = Players
+                    local playerNames = {}
+
+                    -- Collect all player names and display names
+                    for _, player in ipairs(players:GetPlayers()) do
+                        table.insert(playerNames, player.Name)
+                        table.insert(playerNames, player.DisplayName)
+                    end
+
+                    -- Iterate through all descendants of the chat
+                    for _, descendant in ipairs(chat:GetDescendants()) do
+                        if descendant:IsA("TextLabel") and descendant.Text then
+                            -- Replace each player's name and display name with "[Hidden]"
+                            for _, name in ipairs(playerNames) do
+                                descendant.Text = descendant.Text:gsub(name, "[Hidden]")
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+
+        local function hideAllIdentities()
+            local players = Players
+            
+            while genv.HideAllIdentitiesEnabled do
+                -- Hide identities in the workspace
+                for _, player in ipairs(players:GetPlayers()) do
+                    if player.Character and player.Character:FindFirstChild("Humanoid") then
+                        hideIdentityForCharacter(player.Character)
+                    end
+                end
+                hideAllPlayers()
+                hideChatMessages()
+
+                task.wait() -- Adding a small wait to reduce strain
+            end
+        end
+
+        if isEnabled then
+            task.spawn(hideAllIdentities)
+        elseif genv.HideAllIdentitiesEnabled == false then
+            for _, connection in ipairs(genv.lockConnections2) do
+                connection:Disconnect() 
+            end
+            genv.lockConnections2 = {}
+            -- lib:Notification("Hide All Player Identities", "Stopped hiding all player identities.", 5)
+        end
+    end
+})
+
+
+
+-- genv.ColorBox = Color3.fromRGB(255, 255, 255)
+-- sections.Visuals3:AddColorpicker("ESPColor", {
+--     Title = "ESP Color",
+--     Default = Color3.fromRGB(255, 255, 255),
+--     Callback = function(selectedColor)
+--     genv.ColorBox = selectedColor
+--     end,
+-- })
+-- local selectedESPEventFish = {}
+-- sections.Visuals3:AddDropdown("EventESP", {
+--     Title = "Event Visual",
+--     Description = "",
+--     Options = {"The Depths - Serpent", "Megalodon", "Great Hammerhead Shark", "Great White Shark", "Whale Shark", "Isonade", "Chinook Salmon Abundance", "Arapaima Abundance", "Mackerel Abundance"},
+--     Default = {"The Depths - Serpent", "Megalodon", "Great Hammerhead Shark", "Great White Shark", "Whale Shark", "Isonade", "Chinook Salmon Abundance", "Arapaima Abundance", "Mackerel Abundance"},
+--     PlaceHolder = "Select a Certain Event",
+--     Multiple = true,
+--     Callback = function(selectedEvents)
+--         selectedESPEventFish = selectedEvents
+--     end,
+-- })
+-- local allESPEvent = {}
+-- local toggedESPEVENT = false
+
+-- sections.Visuals3:AddToggle("ToggleEVENTESP", {
+--     Title = "ESP Event",
+--     Default = true,
+--     Description = "Gives a Cool ESP Event",
+--     Callback = function(isEnabled)
+--         toggedESPEVENT = isEnabled
+
+--         if toggedESPEVENT then
+--             while toggedESPEVENT do
+--                 for _, child in pairs(workspace.zones.fishing:GetChildren()) do
+--                     if child:FindFirstChild("beacon") then
+--                         local poiHeader = child:FindFirstChild("POIHeader")
+--                         if poiHeader and poiHeader:FindFirstChild("title") and poiHeader.title:IsA("TextLabel") then
+--                             print("Event title:", poiHeader.title.Text)
+                            
+--                             -- Check if the event title matches any from `allESPEvent`
+--                             for _, event in pairs(allESPEvent) do
+--                                 if poiHeader.title.Text:find(event) then
+--                                     local object = Sense.AddInstance(child, {
+--                                         text = "{name} | {distance} | {position}", -- Placeholders
+--                                         textColor = { Color3.new(1, 1, 1), 1 },
+--                                         textOutline = true,
+--                                         textOutlineColor = Color3.new(),
+--                                         textSize = 13,
+--                                         textFont = 2,
+--                                         limitDistance = false,
+--                                         maxDistance = 150
+--                                     })
+--                                     object.options.enabled = true
+--                                     table.insert(allESPEvent, object) -- Add the ESP instance to the table
+--                                 end
+--                             end
+--                         end
+--                     end
+--                 end
+--                 wait(0.1) -- Prevent script from freezing
+--             end
+--         else
+--             -- Disable all toggles in the table
+--             for _, object in pairs(allESPEvent) do
+--                 if object.options then
+--                     object.options.enabled = false
+--                 end
+--             end
+--             allESPEvent = {} -- Clear the table
+--         end
+--     end,
+-- })
+
+sections.Visuals4:AddParagraph({Title = "Information", Description = "This feature is new and was rushed, it doesn't work with some rods and looks very scuffed. It will be improved later on."})
+
+
+local function ApplySkin(rodName, skinName)
+    if game.Players.LocalPlayer.Character:FindFirstChild("Skin") then
+        game.Players.LocalPlayer.Character:FindFirstChild("Skin"):Destroy()
+    end
+
+    local rod = services.ReplicatedStorage.resources.models.RodSkins[rodName]
+    if not rod then
+        warn("Rod not found:", rodName)
+        return
+    end
+
+    local skinModel = rod[skinName]
+    if not skinModel then
+        warn("Skin not found:", skinName)
+        return
+    end
+
+    local skin = skinModel.Skin:Clone()
+    skin.Parent = game.Players.LocalPlayer.Character
+
+    local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    local handle = tool.handle
+    local details = tool.Details
+
+    local weldToArm = handle:FindFirstChild("WeldToArm")
+    local C0 = weldToArm and weldToArm.C0 or CFrame.new()
+    local C1 = weldToArm and weldToArm.C1 or CFrame.new()
+    local CurrentAngle = weldToArm and weldToArm.CurrentAngle or 0
+
+    skin:SetPrimaryPartCFrame(game.Players.LocalPlayer.Character["Right Arm"].CFrame)
+    details:ClearAllChildren()
+
+    for _, v in pairs(skin:GetDescendants()) do
+        if v:IsA("BasePart") then
+            v.Anchored = false
+        end
+    end
+
+    local clone1 = skin.Details:Clone()
+    local clone2 = skin.handle:Clone()
+    clone1.Parent = tool
+    clone2.Parent = tool
+
+    clone2.CFrame = handle.CFrame
+    clone1.WorldPivot = details.WorldPivot
+
+    handle.Transparency = 1
+    for _, v in pairs(details:GetDescendants()) do
+        if v:IsA("BasePart") then
+            v.Transparency = 1
+        end
+    end
+
+    if not clone2:FindFirstChild("Motor6D") then
+        local newMotor = Instance.new("Motor6D")
+        newMotor.Part0 = game.Players.LocalPlayer.Character["Right Arm"]
+        newMotor.Part1 = clone2
+        newMotor.C0 = C0
+        newMotor.C1 = C1
+        newMotor.CurrentAngle = CurrentAngle
+        newMotor.Parent = clone2
+    end
+end
+    
+
+local RodSkins = services.ReplicatedStorage.resources.models.RodSkins
+local rodSkinList = {}
+
+for _, rod in ipairs(RodSkins:GetChildren()) do
+    for _, child in ipairs(rod:GetChildren()) do
+        table.insert(rodSkinList, rod.Name .. " - " .. child.Name)
+    end
+end
+
+local selectedRodName, selectedSkinName
+
+sections.Visuals4:AddDropdown("RodSkin", {
+    Title = "Rod Skins",
+    Description = "",
+    Options = rodSkinList,
+    Default = "",
+    PlaceHolder = "Select Skin",
+    Multiple = false,
+    Callback = function(selectedSkin)
+        local rodName, skinName = selectedSkin:match("^(.-) %- (.+)$")
+        if rodName and skinName then
+            selectedRodName = rodName
+            selectedSkinName = skinName
+            print("Selected Rod:", rodName, "Skin:", skinName)
+        else
+            print("Invalid selection format")
+        end
+    end,
+})
+
+local skinGroupButton = sections.Visuals4:AddGroupButton()
+
+skinGroupButton:AddButton({
+    Title = "Apply Skin",
+    Variant = "Primary",
+    Callback = function()
+        if selectedRodName and selectedSkinName then
+            ApplySkin(selectedRodName, selectedSkinName)
+        else
+            warn("No skin selected!")
+        end
+    end,
+})
+
+
+skinGroupButton:AddButton({
+    Title = "Remove Skin",
+    Variant = "Primary",
+    Callback = function()
+        lib:Notification("Remove Skin", "This doesn't do anything yet, to remove it just equip a different rod then re-equip the rod.", 8)
+    end
+})
+
+--[[3itx Code]]--
+genv.selectedBoatLocation = nil
+genv.SelectedBoatSpawn = nil
+
+local BoatsDataSheet = {
+    ["Moosewood"] = {
+        ["Coords"] = {357.9726, 133.616, 258.1545},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Moosewood Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Moosewood Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Sunstone"] = {
+        ["Coords"] = {-945.2999, 131.0788, -1116.2346},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Sunstone Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Sunstone Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Statue"] = {
+        ["Coords"] = {23.2196, 135.0304, -1007.0291},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Statue Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Statue Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Snowcap"] = {
+        ["Coords"] = {2622.9399, 136.2839, 2401.3052},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Snowcap Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Snowcap Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Ancient"] = {
+        ["Coords"] = {5869.421875, 143.49795532226562, 7.101318359375},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Ancient Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Ancient Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Terrapin"] = {
+        ["Coords"] = {-186.7543, 132.5000, 1922.5327},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Terrapin Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Terrapin Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["North"] = {
+        ["Coords"] = {19609.19140625, 131.42013549804688, 5186.5927734375},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Summit Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Summit Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Roslit"] = {
+        ["Coords"] = {-1452.0543, 133.0000, 745.1692},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Roslit Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Roslit Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+    ["Mushgrove"] = {
+        ["Coords"] = {2453.9727, 130.5296, -661.6033},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Mushgrove Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Mushgrove Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    },
+        ["Forsaken"] = {
+        ["Coords"] = {-2476.388427734375, 130.1121368408203, 1540.5460205078125},
+        ["Loaded"] = false,
+        ["Path"] = 'workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Forsaken Shipwright")',
+        ["remote"] = function()
+            return workspace:WaitForChild("world")
+                :WaitForChild("npcs")
+                :WaitForChild("Forsaken Shipwright")
+                :WaitForChild("shipwright")
+                :WaitForChild("giveUI")
+                :InvokeServer()
+        end
+    }
+}
+
+genv.BoatLocations = {}
+genv.Boats = {}
+
+for _, v in pairs(services.ReplicatedStorage:WaitForChild("playerstats"):WaitForChild(services.Players.LocalPlayer.Name):WaitForChild("Boats"):GetChildren()) do
+    table.insert(genv.Boats, v.Name)
+end
+for Sex, _ in pairs(BoatsDataSheet) do
+    table.insert(genv.BoatLocations, Sex)
+end
+
+sections.Misc4:AddDropdown("",{
+    Title = "Spawn Location",
+    Description = "",
+    Options = genv.BoatLocations,
+    Default = "",
+    PlaceHolder = "Select a Spawn Location",
+    Multiple = false,
+    Callback = function(BoatLocation)
+    genv.selectedBoatLocation = BoatLocation
+    end,
+})
+local BoatsDropdown
+BoatsDropdown = sections.Misc4:AddDropdown("",{
+    Title = "Select Boat",
+    Description = "",
+    Options = genv.Boats,
+    Default = "",
+    PlaceHolder = "Select a Boat",
+    Multiple = false,
+    Callback = function(Boat)
+    genv.SelectedBoatSpawn = Boat
+    end,
+})
+local BoatOptions = sections.Misc4:AddGroupButton()
+BoatOptions:AddButton({
+    Title = "Refresh Boat List",
+    Variant = "Primary",
+    Callback = function()
+    table.clear(genv.Boats)
+    for _, v in pairs(services.ReplicatedStorage:WaitForChild("playerstats"):WaitForChild(services.Players.LocalPlayer.Name):WaitForChild("Boats"):GetChildren()) do
+    table.insert(genv.Boats, v.Name)
+    end
+    BoatsDropdown:Refresh(genv.Boats,true)
+    BoatsDropdown:Set(genv.SelectedBoatSpawn)
+    end,
+})
+
+BoatOptions:AddButton({
+    Title = "Spawn Boat",
+    Variant = "Primary",
+    Callback = function()
+        local selectedBoatName = genv.SelectedBoatSpawn
+        local selectedBoatLocation = genv.selectedBoatLocation
+        
+        if selectedBoatName and selectedBoatLocation then
+            local boatData = BoatsDataSheet[selectedBoatLocation]
+            
+            if boatData then
+                if boatData.Loaded then
+                    boatData.remote()
+                    task.wait()
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.backpack.Visible = true
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible = false
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/Boats/Spawn"):InvokeServer(selectedBoatName)
+                else
+                    local coords = boatData.Coords
+                    local player = game.Players.LocalPlayer
+                    local position = Vector3.new(unpack(coords))
+                    player:RequestStreamAroundAsync(position)
+                    local path = loadstring("return " .. boatData.Path)()
+                    path.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+                    prompt(path)
+                    task.wait()
+                    boatData.remote()
+                    task.wait()
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.backpack.Visible = true
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible = false
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/Boats/Spawn"):InvokeServer(selectedBoatName)
+                    boatData.Loaded = true
+                end
+            else
+                lib:Notification("Boat Error", "Invalid boat selected.", 3)
+            end
+        else
+            lib:Notification("Boat Error", "Please select a boat and location to work.", 3)
+        end
+    end,
+})
+
+
+
+BoatOptions:AddButton({
+    Title = "Despawn Boat",
+    Variant = "Primary",
+    Callback = function()
+        local player = services.Players.LocalPlayer
+        local activeBoat = workspace.active.boats:FindFirstChild(player.Name)
+
+        if activeBoat then
+            services.ReplicatedStorage.packages.Net["RE/Boats/Despawn"]:FireServer()
+        else
+            lib:Notification("Boat Error", "No Active Boat Found!", 3)
+        end
+    end,
+})
+
+BoatOptions:AddButton({
+    Title = "Spawn Boat Near you",
+    Variant = "Primary",
+    Callback = function()
+        local selectedBoatName = genv.SelectedBoatSpawn
+        local selectedBoatLocation = "Moosewood"
+
+        if selectedBoatName and selectedBoatLocation then
+            local boatData = BoatsDataSheet[selectedBoatLocation]
+
+            if boatData then
+                if boatData.Loaded then
+                    boatData.remote()
+                    task.wait()
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.backpack.Visible = true
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible = false
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/Boats/Spawn"):InvokeServer(selectedBoatName)
+                else
+                    local coords = boatData.Coords
+                    local player = game.Players.LocalPlayer
+                    local position = Vector3.new(unpack(coords))
+                    player:RequestStreamAroundAsync(position)
+                    local path = loadstring("return " .. boatData.Path)()
+                    path.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+                    prompt(path)
+                    task.wait()
+                    boatData.remote()
+                    task.wait()
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.backpack.Visible = true
+                    services.Players.LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible = false
+                    services.ReplicatedStorage:WaitForChild("packages"):WaitForChild("Net"):WaitForChild("RF/Boats/Spawn"):InvokeServer(selectedBoatName)
+                    boatData.Loaded = true
+                end
+                local playerBoat = game:GetService("Workspace"):WaitForChild("active"):WaitForChild("boats"):WaitForChild(services.Players.LocalPlayer.Name):FindFirstChildOfClass("Model")
+                if playerBoat and playerBoat:FindFirstChild("Base") then
+                    local playerPosition = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                    local direction = Vector3.new(0, -1, 0) -- Downward ray to find ground
+                    local distance = 20 -- Raycast distance
+                    local ignoreList = {playerBoat, game.Players.LocalPlayer.Character} -- Ignore the boat and player
+                    local rayOrigin = playerPosition + Vector3.new(0, 5, -10) -- Adjust initial position to be above and behind the player
+
+                    -- Find the nearest safe position
+                    local hit, hitPosition = game.Workspace:FindPartOnRayWithIgnoreList(Ray.new(rayOrigin, direction * distance), ignoreList)
+
+                    if hit then
+                        -- Adjust position slightly above the ground to avoid embedding
+                        local safePosition = hitPosition + Vector3.new(0, playerBoat.Base.Size.Y / 2, 0)
+                        playerBoat.Base.CFrame = CFrame.new(safePosition)
+                    else
+                        lib:Notification("Boat Error", "Could not find a safe place to spawn the boat.", 3)
+                    end
+                end
+            else
+                lib:Notification("Boat Error", "Invalid boat selected.", 3)
+            end
+        else
+            lib:Notification("Boat Error", "Please select a boat and location to work.", 3)
+        end
+    end,
+})
+
+
+sections.Misc4:AddTextbox({
+    Title = "Custom Coords Boat TP",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Enter Coords | Example: 1234,128,1239",
+    TextDisappear = true,
+    Callback = function(Vector)
+        local function stringToVector3(inputString)
+            inputString = inputString:gsub("%s+", "")
+            local xStr, yStr, zStr = inputString:match("([^,]+),([^,]+),([^,]+)")
+            local x = tonumber(xStr)
+            local y = tonumber(yStr)
+            local z = tonumber(zStr)
+            if x and y and z then
+                return Vector3.new(x, y, z)
+            else
+                error("Invalid input: Please enter values in the format 'X, Y, Z'")
+            end
+        end
+
+        local playerBoat = game:GetService('Workspace'):WaitForChild("active"):WaitForChild("boats"):WaitForChild(services.Players.LocalPlayer.Name):FindFirstChildOfClass("Model")
+        if playerBoat then
+            local owner = playerBoat:FindFirstChild("owner")
+            if owner then
+                local sitPrompt = owner:FindFirstChild("sitprompt")
+                if sitPrompt and sitPrompt.Enabled then
+                    fireproximityprompt(sitPrompt)
+                    task.wait()
+                    local planePart = playerBoat:FindFirstChild("PlanePart")
+                    if planePart then
+                        local planeConstraint = planePart:FindFirstChild("PlaneConstraint")
+                        if planeConstraint then
+                            planeConstraint.Enabled = false
+                        end
+                    end
+                    playerBoat.Base.CFrame = CFrame.new(stringToVector3(Vector))
+                elseif sitPrompt and sitPrompt.Enabled == false then 
+                    local planePart = playerBoat:FindFirstChild("PlanePart")
+                    if planePart then
+                        local planeConstraint = planePart:FindFirstChild("PlaneConstraint")
+                        if planeConstraint then
+                            planeConstraint.Enabled = false
+                        end
+                    end
+                    playerBoat.Base.CFrame = CFrame.new(stringToVector3(Vector))
+                end
+            end
+        end
+    end
+})
+
+sections.Misc4:AddDropdown("", {
+    Title = "Perfered Boat TP Spots",
+    Description = "",
+    Options = genv.TpSpotsName,
+    Default = "",
+    PlaceHolder = "Select Spot",
+    Multiple = false,
+    Callback = function(selectedArea)
+        _G.TPSpots = workspace.world.spawns.TpSpots:FindFirstChild(selectedArea)
+        
+        if _G.TPSpots then
+            local playerBoat = game:GetService('Workspace'):WaitForChild("active"):WaitForChild("boats"):WaitForChild(services.Players.LocalPlayer.Name):FindFirstChildOfClass("Model")
+        if playerBoat then
+            local owner = playerBoat:FindFirstChild("owner")
+            if owner then
+                local sitPrompt = owner:FindFirstChild("sitprompt")
+                if sitPrompt and sitPrompt.Enabled then
+                    fireproximityprompt(sitPrompt)
+                    task.wait()
+                    local planePart = playerBoat:FindFirstChild("PlanePart")
+                    if planePart then
+                        local planeConstraint = planePart:FindFirstChild("PlaneConstraint")
+                        if planeConstraint then
+                            planeConstraint.Enabled = false
+                        end
+                    end
+                    playerBoat.Base.CFrame = CFrame.new(_G.TPSpots.Position.X,_G.TPSpots.Position.Y,_G.TPSpots.Position.Z)
+                elseif sitPrompt and sitPrompt.Enabled == false then 
+                    local planePart = playerBoat:FindFirstChild("PlanePart")
+                    if planePart then
+                        local planeConstraint = planePart:FindFirstChild("PlaneConstraint")
+                        if planeConstraint then
+                            planeConstraint.Enabled = false
+                        end
+                    end
+                    playerBoat.Base.CFrame = CFrame.new(_G.TPSpots.Position.X,_G.TPSpots.Position.Y,_G.TPSpots.Position.Z)
+                end
+            end
+        end
+        end
+    end
+})
+
+local BoatSettings = {
+    ["Max Speed"] = 0,
+    ["Turning Speed"] = 0,
+    ["Acceleration"] = 0,
+}
+
+if require then 
+    sections.Misc4:AddSlider("BoatMaxSpeed", {
+        Title = "Boat Max Speed",
+        Description = "Change Boat Speed",
+        Default = 1,
+        Min = 0,
+        Max = 1000,
+        Increment = 1,
+        Callback = function(value)
+            BoatSettings["Max Speed"] = value
+        end,
+    })
+    genv.UseMaxSpeed = false
+    sections.Misc4:AddToggle('', {
+        Title = 'Use Max Speed', 
+        Description = "Use Custom Max Speed",
+        Default = false,
+        Callback = function(Value)
+            genv.UseMaxSpeed = Value
+            local vesselsModule = require(services.ReplicatedStorage.modules.vessels)
+            if genv.UseMaxSpeed then
+                for boat, Properties in next, vesselsModule.library do
+                    Properties.MaxSpeed = BoatSettings["Max Speed"]
+                end
+            else
+                for boat, Properties in next, vesselsModule.library do
+                    if data.Boats[boat] then
+                        Properties.MaxSpeed = tonumber(data.Boats[boat].MaxSpeed)
+                    end
+                end
+            end
+        end,
+    })
+
+    sections.Misc4:AddSlider("TurningSpeed", {
+    Title = "Boat Turning Speed",
+    Description = "Change Turning Speed",
+    Default = 1,
+    Min = 0,
+    Max = 100,
+    Increment = 1,
+    Callback = function(value)
+        BoatSettings["Turning Speed"] = value
+    end,
+    })
+
+    genv.UseTurningSpeed = false
+    sections.Misc4:AddToggle('', {
+        Title = 'Use Turning Speed', 
+        Description = "Use Custom Turning Speed",
+        Default = false,
+        Callback = function(Value)
+            genv.UseTurningSpeed = Value
+            local vesselsModule = require(services.ReplicatedStorage.modules.vessels)
+            if genv.UseTurningSpeed then
+                for boat, Properties in next, vesselsModule.library do
+                    Properties.TurningSpeed  = BoatSettings["Turning Speed"]
+                end
+            else
+                for boat, Properties in next, vesselsModule.library do
+                    if data.Boats[boat] then
+                        Properties.TurningSpeed  = tonumber(data.Boats[boat].TurningSpeed)
+                    end
+                end
+            end
+        end,
+    })
+
+    sections.Misc4:AddSlider("BoatAcceleration ", {
+    Title = "Boat Acceleration",
+    Description = "Change Actual Boat Speed",
+    Default = 1,
+    Min = 0,
+    Max = 500,
+    Increment = 1,
+    Callback = function(value)
+        BoatSettings["Acceleration"] = value
+    end,
+    })
+
+    genv.UseAcceleration = false
+    sections.Misc4:AddToggle('', {
+        Title = 'Use Acceleration', 
+        Description = "Use Custom Acceleration",
+        Default = false,
+        Callback = function(Value)
+            genv.UseAcceleration = Value
+            local vesselsModule = require(services.ReplicatedStorage.modules.vessels)
+            if genv.UseAcceleration then
+                for boat, Properties in next, vesselsModule.library do
+                    Properties.Accel  = BoatSettings["Acceleration"]
+                end
+            else
+                for boat, Properties in next, vesselsModule.library do
+                    if data.Boats[boat] then
+                        Properties.Accel  = tonumber(data.Boats[boat].Acceleration)
+                    end
+                end
+            end
+        end,
+    })
+end
+
+
+-- local dupe = { Connections = {} }
+-- sections.Misc5:AddToggle('Toggle', {
+--     Title = 'Fish Dupe', 
+--     Description = "The more you have, the quicker it'll be. The dupe is very unstable, experiment on your own, try different servers, fishes, etc.",
+--     Default = false,
+--     Callback = function(Value)
+--         if Value then
+
+--             local fish = services.Players.LocalPlayer.Character:FindFirstChildOfClass('Tool')
+--             if not fish:FindFirstChild('link') or not fish.link.Value or not fish.link.Value:IsDescendantOf(game) or not fish:FindFirstChild('fishscript') then
+--                 lib:Notification("Fish Dupe","You are not holding a valid item.",1.5)
+--                 return
+--             end
+--             local fishname = fish.Name
+
+--             lib:Notification("Fish Dupe",'Targetting ' .. fishname .. '.',1.5)
+
+--             if ReplicatedStorage.events:FindFirstChild('anno_thought') then
+--                 ReplicatedStorage.events.anno_thought:Destroy()
+--                 Instance.new("RemoteEvent", ReplicatedStorage.events).Name = "anno_thought"
+--             end
+
+--             dupe.Connections.DupeConnection2 = RunService.RenderStepped:Connect((function()
+
+--                 task.spawn(function()
+--                     pcall(function()
+--                         workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
+--                     end)
+--                 end)
+
+--                 --local fish = LocalPlayer.Backpack:FindFirstChild(fishname) or Character:FindFirstChild(fishname)
+--                 local fish; do
+--                     --fish = LocalPlayer.Backpack:FindFirstChild(fishname) or Character:FindFirstChild(fishname)
+
+--                     if not fish then
+--                         for i,v in LocalPlayer.Backpack:GetChildren() do
+--                             if not v or v.Name ~= fishname or not v:FindFirstChild('link') or not v.link.Value or not v.link.Value:IsDescendantOf(game) or not v:FindFirstChild('fishscript') then
+--                                 continue
+--                             end
+
+--                             fish = v
+--                             break
+--                         end
+--                     end
+--                 end
+
+--                 if fish then
+--                     print('Dupe', fish.Name)
+--                     fish.Parent = services.Players.LocalPlayer.character
+--                 else
+--                     print('No fish found')
+--                     services.Players.LocalPlayer.character.Humanoid:UnequipTools()
+--                     for i,v in services.Players.LocalPlayer.character:GetChildren() do
+--                         if v:IsA('Tool') then
+--                             v.Parent = LocalPlayer.Backpack
+--                         end
+--                     end
+--                 end
+
+--             end))
+
+
+--         else
+
+--             if dupe.Connections.DupeConnection2 then
+--                 dupe.Connections.DupeConnection2:Disconnect()
+--                 dupe.Connections.DupeConnection2 = nil
+--             end
+
+--             if dupe.Connections.DupeConnection3 then
+--                 dupe.Connections.DupeConnection3:Disconnect()
+--                 dupe.Connections.DupeConnection3 = nil
+--             end
+
+--             for i,v in services.Players.LocalPlayer.character:GetChildren() do
+--                 if v:IsA('Tool') then
+--                     v.Parent = LocalPlayer.Backpack
+--                 end
+--             end
+
+--         end
+--     end
+-- })
+
+-- local DupeFishGroupButton = sections.Misc5:AddGroupButton()
+
+-- function DestroyGhostDupe()
+--     local Players = services.Players
+--     local ReplicatedStorage = services.ReplicatedStorage
+
+--     local LocalPlayer = Players.LocalPlayer
+--     local PlayerGui = LocalPlayer.PlayerGui
+--     local hud = PlayerGui:FindFirstChild("hud")
+--     local safezone = hud and hud:FindFirstChild("safezone")
+--     local backpack = safezone and safezone:FindFirstChild("backpack")
+--     local inventory = backpack and backpack:FindFirstChild("inventory")
+--     local scroll = inventory and inventory:FindFirstChild("scroll")
+--     local playerInventory = ReplicatedStorage:WaitForChild("playerstats")[LocalPlayer.Name]:WaitForChild("Inventory")
+
+--     if scroll then
+--         for _, child in pairs(scroll:GetChildren()) do
+--             if child:FindFirstChild("item") then
+--                 local itemValue = tostring(child.item.Value)
+--                 if not playerInventory:FindFirstChild(itemValue) then
+--                     child:Destroy()
+--                 end
+--             end
+--         end
+--     end
+-- end
+
+-- DupeFishGroupButton:AddButton({
+--     Title = "Delete Ghost Items",
+--     Variant = "Primary",
+--     Callback = function()
+--         DestroyGhostDupe()
+--     end,
+-- })
+
+-- DupeFishGroupButton:AddButton({
+--     Title = "Create Safe Zone",
+--     Variant = "Primary",
+--     Callback = function()
+--         local SafeZone = Instance.new("Part")
+--         SafeZone.Size = Vector3.new(15, 1, 15)
+--         SafeZone.Position = Vector3.new(math.random(-2000,2000), math.random(50000,90000), math.random(-2000,2000))
+--         SafeZone.Anchored = true
+--         SafeZone.BrickColor = BrickColor.new("Royal purple")
+--         SafeZone.Material = Enum.Material.ForceField
+--         SafeZone.Parent = game.Workspace
+--         LocalPlayer.Character.HumanoidRootPart.CFrame = SafeZone.CFrame + Vector3.new(0, 5, 0)
+--         lib:Notification("Safezone", "You need to use teleports to go back.", 7)
+--     end,
+-- })
+
+-- DupeFishGroupButton:AddButton({
+--     Title = "Copy Tutorial Video Link",
+--     Variant = "Outline",
+--     Callback = function()
+--         setclipboard("https://youtu.be/Axq0W7sOAFc")
+--         lib:Notification("Tutorial","Copied link to clipboard, just paste it.", 5)
+--     end,
+-- })
+
+--[[3itx Made this]]--
+
+-- Function to grab and format the playtime
+local function grabPlayTime()
+    local seconds = PlayerStats.tracker_timeplayed.Value or 0  -- Grab the playtime (in seconds)
+
+    -- Convert seconds to days, hours, minutes, seconds
+    local days = math.floor(seconds / 86400)  -- 1 day = 86400 seconds
+    local hours = math.floor((seconds % 86400) / 3600)  -- 1 hour = 3600 seconds
+    local minutes = math.floor((seconds % 3600) / 60)  -- 1 minute = 60 seconds
+    local remainingSeconds = math.floor(seconds % 60)  -- Remaining seconds
+
+    -- Construct the formatted string
+    local timeString = ""
+    if days > 0 then
+        timeString = timeString .. days .. "d "
+    end
+    if hours > 0 then
+        timeString = timeString .. hours .. "h "
+    end
+    if minutes > 0 then
+        timeString = timeString .. minutes .. "m "
+    end
+    if remainingSeconds > 0 or (days == 0 and hours == 0 and minutes == 0) then
+        timeString = timeString .. remainingSeconds .. "s"
+    end
+
+    return timeString
+end
+
+
+genv.WebhookURL = nil
+local UseProxy = false
+local EmbedColor = nil
+local EditDelay = 60
+function color3ToHex(color)
+    local r = math.floor(color.R * 255)
+    local g = math.floor(color.G * 255)
+    local b = math.floor(color.B * 255)
+    return string.format("#%02X%02X%02X", r, g, b)
+end
+
+function processFishingZones()
+    local names = {}
+    
+    for _, child in pairs(workspace.zones.fishing:GetChildren()) do
+        if child:FindFirstChild("beacon") then
+            local poiHeader = child:FindFirstChild("POIHeader")
+            if poiHeader and poiHeader:FindFirstChild("title") and poiHeader.title:IsA("TextLabel") then
+                local titleText = poiHeader.title.Text
+                table.insert(names, titleText)
+            end
+        end
+        
+        local abundance = child:FindFirstChild("Abundance")
+        if abundance and abundance:FindFirstChild("Chance") and abundance:FindFirstChild("Mutation") then
+            table.insert(names, child.Name)
+        end
+    end
+
+    if #names == 0 then
+        return "none"
+    end
+
+    local nameCount = {}
+    for _, name in ipairs(names) do
+        nameCount[name] = (nameCount[name] or 0) + 1
+    end
+
+    local result = {}
+    for name, count in pairs(nameCount) do
+        if count > 1 then
+            table.insert(result, name .. " (x" .. count..")")
+        else
+            table.insert(result, name)
+        end
+    end
+
+    return table.concat(result, ", ")
+end
+function getServerUptime()
+    local uptimeText = LocalPlayer.PlayerGui.serverInfo.serverInfo.uptime.Text
+    local uptime = uptimeText:gsub("Server Uptime: ", "")
+    local hours, minutes, seconds = uptime:match("(%d+):(%d+):(%d+)")
+    local formattedUptime = ""
+    if hours and tonumber(hours) > 0 then
+        formattedUptime = formattedUptime .. hours .. "h "
+    end
+    if minutes and tonumber(minutes) > 0 then
+        formattedUptime = formattedUptime .. minutes .. "m "
+    end
+    if seconds and tonumber(seconds) > 0 then
+        formattedUptime = formattedUptime .. seconds .. "s"
+    end
+    return formattedUptime:match("^%s*(.-)%s*$") 
+end
+
+local HiddenMode = false
+function StatusEmbed()
+    function NoDiddy()
+        if HiddenMode then
+        return "SPOCK User <3"
+        else
+        return "@"..LocalPlayer.DisplayName.."("..LocalPlayer.Name..")"
+        end
+    end
+    return {
+    ["title"] = tostring(NoDiddy()).." - SPOCK // Fisch",
+    ["description"] = "◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤\n"
+    .. "**« Account Info »**\n"
+    .. "🕹️ <:1036413570302345277:1320298554178273283>lvl » " .. tostring(LocalPlayer.leaderstats.Level.Value or "Error") .. "\n"
+    .. "💰 <:1032398237283385364:1320297984302514206>C$ » " .. tostring(LocalPlayer.leaderstats["C$"].Value or "Error") .. "\n"
+    .. "🔥 <:1032398237283385364:1320297984302514206>Streak » " .. (function()
+        local streak = PlayerStats.tracker_streak.Value
+        if tonumber(streak) then
+            return formatNumber(tonumber(streak))
+        else
+            return "Error"
+        end
+    end)() .. "\n"    
+    .. "🎣 <:1032398237283385364:1320297984302514206>Equipped Rod » " .. tostring(PlayerStats.rod.Value or "Error") .. "\n"
+    .. "🌏 <:1032398237283385364:1320297984302514206>Location » " .. tostring(character.zone.Value or "Error") .. "\n"
+    -- .. "✨ <:1032398237283385364:1320297984302514206>XP » " .. tostring(PlayerStats.xp.Value or "Error") .. "\n" -- it just looks bad no offense
+    .. "📦 <:1032398237283385364:1320297984302514206>Bait » " .. (function()
+        local sum = 0
+        local baitStats = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.bait
+        for _, v in ipairs(baitStats:GetChildren()) do
+            sum += tonumber(v.Value) or 0
+        end
+        return formatNumber(sum) or "Error"
+    end)() .. "\n"    
+    .. "🐟 <:1032398237283385364:1320297984302514206>Total Caught » " .. (function()
+        local fishCaught = PlayerStats.tracker_fishcaught.Value
+        if tonumber(fishCaught) then
+            return formatNumber(tonumber(fishCaught))
+        else
+            return "Error"
+        end
+    end)() .. "\n"    
+    .. "🎒 <:1032398237283385364:1320297984302514206>Inventory Value » " .. tostring(calculateInventoryValue() or "Error") .. "\n"
+    .. "⌛ <:10364135703023452772:1320300405632270356>Time Played » " .. grabPlayTime() .. "\n\n"
+    .. "**« Server Info »**\n"
+    .. "🌧️ <:1036413570302345277:1320298554178273283>Weather » " .. tostring(ReplicatedStorage.world.weather.Value or "Error") .. "\n"
+    .. "🌥️ <:1032398237283385364:1320297984302514206>Time » " .. tostring(ReplicatedStorage.world.cycle.Value or "Error") .. "\n"
+    .. "🌿 <:1032398237283385364:1320297984302514206>Season » " .. tostring(ReplicatedStorage.world.season.Value or "Error") .. "\n"
+    .. "🌆 <:1032398237283385364:1320297984302514206>Event » " .. tostring(ReplicatedStorage.world.event.Value or "Error") .. "\n"
+    .. "🦈 <:1032398237283385364:1320297984302514206>Event Fish » " .. tostring(processFishingZones() or "Error") .. "\n"
+    .. "🕓 <:1032398237283385364:1320297984302514206>Server Uptime » " .. tostring(getServerUptime() or "Error") .. "\n"
+    .. "📍 <:1032398237283385364:1320297984302514206>Server Location » " 
+        .. tostring(ReplicatedStorage:WaitForChild("world"):WaitForChild("region_country").Value or "Error") .. ", "
+        .. tostring(ReplicatedStorage:WaitForChild("world"):WaitForChild("region_region").Value or "Error") .. ", "
+        .. tostring(ReplicatedStorage:WaitForChild("world"):WaitForChild("region_city").Value or "Error") .. "\n"
+    .. "🍚 <:1032398237283385364:1320297984302514206>Version » " .. tostring(ReplicatedStorage:WaitForChild("world"):WaitForChild("version").Value or "Error") .. "\n"
+    .. "👥 <:10364135703023452772:1320300405632270356>Players » " .. tostring(#Players:GetPlayers() or "Error") .. "\n"
+    .. "◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤\n"
+    .. "-# Updating in <t:" .. tostring((os.time() + (EditDelay or 0)) or "Error") .. ":R>",
+    ["color"] = discordColor,
+    ["thumbnail"] = {["url"] = "https://you.whimper.xyz/sources/SPOCK/e-z/nfamu2z5i9b88fitmk.png"}
+    }
+end
+function StoppedEmbed()
+    return {
+        ["title"] = "Webhook Has Been Stopped :skull:",
+        ["description"] = "```ansi\n" ..
+                          "[2;43m[2;37m[1;37mThanks for using SPOCK Webhook's[0m[2;37m[2;43m[0m[2;43m[0m\n" ..
+                          "```",
+        ["color"] = 16711680, -- This color is for the embed border
+        ["thumbnail"] = {
+            ["url"] = "https://you.whimper.xyz/sources/SPOCK/e-z/nfamu2z5i9b88fitmk.png"
+        }
+    }
+end
+
+local function checkWebhook(url)
+    local success, response = pcall(function()
+        return request({
+            Url = url,
+            Method = "GET"
+        })
+    end)
+
+    if not success then
+        print("An error occurred: " .. tostring(response))
+        return false
+    else
+        if response.StatusCode == 200 then
+            return true 
+        elseif response.StatusCode == 401 then
+            return false
+        else
+            lib:Notification("Webhook Settings","Error has been Caught" ..response.StatusCode , 5)
+            return false
+        end
+    end
+end
+
+function replaceWebhookURL(webhookLink)
+    webhookLink = webhookLink:gsub("https://canary%.?", "https://"):gsub("https://ptb%.?", "https://") or webhookLink
+    webhookLink = webhookLink:gsub("https://discord%.com/api/webhooks/", "https://webhook.lewisakura.moe/api/webhooks/"):gsub("https://discordapp%.com/api/webhooks/","https://webhook.lewisakura.moe/api/webhooks/")
+    return webhookLink
+end
+
+genv.StatusWebhook = false
+sections.Webhook1:AddTextbox({
+    Title = "Webhook URL",
+    PlaceHolder = "Insert Webhook URL",
+    Default = "",
+    Description = "",
+    TextDisappear = true,
+    Callback = function(Webhook)
+        local isAlive = checkWebhook(Webhook)
+        if isAlive then
+            if UseProxy then
+                genv.WebhookURL = replaceWebhookURL(Webhook)
+            else
+                genv.WebhookURL = Webhook
+            end
+        else
+            lib:Notification("Webhook Settings","Webhook is not a valid Link please Provide a Valid Webhook link", 5)
+        end
+    end
+})
+sections.Webhook1:AddToggle("UseProxy", {
+    Title = "Use Proxy",
+    Default = true,
+    Description = "",
+    Callback = function(isEnabled)
+    UseProxy = isEnabled
+    end
+})
+
+sections.Webhook2:AddColorpicker("EmbedColor", {
+    Title = "Embed Color",
+    Default = Color3.fromRGB(208, 157, 255),
+    Callback = function(selectedColor)
+        -- Extract and scale RGB values from Color3
+        local red = math.floor(selectedColor.R * 255)
+        local green = math.floor(selectedColor.G * 255)
+        local blue = math.floor(selectedColor.B * 255)
+        
+        -- Convert to Discord embed color format
+        discordColor = red * 65536 + green * 256 + blue
+        
+        -- Print the formatted color
+        -- print("Discord Embed Color:", discordColor)
+    end,
+})
+
+
+sections.Webhook2:AddTextbox({
+    Title = "Edit Embed Delay (s)",
+    Default = "",
+    Description = "",
+    PlaceHolder = "Insert a Delay",
+    TextDisappear = false,
+    Callback = function(Delay)
+        EditDelay = Delay
+    end
+})
+
+sections.Webhook2:AddToggle("HiddenToggle", {
+    Title = "Hide from the Feds",
+    Default = false,
+    Description = "Won't show your name in the webhook message.",
+    Callback = function(isEnabled)
+    HiddenMode = isEnabled
+    end
+})
+
+local function sendWebhook()
+    local data = {
+        ["content"] = "",
+        ["embeds"] = {StatusEmbed()}
+    }
+
+    local jsonData = HttpService:JSONEncode(data)
+
+    local headers = {
+        ["content-type"] = "application/json"
+    }
+
+    local response = request({
+        Url = genv.WebhookURL .. "?wait=true",
+        Method = "POST",
+        Headers = headers,
+        Body = jsonData
+    })
+
+    if response.StatusCode == 200 then
+        local responseBody = HttpService:JSONDecode(response.Body)
+        local messageId = responseBody.id
+        print("Message ID:", messageId)
+
+        return messageId
+    else
+        print("Error sending webhook message:", response.StatusCode, response.StatusMessage)
+        return nil
+    end
+end
+
+local function sendStoppedEmbed(messageId)
+    local stoppedData = {
+        ["embeds"] = {StoppedEmbed()}
+    }
+    local stoppedJsonData = HttpService:JSONEncode(stoppedData)
+
+    local headers = {
+        ["content-type"] = "application/json"
+    }
+
+    local stoppedResponse = request({
+        Url = genv.WebhookURL .. "/messages/" .. messageId,
+        Method = "PATCH",
+        Headers = headers,
+        Body = stoppedJsonData
+    })
+
+    if stoppedResponse.StatusCode == 200 then
+        print("Webhook stopped message sent successfully!")
+    else
+        print("Error sending stopped message:", stoppedResponse.StatusCode, stoppedResponse.StatusMessage)
+    end
+end
+
+local function editWebhook(messageId)
+    while genv.StatusWebhook do
+        task.wait(EditDelay)
+
+        local data = {
+            ["embeds"] = {StatusEmbed()}
+        }
+
+        local jsonData = HttpService:JSONEncode(data)
+
+        local headers = {
+            ["content-type"] = "application/json"
+        }
+
+        local editResponse = request({
+            Url = genv.WebhookURL .. "/messages/" .. messageId,
+            Method = "PATCH",
+            Headers = headers,
+            Body = jsonData
+        })
+
+        if editResponse.StatusCode == 200 then
+            print("Message edited successfully!")
+        else
+            print("Error editing message:", editResponse.StatusCode, editResponse.StatusMessage)
+        end
+    end
+    sendStoppedEmbed(messageId)
+end
+
+sections.Webhook3:AddToggle("StartStatusWebhook", {
+    Title = "Start Status",
+    Default = false,
+    Description = "",
+    Callback = function(isEnabled)
+        genv.StatusWebhook = isEnabled
+        if isEnabled then
+            local messageId = sendWebhook()
+            if messageId then
+                editWebhook(messageId)
+            end
+        else
+            genv.StatusWebhook = false
+        end
+    end
+})
+
+local playerName = LocalPlayer.Name
+local playerStats = ReplicatedStorage:WaitForChild("playerstats"):WaitForChild(playerName)
+local inventory = playerStats:WaitForChild("Inventory")
+local data1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Catto-YFCN/GoofyData/refs/heads/main/DataFishOnly"))()
+local data2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Catto-YFCN/GoofyData/refs/heads/main/FishImages"))()
+
+genv.lol = false
+local connections = {} -- To store connections for cleanup
+
+local function createWebhookEmbed(title, description, imageURL, thumbnailURL)
+    return {
+        ["title"] = title,
+        ["description"] = description,
+        ["color"] = 0,
+        ["image"] = { ["url"] = imageURL },
+        ["thumbnail"] = { ["url"] = thumbnailURL }
+    }
+end
+
+
+local function sendWebhook2(embed)
+    local data = {
+        ["content"] = "",
+        ["embeds"] = { embed }
+    }
+    local jsonData = HttpService:JSONEncode(data)
+    local headers = { ["content-type"] = "application/json" }
+
+    local response = request({
+        Url = genv.WebhookURL,
+        Method = "POST",
+        Headers = headers,
+        Body = jsonData
+    })
+
+    print("Webhook sent with status:", response.StatusCode)
+end
+
+
+local function onValueChanged(value)
+    if not value or not value:IsA("ValueBase") then
+        print("Error: Invalid value detected:", tostring(value))
+        return
+    end
+
+    local parent = value.Parent
+    if not parent then
+        print("Error: Parent not found for value:", value.Name)
+        return
+    end
+    task.wait()
+    local description = "<:1036413570302345277:1320298554178273283> **Fish Name:** " .. parent.Name:gsub("%d", "") .. "\n"
+    for _, child in ipairs(parent:GetChildren()) do
+        if child:IsA("ValueBase") or child:IsA("BoolValue") then
+            description = description .. "<:1032398237283385364:1320297984302514206> **" .. child.Name .. ":** " .. tostring(child.Value) .. "\n"
+        end
+    end
+    description = description .. "<:1032398237283385364:1320297984302514206> ** Rarity ** : " .. tostring(data1.Fish[tostring(parent.Name:gsub("%d", ""))].Rarity or "Unknown") .. "\n" .. "<:10364135703023452772:1320300405632270356> **Total Price** : " .. tostring(GetBackPackItemValue(parent.Name)) .. "\n**Showcase Image:**"
+
+    local embed = createWebhookEmbed(
+        "SPOCK Auto Catcher Notifier",
+        description,
+        tostring(data2.ImageLinks[tostring(parent.Name:gsub("%d", ""))].Link) or "https://stablepoint.com/assets/uploads/images/blog/503-image1.jpg?v=1636710553",
+        "https://you.whimper.xyz/sources/SPOCK/e-z/nfamu2z5i9b88fitmk.png"
+    )
+    sendWebhook2(embed)
+end
+
+local function monitorItem(item)
+    if not genv.lol then return end
+    
+    -- Monitor the item itself if it's a ValueBase
+    if item:IsA("ValueBase") then
+        local connection = item.Changed:Connect(function()
+            if not genv.lol then
+                connection:Disconnect()
+                return
+            end
+            onValueChanged(item)
+        end)
+        table.insert(connections, connection)
+    end
+    
+    -- Monitor all children
+    for _, child in ipairs(item:GetChildren()) do
+        monitorItem(child)
+    end
+    
+    -- Monitor for new children being added
+    local childAddedConnection = item.ChildAdded:Connect(function(newChild)
+        if not genv.lol then
+            childAddedConnection:Disconnect()
+            return
+        end
+        monitorItem(newChild)
+    end)
+    table.insert(connections, childAddedConnection)
+end
+
+
+local function onInventoryItemAdded(newItem)
+    if not genv.lol then return end
+    task.wait()
+    local description = "<:1036413570302345277:1320298554178273283> **Fish Name:** " .. newItem.Name:gsub("%d", "") .. "\n"
+    for _, child in ipairs(newItem:GetChildren()) do
+        if child:IsA("ValueBase") or child:IsA("BoolValue") then
+            description = description .. "<:1032398237283385364:1320297984302514206> **" .. child.Name .. ":** " .. tostring(child.Value) .. "\n"
+        end
+    end
+    description = description .. "<:1032398237283385364:1320297984302514206> ** Rarity ** : " .. tostring(data1.Fish[tostring(newItem.Name:gsub("%d", ""))].Rarity or "Not Found") .. "\n" .. "<:10364135703023452772:1320300405632270356> **Total Price** : " .. tostring(GetBackPackItemValue(newItem.Name) or "Not Found") .. "\n**Showcase Image:**"
+
+    task.wait()
+    local embed = createWebhookEmbed(
+        "SPOCK Auto Catcher Notifier",
+        description,
+        tostring(data2.ImageLinks[tostring(newItem.Name:gsub("%d", ""))].Link),
+        "https://you.whimper.xyz/sources/SPOCK/e-z/nfamu2z5i9b88fitmk.png"
+    )
+    sendWebhook2(embed)
+    task.wait()
+    for _, child in ipairs(newItem:GetChildren()) do
+        if child:IsA("ValueBase") or child:IsA("BoolValue") then
+            child.Changed:Connect(onValueChanged)
+        end
+    end
+end
+
+local function toggleMonitoring(isEnabled)
+    genv.lol = isEnabled
+
+    for _, connection in ipairs(connections) do
+        if typeof(connection) == "RBXScriptConnection" then
+            connection:Disconnect()
+        end
+    end
+    table.clear(connections)
+    
+    if isEnabled then
+        local inventoryConnection = inventory.ChildAdded:Connect(function(newItem)
+            if not genv.lol then return end
+            onInventoryItemAdded(newItem)
+            monitorItem(newItem)
+        end)
+        table.insert(connections, inventoryConnection)
+        
+        for _, item in ipairs(inventory:GetChildren()) do
+            monitorItem(item)
+        end
+    end
+end
+
+sections.Webhook3:AddToggle("", {
+    Title = "Start Logging Catches",
+    Default = false,
+    Description = "",
+    Callback = toggleMonitoring
+})
+
+
+coroutine.wrap(function()
+    while true do
+        pcall(function()
+            updateAppraiseDescription()
+        end)
+        task.wait(1)
+    end
+end)()
+
+
+FlagsManager:SetLibrary(lib)
+FlagsManager:SetIgnoreIndexes({})
+FlagsManager:SetFolder("SPOCK/Fisch")
+FlagsManager:InitSaveSystem(tabs.Config)
+
+local themes =  tabs.Config:AddSection({Title = "Themes", Description = "if you want to create your own theme u can submit it to the offical discord server", Defualt = true , Locked = true})
+local CustomThemes = {}
+local StoredThemes = loadstring(game:HttpGet("https://you.whimper.xyz/sources/SPOCK/themes.lua"))()
+
+for v,_ in pairs(StoredThemes) do
+table.insert(CustomThemes, v)
+end
+
+themes:AddDropdown("Themes", {
+    Title = "Choose Theme",
+    Description = "",
+    Options = CustomThemes,
+    Default = "default",
+    PlaceHolder = "Select Theme",
+    Multiple = false,
+    Callback = function(Theme)
+        lib:SetTheme(Theme)
+    end,
+})
+
+function colorToHex(color)
+    local r = math.floor(color.R * 255)
+    local g = math.floor(color.G * 255)
+    local b = math.floor(color.B * 255)
+    return string.format("%02X%02X%02X", r, g, b)
+end
+
+sections.Gradient:AddColorpicker("GradientStart", {
+    Title = "Gradient Starting Color",
+    Default = Color3.new(1.000000, 1.000000, 1.000000),
+    Callback = function(selectedColor)
+        startingGradient = colorToHex(selectedColor)
+        print("Selected Color in Hex: " .. startingGradient)
+    end,
+})
+
+sections.Gradient:AddColorpicker("GradientEnd", {
+    Title = "Gradient Ending Color",
+    Default = Color3.new(1.000000, 1.000000, 1.000000),
+    Callback = function(selectedColor)
+        endingGradient = colorToHex(selectedColor)
+        print("Selected Color in Hex: " .. endingGradient)
+    end,
+})
+
+sections.Gradient:AddButton({
+    Title = "Copy Gradient Config",
+    Variant = "Outline",
+    Callback = function()
+        setclipboard('getgenv().GradientColor = {\n    startingColor = "' .. startingGradient .. '",\n    endingColor = "' .. endingGradient .. '"\n}\nscript_key="Insert SPOCK Key Here";\nloadstring(game:HttpGet("https://you.whimper.xyz/sources/SPOCK/main.lua"))()')
+        lib:Notification("Gradient", "Successfully copied gradient config to clipboard.", 5)
+    end,
+})
