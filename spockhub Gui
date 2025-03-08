@@ -1390,7 +1390,7 @@ if IKAI then
 	end
 end
 
-      local Window = library:Window("SPOCK",[[Hub]],[[Version : Leak  ]],"86275546587745",Enum.KeyCode.RightControl)
+      local Window = library:Window("Nguyễn Minh Thư",[[Hub]],[[Version : Leak  ]],"86275546587745",Enum.KeyCode.RightControl)
       local General_Tab = Window:AddTab("General",[[7040391851]])
      local Quest_Tab = Window:AddTab("Quest & Item",[[9606626859]])
 
