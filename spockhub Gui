@@ -2,7 +2,7 @@ ReplicatedStorage = game:GetService("ReplicatedStorage")
 local SoundService = game:GetService("SoundService")
 local TweenService = game:GetService("TweenService")
 
-local soundId = "rbxassetid://130785805" 
+local soundId = "rbxassetid://86275546587745" 
 local sound = Instance.new("Sound")
 sound.Name = "ButtonClickSound"
 sound.SoundId = soundId
@@ -27,7 +27,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0) 
 ImageButton.AnchorPoint = Vector2.new(0.5, 0) 
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
-ImageButton.Image = "rbxassetid://83756310740222"
+ImageButton.Image = "rbxassetid://86275546587745"
 
 UICorner.CornerRadius = UDim.new(1, 0) 
 UICorner.Parent = ImageButton
@@ -61,7 +61,7 @@ if IKAI then
 	local Mouse = LocalPlayer:GetMouse()
 	local tween = game:GetService("TweenService")
 	local Red = {RainbowColorValue = 0, HueSelectionPosition = 0}
-	local LogoButton = [[83756310740222]]
+	local LogoButton = [[86275546587745]]
 	
 	
 	local function Tween(instance, properties,style,wa)
@@ -103,7 +103,7 @@ if IKAI then
 		Shadow = {
 			Name = "Shadow",
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=83756310740222",
+			Image = "http://www.roblox.com/asset/?id=86275546587745",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(23,23,277,277),
 			Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
@@ -1390,7 +1390,7 @@ if IKAI then
 	end
 end
 
-      local Window = library:Window("SPOCK",[[Hub]],[[Version : Leak  ]],"100644623613900",Enum.KeyCode.RightControl)
+      local Window = library:Window("SPOCK",[[Hub]],[[Version : Leak  ]],"86275546587745",Enum.KeyCode.RightControl)
       local General_Tab = Window:AddTab("General",[[7040391851]])
      local Quest_Tab = Window:AddTab("Quest & Item",[[9606626859]])
 
