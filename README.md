@@ -1,4 +1,4 @@
--- discord.gg/25ms
+-- discord.gg/eewsknm6
 
 
 shared.LoaderTitle = "Đăng Ký Kênh Spock Hub";
@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://13717478897",
+    Image = "rbxassetid://10734963024",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Spock Hub",
+    Text = "Spock Hub",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -311,7 +311,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local v14 = loadstring(game:HttpGet("https://gist.githubusercontent.com/NIGHT163626/56ad14dde6a75b7fc8583bb665855015/raw/ecdb34444cc2c07326f64a510550a8c0dbe515fd/gistfile1.txt"))();
+local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
     Title = "Spock Hub",
     SubTitle = "Version Blox Fruits",
@@ -2680,7 +2680,7 @@ v16.Home:AddButton({
     Title = "Discord",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/25ms");
+        setclipboard("https://discord.gg/eewsknm6");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
