@@ -338,7 +338,7 @@ local tracer = nil
 local distanceText = nil
 local highlight = nil
 
-local Library = loadstring(game:HttpGet("https://paste.ee/r/WSCKThwW"))()
+local Library = loadstring(game:HttpGet("https://gist.githubusercontent.com/NIGHT163626/56ad14dde6a75b7fc8583bb665855015/raw/ecdb34444cc2c07326f64a510550a8c0dbe515fd/gistfile1.txt"))()
 
 
 local Window = Library:CreateWindow({
