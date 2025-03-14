@@ -1,732 +1,2010 @@
-   -- Removed logging
-   -- Added personal tab
+--i learned how to make clean code so now you guys cant call me skids for sus looking code 😜
 
-   repeat wait() until game:IsLoaded()
+local FischAPI = {}
 
-   local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/SolarisLib"))()
+local VIM = game:GetService("VirtualInputManager")
 
-   local win = SolarisLib:New({
-     Name = "simplity",
-     FolderToSave = "SolarisLibStuff"
-   })
+local VI = {}
 
-   local main = win:Tab("Local")
+local Options = {
+    AutoShake = false,
+    AutoMinigame = false, --Later version
+    AutoMinigameBlatant = false,
+    AutoCast = false,
+    PerfectCast = false, --Later version
+    WebhookURL = "",
+    WebhookNotifications = false,
+    FloatOnWater = false,
+    Lock = false,
+    MegaladonHunting = false,
+    Priorities={},
+	PriorityWebhook=false,
+	AutoMap=false,
+	AutoTotem=false
+}
 
-   local sec = main:Section("Player")
+local Internal = {
+    AutoMinigameDownPerUp = 2,
+    AutoMinigameDownPerUpInternal = AutoMinigameDownPerUp,
+    Timer = 301,
+    FloatPart = nil,
+    LockedPosition = nil,
+    MegaladonPosition = nil,
+    Megaladon = false,
+    MegHuntPlat = nil,
+    MegHuntPos = nil,
+	RodToBeEquipped = "",
+	FishHunted = "",
+	Pr = 0,
+}
 
-   local slider = sec:Slider("Walkspeed", 1,500,16,1,"Slider", function(v)
-     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-   end)
-   local slider = sec:Slider("Jumppower", 1,1000,50,1,"Slider", function(v)
-     game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
-   end)
-   local slider = sec:Slider("Gravity", 1,1000,196.2,1,"Slider", function(v)
-     game.Workspace.Gravity = v
-   end)
-   local slider = sec:Slider("Time", 1,24,12,1,"Slider", function(v)
-     game.Lighting.TimeOfDay = v
-   end)
-   sec:Button("Respawn", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/respawn"))()
-   end)
-   sec:Button("Rejoin", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/rejoin"))()
-   end)
-   sec:Button("Spoof Walkspeed&Jp", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/spoofwsjp"))()
-   end)
+local Utils = {}
+
+local UI = {}
+
+local CalibrationData = {}
+
+local FischUser = {}
+
+local NEVERLOSE = loadstring(game:HttpGet("https://you.whimper.xyz/sources/ronix/ui.lua"))()
+
+local Notification = NEVERLOSE.Notification();
+
+NEVERLOSE:Theme("dark")
+
+--UI
+
+for Setting, Value in pairs(Options) do
+    if Value == false then
+        UI[Setting] = function(Val)
+            Options[Setting] = Val
+        end
+    end
+end
+
+function UI.Initialize()
+    --UI
+
+    local Windows = NEVERLOSE:AddWindow("Ronix Hub","🌟Ronix Hub - Fisch - V0.1.8 - discord.gg/ronix🌟")
+
+    local FishingTab = Windows:AddTab("Fishing", "earth")
+
+    local PlayerTab = Windows:AddTab("Player", "earth")
+
+    local ExclusivesTab = Windows:AddTab("FUN", "earth")
+
+    local Interactions = Windows:AddTab("Interactions", "list")
+
+    local AreaTeleportsTab = Windows:AddTab("Area Teleports", "earth")
+
+    local ShopTab = Windows:AddTab("Shop", "earth")
+
+    local MegaladonHunting = Windows:AddTab("Priority List", "earth")
+
+    local WebhookTab = Windows:AddTab("Webhook", "list")
+
+    local SettingsTab = Windows:AddTab('Settings','earth')
+
+    local MechanicsSection = FishingTab:AddSection("Mechanics", "left")
+
+	local FishingSection = FishingTab:AddSection("Fish AutoFarm", "left")
+
+	local FishingSetSection = FishingTab:AddSection("Fish AutoFarm Settings", "left")
+
+    local Convenience = FishingTab:AddSection("Convenience", "left")
+
+    local CreditsSection = FishingTab:AddSection("Credits", "right")
+
+    local Teleports = AreaTeleportsTab:AddSection("Teleports", "left")
+
+    local Treasure = AreaTeleportsTab:AddSection("Treasure", "right")
+
+    local Actions = Interactions:AddSection("Actions", "left")
+
+    local WebhookSection = WebhookTab:AddSection("Webhook", "left")
+
+    local ShopSection = ShopTab:AddSection("Shop All", "left")
+
+    local SellerSection = FishingTab:AddSection("Seller", "left")
+
+    local TotemsSection = AreaTeleportsTab:AddSection("Totems", "left")
+
+    local WorldEvents = AreaTeleportsTab:AddSection('World Events', "right")
+
+    local ExclusivesSection = ExclusivesTab:AddSection('FUN', "right")
+  
+
+    local PlayerSection = PlayerTab:AddSection("Player Modify", "left")
+
+    local MiscSection = PlayerTab:AddSection("Misc Player", "right")
+
+    local SettingsSection = SettingsTab:AddSection("Settings", "right")
+    
+    SellerSection:AddButton("Sell All",  FischUser.Sell)
+
+    Convenience:AddToggle("Float On Water", false, UI.FloatOnWater)
+
+    Convenience:AddLabel("Turn ON to walk around and choose spot.")
+    
+	Convenience:AddToggle("Auto Totem Use", false, UI.AutoTotem)
+
+	Convenience:AddToggle("Auto TP To Treasure Map", false, UI.AutoMap)
+
+Treasure:AddToggle("Teleport to Jack Marrow", false, function()
+    local Player = game.Players.LocalPlayer
+    local HumanoidRootPart = Player.Character:WaitForChild("HumanoidRootPart")
+    HumanoidRootPart.CFrame = CFrame.new(-2824.359, 214.311, 1518.130)
+end)
+local NpcFolder = Workspace:FindFirstChild("world"):WaitForChild("npcs")
+
+function rememberPosition()
+    spawn(function()
+        local initialCFrame = HumanoidRootPart.CFrame
+ 
+        local bodyVelocity = Instance.new("BodyVelocity")
+        bodyVelocity.Velocity = Vector3.new(0, 0, 0)
+        bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+        bodyVelocity.Parent = HumanoidRootPart
+ 
+        local bodyGyro = Instance.new("BodyGyro")
+        bodyGyro.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+        bodyGyro.D = 100
+        bodyGyro.P = 10000
+        bodyGyro.CFrame = initialCFrame
+        bodyGyro.Parent = HumanoidRootPart
+ 
+        while AutoFreeze do
+            HumanoidRootPart.CFrame = initialCFrame
+            task.wait(0.01)
+        end
+        if bodyVelocity then
+            bodyVelocity:Destroy()
+        end
+        if bodyGyro then
+            bodyGyro:Destroy()
+        end
+    end)
+end
+SellerSection:AddButton("Sell Fish (In Hand)", false, function()
+        local currentPosition = HumanoidRootPart.CFrame
+        local sellPosition = CFrame.new(464, 151, 232)
+        local wasAutoFreezeActive = false
+        if AutoFreeze then
+            wasAutoFreezeActive = true
+            AutoFreeze = false
+        end
+        HumanoidRootPart.CFrame = sellPosition
+        task.wait(0.5)
+        workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Marc Merchant"):WaitForChild("merchant"):WaitForChild("sell"):InvokeServer()
+        task.wait(1)
+        HumanoidRootPart.CFrame = currentPosition
+        if wasAutoFreezeActive then
+            AutoFreeze = true
+            rememberPosition()
+        end
+    end)
 
 
+local LocalPlayer = game.Players.LocalPlayer
+local PlayerGui = LocalPlayer.PlayerGui
 
-   local scripts = main:Section("Utility")
+Convenience :AddButton("Show Ui Buy Boat", function()
+    if PlayerGui and PlayerGui:FindFirstChild("hud") and PlayerGui.hud:FindFirstChild("safezone") and PlayerGui.hud.safezone:FindFirstChild("shipwright") then
+        PlayerGui.hud.safezone.shipwright.Visible = not PlayerGui.hud.safezone.shipwright.Visible
+    else
+        print("Error: Could not find the necessary UI elements.")
+    end
+end)
+FishingSection:AddToggle("Auto Reel (Blatant)", false, UI.AutoMinigameBlatant)
+Treasure:AddToggle("Repair Map", false, function()
+    local Player = game.Players.LocalPlayer
+    for _, v in pairs(Player.Backpack:GetChildren()) do
+        if v.Name == "Treasure Map" then
+            Player.Character.Humanoid:EquipTool(v)
+            workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+        end
+    end
+end)
+FishingSection:AddToggle("Auto Cast", false, UI.AutoCast)
+Treasure:AddToggle("Collect Treasure", false, function()
+    for _, v in ipairs(game:GetService("Workspace"):GetDescendants()) do
+        if v.ClassName == "ProximityPrompt" then
+            v.HoldDuration = 0
+        end
+    end
 
-   scripts:Button("Ctrl for Object Name", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/danistydxplorer"))()
-   end)
-   scripts:Button("X-Ray", function()
-      SolarisLib:Notification("Enabled", "Press E to active/disable")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/xray"))()
-   end)
-   scripts:Button("AntiAFK", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/antiafk"))()
-   end)
-   scripts:Button("Anti Fling", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/antiflingnoalerts"))()
-   end)
-   scripts:Button("Explorer", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/dex"))()
-   end)
-   scripts:Button("ClickTP", function()
-      SolarisLib:Notification("Enabled", "Hold CTRL and click anywhere to teleport")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/clicktp"))()
-   end)
-   scripts:Button("Remote Spy", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/simplespy"))()
-   end)
-   scripts:Button("Hitbox Expander", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/hitboxexpand"))()
-   end)
-   scripts:Button("Infinite Jump", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/infjump"))()
-   end)
-   scripts:Button("Unlock Camera Rotation", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/camerarotation"))()
-   end)
-   scripts:Button("Airswim", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/airswim"))()
-   end)
-   scripts:Button("Invisibility", function()
-      SolarisLib:Notification("Enabled", "Press E to go visible/invisible")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/invi"))()
-   end)
-   scripts:Button("Godmode", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/godmode"))()
-   end)
-   scripts:Button("Chat Translator", function()
-      loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/chattranslator"))()
-   end)
-   scripts:Button("Chat Logger", function()
-       SolarisLib:Notification("Enabled", "Press F4 to view the messages")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/chatlogger"))()
-   end)
-   scripts:Button("Audio Logger", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/audiologger"))()
-   end)
-   scripts:Button("BTools", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/btools"))()
-   end)
+    for _, v in pairs(workspace.world.chests:GetDescendants()) do
+        if v:IsA("Part") and v:FindFirstChild("ChestSetup") then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+            for _, prompt in pairs(workspace.world.chests:GetDescendants()) do
+                if prompt.Name == "ProximityPrompt" then
+                    fireproximityprompt(prompt)
+                end
+            end
+            task.wait(1)
+        end
+    end
+end)
 
+PlayerSection:AddToggle("Walk On Water", false, function(Value)
+    local WalkZone = "Ocean" 
 
+    if Value then
 
-
-
-   local fps = main:Section("Graphics")
-   fps:Button("FPS Booster", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fpsbooster"))()
-   end)
-   fps:Button("Graphics Enhancer", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/enhancer"))()
-   end)
+        for _, v in pairs(workspace.zones.fishing:GetChildren()) do
+            if v.Name == WalkZone then
+                v.CanCollide = true
+            end
+            if v.Name == "Deep Ocean" and WalkZone == "Ocean" then
+                v.CanCollide = true
+            end
+        end
+    else
+--bro bdokkx is so sigma!
+        for _, v in pairs(workspace.zones.fishing:GetChildren()) do
+            if v.Name == WalkZone then
+                v.CanCollide = false
+            end
+            if v.Name == "Deep Ocean" and WalkZone == "Ocean" then
+                v.CanCollide = false
+            end
+        end
+    end
+end)
 
 
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
 
 
+local oldpos = HumanoidRootPart.CFrame
+local FreezePlayer = false 
 
-   local fe = win:Tab("Filtering Enabled")
-   local utility = fe:Section("Utility")
+local function FreezeCharacter()
+    while FreezePlayer do
+        task.wait()
+        if HumanoidRootPart then
+            HumanoidRootPart.CFrame = oldpos
+        end
+    end
+end
 
-   if game.Workspace.FilteringEnabled then
-      feenabled = "FE: True (Good)"
-   else
-      feenabled = "FE: False (Bad)"
-   end
 
-   if game:GetService("SoundService").RespectFilteringEnabled then
-      respectfe = "RespectFE: True (Bad)"
-   else
-      respectfe = "RespectFE: False (Good)"
-   end
-
-   utility:Label(feenabled)
-   utility:Label(respectfe)
-
-   utility:Button("Winged Master", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fewingled"))()
-   end)
-   utility:Button("Spiderman", function()
-      SolarisLib:Notification("Loaded", "E/Q to webswing")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/spiderman"))()
-   end)
-   utility:Button("Human Car", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/humancar"))()
-   end)
-   utility:Button("Telekiness", function()
-      SolarisLib:Notification("Enabled", "Works only with unachored objects")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/telekiness"))()
-   end)
-   utility:Button("Walk on Walls", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/walk"))()
-   end)
-   utility:Button("Joy", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/joy"))()
-   end)
-   utility:Button("Da Feet", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/dafeet"))()
-   end)
-   utility:Button("Parkour Man", function()
-   SolarisLib:Notification("Loaded", "C to crouch and slide, X to do a complete 360, Double Jump to wallclimb")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/parkour"))()
-   end)
-   utility:Button("Creepy Crawler", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/crawler"))()
-   end)
-   utility:Button("Jerk Off", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/jerkoff"))()
-   end)
-   utility:Button("Human Dick", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/pens"))()
-   end)
-   utility:Button("Human Chair", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/chair"))()
-   end)
-   utility:Button("Human Table", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/table"))()
-   end)
-   utility:Button("Human Helicopter", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/humanhelicopter"))()
-   end)
-   utility:Button("Human Cube", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/cube"))()
-   end)
-   utility:Button("Blockhead", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/blockhead"))()
-   end)
-   utility:Button("Penis", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/penis"))()
-   end)
-   utility:Button("Calamity", function()
-   SolarisLib:Notification("Loaded", "Press F,L,Z,Y,X,C,V,N for modes, click to attack")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/calamity"))()
-   end)
-   utility:Button("Flipper", function()
-     SolarisLib:Notification("Loaded", "Press Z to frontflip, X to backflip, C to airjump")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/flipper"))()
-   end)
-   utility:Button("Long Legs", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/longlegs"))()
-   end)
-   utility:Button("Star Glitcher", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/star"))()
-   end)
-   utility:Button("Earrape", function()
-   SolarisLib:Notification("Loaded", "Doesn't work if RespectFilteringEnabled is true, press F4")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/earrape"))()
-   end)
-   utility:Button("Spam Oof", function()
-      SolarisLib:Notification("Loaded", "Doesn't work if RespectFilteringEnabled is true, press F4")
-      for _,v in pairs(game.Players:GetChildren()) do
-      v.Character.HumanoidRootPart.Died:Play()
-      end
-   end)
-   utility:Button("Fake VR", function()
-   SolarisLib:Notification("Loaded", "Recommended to use a netless")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fefakevr"))()
-   end)
-   utility:Button("Pyramid", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/pyramid"))()
-   end)
-   utility:Button("Critical Mass", function()
-   SolarisLib:Notification("Loaded", "Q for Total Outburst, H for Barrage, Z to throw, C to pickup, M for supernova")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/critical"))()
-   end)
-   utility:Button("Memeus", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/memeus"))()
-   end)
-   utility:Button("Helicopter", function()
-   SolarisLib:Notification("Loaded", "Q/E to fly down/up")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/helicopter"))()
-   end)
-   utility:Button("Sans Curse", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/sanscurse"))()
-   end)
-   utility:Button("Nameless", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/nameless"))()
-   end)
-   utility:Button("Ragdoll Suicide", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ragdollsuicide"))()
-   end)
-   utility:Button("Hats Orbital", function()
-   SolarisLib:Notification("Loaded", "Type .mode (1-11) for cool hat animations")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/hatsv2"))()
-   end)
-   utility:Button("Holy Spirit", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ang"))()
-   end)
-   utility:Button("Hold Hats", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/holdhats"))()
-   end)
-   utility:Button("Ball Spin", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ball"))()
-   end)
-   utility:Button("Xester", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/xester"))()
-   end)
-   utility:Button("Chips", function()
-   SolarisLib:Notification("Loaded", "Click to attack, X to suicide, C to laugh, T to taunt, V,B,M,F to change the bag")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/chips"))()
-   end)
-   utility:Button("Neck Snap", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/necksnap"))()
-   end)
-   utility:Button("Sad", function()
-   SolarisLib:Notification("Loaded", "Press F to fly")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/sad"))()
-   end)
-   utility:Button("Chill", function()
-   SolarisLib:Notification("Loaded", "Hold Shift to move faster")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/chill"))()
-   end)
-   utility:Button("Scout", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/scout"))()
-   end)
-   utility:Button("Remove Chairs", function()
-       SolarisLib:Notification("Loaded", "Press F on a chair to remove it")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/removechairs"))()
-   end)
-   utility:Button("Ravager", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ravager"))()
-   end)
-   utility:Button("Spidey", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/spidey"))()
-   end)
-   utility:Button("Titanlify", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/febigpeople"))()
-   end)
-   utility:Button("Smallify", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fesmallpeople"))()
-   end)
-   utility:Button("Nightmare Sans", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/nightmare"))()
-   end)
-   utility:Button("Thor", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/thor"))()
-   end)
-   utility:Button("Classic Animations", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/classicanimations"))()
-   end)
-   utility:Button("Neko Maid", function()
-   SolarisLib:Notification("Loaded", "Click to attack, R to lay, Z to flip, T to Taunt")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/nekomaid/main/home"))()
-   end)
-   utility:Button("Sunpower", function()
-   SolarisLib:Notification("Loaded", "Press K to get sun's power, click to attack")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/sunpower"))()
-   end)
-   utility:Button("Crimson Sonata", function()
-   SolarisLib:Notification("Loaded", "Click to attack, E to slash, Q to slash-spin")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/crimson"))()
-   end)
-   utility:Button("Fake Lag", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fakelag"))()
-   end)
-   utility:Button("Rainbow King", function()
-   SolarisLib:Notification("Loaded", "T/R/E to Shoot, G for Idle, Y for Chaos, H to go Insane, J to go on your Knee, Q to Teleport")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/rainbow"))()
-   end)
-   utility:Button("San Goku", function()
-   SolarisLib:Notification("Loaded", "R for Holy Light, Y for Lighting of Absolution, U for Holy Wrath, E for Blades of Judgement, T to Taunt")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/goku"))()
-   end)
-   utility:Button("Pandora", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/pandora"))()
-   end)
-   utility:Button("Cursed Spider", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/cursedspider"))()
-   end)
-   utility:Button("Pacifist", function()
-   SolarisLib:Notification("Loaded", "Z for the first pose, X for the second pose, C for the last pose")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/pacifist"))()
-   end)
-   utility:Button("Sonic", function()
-      SolarisLib:Notification("Loaded", "Q/E to lean over, Shift to go faster, CTRL to go way faster")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/sonic"))()
-   end)
-   utility:Button("Imposter", function()
-      SolarisLib:Notification("Loaded", "Press C to sit, Click to lean backwards, F to fly, Q to look dead")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/amogus"))()
-   end)
+PlayerSection:AddToggle("Freeze Player", false, function(Value)
+    FreezePlayer = Value
+    if FreezePlayer then
+        oldpos = HumanoidRootPart.CFrame
+        task.spawn(FreezeCharacter)
+        print("Player freezing enabled.")
+    else
+        print("Player freezing disabled.")
+    end
+end)
 
 
 
 
+--also i just uhh dont ask :skull got mad so i put everything and it works
+local VirtualInputManager = game:GetService("VirtualInputManager")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local VirtualUser = game:GetService("VirtualUser")
+local HttpService = game:GetService("HttpService")
+local GuiService = game:GetService("GuiService")
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
+local Players = game:GetService("Players")
+local CoreGui = game:GetService('StarterGui')
+local ContextActionService = game:GetService('ContextActionService')
+local UserInputService = game:GetService('UserInputService')
 
+local LocalPlayer = Players.LocalPlayer
+local LocalCharacter = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local HumanoidRootPart = LocalCharacter:FindFirstChild("HumanoidRootPart")
+local UserPlayer = HumanoidRootPart:WaitForChild("user")
+local ActiveFolder = Workspace:FindFirstChild("active")
+local FishingZonesFolder = Workspace:FindFirstChild("zones"):WaitForChild("fishing")
+local TpSpotsFolder = Workspace:FindFirstChild("world"):WaitForChild("spawns"):WaitForChild("TpSpots")
+local NpcFolder = Workspace:FindFirstChild("world"):WaitForChild("npcs")
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+local screenGui = Instance.new("ScreenGui", PlayerGui)
+local shadowCountLabel = Instance.new("TextLabel", screenGui)
+local RenderStepped = RunService.RenderStepped
+local WaitForSomeone = RenderStepped.Wait
 
-   local fling = fe:Section("Flinging Utility")
-   fling:Button("Deathnote", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/deathnote"))()
-   end)
-   fling:Button("Meditator", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/meditation"))()
-   end)
-   fling:Button("Magician", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/levitator"))()
-   end)
-   fling:Button("Human Stick", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/humanstick"))()
-   end)
-   fling:Button("Long Neck", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/longneck"))()
-   end)
-   fling:Button("Yoga Master", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/yogamaster"))()
-   end)
-   fling:Button("Moon Monster", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/moonmonster"))()
-   end)
-   fling:Button("Leg Fighter", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ae"))()
-   end)
-   fling:Button("Batman", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/bat"))()
-   end)
-   fling:Button("Winged Human", function()
-   SolarisLib:Notification("Loaded", "Click to fling")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/wingedhuman"))()
-   end)
-   fling:Button("Exotic Lighting", function()
-   SolarisLib:Notification("Loaded", "This script has so many keybinds that I couldn't fit them in here, have fun")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/Exotic"))()
-   end)
-   fling:Button("Idiot", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/idiote"))()
-   end)
-   fling:Button("Fearful", function()
-   SolarisLib:Notification("Loaded", "Press 1, 2, 3 for modes")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fearful"))()
-   end)
-   fling:Button("Freddy", function()
-   SolarisLib:Notification("Loaded", "Press 1 to show up and 2 to become invisible")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fred"))()
-   end)
-   fling:Button("Gale Fighter", function()
-   SolarisLib:Notification("Loaded", "Click to attack, X for ultimate, R for kick barrage")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/galefigher"))()
-   end)
-   fling:Button("Saitama", function()
-   SolarisLib:Notification("Loaded", "Click to punch, R for main idle")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/work"))()
-   end)
-   fling:Button("Head Dancer", function()
-   SolarisLib:Notification("Reanimating...", "Please wait 6 seconds")
-   wait(8)
-   SolarisLib:Notification("Loaded", "Press T to dance on your head, R to stop dancing")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/headdancer/main/head"))()
-   end)
-   fling:Button("Mouse Fling", function()
-   SolarisLib:Notification("Loaded", "Press E to use")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/fling"))()
-   end)
+Convenience:AddButton("Protect Identity", function()
+
+    getgenv().name = "discord.gg/ronix on top"
+    local Plr = game.Players.LocalPlayer
+    for Index, Value in next, game:GetDescendants() do 
+        if Value.ClassName == "TextLabel" then 
+            local has = string.find(Value.Text,Plr.Name) 
+            if has then 
+                local str = Value.Text:gsub(Plr.Name,name)
+                Value.Text = str 
+            end
+            Value:GetPropertyChangedSignal("Text"):Connect(function()
+                local str = Value.Text:gsub(Plr.Name,name)
+                Value.Text = str 
+            end)
+        end
+    end
+    game.DescendantAdded:Connect(function(Value)
+        if Value.ClassName == "TextLabel" then 
+            local has = string.find(Value.Text,Plr.Name)
+            Value:GetPropertyChangedSignal("Text"):Connect(function()
+                local str = Value.Text:gsub(Plr.Name,name)
+                Value.Text = str 
+            end)
+            if has then 
+                local str = Value.Text:gsub(Plr.Name,name)
+                Value.Text = str 
+            end
+     
+        end
+    end)
+    if UserPlayer:FindFirstChild("streak") then UserPlayer.streak.Text = "HIDDEN" end
+    if UserPlayer:FindFirstChild("level") then UserPlayer.level.Text = "Level: HIDDEN" end
+    if UserPlayer:FindFirstChild("level") then UserPlayer.user.Text = "HIDDEN" end
+    local hud = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("hud"):WaitForChild("safezone")
+    if hud:FindFirstChild("coins") then hud.coins.Text = "HIDDEN$" end
+    if hud:FindFirstChild("lvl") then hud.lvl.Text = "HIDDEN LVL" end
+    task.wait(0.01)
+end)
 
 
 
+PlayerSection:AddDropdown("Walk On Water Zone", {"Ocean", "Desolate Deep", "The Depths"}, Ocean, function(selectedZone)
+    WalkZone = selectedZone 
+end)
+
+    AllFuncs['To Pos Stand'] = function()
+        while Config['To Pos Stand'] and task.wait() do
+            if not Config['SelectPositionStand'] then
+                Notify("Pls Select Position")
+                Config['To Pos Stand'] = false
+                return
+            end
+            pcall(function()
+                LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Config['SelectPositionStand']
+            end)
+        end
+    end
+
+    local Config = {
+        ['Toggle Walk Speed'] = false, 
+        ['Set Walk Speed'] = 50,
+        ['Toggle Jump Power'] = false,
+        ['Set Jump Power'] = 50
+    }
+    
+    local LocalPlayer = game.Players.LocalPlayer
+
+        AllFuncs['Toggle Walk Speed'] = function()
+        while true do
+            if Config['Toggle Walk Speed'] then
+                pcall(function()
+                    local humanoid = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+                    if humanoid then
+                        humanoid.WalkSpeed = Config['Set Walk Speed']
+                    end
+                end)
+            else
+                pcall(function()
+                    local humanoid = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+                    if humanoid then
+                        humanoid.WalkSpeed = 16 
+                    end
+                end)
+            end
+            task.wait(0.1) 
+        end
+    end
 
 
 
-   local dance = fe:Section("Dances")
-   dance:Button("Ultimate Meme Dance", function()
-     SolarisLib:Notification("Loaded", "Press T for ultimate dance, F to slap, B to shoot, jump to stop the slap")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/ultimatememedance"))()
-   end)
-   dance:Button("Smug Dancer", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/smug"))()
-   end)
-   dance:Button("Goopie Dance", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/goopiedance"))()
-   end)
-   dance:Button("Rickroll Dance", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/rickroll"))()
-   end)
-   dance:Button("Retard Dance", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/retarddance"))()
-   end)
-   dance:Button("Take the L", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/takethel"))()
-   end)
-   dance:Button("Default Dance", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/erefgew"))()
-   end)
-   dance:Button("Pog Dance", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/pogdance"))()
-   end)
+
+    
+    
+    AllFuncs['Toggle Jump Power'] = function()
+        while true do
+            if Config['Toggle Jump Power'] then
+                pcall(function()
+                    local humanoid = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+                    if humanoid then
+                        humanoid.JumpPower = Config['Set Jump Power']
+                    end
+                end)
+            else
+                pcall(function()
+                    local humanoid = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+                    if humanoid then
+                        humanoid.JumpPower = 50
+                    end
+                end)
+            end
+            task.wait(0.1)
+        end
+    end
+
+SettingsSection:AddLabel("Useless because anti afk auto loads!")
+	ShopSection:AddLabel("Turn on when you first join")
+    PlayerSection:AddToggle('Toggle Walk Speed', false, function(val)
+        Config['Toggle Walk Speed'] = val
+        print("Walk Speed Toggle:", val)
+    end)
+    
+    PlayerSection:AddToggle('Toggle Jump Power', false, function(val)
+        Config['Toggle Jump Power'] = val
+        print("Jump Power Toggle:", val)
+    end)
+    
+    PlayerSection:AddSlider('Walk Speed', 1, 500, 50, function(val)
+        Config['Set Walk Speed'] = val
+        print('Walk Speed Set to:', val)
+    end)
+    
+    PlayerSection:AddSlider('Jump Power', 1, 500, 50, function(val)
+        Config['Set Jump Power'] = val
+        print('Jump Power Set to:', val)
+    end)
+    
+    task.spawn(AllFuncs['Toggle Walk Speed'])
+    task.spawn(AllFuncs['Toggle Jump Power'])
+    
+Convenience:AddToggle("Remove Fog", false, function(Value)
+    if Value then
+        if game:GetService("Lighting"):FindFirstChild("Sky") then
+            game:GetService("Lighting"):FindFirstChild("Sky").Parent = game:GetService("Lighting").bloom
+        end
+    else
+        if game:GetService("Lighting").bloom:FindFirstChild("Sky") then
+            game:GetService("Lighting").bloom:FindFirstChild("Sky").Parent = game:GetService("Lighting")
+        end
+    end
+end)
+
+local RunService = game:GetService("RunService")
+
+local DayOnlyLoop
+Convenience:AddToggle("Day", false, function(Value)
+    if Value then
+        if DayOnlyLoop then return end  
+        DayOnlyLoop = RunService.Heartbeat:Connect(function()
+            game:GetService("Lighting").TimeOfDay = "12:00:00"
+        end)
+    else
+        if DayOnlyLoop then
+            DayOnlyLoop:Disconnect()
+            DayOnlyLoop = nil
+        end
+    end
+end)
+
+local NightOnlyLoop
+Convenience:AddToggle("Night", false, function(Value)
+    if Value then
+        if NightOnlyLoop then return end
+        NightOnlyLoop = RunService.Heartbeat:Connect(function()
+            game:GetService("Lighting").TimeOfDay = "22:00:00"
+        end)
+    else
+        if NightOnlyLoop then
+            NightOnlyLoop:Disconnect()
+            NightOnlyLoop = nil
+        end
+    end
+end)
+
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+
+Actions:AddButton("Rejoin Server", function()
+    TeleportService:TeleportToPlaceInstance(game.placeId, game.JobId, Players.LocalPlayer)
+end)
+
+MiscSection:AddToggle("Fish Radar", false, function(Value)
+
+    for _, v in pairs(game:GetService("CollectionService"):GetTagged("radarTag")) do
+        if v:IsA("BillboardGui") or v:IsA("SurfaceGui") then
+            v.Enabled = Value
+        end
+    end
+end)
+--real bdokx super sigma
+    local function GetPosition()
+        local character = game.Players.LocalPlayer.Character
+        if character and character:FindFirstChild("HumanoidRootPart") then
+            return character.HumanoidRootPart.Position
+        end
+        return Vector3.new(0, 0, 0)  
+    end
+    
+    local function ExportValue(value)
+        return string.format("%.2f", value) 
+    end
+    
+    MiscSection:AddToggle("Gps", false, function(Value)
+        local PlayerGui = game.Players.LocalPlayer.PlayerGui
+        local hud = PlayerGui:WaitForChild("hud")
+        local safezone = hud:WaitForChild("safezone")
+        local backpack = safezone:WaitForChild("backpack")
+    
+        if Value then
+            local XyzClone = game:GetService("ReplicatedStorage").resources.items.items.GPS.GPS.gpsMain.xyz:Clone()
+            XyzClone.Parent = backpack
+
+            local Pos = GetPosition()
+            local StringInput = string.format("%s,%s,%s", ExportValue(Pos.X), ExportValue(Pos.Y), ExportValue(Pos.Z))
+            XyzClone.Text = "<font color='#ff4949'>X</font><font color='#a3ff81'>Y</font><font color='#626aff'>Z</font>: "..StringInput
+
+            BypassGpsLoop = game:GetService("RunService").Heartbeat:Connect(function()
+                local Pos = GetPosition()
+                local StringInput = string.format("%s,%s,%s", ExportValue(Pos.X), ExportValue(Pos.Y), ExportValue(Pos.Z))
+                XyzClone.Text = "<font color='#ff4949'>X</font><font color='#a3ff81'>Y</font><font color='#626aff'>Z</font>: "..StringInput
+            end)
+        else
+            if backpack:FindFirstChild("xyz") then
+                backpack:FindFirstChild("xyz"):Destroy()
+            end
+            if BypassGpsLoop then
+                BypassGpsLoop:Disconnect()
+                BypassGpsLoop = nil
+            end
+        end
+    end)
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui") 
+local hud = PlayerGui:WaitForChild("hud") 
+local safezone = hud:WaitForChild("safezone") 
+
+
+safezone.Visible = true
+
+
+MiscSection:AddToggle("Show/Hide UIs", false, function(Value)
+    if Value then
+        safezone.Visible = false
+        print("UI is now visible.")
+    else
+        safezone.Visible = true
+        print("UI is now hidden.")
+    end
+end)
 
 
 
+MiscSection:AddToggle("Infinite Oxygen", false, function(Value)
+    LocalPlayer.Character.client.oxygen.Disabled = Value
+end)
+
+MiscSection:AddToggle("Clear Weather", false, function(Value)
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local weather = ReplicatedStorage:WaitForChild("world"):WaitForChild("weather")
+    local OldWEA = OldWEA or weather.Value
+
+    if Value then
+        weather.Value = "Clear"
+    else
+        weather.Value = OldWEA
+    end
+end)
+    
+
+PlayerSection:AddToggle("Noclip", false, function(Value)
+    Config['Toggle Noclip'] = Value 
+
+    if Value then
+        local charParts = LocalPlayer.Character:GetDescendants()
+        for _, part in pairs(charParts) do
+            if part:IsA("BasePart") then
+                part.CanCollide = false
+            end
+        end
+    else
+        local charParts = LocalPlayer.Character:GetDescendants()
+        for _, part in pairs(charParts) do
+            if part:IsA("BasePart") then
+                part.CanCollide = true
+            end
+        end
+    end
+end)
+
+MiscSection:AddToggle("Anti Lag", false, function(Value)
+    if Value then
+        for _, v in pairs(game:GetDescendants()) do
+            if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") then
+                if v.Transparency ~= 1 then
+                    v.Material = Enum.Material.SmoothPlastic
+                end
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v:Destroy()
+            end
+        end
+    else
+    end
+end)
+--bdokxk and diddy fish auto farm btw!
+Config = _G.Config or {}  
+Config['Farm Fish'] = false  
+
+local Players = game.Players
+local LocalPlayer = Players.LocalPlayer
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local Backpack = LocalPlayer.Backpack
+local PlayerGui = LocalPlayer.PlayerGui
+local VirtualUser = game:GetService("VirtualUser")
+local VirtualInputManager = game:GetService("VirtualInputManager")
+local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
+
+AllFuncs = {}
+
+AllFuncs['Farm Fish'] = function()
+    while Config['Farm Fish'] and task.wait() do
+        if Backpack:FindFirstChild(RodName) then
+            LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild(RodName))
+        end
+        if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character[RodName]:FindFirstChild("bobber") then
+
+            repeat
+                pcall(function()
+                    PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = UDim2.new(1001, 0, 1001, 0)
+                    VirtualUser:Button1Down(Vector2.new(1, 1))
+                    VirtualUser:Button1Up(Vector2.new(1, 1))
+                end)
+                RunService.Heartbeat:Wait()
+            until not LocalPlayer.Character:FindFirstChild(RodName) or LocalPlayer.Character[RodName].values.bite.Value or not Config['Farm Fish']
+
+            repeat
+                ReplicatedStorage.events.reelfinished:FireServer(1000000000000000000000000, true)
+                task.wait(0.5)
+            until not LocalPlayer.Character:FindFirstChild(RodName) or not LocalPlayer.Character[RodName].values.bite.Value or not Config['Farm Fish']
+        else
+
+            if LocalPlayer.Character:FindFirstChild(RodName) then
+                LocalPlayer.Character[RodName].events.cast:FireServer(1000000000000000000000000)
+                task.wait(2)
+            end
+        end
+    end
+end
+
+function ExportValue(arg1, arg2)
+    return tonumber(string.format("%." .. (arg2 or 1) .. 'f', arg1))
+end
+
+MechanicsSection:AddToggle("Auto Farm (Laggy v1)", false, function(state)
+    Config['Farm Fish'] = state
+    if state then
+        AllFuncs['Farm Fish']()
+    end
+end)
 
 
-
-
-   local aimbot = win:Tab("Combat")
-
-   local aim = aimbot:Section("Aimbot")
-   local FOV = aimbot:Section("FOVRing")
-
-   aim:Button("Aimbot", function()
-   SolarisLib:Notification("Loaded", "Press P to destroy the aimbot") 
-       --draw fov ring
-       _G.FOVring = Drawing.new("Circle")
-       --loop fov ring properties
-       game:GetService"RunService".RenderStepped:Connect(function()
-       _G.FOVring.Visible = true
-       _G.FOVring.Thickness = 2
-       _G.FOVring.Radius = _G.fovringslider
-       _G.FOVring.Transparency = 1
-       _G.FOVring.Color = _G.fovColorPicker
-       _G.FOVring.Position = workspace.CurrentCamera.ViewportSize/2
-   end)
-       
-       local RunService = game:GetService("RunService")
-       
-       local function getClosest(cframe)
-          local ray = Ray.new(cframe.Position, cframe.LookVector).Unit
-          
-          local target = nil
-          local mag = math.huge
-          
-          for i,v in pairs(game.Players:GetPlayers()) do
-              if v.Character and v.Character:FindFirstChild("Head") and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("HumanoidRootPart") and v ~= game.Players.LocalPlayer and (v.Team ~= game.Players.LocalPlayer.Team or (not _G.tcToggle)) then
-                  local magBuf = (v.Character.Head.Position - ray:ClosestPoint(v.Character.Head.Position)).Magnitude
-                  
-                  if magBuf < mag then
-                      mag = magBuf
-                      target = v
+ExclusivesSection:AddButton("Auto Heaven Rod", function() 
+    spawn(function()
+        local SharedRed, SharedBlue, SharedGreen, SharedYellow = false, false, false, false
+        local IsBuying, IsBuying2, IsBuying3 = false, false, false
+    
+        Module:Run_Loop("Auto Get Heaven's Rod", function()
+          if Module:IsHaveRod("Heaven's Rod") then
+            Notification("You Already Have Heaven's Rod!")
+            wait(5)
+            return
+          end
+    
+          if not World.map["Northern Summit"]:FindFirstChild("NorthFinalPuzzle") then
+            Module:GetTo(CFrame.new(19990.3789, 1136.4281, 5536.5249, 0.984981179, -8.43332231e-08, -0.172661752, 7.71411734e-08, 1, -4.83640221e-08, 0.172661752, 3.43183189e-08, 0.984981179))
+          else
+            if Player.Backpack:FindFirstChild("Blue Energy Crystal") and not SharedBlue then
+              if World.map["Northern Summit"].NorthFinalPuzzle.Shards.Blue.handle.Prompt.Enabled then
+                if Module:GetMagnitude(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875)) > 5 then
+                  Module:GetTo(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875))
+                else
+                  pcall(function()ReplicatedStorage.packages.Net["RE/NorthFinalPuzzleService/Place"]:FireServer("Blue")end)
+                  Module:FirePrompt(World.map["Northern Summit"].NorthFinalPuzzle.Shards.Blue.handle.Prompt)
+                  wait(2)
+                  SharedBlue = true
+                end
+              elseif not World.map["Northern Summit"].NorthFinalPuzzle.Shards.Blue.handle.Prompt.Enabled then
+                SharedBlue = true
+              end
+            end
+      
+            if Player.Backpack:FindFirstChild("Green Energy Crystal") and not SharedGreen then
+              if World.map["Northern Summit"].NorthFinalPuzzle.Shards.Green.handle.Prompt.Enabled then
+                if Module:GetMagnitude(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875)) > 5 then
+                  Module:GetTo(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875))
+                else
+                  pcall(function()ReplicatedStorage.packages.Net["RE/NorthFinalPuzzleService/Place"]:FireServer("Green")end)
+                  Module:FirePrompt(World.map["Northern Summit"].NorthFinalPuzzle.Shards.Green.handle.Prompt)
+                  wait(2)
+                  SharedGreen = true
+                end
+              elseif not World.map["Northern Summit"].NorthFinalPuzzle.Shards.Green.handle.Prompt.Enabled then
+                SharedGreen = true
+              end
+            end
+    
+            if Player.Backpack:FindFirstChild("Red Energy Crystal") and not SharedRed then
+              if World.map["Northern Summit"].NorthFinalPuzzle.Shards.Red.handle.Prompt.Enabled then
+                if Module:GetMagnitude(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875)) > 5 then
+                  Module:GetTo(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875))
+                else
+                  pcall(function()ReplicatedStorage.packages.Net["RE/NorthFinalPuzzleService/Place"]:FireServer("Red")end)
+                  Module:FirePrompt(World.map["Northern Summit"].NorthFinalPuzzle.Shards.Red.handle.Prompt)
+                  wait(2)
+                  SharedRed = true
+                end
+              elseif not World.map["Northern Summit"].NorthFinalPuzzle.Shards.Red.handle.Prompt.Enabled then
+                SharedRed = true
+              end
+            end
+    
+            if Player.Backpack:FindFirstChild("Yellow Energy Crystal") and not SharedYellow then
+              if World.map["Northern Summit"].NorthFinalPuzzle.Shards.Yellow.handle.Prompt.Enabled then
+                if Module:GetMagnitude(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875)) > 5 then
+                  Module:GetTo(CFrame.new(19967.16015625, 1137.2425537109375, 5362.26904296875))
+                else
+                  pcall(function()ReplicatedStorage.packages.Net["RE/NorthFinalPuzzleService/Place"]:FireServer("Yellow")end)
+                  Module:FirePrompt(World.map["Northern Summit"].NorthFinalPuzzle.Shards.Yellow.handle.Prompt)
+                  wait(2)
+                  SharedYellow = true
+                end
+              elseif not World.map["Northern Summit"].NorthFinalPuzzle.Shards.Yellow.handle.Prompt.Enabled then
+                SharedYellow = true
+              end
+            end
+      
+            if SharedRed and SharedBlue and SharedGreen and SharedYellow then
+              ReplicatedStorage.events.purchase:FireServer("Heaven's Rod", "Rod", nil, 1)
+              wait(1)
+            end
+    
+            if not Player.Backpack:FindFirstChild("Blue Energy Crystal") and not SharedBlue then
+              if not Player.Backpack:FindFirstChild("Pickaxe") and not IsBuying2 then
+                Module:BuyShop("Pickaxe", "Item", 1)
+                IsBuying2 = true
+                wait(10)
+              else
+                if Module:GetMagnitude(CFrame.new(20124.8711, 212.725845, 5449.35498, 0.793378353, 0, 0.608728826, 0, 1, 0, -0.608728826, 0, 0.793378353)) > 6 then
+                  Module:GetTo(CFrame.new(20124.8711, 212.725845, 5449.35498, 0.793378353, 0, 0.608728826, 0, 1, 0, -0.608728826, 0, 0.793378353))
+                else
+                  if Module:NearestPromptCheck(10, "Blue Energy Crystal") then
+                    pcall(function()ReplicatedStorage.packages.Net["RF/ItemSpawnCollect"]:InvokeServer("Blue Energy Crystal")end)
+                    Module:NearestPrompt(10)
+                  else
+                    if Player.Character:FindFirstChild("Pickaxe") then
+                      Player.Character:FindFirstChild("Pickaxe"):Activate()
+                    else
+                      Module:EquipTool("Pickaxe")
+                    end
                   end
+                end
               end
-          end
-          
-          return target
-       end
-       
-       loop = RunService.RenderStepped:Connect(function()
-          local UserInputService = game:GetService("UserInputService")
-          local pressed = --[[UserInputService:IsKeyDown(Enum.KeyCode.E)]] UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)
-          local localPlay = game.Players.localPlayer.Character
-          local cam = workspace.CurrentCamera
-          local zz = workspace.CurrentCamera.ViewportSize/2
-          
-          if pressed then
-              local Line = Drawing.new("Line")
-              local curTar = getClosest(cam.CFrame)
-              local ssHeadPoint = cam:WorldToScreenPoint(curTar.Character.Head.Position)
-              ssHeadPoint = Vector2.new(ssHeadPoint.X, ssHeadPoint.Y)
-              if (ssHeadPoint - zz).Magnitude < _G.fovringslider then
-                  workspace.CurrentCamera.CFrame = workspace.CurrentCamera.CFrame:Lerp(CFrame.new(cam.CFrame.Position, curTar.Character.Head.Position), _G.smoothingslider)
+            elseif not Player.Backpack:FindFirstChild("Yellow Energy Crystal") and not SharedYellow then
+              if Module:GetMagnitude(CFrame.new(19499.6953125, 335.21728515625, 5549.265625)) > 6 then
+                Module:GetTo(CFrame.new(19499.6953125, 335.21728515625, 5549.265625))
+              else
+                if Module:NearestPromptCheck(10, "Yellow Energy Crystal") then
+                  pcall(function()ReplicatedStorage.packages.Net["RF/ItemSpawnCollect"]:InvokeServer("Yellow Energy Crystal")end)
+                  Module:NearestPrompt(10)
+                else
+                  if not Player.Backpack:FindFirstChild("Avalanche Totem") and not IsBuying then
+                    Module:BuyShop("Avalanche Totem", "Item", 1)
+                    IsBuying = true
+                    wait(10)
+                  end
+    
+                  if Player.Character:FindFirstChild("Avalanche Totem") then
+                    Player.Character:FindFirstChild("Avalanche Totem"):Activate()
+                    wait(20)
+                  else
+                    Module:EquipTool("Avalanche Totem")
+                  end 
+                end
               end
+            elseif not Player.Backpack:FindFirstChild("Red Energy Crystal") and not SharedRed then
+              if not IsBuying3 then
+                ReplicatedStorage.packages.Net["RF/NorthExp/PurchaseShard"]:InvokeServer()
+                IsBuying3 = true
+                wait(10)
+              end
+            elseif not Player.Backpack:FindFirstChild("Green Energy Crystal") and not SharedGreen then
+              if World.npcs:FindFirstChild("???") then
+                Module:TalkToNPC("???", function()
+                  if string.find(PlayerGui.options.safezone["1option"].text, "You're right, I'm freezing out here!") then
+                    PlayerGui.options.safezone["1option"].Selectable = true
+                    Module:ClickUi(PlayerGui.options.safezone["1option"].button)
+                  elseif string.find(PlayerGui.options.safezone["1option"].text, "I'm fascinated by the mysteries this mountain holds.") then
+                    PlayerGui.options.safezone["1option"].Selectable = true
+                    Module:ClickUi(PlayerGui.options.safezone["1option"].button)
+                  elseif string.find(PlayerGui.options.safezone["1option"].text, "Of course, that would be great") then
+                    PlayerGui.options.safezone["1option"].Selectable = true
+                    Module:ClickUi(PlayerGui.options.safezone["1option"].button)
+                  end
+                end)
+              else
+                Module:GetTo(CFrame.new(19872.7266, 448.0941, 5556.5830))
+              end
+            end
           end
-          
-          if UserInputService:IsKeyDown(Enum.KeyCode.P) then
-              loop:Disconnect()
-              _G.FOVring:Remove()
-          end
-       end)
-   end)
+        end)
+      end)        
+end)
 
-   local toggle = aim:Toggle("Team Check", false,"tcToggle", function(t)
-      _G.tcToggle = t
-   end)
+local function fakeDupeFish(times)
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+    local backpack = LocalPlayer:WaitForChild("Backpack")
+    local tool = character:FindFirstChildOfClass("Tool")
 
+    if tool then
+        for i = 1, times do
+            local toolClone = tool:Clone()
+            toolClone.Parent = backpack
+        end
+    else
+        Notification:Notify("Failed to Dupe", "Please Hold a fish to Dupe ", 5)
+    end
+end
 
-   local aimsmooth = aim:Slider("Smoothing", 0.1,1,0.5,0.1,"aimSlider", function(smoothingslider)
-       _G.smoothingslider = smoothingslider
-   end)
+ExclusivesSection:AddButton("Dupe Fish [Visual]", function() 
+fakeDupeFish(math.random(5,10))
+end)
 
-   local fovslider = FOV:Slider("FOV Ring", 10,1000,150,1,"fovSlider", function(fovringslider)
-       _G.fovringslider = fovringslider
-   end)
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local l_Stats_0 = ReplicatedStorage:WaitForChild("playerstats"):WaitForChild(LocalPlayer.Name):WaitForChild("Stats")
+local l_debris_0 = require(ReplicatedStorage:WaitForChild("modules"):WaitForChild("fx"):WaitForChild("debris"))
+local l_fx_0 = require(ReplicatedStorage:WaitForChild("modules"):WaitForChild("fx"))
 
-   --sec:Colorpicker(title <string>, default <color3>, flag <string>, callback <function>)
-   FOV:Colorpicker("FOVring Color", Color3.fromRGB(255, 128, 128),"fovColorpicker", function(t)
-      _G.fovColorPicker = t
-   end)
+local function comma_value(value)
+    local formatted = tostring(math.ceil(value))
+    repeat
+        formatted, _ = string.gsub(formatted, "^(-?%d+)(%d%d%d)", "%1,%2")
+    until _ == 0
+    return formatted
+end
 
+local function InsertCoin(amount)
+    local l_Value_0 = l_Stats_0:WaitForChild("coins").Value
+    local newValue = l_Value_0 + amount
 
+    local l_NumberValue_0 = Instance.new("NumberValue")
+    l_NumberValue_0.Value = l_Value_0
 
+    game:GetService("TweenService"):Create(l_NumberValue_0, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+        Value = newValue
+    }):Play()
 
+    l_fx_0:PlaySound(ReplicatedStorage.resources.sounds.sfx.ui.currencygain, game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins, true)
 
-   local visuals = win:Tab("Visuals")
+    l_NumberValue_0:GetPropertyChangedSignal("Value"):Connect(function()
+        game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.Text = tostring(comma_value(l_NumberValue_0.Value) .. " C$")
+    end)
 
-   local espsec = visuals:Section("Utility")
-   local team = visuals:Section("Team Color")
+    l_debris_0:AddItem(l_NumberValue_0, 0.7)
 
-   _G.Reantheajfdfjdgse = nil
+    if l_Value_0 > newValue then
+        -- Displaying coin loss
+        require(game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins:FindFirstAncestor("hud").Parent:WaitForChild("GeneralUIModule")):ListOnBottomRight(
+            "-" .. comma_value(l_Value_0 - newValue) .. " C$",
+            Color3.fromRGB(212, 62, 62),
+            0
+        )
+        game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.TextColor3 = Color3.fromRGB(212, 62, 62)
+    else
+        -- Displaying coin gain
+        require(game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins:FindFirstAncestor("hud").Parent:WaitForChild("GeneralUIModule")):ListOnBottomRight(
+            "+" .. comma_value(newValue - l_Value_0) .. " C$",
+            Color3.fromRGB(99, 203, 61),
+            0
+        )
+        game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.TextColor3 = Color3.fromRGB(99, 203, 61)
+    end
 
-   function esp()
-       _G.FriendColor = Color3.fromRGB(0, 0, 255)
-       
-       local coregui = game:GetService("CoreGui")
-       local players = game:GetService("Players")
-       local plr = players.LocalPlayer
-       
-       local highlights = {}
-       
-       function esp(target, color)
-           pcall(function()
-               if target.Character then
-                   if not highlights[target] then
-                       local highlight = Instance.new("Highlight", coregui)
-                       highlight.Name = target.Name
-                       highlight.Adornee = target.Character
-                       highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
-                       highlight.FillColor = color
-                       highlights[target] = highlight
-                   else
-                       highlights[target].FillColor = color
-                   end
-               end
-           end)
-       end
-       
-       players.PlayerAdded:Connect(function(v)
-           v.CharacterAdded:Connect(function()
-               esp(v, _G.UseTeamColor and v.TeamColor.Color or ((plr.TeamColor == v.TeamColor) and _G.FriendColor or _G.EnemyColor))
-           end)
-       end)
+    -- Flashing effect
+    for i = 1, 2 do
+        task.wait(0.1)
+        game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.TextColor3 = Color3.fromRGB(255, 253, 228)
+        task.wait(0.1)
+        game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.TextColor3 = (l_Value_0 > newValue) and Color3.fromRGB(212, 62, 62) or Color3.fromRGB(99, 203, 61)
+    end
 
-       players.PlayerRemoving:Connect(function(v)
-           if highlights[v] then
-               highlights[v]:Destroy()
-               highlights[v] = nil
-           end
-       end)
-       
-       for i, v in pairs(players:GetPlayers()) do
-           if v ~= plr then
-               local color = _G.UseTeamColor and v.TeamColor.Color or ((plr.TeamColor == v.TeamColor) and _G.FriendColor or _G.EnemyColor)
-                   v.CharacterAdded:Connect(function()
-                       local color = _G.UseTeamColor and v.TeamColor.Color or ((plr.TeamColor == v.TeamColor) and _G.FriendColor or _G.EnemyColor)
-                   esp(v, color)
-               end)
-               esp(v, color)
-           end
-       end
+    l_Value_0 = newValue
+    l_Stats_0:WaitForChild("coins").Value = newValue
+    game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.Text = tostring(comma_value(newValue) .. " C$")
+    game:GetService("Players").LocalPlayer.leaderstats["C$"].Value = game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.coins.Text
+end
 
-       while task.wait() do
-           for i, v in pairs(highlights) do
-               local color = _G.UseTeamColor and i.TeamColor.Color or ((plr.TeamColor == i.TeamColor) and _G.FriendColor or _G.EnemyColor)
-               v.FillColor = color
-           end
-       end
-   end
+getgenv().VisualDupCoins = false
+ExclusivesSection:AddToggle("Auto Dupe Coin [Visual]", false, function(toggle)
+getgenv().VisualDupCoins = toggle
+if getgenv().VisualDupCoins then
+while getgenv().VisualDupCoins do
+    local Real3itx = math.random(60000, 105000)
+    InsertCoin(Real3itx)
+    task.wait()
+end
+end
+end)
 
-   local toggle = espsec:Toggle("ESP", false,"espToggle", function(togglebool)
-       if togglebool then
-           esp()
-           for i,v in pairs(game.CoreGui:GetChildren()) do
-               if v.ClassName == "Highlight" then
-                   v.Enabled = true
-               end
-           end
-       end
-       
-       if togglebool == false then
-           for i,v in pairs(game.CoreGui:GetChildren()) do
-               if v.ClassName == "Highlight" then
-                   v.Enabled = false
-               end
-           end
-       end
-   end)
+local CastMode = "Legit"
+local ShakeMode = "Navigation"
+local ReelMode = "Blatant"
+
+local autoCastEnabled = false
+local autoShakeEnabled = false
+local autoReelEnabled = false
 
 
 
-   local toggle = team:Toggle("Use Current Team Colors", false,"esptcToggle", function(togglebool)
-       _G.UseTeamColor = togglebool
-   end)
+local autoShakeEnabled = false
+local ShakeMode = "Navigation" 
+local autoShakeConnection = nil
+local lastMouseShakeTime = 0 
 
-   local enemyColorpicker = team:Colorpicker("Enemy Color", Color3.fromRGB(255, 0, 0),"enemyColorPicker", function(v)
-       _G.EnemyColor = v
-   end)
+local PlayerService = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local GuiService = game:GetService("GuiService")
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+local LocalPlayer = PlayerService.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+local function autoShake()
+    if not autoShakeEnabled then return end 
+
+    if ShakeMode == "Navigation" then
+        xpcall(function()
+            local shakeui = PlayerGui:FindFirstChild("shakeui")
+            if not shakeui then return end
+
+            local safezone = shakeui:FindFirstChild("safezone")
+            local button = safezone and safezone:FindFirstChild("button")
+            if not button then return end
+
+            task.wait(0.2) 
+            GuiService.SelectedObject = button
+
+            if GuiService.SelectedObject == button then
+                VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Return, false, game)
+                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Return, false, game)
+            end
+
+            task.wait(0.1)
+            GuiService.SelectedObject = nil 
+        end, function(err)
+        end)
+
+    elseif ShakeMode == "Mouse" then
+        local currentTime = tick()
+        if currentTime - lastMouseShakeTime < 0.1 then return end 
+        lastMouseShakeTime = currentTime
+
+        xpcall(function()
+            local shakeui = PlayerGui:FindFirstChild("shakeui")
+            if not shakeui then return end
+
+            local safezone = shakeui:FindFirstChild("safezone")
+            local button = safezone and safezone:FindFirstChild("button")
+            if not button then return end
+
+            local pos = button.AbsolutePosition
+            local size = button.AbsoluteSize
+            local centerX, centerY = pos.X + size.X / 2, pos.Y + size.Y / 2
+            VirtualInputManager:SendMouseButtonEvent(centerX, centerY, 0, true, LocalPlayer, 0)
+            task.wait(0.07) 
+            VirtualInputManager:SendMouseButtonEvent(centerX, centerY, 0, false, LocalPlayer, 0)
+        end, function(err)
+        end)
+    end
+end
+
+local function startAutoShake()
+    if not autoShakeConnection and autoShakeEnabled then
+        autoShakeConnection = RunService.RenderStepped:Connect(autoShake)
+    end
+end
+
+local function stopAutoShake()
+    if autoShakeConnection then
+        autoShakeConnection:Disconnect()
+        autoShakeConnection = nil
+    end
+end
+
+if FishingSection and FishingSection.AddToggle then
+    FishingSection:AddToggle("Auto Shake", false, function(toggle)
+        autoShakeEnabled = toggle
+        if toggle then
+            startAutoShake()
+        else
+            stopAutoShake()
+        end
+    end)
+end
 
 
-   espsec:Button("Highlight ESP", function()
-      loadstring(game:HttpGet("https://fluxteam.net/scripts/NewESP.lua", true))()
-   end)
+
+local HuntOrNo = Convenience:AddToggle("Hunt Megaladon", false, UI.MegaladonHunting)
+
+FishingSetSection:AddDropdown('Auto Cast Mode', {'Legit', 'Blatant'}, 'Blatant', function(val)
+    CastMode = val
+end)
+
+FishingSetSection:AddDropdown('Auto Shake Mode', {'Navigation', 'Mouse'}, 'Navigation', function(val)
+    ShakeMode = val
+end)
+
+FishingSetSection:AddDropdown('Auto Reel Mode', {'Legit', 'Blatant'}, 'Blatant', function(val)
+    ReelMode = val
+end)
 
 
 
+Actions:AddButton("Hop Server", function()
+    AllFuncs.HopServer(true)
+end)
+
+    WebhookSection:AddButton(
+    "Set Webhook URL",
+    function()
+        NEVERLOSE:KeySystem(
+            "Webhook URL - Put URL as key and click Submit to set it.",
+            "",
+            function(URL)
+                Options.WebhookURL = URL
+                Notification:Notify("info", "Set Webhook Successfully", "Set webhook to "..URL, 5)
+                return true
+            end
+        ):Callback(function()end)
+    end
+    )
+
+    WebhookSection:AddToggle(
+        "Send Webhook Notifications",
+        false,
+        UI.WebhookNotifications
+    )
+
+    WebhookSection:AddToggle(
+        "Webhook Notifications for Priority Events",
+        false,
+        UI.PriorityWebhook
+    )
+
+    local TpSpotsFolder = Workspace:FindFirstChild("world"):WaitForChild("spawns"):WaitForChild("TpSpots")
+    local teleportSpots = {}
+    
+    for i, v in pairs(TpSpotsFolder:GetChildren()) do
+        if table.find(teleportSpots, v.Name) == nil then
+            table.insert(teleportSpots, v.Name)
+        end
+    end
+
+
+    for _, Place in pairs(teleportSpots) do
+
+        local Position = TpSpotsFolder:FindFirstChild(Place) and TpSpotsFolder[Place].Position
+
+
+        if Position then
+            Teleports:AddButton(
+                "Teleport to " .. Place,
+                function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Position
+                end
+            )
+        end
+    end
+
+
+TotemsSection:AddButton(
+    "Teleport to Aurora",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1811, -137, -3282)
+    end
+)
+
+
+TotemsSection:AddButton(
+    "Teleport to Sundial",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1148, 135, -1075)
+    end
+)
+
+
+TotemsSection:AddButton(
+    "Teleport to Windset",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2849, 178, 2702)
+    end
+)
+
+
+TotemsSection:AddButton(
+    "Teleport to Smokescreen",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2789, 140, -625)
+    end
+)
+TotemsSection:AddButton(
+    "Teleport to Tempest",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(35, 133, 1943)
+    end
+)
+    
+WorldEvents:AddButton(
+    "Teleport to Strange Whirlpool",
+    function()
+        local offset = Vector3.new(25, 135, 25)
+        local WorldEvent = game.Workspace.zones.fishing:FindFirstChild("Isonade")
+        if not WorldEvent then 
+            return ShowNotification("Not found Strange Whirlpool")
+        end
+        HumanoidRootPart.CFrame = CFrame.new(WorldEvent.Position + offset)
+    end
+)
+
+
+WorldEvents:AddButton(
+    "Teleport to Great Hammerhead Shark",
+    function()
+        local offset = Vector3.new(0, 135, 0)
+        local WorldEvent = game.Workspace.zones.fishing:FindFirstChild("Great Hammerhead Shark")
+        if not WorldEvent then 
+            return ShowNotification("Not found Great Hammerhead Shark")
+        end
+        HumanoidRootPart.CFrame = CFrame.new(WorldEvent.Position + offset)
+    end
+)
+
+
+WorldEvents:AddButton(
+    "Teleport to Great White Shark",
+    function()
+        local offset = Vector3.new(0, 135, 0)
+        local WorldEvent = game.Workspace.zones.fishing:FindFirstChild("Great White Shark")
+        if not WorldEvent then 
+            return ShowNotification("Not found Great White Shark")
+        end
+        HumanoidRootPart.CFrame = CFrame.new(WorldEvent.Position + offset)
+    end
+)
+
+
+WorldEvents:AddButton(
+    "Teleport to Whale Shark",
+    function()
+        local offset = Vector3.new(0, 135, 0)
+        local WorldEvent = game.Workspace.zones.fishing:FindFirstChild("Whale Shark")
+        if not WorldEvent then 
+            return ShowNotification("Not found Whale Shark")
+        end
+        HumanoidRootPart.CFrame = CFrame.new(WorldEvent.Position + offset)
+    end
+)
+
+
+WorldEvents:AddButton(
+    "Teleport to The Depths - Serpent",
+    function()
+        local offset = Vector3.new(0, 50, 0)
+        local WorldEvent = game.Workspace.zones.fishing:FindFirstChild("The Depths - Serpent")
+        if not WorldEvent then 
+            return ShowNotification("Not found The Depths - Serpent")
+        end
+        HumanoidRootPart.CFrame = CFrame.new(WorldEvent.Position + offset)
+    end
+)
+
+    Teleports:AddButton("Best Spot", function()
+
+        local forceFieldPart = Instance.new("Part")
+        forceFieldPart.Size = Vector3.new(10, 1, 10) 
+        forceFieldPart.Position = Vector3.new(1447.8507080078125, 131.49998474121094, -7649.64501953125) 
+        forceFieldPart.Anchored = true 
+        forceFieldPart.BrickColor = BrickColor.new("White")
+        forceFieldPart.Material = Enum.Material.SmoothPlastic 
+        forceFieldPart.Parent = game.Workspace
+        local billboardGui = Instance.new("BillboardGui")
+        billboardGui.Adornee = forceFieldPart 
+        billboardGui.Size = UDim2.new(0, 200, 0, 50) 
+        billboardGui.StudsOffset = Vector3.new(0, 5, 0) 
+        billboardGui.Parent = game.Workspace 
+        --this is the part we get to be This is forced labor for bdokkx, dynamicarrays
+        local textLabel = Instance.new("TextLabel")
+        textLabel.Text = "This is forced labor for bdokkx, dynamicarrays"
+        textLabel.TextColor3 = Color3.fromRGB(255, 0, 0) 
+        textLabel.TextSize = 20
+        textLabel.BackgroundTransparency = 1 
+        textLabel.Size = UDim2.new(1, 0, 1, 0)
+        textLabel.TextScaled = true 
+        textLabel.Parent = billboardGui 
+    --ronix owner whips us
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1447.8507080078125, 133.49998474121094, -7649.64501953125)
+    end)
+-- NO NO STOP RONIX OWW OWWW!
+Teleports:AddButton("Safe Place", function()
+    local SafeZone = Instance.new("Part")
+    SafeZone.Size = Vector3.new(30, 1, 30)
+    SafeZone.Position = Vector3.new(math.random(-2000, 2000), math.random(50000, 90000), math.random(-2000, 2000))
+    SafeZone.Anchored = true
+    SafeZone.BrickColor = BrickColor.new("Bright purple")
+    SafeZone.Material = Enum.Material.ForceField
+    SafeZone.Parent = workspace 
+    local character = game.Players.LocalPlayer.Character
+    if character and character:FindFirstChild("HumanoidRootPart") then
+        character.HumanoidRootPart.CFrame = CFrame.new(SafeZone.Position + Vector3.new(0, 5, 0))
+    end
+end)
+
+local createdButtons = {}
+
+ShopSection:AddToggle("Teleport To Buy", false, function(state)
+    if not createdButtons["TeleportToBuy"] then
+        for _, v in pairs(workspace.world.interactables:GetDescendants()) do
+            if v:IsA("ProximityPrompt") then
+                v.HoldDuration = 0
+                ShopSection:AddButton("Buy " .. v.Parent.Name, function()
+                    local humanoidRootPart = LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+                    if humanoidRootPart then
+                        if fireproximityprompt and not state then
+                            local OldCFrame = humanoidRootPart.CFrame
+                            humanoidRootPart.CFrame = v.Parent:GetPivot()
+                            delay(0.3, function()
+                                fireproximityprompt(v, 1)
+                                humanoidRootPart.CFrame = OldCFrame
+                            end)
+                        else
+                            if not fireproximityprompt then
+                                Notify("Execution does not support 'fireproximityprompt'.")
+                            else
+                                humanoidRootPart.CFrame = v.Parent:GetPivot()
+                            end
+                        end
+                    else
+                        Notify("HumanoidRootPart not found.")
+                    end
+                end)
+            end
+        end
+        createdButtons["TeleportToBuy"] = true
+    end
+end)
+
+ShopSection:AddButton("Buy Enchant Relic", function()
+    if not buttonEnabled then
+        warn("Button is currently disabled!")
+        return
+    end
+
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+
+    if not humanoidRootPart then
+        warn("HumanoidRootPart not found!")
+        return
+    end
+
+    local previousPosition = humanoidRootPart.Position
+
+
+    local targetPosition = Vector3.new(-931.525, 223.784, -986.849)
+    humanoidRootPart.CFrame = CFrame.new(targetPosition)
+
+    local success, err = pcall(function()
+        local merlin = workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("power")
+        if merlin then
+            merlin:InvokeServer()
+        else
+            warn("Merlin power function not found!")
+        end
+    end)
+
+    if not success then
+        warn("Error invoking Merlin power:", err)
+    end
+
+    task.wait(0.1) 
+
+    humanoidRootPart.CFrame = CFrame.new(previousPosition)
+end)
+
+task.delay(5, function()
+    buttonEnabled = true
+    print("Button is now enabled!")
+end)
+
+	Teleports:AddButton(
+    "Goto GPS Position",
+    function()
+        NEVERLOSE:KeySystem(
+            "Put position like this WITHOUT SPACES: X,Y,Z",
+            "",
+            FischUser.TPToPos
+        ):Callback(function()end)
+    end
+    )
+
+    local MegHunt = MegaladonHunting:AddSection("Hunting", "left")
+
+    local HuntOrNo = MegHunt:AddToggle("Hunt Priorities", false, UI.MegaladonHunting)
+	MegHunt:AddButton("Add Fish To List", function() 
+		Internal.Pr = Internal.Pr + 1
+		local Section = MegaladonHunting:AddSection("Priority "..tostring(Internal.Pr), "right")
+		local Rod = Section:AddLabel("Rod: None")
+		local Fish = Section:AddLabel("Fish: None")
+		Options.Priorities[Internal.Pr] = {Fish = "Nothing lol", Rod = "None"}
+		Section:AddButton("Change Rod To Current Rod", function() 
+			Options.Priorities[Internal.Pr].Rod = CalibrationData.FishingRod
+            Rod:Text("Rod: "..CalibrationData.FishingRod)
+        end)
+		Section:AddButton("Set Fish",function()
+			NEVERLOSE:KeySystem(
+					"Type Fish Name In, MAKE SURE TO SPELL IT RIGHT",
+					"",
+					function(a)
+						Options.Priorities[Internal.Pr].Fish = a 
+                        Fish:Text("Fish: "..a)
+						return true
+					end
+				):Callback(function()end)
+		end)
+	end)
+
+    CreditsSection:AddLabel("Fisch Ronix Hub Script by dynamicarrays, bdokkx")
+    CreditsSection:AddButton(
+        "Copy Discord Link",
+        function()
+            setclipboard("discord.gg/ronix")
+            Notification:Notify("Copied","Copied","Copied discord link to clipboard",4)
+        end
+    )
+
+    local AbundanceZoneSection = FishingTab:AddSection("Abundances", "right")
+    
+    local Ab = {}
+
+    local Ab2 = {}
+
+    local Choice = nil
+
+    local LabeledChance = nil
+
+    local AbundanceChoice = AbundanceZoneSection:AddDropdown("Abundances", Ab, "Loading", function(D)
+        LabeledChance:Text("Chance: "..tostring(Ab2[D].Chance).."%")
+        Choice = Ab2[D]
+    end)
+
+    LabeledChance = AbundanceZoneSection:AddLabel("Chance: 0%")
+
+    local GotoAbundance = AbundanceZoneSection:AddButton("Go to Abundance", function() 
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(Choice.Position.X, 137.77, Choice.Position.Z)
+    end)
+    local TweenService = game:GetService("TweenService")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local VirtualUser = game:GetService("VirtualUser")
+    local RunService = game:GetService("RunService")
+    
+
+local Config = _G.Config or {}
+local AllFuncs = {}
+
+Config['Farm Fish'] = false
+
+local AutofarmButton = AbundanceZoneSection:AddButton("Autofarm selected fish", function()
+    if not Choice then
+        warn("No abundance selected.")
+        return
+    end
+
+    local targetPosition = Vector3.new(Choice.Position.X, 137.77, Choice.Position.Z)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Position = targetPosition
+
+    local blockPosition = Vector3.new(targetPosition.X, targetPosition.Y - 5, targetPosition.Z)
+    local block = Instance.new("Part")
+    block.Position = blockPosition
+    block.Size = Vector3.new(5, 1, 5)
+    block.Anchored = true
+    block.Color = Color3.new(0, 1, 0)
+    block.Name = "AutoFarmBlock"
+    block.Parent = workspace
+
+    if not Config['Farm Fish'] then
+        print("Starting Farm Fish...")
+        Config['Farm Fish'] = true
+        AllFuncs['Farm Fish'](block) 
+    else
+        print("Farm Fish is already running.")
+    end
+end)
+
+AllFuncs['Farm Fish'] = function(block)
+    local player = game.Players.LocalPlayer
+    local RodName = game.ReplicatedStorage.playerstats[player.Name].Stats.rod.Value
+
+    while Config['Farm Fish'] and task.wait() do
+ 
+        if Backpack:FindFirstChild(RodName) then
+            player.Character.Humanoid:EquipTool(Backpack:FindFirstChild(RodName))
+        end
+
+        if player.Character:FindFirstChild(RodName) and player.Character[RodName]:FindFirstChild("bobber") then
+
+            repeat
+                pcall(function()
+                    player.PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = UDim2.new(1001, 0, 1001, 0)
+                    VirtualUser:Button1Down(Vector2.new(1, 1))
+                    VirtualUser:Button1Up(Vector2.new(1, 1))
+                end)
+                RunService.Heartbeat:Wait()
+            until not Config['Farm Fish'] or not player.Character:FindFirstChild(RodName) or player.Character[RodName].values.bite.Value
+
+            repeat
+                if game.ReplicatedStorage:FindFirstChild("events") and game.ReplicatedStorage.events:FindFirstChild("reelfinished") then
+                    game.ReplicatedStorage.events.reelfinished:FireServer(1000000000000000000000000, true)
+                end
+                task.wait(0.5)
+            until not Config['Farm Fish'] or not player.Character:FindFirstChild(RodName) or not player.Character[RodName].values.bite.Value
+        else
+
+            if player.Character:FindFirstChild(RodName) then
+                player.Character[RodName].events.cast:FireServer(1000000000000000000000000)
+                task.wait(2)
+            end
+        end
+    end
+
+    if block and block.Parent then
+        block:Destroy()
+    end
+    print("Farm Fish loop has exited.")
+end
+
+
+AbundanceZoneSection:AddButton("Stop AutoFarm", function()
+    Config['Farm Fish'] = false
+    print("AutoFarm has been stopped.")
+
+    local block = workspace:FindFirstChild("AutoFarmBlock")
+    if block then
+        block:Destroy()
+    end
+end)
+
+    local FishRadarPlaces = {}
+
+    local I = 0
+
+    while I < 100 do
+        I = I + 1
+        FishingTab:AddSection("Scrolling Space", "right")
+    end
+
+    while task.wait(5) do
+        local Places = FischAPI.GetAllAbundanceZones()
+        Ab2 = Places
+        Ab = {}
+        for Fish, Info in pairs(Ab2) do
+            table.insert(Ab, Fish)
+        end
+		FischUser.CheckForAbundancesInPriorityListAndTakeAction()
+        AbundanceChoice:Refresh(Ab)
+    end
+end
+
+--Utils
+
+function Utils.Overlap(gui1, gui2)
+    local gui1_topLeft = gui1.AbsolutePosition
+    local gui1_bottomRight = gui1_topLeft + gui1.AbsoluteSize
+
+    local gui2_topLeft = gui2.AbsolutePosition
+    local gui2_bottomRight = gui2_topLeft + gui2.AbsoluteSize
+    
+    return ((gui1_topLeft.x < gui2_bottomRight.x and gui1_bottomRight.x > gui2_topLeft.x) and (gui1_topLeft.y < gui2_bottomRight.y and gui1_bottomRight.y > gui2_topLeft.y))
+end
+
+function Utils.SendWebhookData(Link, Text)
+    local DataForm = Text
+    local maxLength = 1950
+    local chunks = {}
+    local HttpService = game:GetService("HttpService")
+
+    while #DataForm > 0 do
+        local chunk = DataForm:sub(1, maxLength)
+        if #DataForm > maxLength then
+            local lastNewline = chunk:match(".*\n()")
+            if lastNewline then
+                chunk = DataForm:sub(1, lastNewline - 1)
+            end
+        end
+        table.insert(chunks, chunk)
+        DataForm = DataForm:sub(#chunk + 1)
+    end
+
+    for i, chunk in chunks do
+        local data = {
+            content = chunk
+        }
+        
+        request({
+            Url = Link,
+            Method = "POST",
+            Headers = {
+                ["Content-Type"] = "application/json"
+            },
+            Body = HttpService:JSONEncode(data)
+        })
+    end
+end
+
+function Utils.Split(str, sep)
+	local result = {}
+	local regex = ("([^%s]+)"):format(sep)
+	for each in str:gmatch(regex) do
+	   table.insert(result, each)
+	end
+	return result
+ end
+
+--VI
+
+VI.State = false
+
+function VI.ClickUI(ui)
+    local x = ui.AbsolutePosition.X + (ui.AbsoluteSize.X / 2)
+    local y = ui.AbsolutePosition.Y + (ui.AbsoluteSize.Y / 2)
+    VIM:SendMouseButtonEvent(x, y, 0, true, game, 0)
+    task.wait(0.05)
+    VIM:SendMouseButtonEvent(x, y, 0, false, game, 0)
+end
+
+function VI.Down(ui)
+    VI.State = true
+    local x = ui.AbsolutePosition.X + (ui.AbsoluteSize.X / 2)
+    local y = ui.AbsolutePosition.Y + (ui.AbsoluteSize.Y / 2)
+    VIM:SendMouseButtonEvent(x, y, 0, true, game, 0)
+end
+
+function VI.Up(ui)
+    VI.State = false
+    local x = ui.AbsolutePosition.X + (ui.AbsoluteSize.X / 2)
+    local y = ui.AbsolutePosition.Y + (ui.AbsoluteSize.Y / 2)
+    VIM:SendMouseButtonEvent(x, y, 0, false, game, 0)
+end
 
 
 
-   local proc = win:Tab("Protection")
-   local protect = proc:Section("Utility")
-   protect:Button("Remove Face", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noface"))()
-   end)
-   protect:Button("Remove Clothes", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noclothes"))()
-   end)
-   protect:Button("Remove Accessories", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noaccessories"))()
-   end)
-   protect:Button("Remove EVERYTHING", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noface"))()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noclothes"))()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/noaccessories"))()
-   end)
+Config = _G.Config or {}  
+Config['Farm Fish'] = false  
+
+local Players = game.Players
+local LocalPlayer = Players.LocalPlayer
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local Backpack = LocalPlayer.Backpack
+local PlayerGui = LocalPlayer.PlayerGui
+local VirtualUser = game:GetService("VirtualUser")
+local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
+
+-- Fish Auto Farm diddy
+AllFuncs = {}
+
+AllFuncs['Farm Fish'] = function()
+    while Config['Farm Fish'] and task.wait() do
+        if Backpack:FindFirstChild(RodName) then
+            LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild(RodName))
+        end
+        if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character[RodName]:FindFirstChild("bobber") then
+            repeat
+                pcall(function()
+                    PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = UDim2.new(1001, 0, 1001, 0)
+                    VirtualUser:Button1Down(Vector2.new(1, 1))
+                    VirtualUser:Button1Up(Vector2.new(1, 1))
+                end)
+                RunService.Heartbeat:Wait()
+            until not LocalPlayer.Character:FindFirstChild(RodName) or LocalPlayer.Character[RodName].values.bite.Value or not Config['Farm Fish']
+
+            repeat
+                ReplicatedStorage.events.reelfinished:FireServer(1000000000000000000000000, true)
+                task.wait(0.5)
+            until not LocalPlayer.Character:FindFirstChild(RodName) or not LocalPlayer.Character[RodName].values.bite.Value or not Config['Farm Fish']
+        else
+            if LocalPlayer.Character:FindFirstChild(RodName) then
+                LocalPlayer.Character[RodName].events.cast:FireServer(1000000000000000000000000)
+                task.wait(2)
+            end
+        end
+    end
+end
+
+--Teleport Service for speds
+AllFuncs.HopServer = function(FullServer) 
+	local FullServer = FullServer or false
+
+	local Http = game:GetService("HttpService")
+	local Api = "https://games.roblox.com/v1/games/"
+
+	local _place = game.PlaceId
+	local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+	local ListServers = function (cursor)
+		local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+		return Http:JSONDecode(Raw)
+	end
+
+	local Server, Next; repeat
+		local Servers = ListServers(Next)
+		Server = Servers.data[1]
+		Next = Servers.nextPageCursor
+	until Server
+	repeat
+		if not FullServer then
+			game:GetService("TeleportService"):TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+		else
+			if request then
+				local servers = {}
+				local req = request(
+					{
+						Url = string.format("https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", game.PlaceId)
+					}
+				).Body;
+				local body = game:GetService("HttpService"):JSONDecode(req)
+				if body and body.data then
+					for i, v in next, body.data do
+						if type(v) == "table" and tonumber(v.playing) and tonumber(v.maxPlayers) and v.playing < v.maxPlayers and v.id ~= game.JobId then
+							table.insert(servers, 1, v.id)
+						end
+					end
+				end
+				if #servers > 0 then
+					game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, servers[math.random(1, #servers)], game.Players.LocalPlayer)
+				else
+					return "Couldn't find a server."
+				end
+			end
+		end
+		wait()
+	until game.PlaceId ~= game.PlaceId
+end
+
+function ExportValue(arg1, arg2)
+    return tonumber(string.format("%." .. (arg2 or 1) .. 'f', arg1))
+end
+AllFuncs['Farm Fish']()
 
 
+function FischAPI.RepairMap()
+	workspace.world.npcs["Jack Marrow"].treasure.repairmap:InvokeServer()
+end
 
+function FischAPI.InstantReel()
+    game:GetService("ReplicatedStorage").events.reelfinished:FireServer(100, true)
+end
 
+function FischAPI.Cast()
+    game.Players.LocalPlayer.Character[CalibrationData.FishingRod].events.cast:FireServer(100,1)
+end
 
+function FischAPI.GetAllAbundanceZones()
+    local Abundances = {}
+    for i, Zone in pairs(game:GetService("Workspace").zones.fishing:GetChildren()) do
+        local Info = {}
+        if Zone:FindFirstChild("Abundance") then
+            if Zone:FindFirstChild("Abundance"):FindFirstChild("Chance") then
+                Info.Chance = Zone.Abundance.Chance.Value
+            else
+                Info.Chance = 1
+            end
+            Info.Position = Zone.Position
+            if Abundances[Zone.Abundance.Value] == nil then
+                Abundances[Zone.Abundance.Value] = Info
+            elseif Abundances[Zone.Abundance.Value].Chance < Info.Chance then
+                Abundances[Zone.Abundance.Value] = Info
+            end
+        end
+    end
+    return Abundances
+end
 
-   local universal = win:Tab("Universal")
-   local util = universal:Section("Utility")
+function FischAPI.SellAll()
+    workspace.world.npcs["Marc Merchant"].merchant.sellall:InvokeServer()
+end
 
-   util:Button("VG Hub", function()
-   loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()"))()
-   end)
-   util:Button("Domain X", function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
-   end)
-   util:Button("Infinite Yield", function()
-   loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-   end)
-   util:Button("Universal FE Hub", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script"))()
-   end)
-   util:Button("Proxima Hub", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
-   end)
-   util:Button("xxHub", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/xxhub"))()
-   end)
-   util:Button("Darkware", function()
-   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
-   end)
-   util:Button("OP Finality", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/finality"))()
-   end)
-   util:Button("ParvusHUB (FPS games)", function()
-   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))()
-   end)
+function FischAPI.InitializePossibleDetections(Power)
+    --This is just for guidement, don't use this function lol IT'S NOT USELESS STOP BEING MEAN!
+    game:GetService("ReplicatedStorage").modules.fishing.rodresources.events.cast:FireServer(Power,1)
+end
+-- did you know that bdokkx scams kids yea yea dynamicarrays
+function FischAPI.DetermineClickActionMinigame()
 
+end
 
-   local whatiuse = win:Tab("Personal")
-   local personalfps = whatiuse:Section("FPS")
+function FischAPI.GetFish()
+    local Text = "Items/Fish:\n"
+    for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        Text=Text..v.Name.."\n"
+    end
+    return Text
+end
+--bro bdokkx is a nexam developer / Ronix Arsenal V1.0 - discord.gg/ronix
+--User
 
-   personalfps:Button("AimAssistant (PF?)", function()
-   loadstring(game:HttpGet'https://raw.githubusercontent.com/Paygammy/RBXAimAssistant/release/aim-assistant.lua')()
-   end)
-   personalfps:Button("ParvusHUB", function()
-   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))()
-   end)
-   personalfps:Button("Arsenal Silent", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/kinhey/scripts/main/arsenal_silent_aim.lua"))()
-   end)
+function FischUser.CheckForAbundancesInPriorityListAndTakeAction()
+	local Oppurtunities = FischAPI.GetAllAbundanceZones()
+	local MostImportant = math.huge
+	local MostImportantFish = "Nothing Lol"
+	for Importance, Data in pairs(Options.Priorities) do
+		if Importance < MostImportant then
+			if Oppurtunities[Data.Fish] then
+				MostImportant = Importance
+				MostImportantFish = Data.Fish
+				Internal.RodToBeEquipped = Data.Tool
+				Internal.FishHunted = MostImportantFish
+			end
+		end
+	end
+	if MostImportantFish == "Nothing Lol" then
+		Internal.Megaladon = false
+		Internal.MegaladonPosition = nil
+		pcall(function()  
+			Internal.MegHuntPlat:Destroy()
+		end)
+	else
+		Internal.Megaladon = true
+		Internal.MegaladonPosition = Oppurtunities[MostImportantFish].Position
+	end
+	return MostImportantFish
+end
 
+function FischUser.AutoTotem()
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA("Tool") then
+			v:Activate()
+		end
+	end
+end
 
+function FischUser.TPToPos(pos)
+	local Temp = Utils.Split(pos, ",")
+	local New = {}
+	for i, v in pairs(Temp) do
+		New[i] = tonumber(v)
+	end
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(unpack(New))
+    return true
+end
 
+function FischUser.TPToPoXYZ(pos)
+	local Temp = Utils.Split(pos, ", ")
+	for i, v in pairs(Temp) do
+        print(i,v)
+    end
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(tonumber(Temp[2]), Temp[4], tonumber(Temp[6]))
+end
 
-   local survival = whatiuse:Section("Survival")
-   survival:Button("NicoBots ESP", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/nico-bots"))()
-   end)
-   survival:Button("NicoBots Immortal", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/scripts/nicoimmortal"))()
-   end)
-   survival:Button("Apeirophobia", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/kinhey/scripts/main/apeirophobia.lua"))()
-   end)
+function FischUser.Sell()
+    FischAPI.SellAll()
+end
+
+function FischUser.AutoShake()
+    FischAPI.TapShake()
+end
+
+function FischUser.RepairMap()
+	FischAPI.RepairMap()
+end
+
+function FischUser.TPMap()
+    FischUser.TPToPoXYZ(game:GetService("Players").rbxDistribution.PlayerGui["Treasure Map"].Main.CoordinatesLabel.Text)
+end
+
+function FischUser.OpenBoatUI()
+    game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible = not game:GetService("Players").LocalPlayer.PlayerGui.hud.safezone.shipwright.Visible
+end
+
+function FischUser.LockPosition()
+    if Internal.Megaladon == true then
+        if Options.MegaladonHunting == true then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Internal.MegHuntPos
+            return
+        end
+    end
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Internal.LockedPosition
+end
+
+function FischUser.FloatOnWater()
+    pcall(function()
+        Internal.FloatPart:Destroy()
+    end)
+    Internal.FloatPart = Instance.new("Part", workspace)
+    Internal.FloatPart.Anchored = true
+    Internal.FloatPart.Size = Vector3.new(10,1,10)
+    Internal.FloatPart.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 133.77, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 150, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
+end
+
+function FischUser.AutoMinigame()
+    local action = FischAPI.DetermineClickActionMinigame()
+    local PlayerBar = game:GetService("Players").LocalPlayer.PlayerGui.reel.bar.playerbar
+    if action == true then
+        if VI.State == false then
+            VI.Down(PlayerBar)
+        end
+    else
+        if VI.State == true then
+            VI.Up(PlayerBar)
+        end
+    end
+end
+
+function FischUser.SecondUpdateWebhook()
+    local a, b = pcall(function()
+        Internal.Timer = Internal.Timer + 1
+        if Internal.Timer >= 300 then
+            Internal.Timer = 0
+            local Data = FischAPI.GetFish()
+            Utils.SendWebhookData(Options.WebhookURL, Data)
+            Notification:Notify("info", 
+                "Webhook Notification Sent",
+                "The next webhook notification is in 5 minutes."            )
+        end
+    end)
+    print(a, b)
+end
+
+function FischUser.AutoCast()
+    FischAPI.Cast()
+end
+
+function FischUser.AutoReel()
+    if LocalPlayer.PlayerGui:FindFirstChild("reel") then
+    FischAPI.InstantReel()
+    end
+end
+
+function FischUser.StepLoop()
+    if Options.FloatOnWater == true then
+        pcall(function()
+            FischUser.FloatOnWater()
+        end)
+    end
+    if Options.AutoShake == true then
+        pcall(function()
+            FischUser.AutoShake()
+        end)
+    end
+    if Options.AutoMinigameBlatant == true then
+        pcall(function()
+            FischUser.AutoReel()
+        end)
+    end
+	if Options.AutoTotem == true then
+		pcall(FischUser.AutoTotem)
+	end
+end
+
+function FischUser.MegaladonHuntInstant()
+    if Internal.Megaladon == true then
+        if Internal.MegHuntPlat then
+            return
+        end
+		if Options.PriorityWebhook == true then
+			Utils.SendWebhookData(Options.WebhookURL, "FISH PRIORITY EVENT - "..Internal.FishHunted)
+		end
+        repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("reel") == nil
+		game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+		game:GetService("ReplicatedStorage").events.equiprod:FireServer(Internal.RodToBeEquipped)
+		task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(Internal.MegaladonPosition.X, 500.77, Internal.MegaladonPosition.Z)
+        Internal.MegHuntPlat = Instance.new("Part", workspace)
+        Internal.MegHuntPlat.Anchored = true
+        Internal.MegHuntPlat.Size = Vector3.new(10,1,10)
+        Internal.MegHuntPlat.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 133.77, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 150, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
+		task.wait(5)
+        game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack[CalibrationData.FishingRod])
+        Internal.MegHuntPos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+    end
+end
+
+function FischUser.Heartbeat()
+    CalibrationData.FishingRod = game:GetService("ReplicatedStorage").playerstats[tostring(game.Players.LocalPlayer.Name)].Stats.rod.Value
+end
+
+function FischUser.OneStep()
+
+end
+
+function FischUser.Relaxed1Sec()
+    if Options.WebhookNotifications == true then
+        pcall(function()
+            FischUser.SecondUpdateWebhook()
+        end)
+    end
+    if Options.AutoCast == true then
+        pcall(function()
+            if Options.Lock == true then
+                FischUser.LockPosition()
+            end
+            FischUser.AutoCast()
+        end)
+    end
+    if Options.MegaladonHunting == true then
+        pcall(function()
+            FischUser.MegaladonHuntInstant()
+        end)
+    end
+	if Options.AutoMap == true then
+		pcall(FischUser.RepairMap)
+        pcall(FischUser.TPMap)
+	end
+end
+
+function FischUser.Initialize()
+    spawn(function()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            FischUser.Heartbeat()
+        end)
+    end)
+    spawn(function()
+        FischUser.OneStep()
+    end)
+    spawn(function()
+        while task.wait(0.005) do
+            pcall(function()
+                FischUser.StepLoop()
+            end)
+        end
+    end)
+    spawn(function()
+        while task.wait(1) do
+            FischUser.Relaxed1Sec()
+        end
+    end)
+end
+    
+CalibrationData.Positions = {}
+for i, v in game:GetService("Workspace").active["OceanPOI's"]:GetChildren() do
+    CalibrationData.Positions[v.Name] = v.Position
+end
+for i, v in game:GetService("Workspace").zones.player:GetChildren() do
+    CalibrationData.Positions[v.Name] = v.Position
+end
+
+task.spawn(function(InitializeService)
+    warn("ANTI AFK STARTING")
+    pcall(function()
+        for i,v in pairs(getconnections(Client.Idled)) do
+            v:Disable() 
+        end
+        Client.Idled:connect(function()
+            game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+            wait(1)
+            game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        end)
+        while wait(300) do
+            game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+            wait(1)
+            game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        end
+    end)
+end)
+
+FischUser.Initialize()
+UI.Initialize()
+--bdokkx on top more lines = better?
