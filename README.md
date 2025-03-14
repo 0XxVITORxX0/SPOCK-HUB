@@ -46,11 +46,11 @@ local CalibrationData = {}
 
 local FischUser = {}
 
-local NEVERLOSE = loadstring(game:HttpGet("https://you.whimper.xyz/sources/ronix/ui.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-local Notification = NEVERLOSE.Notification();
+local Notification = Fluent.Notification();
 
-NEVERLOSE:Theme("dark")
+Fluent:Theme("dark")
 
 --UI
 
@@ -65,7 +65,7 @@ end
 function UI.Initialize()
     --UI
 
-    local Windows = NEVERLOSE:AddWindow("SPOCK HUB PREMIUM","🌟SPOCK HUB PREMIUM - https://discord.gg/e7nxzTNF🌟")
+    local Windows = FLUENT:AddWindow("SPOCK HUB PREMIUM","🌟SPOCK HUB PREMIUM - https://discord.gg/e7nxzTNF🌟")
 
     local FishingTab = Windows:AddTab("Fishing", "earth")
 
@@ -1059,7 +1059,7 @@ end)
     WebhookSection:AddButton(
     "Set Webhook URL",
     function()
-        NEVERLOSE:KeySystem(
+        FLUENT:KeySystem(
             "Webhook URL - Put URL as key and click Submit to set it.",
             "",
             function(URL)
@@ -1332,7 +1332,7 @@ end)
 	Teleports:AddButton(
     "Goto GPS Position",
     function()
-        NEVERLOSE:KeySystem(
+        FLUENT:KeySystem(
             "Put position like this WITHOUT SPACES: X,Y,Z",
             "",
             FischUser.TPToPos
@@ -1354,7 +1354,7 @@ end)
             Rod:Text("Rod: "..CalibrationData.FishingRod)
         end)
 		Section:AddButton("Set Fish",function()
-			NEVERLOSE:KeySystem(
+			FLUENT:KeySystem(
 					"Type Fish Name In, MAKE SURE TO SPELL IT RIGHT",
 					"",
 					function(a)
