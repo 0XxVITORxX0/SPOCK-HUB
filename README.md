@@ -65,7 +65,7 @@ end
 function UI.Initialize()
     --UI
 
-    local Windows = NEVERLOSE:AddWindow("Ronix Hub","🌟Ronix Hub - Fisch - V0.1.8 - discord.gg/ronix🌟")
+    local Windows = NEVERLOSE:AddWindow("SPOCK HUB PREMIUM","🌟SPOCK HUB PREMIUM - https://discord.gg/e7nxzTNF🌟")
 
     local FishingTab = Windows:AddTab("Fishing", "earth")
 
@@ -316,7 +316,7 @@ local WaitForSomeone = RenderStepped.Wait
 
 Convenience:AddButton("Protect Identity", function()
 
-    getgenv().name = "discord.gg/ronix on top"
+    getgenv().name = "SPOCK HUB on top"
     local Plr = game.Players.LocalPlayer
     for Index, Value in next, game:GetDescendants() do 
         if Value.ClassName == "TextLabel" then 
@@ -1366,11 +1366,11 @@ end)
 		end)
 	end)
 
-    CreditsSection:AddLabel("Fisch Ronix Hub Script by dynamicarrays, bdokkx")
+    CreditsSection:AddLabel("SPOCK HUB PREMIUM")
     CreditsSection:AddButton(
         "Copy Discord Link",
         function()
-            setclipboard("discord.gg/ronix")
+            setclipboard("https://discord.gg/e7nxzTNF")
             Notification:Notify("Copied","Copied","Copied discord link to clipboard",4)
         end
     )
@@ -1741,7 +1741,7 @@ function FischAPI.GetFish()
     end
     return Text
 end
---bro bdokkx is a nexam developer / Ronix Arsenal V1.0 - discord.gg/ronix
+--bro SPOCK is a SPOCK developer / SPOCK Arsenal V1.0 - https://discord.gg/e7nxzTNF
 --User
 
 function FischUser.CheckForAbundancesInPriorityListAndTakeAction()
